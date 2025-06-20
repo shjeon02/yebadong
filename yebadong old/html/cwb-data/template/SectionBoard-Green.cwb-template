@@ -1,0 +1,150 @@
+
+initial.conf=
+	conf.TableWidth=95%
+	conf.FontSize=2
+	conf.UseSysDefHtml=true
+	conf.ListTitleFontColor=white
+	conf.ListTitleBgColor=#6F0021
+	conf.ListArticleFontColor=black
+	conf.ListArticleBgColor=#BDCF21
+	conf.ListArticleEvenFontColor=black
+	conf.ListArticleEvenBgColor=#EFFFD6
+	conf.ReadTitleFontColor=black
+	conf.ReadTitleBgColor=#BDCF21
+	conf.ReadTextFontColor=black
+	conf.ReadTextBgColor=#EFF3BD
+	conf.WriteTitleFontColor=black
+	conf.WriteTitleBgColor=#BDCF21
+	conf.IconBaseUrl=$f:strcat($g:url.tpldir,en/)
+
+c_head.vfmt=
+	<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='($p:conf.TableWidth)' align='center'>
+    <TR>
+	    <td><img src='($g:url.icon0)blank.gif' width=38 height=1></td>
+		<td><img src='($g:url.icon0)blank.gif' width=151 height=1></td>
+		<td><img src='($g:url.icon0)blank.gif' width=81 height=1></td>
+		<td><img src='($g:url.icon0)blank.gif' width=280 height=1></td>
+		<td><img src='($g:url.icon0)blank.gif' width=10 height=1></td>
+		<td><img src='($g:url.icon0)blank.gif' width=27 height=1></td>
+	</TR>
+	  <TR> 
+	    <TD width="3%"> <IMG SRC="($g:url.tpldir)section-01-01.gif" width="38" height="85" border="0"></TD>
+	    <TD width="3%" background="($g:url.tpldir)section-01-02-back.gif"><IMG SRC="($g:url.tpldir)section-01-02.gif" WIDTH="151" HEIGHT="85" BORDER="0"></TD>
+	    <TD width="5%" background="($g:url.tpldir)back_top.gif" valign="bottom" align="left"> <IMG SRC="($g:url.tpldir)section-01-03.gif" width="81" height="85"></TD>
+	    <TD width="65%" background="($g:url.tpldir)back_top.gif" valign="bottom" align=right>
+			($#on $v:linkfmt?($#vparse v:linkfmt icondir=$g:url.icon))
+	    </TD>
+		($#on $q:mode=="list"?<form>
+		<TD width="5%" background="($g:url.tpldir)back_top.gif" valign="bottom" align="right"> 
+			<font size='3'><select onchange="document.location=this.options[this.selectedIndex].value;" style="margin-bottom: 5px; background-color: #EFFFD6; color: black; ">
+			($#strlistconf p:conf.Category <option value='($s:recall)?db=($q:db)($#on $s:.ar0?&category=($f:url_encode(s:.ar0)))#LIST'($#on $q:category==$s:.ar0? selected)> ($#parse f:switch(s:.ar0 'default' $s:.ar0 '' @SECTION@ 'null' @ETC@)))
+			</select></font>
+	        </font> 
+	    </TD></form>)
+		($#else <TD width="5%" background="($g:url.tpldir)back_top.gif" valign="bottom" align="right">
+		&nbsp;</TD>)
+	    <TD width="3%"> <IMG SRC="($g:url.tpldir)section-01-06.gif" width="27" height="85" border="0"></TD>
+	  </TR>
+	  <TR> 
+	    <TD background="($g:url.tpldir)section-02-01.gif" width="3%">&nbsp; </TD>
+	    <TD colspan=4 bgcolor="#EFFFD6" width=97% align="center" valign="middle"> <BR>
+
+c_tail.vfmt=
+	    </TD>
+	    <TD background="($g:url.tpldir)section-02-06.gif" width="3%">&nbsp; </TD>
+	  </TR>
+	  <tr> 
+	    <td width="3%" valign="top" align="right"> <IMG SRC="($g:url.tpldir)section-03-01.gif" width="38" height="51" border="0"></td>
+	    <td width="8%" colspan=2 align=center background="($g:url.tpldir)back_bttm.gif">&nbsp;</td>
+	    <td width="86%" background="($g:url.tpldir)back_bttm2.gif" valign="bottom" align=right colspan="2">&nbsp;
+		($#on $v:linkfmt?($#vparse v:linkfmt icondir=$g:url.icon))
+	    </td>
+	    <td width="3%" align="left" valign="top"> <IMG SRC="($g:url.tpldir)section-03-06.gif" width="27" height="51" border="0"></td>
+	  </tr>
+	</TABLE>
+
+
+list.operlinks.vfmt=
+	($#on !$v:eline?($#vset eline=))
+	($#on $s:ppage?    <a href='($s:recall)?mode=list&page=($s:ppage)&($q:defquery)' onMouseOver="window.status=('Previous page'); return true;"><img src='($v:icondir)prev-list.gif' border=0 alt='Prev'></a>($v:eline))
+	($#on $s:npage?    <a href='($s:recall)?mode=list&page=($s:npage)&($q:defquery)' onMouseOver="window.status=('Next page'); return true;"><img src='($v:icondir)next-list.gif' border=0 alt='Next'></a>($v:eline))
+	($#on $f:is_acceptmode(write)?    <a href='($s:recall)?mode=write&($q:defquery)&backdepth=1' onMouseOver="window.status=('Write a new message'); return true;"><img src='($v:icondir)write-list.gif' border=0 alt='Post'></a>($v:eline))
+		<a href='($s:recall)?db=($q:db)&mode=list&page=($s:page)&ftype=($q:ftype)&fval=($q:fval)($#on $q:category?&category=($q:category))' onMouseOver="window.status=('Reload list'); return true;"><img src='($v:icondir)reload.gif' border=0 alt='Reload'></a>($v:eline)
+
+
+list.fmt=
+	($##
+	parse g:cwb.init.list.fmt
+	
+	set lfont=$f:strcat(<font size=',$p:conf.FontSize,' color=',$L:conf.ListArticleFontColor,'>)
+	set _font=$f:strcat(<font size=',$p:conf.FontSize,' color=',$L:conf.ReadTextFontColor,'>)
+	on $q:category==""?($#set category=)
+	
+	set thispage=
+	
+	$)
+	<a name="LIST"> <img src="($g:url.icon0)blank.gif" width="100%" height=1 border=0> </a>
+	
+	($#vparse g:curr.c_head.vfmt linkfmt=$g:curr.list.operlinks.vfmt)
+	    
+	      <table border=0 width='95%' cellspacing=0 cellpadding=2>
+	        <tr> 
+	          <th bgcolor="#9C9A9C" width=60% align=center><font color=cyan size='($f:eval(2+$p:conf.FontSize))'><i>($#on $q:category?($f:get_category(q:category)) : @NO_SECTION_SELECTED@)</i></font></th>
+	          <td width=40% align=center bgcolor="#9C9A9C"> ($#vparse g:curr.list.result.vfmt fontsize=$f:eval($p:conf.FontSize-1) fontcolor=white)</td>
+			</tr>	          
+	        <tr> 
+	          <td colspan=2 height=100 valign=top> 	          
+				<font size='($p:conf.FontSize)'><ol>
+				($#list g:curr.list.subject.rfmt)
+				</ol></font></td>
+			</tr>
+	      </table>
+	      
+	      <font size='($f:eval($p:conf.FontSize-1))'>($#pmove #LIST)</font>	      
+
+	($#vparse g:curr.c_tail.vfmt linkfmt=$f:strcat($g:curr.list.modelinks.vfmt,$g:curr.list.pagelinks.vfmt))
+
+	($#list g:curr.list.rfmt)
+	
+	($#parse g:cwb.hline.fmt)
+
+list.subject.rfmt=
+	  <li><img src='($g:url.icon0)blank.gif' width=($r:.pushv) height=1 alt='' border=0>($#parse g:curr.field.fsubject.icon.rfmt)
+	  <a href="($q:thispage)#_($r:.Category)-($f:eval($s:vi+1))" onmouseover="window.status='Post by ($f:c_encode(r:.Name))(($r:.Email)) from ($r:.Domain); ($#on $r:.Modifies?Modifies=($r:.Modifies), )pn=($r:.pn)'; return true;">
+	  <B> ($#qputs2 1 r:.Subject L:conf.WordChanges) </B></a>
+
+list.rfmt=
+	<!-- <<'" Article ($r:.pn) "'>> -->
+
+	  <a name="_($r:.Category)-($f:eval(($s:vi)+1))"><img src="($g:url.icon0)blank.gif" width="100%" height=1 border=0> </a> 
+	  <table width='($p:conf.TableWidth)' border=0 cellspacing=0 cellpadding=2> <tr bgcolor="($p:conf.ListArticleBgColor)"><th align='left' nowrap><font size='($p:conf.FontSize)' color="($p:conf.ListArticleFontColor)">
+  	    ($#on $r:.Category?($r:.Category) : ETC).($f:eval(($s:vi)+1)): <a href='($s:recall)?mode=read&num=($r:.pn)&($q:defquery)&backdepth=1'><font color="($p:conf.ListArticleFontColor)">
+	    ($#qputs2 1 r:.Subject L:conf.WordChanges) </font></a></font></th>
+
+	    <td valign=top align=right nowrap>
+		    ($#on $r:.Filename?($#strlist $r:.Filename $g:curr.dnicon.rfmt))<a href='($q:thispage)#LIST'>
+		    <img src='($g:url.icon)list-list.gif' border=0 alt='Jump to SUBJECT LIST'></a></td></tr>
+	
+	    <tr bgcolor="($p:conf.ListArticleEvenBgColor)"><td colspan=2 height=200 valign=top($#on $r:.BStyle? style="($r:.BStyle)")><font size='($p:conf.FontSize)' color="($p:conf.ListArticleEvenFontColor)">
+	        <ul>($#on $r:.LStyle?<div  style="($r:.LStyle)">)
+	    
+	($#parse g:curr.read.text.rfmt)
+
+		($#on $r:.LStyle?</div>)</ul></font></td></tr></table>
+
+read.fmt=
+	($#vparse g:curr.c_head.vfmt linkfmt=$g:curr.read.operlinks.vfmt)
+	($#vparse g:default.read.table.vfmt width=100% border=0 nonextinfo=0 cellspacing=0 noinfo1=0 tborder=0 )
+	($#vparse g:curr.c_tail.vfmt linkfmt=$g:curr.read.movelinks.vfmt)
+
+stat.fmt=
+	($#vparse g:curr.c_head.vfmt linkfmt=&nbsp;)
+	($#parse g:default.stat.fmt)
+	($#vparse g:curr.c_tail.vfmt linkfmt=&nbsp;)
+
+write.fmt=
+	($#vparse g:curr.c_head.vfmt linkfmt=&nbsp;)
+	($#vparse g:default.write.fmt)
+	($#vparse g:curr.c_tail.vfmt linkfmt=&nbsp;)
+
+

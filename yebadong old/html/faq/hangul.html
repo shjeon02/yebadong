@@ -1,0 +1,164 @@
+<title> Hangul Problem </title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=euc-kr">
+<body bgcolor ="#f7efce" text="#0000aa" link ="#00aaaa" alink="#ffffff"
+vlink="#007777">
+
+<h1> 한글 Mail FAQ </h1>
+<a href="#1"> Q1.</a> 인철님,왕근님 매일은 전혀 읽을수가 없군요.
+저만 그런건지 다른분들도 그런건지..(from 천리안 사용자) <br>
+<a href="#2"> Q2.</a> 핫메일을 사용하고 있는데 한글 메시지가 다 
+깨져 보이거든요.. 어떻게 해야 하지요? <br>
+<a href="#3"> Q3.</a> onelist.com으로 메일링 리스트를 옮긴후
+메일을 보내면 깨집니다. <br>
+<br>
+<hr>
+
+<a name="1"> 
+<hr>
+Q1. 인철님,왕근님 매일은 전혀 읽을수가 없군요.
+저만 그런건지 다른분들도 그런건지..(from 천리안 사용자) 
+<hr>
+<pre>
+[김진석, jindor@mmrnd.sec.samsung.co.kr]
+
+
+멍청한 천리안 메일러는 uuencode된 메일밖에는 디코딩을 못하는것 같던데요.
+Base64로 만드는 서버들이 꽤 많은데도 말이죠. 천리안 자료실 등을 뒤져보시면
+암호같이 보이는 메일들을 디코딩해주는 유틸리티들이 꽤 있습니다. 일단 메일을
+갈무리 하신뒤에 프로그램을 돌리고 다시 텍스트패드같은걸로 보세요.
+
+</pre>
+<a name="2"> 
+<hr>
+Q2. 핫메일을 사용하고 있는데 한글 메시지가 다 
+깨져 보이거든요.. 어떻게 해야 하지요? 
+<hr>
+<pre>
+[Damian, damian@lamar.colostate.edu]
+
+
+For those who cannot see Hangeul,
+I would recommend "cvt8.exe" converter.
+I use this program to read Hangeul.
+Anyone can download this program with free of charge from following the
+website.
+http://www.ssc.msu.edu/~ahnb/
+
+the step to use.
+step 1: copy the original message from your mail program.
+step 2: paste the message into the cvt8.exe program.
+
+</pre>
+
+<a name="#3"> 
+<hr>
+Q3.onelist.com으로 메일링 리스트를 옮긴후
+메일을 보내면 깨집니다. <hr>
+<pre>
+[안병욱, brave, anwook@brave.yonsei.ac.kr]
+
+저는 아웃룩 익스프레스를 쓰는데,
+지금 메일은
+도구-옵션-보내기-머리글에 8bit코딩에 꼽표해서
+보내봅니다..
+
+
+[최현석, grandespirit@yahoo.co.kr]
+
+  
+한글이 깨지는 문제는 Onelist.com의 문제는 아니고 보내시는
+분들이 Outlook Express의 설정을 조절하지 않아서 입니다.
+이상하게도 한글판 Outlook Express는 디폴트를 Base-64로
+설정해놔서 그것을 고치지 않으면 같은 Outlook Express가
+아니면 전부 이상한 문자들만 보입니다.
+
+앞으로 얼마 않있으면 표준인 Unicode 2.0이 정식으로 업계에서 자리를
+매김하고 (윈도우 2000은 발표와 동시에 지원 합니다.) Internet II
+가 발표가 되면 그런문제들은 해결 되겠지만 사실 좀 요원하죠...
+
+</pre>
+
+<hr>
+<h1> E-Mail에서의 한글 문제 </h1>
+<h2> Hangul Troubles in E-Mail </h2>
+
+<hr>
+
+<li>
+지금 가장 문제가 되고 있는것이 메일을 주고 받을때 한글이 보이지 
+   않는 문제 인것 같습니다. 몇몇 분들께서 왕창 깨진 한글 파일을 받으셨을줄
+   압니다.<p>
+   For the present, the most serious problem is the HANGUL problem.
+   I think some of you got broken korean mails. <p>
+
+<li>
+제가 몇몇 도사님들께 문의해본 결과 다음과 같이 그 문제를 해결할 수 있을 듯
+  하니 참고하시기 바랍니다.<p>
+  I asked to some wizards to fix hangul problem and I think you can fix
+  that problem. Please consider below.<p>
+
+1. 한글 메일(hmail)을 사용하시는 겁니다. 이 방법은 적당한 ftp site 에 가셔서
+  구하셔야 하는데 좀 귀찮을 듯 하군요. 하지만 가장 확실하고, 좋은 방법입니다.
+  현재 구할 수 있는 가장 높은 sendmail version은 sendmail.8.6.12h2.tar.gz
+  입니다. <p>
+  First method is to use hmail(hangul mail). I think this method
+  is time consuming and may bother you. But, best and most precise way.
+  Get sendmail.8.6.12h2.tar.gz from (Korean) ftp site, and install it.
+  Most famous ftp site is "cair-archive.kaist.ac.kr:./hangul/mail/" <p>
+
+2. hcode 와 같은 code converter 용 utility 를 사용하는 겁니다.
+  이 방법은 역시 ftp site 에 가셔서 hcode 나 ks2ioc ios2ks 와 같은 유틸리티를
+  구하셔서 /usr/local/bin 같은 디렉토리에 깔아 주시고
+  hcode 인 경우, ~/.mailrc 파일에 다음의 내용을 추가해 주시면 됩니다. <p>
+
+<ul>
+  	set PAGER = "/usr/local/bin/hcode -ik | /usr/local/bin/more"
+</ul>
+  이 명령은 mail 명령으로 file 을 볼때 한글이 안깨지도록 하기 위한 것입니다.<p>
+
+  Second method is to use file converter such as "hcode". 
+  First get "hcode" or "ks2ios/ios2ks" utilities in ftp site, then install
+  them to /usr/local/bin.
+  In case of "hcode", you should subscribe the following contents on
+  ~/.mailrc file.<p>
+<ul>
+  	set PAGER = "/usr/local/bin/hcode -ik | /usr/local/bin/more "
+</ul>
+  This command is for unbroken hangul file when you see the mailed file which is 
+  
+  sent in ISO code.<p>
+
+  전송 받으신 화일을 저장할 때에도 저장된 파일은 여전히 ISO 코드 이므로,
+  그 파일을 hcode 등을 이용해서 KS 코드로 바꾸어 주면 됩니다.<p>
+
+  If you save the mailed file, the saved file is stiil in ISO code. So,
+  you must convert that file to KS code by using "hcode" or so.<p>
+
+3. elm 을 사용하시는 분들은 옵션 'o' 를 선택하시고 다음과 같이 세팅해
+  주시면 됩니다.<p>
+  If you are using "elm", select 'o' in menu, then set as follows.<p>
+<ul>
+  	D)isplay mail using  : /usr/loca/bin/hcode -ik | /usr/local/bin/more<p>
+  	....<p>
+  	P)rint mail using    : /usr/local/bin/hcode -ik >> save.file<p>
+</ul>
+  위의 세팅은 print 명령을 이용하여 파일의 내용을 save.file 이란 파일에 차례로
+  붙이게 되므로 2 의 경우와 같은 conversion 이 필요가 없게 됩니다.<p>
+  If you set as above, elm saves the mailed file in "save.file" in sequence,
+  you don't need to convert the file to KS code.<p>
+
+<li>
+위의 내용과 같이 시도하셨는데도 안되시는 분들은 shjeon@cclab.kaist.ac.kr 로
+  메일을 보내주시기 바랍니다. 다시 문의하겠습니다. 감사합니다.<p>
+
+If you cannot fix the problem even if you tried, then mail to me(shjeon@
+  cclab.kaist.ac.kr). I will ask again. Thank you.<p>
+
+Another Hangul FAQ <a href="http://pantheon.yale.edu/~jshin/faq/"> 
+http://pantheon.yale.edu/~jshin/faq/</a>
+<hr>
+
+<p>
+<a href="/yebadong/www/FAQ/"> <img src="/yebadong/www/icon/up.gif", align=middle>
+이전 메뉴로 돌아감 </a>
+

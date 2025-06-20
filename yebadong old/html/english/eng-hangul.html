@@ -1,0 +1,54 @@
+<title> Hangul Problem </title>
+<body bgcolor ="#F7EFCE" text="#0000aa" link ="#00aaaa" alink="#ffffff"
+vlink="#007777">
+
+<h2> Hangul Troubles in E-Mail </h2>
+
+<hr>
+
+<li>
+   For the present, the most serious problem is the HANGUL problem.
+   I think some of you got broken korean mails. <p>
+
+<li>
+  I asked to some wizards to fix hangul problem and I think you can fix
+  that problem. Please consider below.<p>
+
+1. First method is to use hmail(hangul mail). But i think this method
+  is time consuming and may bother you. <p>
+
+2. Second method is to use file converter such as "hcode". 
+  First get "hcode" or "ks2ios/ios2ks" utilities in ftp site, then install
+  them to /usr/local/bin.
+  In case of "hcode", you should subscribe the following contents on
+  ~/.mailrc file.<p>
+<ul>
+  	set PAGER = "/usr/local/bin/hcode -ik | /usr/local/bin/more "
+</ul>
+  This command is for unbroken hangul file when you see the mailed file which is 
+  
+  sent in ISO code.<p>
+
+  If you save the mailed file, the saved file is stiil in ISO code. So,
+  you must convert that file to KS code by using "hcode" or so.<p>
+
+3. If you are using "elm", select 'o' in menu, then set as follows.<p>
+<ul>
+  	D)isplay mail using  : /usr/loca/bin/hcode -ik | /usr/local/bin/more<p>
+  	....<p>
+  	P)rint mail using    : /usr/local/bin/hcode -ik >> save.file<p>
+</ul>
+  If you set as above, elm saves the mailed file in "save.file" in sequence,
+  you don't need to convert the file to KS code.<p>
+
+<li>
+If you cannot fix the problem even if you tried, then mail to me(shjeon@
+  cclab.kaist.ac.kr). I will ask again. Thank you.<p>
+
+<hr>
+
+<p>
+<a href="/yebadong/www/English/faq.html">
+<img src="../icon/up.gif", align=middle, border=0>
+Return to Previous Menu </a> 
+

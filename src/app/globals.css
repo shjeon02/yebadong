@@ -4,10 +4,12 @@
 
 /* Custom CSS Variables */
 :root {
-  --color-primary: #6366f1;
-  --color-secondary: #f97316;
-  --color-dark-bg: #020617;
-  --color-dark-surface: #1e293b;
+  --color-primary: #3b82f6; /* Blue-500 */
+  --color-secondary: #f97316; /* Orange-500 */
+  --color-light-bg: #ffffff; /* White background */
+  --color-light-surface: #f9fafb; /* Gray-50 */
+  --color-text-primary: #111827; /* Gray-900 */
+  --color-text-secondary: #6b7280; /* Gray-500 */
   --font-heading: 'Pretendard Variable', 'Inter', system-ui, sans-serif;
   --font-body: 'Pretendard Variable', 'Inter', system-ui, sans-serif;
 }
@@ -23,46 +25,51 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: var(--color-light-bg);
+    color: var(--color-text-primary);
   }
   
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.2;
     letter-spacing: -0.025em;
+    color: var(--color-text-primary);
   }
   
   p {
-    line-height: 1.6;
+    line-height: 1.7;
+    color: var(--color-text-secondary);
   }
   
   /* Custom scrollbar */
   ::-webkit-scrollbar {
-    width: 8px;
+    width: 10px;
   }
   
   ::-webkit-scrollbar-track {
-    background: #1e293b;
+    background: #f1f5f9; /* Gray-100 */
   }
   
   ::-webkit-scrollbar-thumb {
-    background: #475569;
-    border-radius: 4px;
+    background: #cbd5e1; /* Gray-300 */
+    border-radius: 5px;
+    border: 2px solid #f1f5f9;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #64748b;
+    background: #94a3b8; /* Gray-400 */
   }
 }
 
 /* Component Styles */
 @layer components {
   .btn {
-    @apply inline-flex items-center justify-center rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-dark-950;
+    @apply inline-flex items-center justify-center rounded-lg font-semibold transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white;
   }
   
   .btn-primary {
-    @apply btn bg-primary-500 text-white hover:bg-primary-600 focus:ring-primary-500 shadow-lg hover:shadow-xl;
+    @apply btn bg-primary-500 text-white hover:bg-primary-600 focus:ring-primary-500 shadow;
   }
   
   .btn-secondary {
@@ -74,7 +81,7 @@
   }
   
   .btn-ghost {
-    @apply btn text-gray-300 hover:text-white hover:bg-dark-700 focus:ring-gray-500;
+    @apply btn text-gray-600 hover:text-gray-900 hover:bg-gray-100 focus:ring-gray-300;
   }
   
   .btn-sm {
@@ -82,11 +89,11 @@
   }
   
   .btn-md {
-    @apply px-4 py-2 text-base;
+    @apply px-5 py-2.5 text-base;
   }
   
   .btn-lg {
-    @apply px-6 py-3 text-lg;
+    @apply px-7 py-3 text-lg;
   }
   
   .card {
@@ -126,7 +133,7 @@
   }
   
   .text-gradient {
-    @apply bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-primary-500 via-secondary-500 to-primary-500 bg-clip-text text-transparent;
   }
   
   .glow-effect {
@@ -166,11 +173,11 @@
 /* Utility Classes */
 @layer utilities {
   .text-shadow {
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
   }
   
   .text-shadow-lg {
-    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
   }
   
   .backdrop-blur-glass {
@@ -213,13 +220,22 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
   }
+  
+  .shadow-primary-glow {
+    box-shadow: 0 0 20px 0 rgba(99, 102, 241, 0.3), 0 0 30px 0 rgba(99, 102, 241, 0.2);
+  }
+  
+  .bg-grid-pattern {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+    background-size: 2rem 2rem;
+  }
 }
 
 /* Animations */
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
@@ -250,7 +266,8 @@
 }
 
 .animate-fade-in-up {
-  animation: fadeInUp 0.6s ease-out;
+  animation: fadeInUp 0.7s ease-out forwards;
+  opacity: 0;
 }
 
 .animate-slide-in-left {

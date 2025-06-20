@@ -1,0 +1,157 @@
+
+initial.conf=
+	conf.TableWidth=95%
+	conf.FontSize=2
+	conf.UseSysDefHtml=true
+	conf.ListTitleFontColor=#565656
+	conf.ListTitleBgColor=#FFF4C9
+	conf.ListArticleFontColor=black
+	conf.ListArticleBgColor=white
+	conf.ListArticleEvenFontColor=black
+	conf.ListArticleEvenBgColor=white
+	conf.ReadTitleFontColor=black
+	conf.ReadTitleBgColor=#FFF4C9
+	conf.ReadTextFontColor=black
+	conf.ReadTextBgColor=white
+	conf.WriteTitleFontColor=!
+	conf.WriteTitleBgColor=!
+	conf.WriteVFieldList=hline subject homepage style dytext kinds attach upload upload hline submit		
+	conf.IconBaseUrl=$f:strcat($g:url.tpldir,en/)
+
+
+c_head.fmt=
+    <table border=0 cellpadding=0 cellspacing=0 width='($p:conf.TableWidth)' align=center>
+    <tr>    
+      <td colspan=3>
+        <table width="100%" border=0 cellpadding=0 cellspacing=0>
+          <td background="($g:url.tpldir)back_top.jpg"><img src="($g:url.tpldir)top-01-01.jpg" border="0" width=208 height=88></td>
+          <td background="($g:url.tpldir)back_top.jpg" align="right" valign="bottom"> 
+            <table border=0 cellpadding=0 cellspacing=0>
+            <tr> 
+              <td width="1" align=right> <img src="($g:url.tpldir)top_in-01-01.jpg" border="0" width=102 height=48></td>
+		      <td rowspan=2 align=right valign='bottom' nowrap>($#on $v:hlinks?($#vparse v:hlinks icondir=$p:url.icon eline=))($#on $v:tlinks2?($#vparse v:tlinks2 icondir=$p:url.icon eline=))</td>
+            </tr>
+            <tr> 
+              <td width='1' align=right> <img src="($g:url.tpldir)top_in-02-01.jpg" border="0" width=102 height=40></td>
+            </tr>
+            </table>
+          </td>
+          <td width=1 align="right" valign=bottom bbackground="($g:url.tpldir)top-01-03.jpg"> <img src="($g:url.tpldir)top-01-03.jpg" border="0"></td>
+        </table>
+      </td>
+    </tr>
+    <tr align="center" valign="top"> 
+    <td colspan="3" bgcolor="#B5EBE7" height="100">
+    
+
+c_tail.fmt=
+	  </td>
+    </tr>
+    <tr><td>
+      <table width=100% border=0 cellspacing=0 cellpadding=0>
+        <tr>
+        <td width='30%' bgcolor='#B5EBE7' background='($g:url.tpldir)back_bttm.gif'>&nbsp;</td>
+        <td align=center valign=center bgcolor='#B5EBE7' background='($g:url.tpldir)back_bttm.gif'>&nbsp;</td>
+        <td width='30%' align=left valign=top bgcolor='#3969B5'><img src='($g:url.tpldir)bottom.gif' width='159' height='16'></td>
+        </tr>
+        <tr bgcolor='#3969B5'> 
+        <td align='left' nowrap>($#on $v:tlinks1?($#vparse v:tlinks1 icondir=$p:url.icon eline=) : <br>)</td>
+        <td align='center' nowrap>($#on $v:ppmove?($#parse g:curr.pmove.fmt) : <br>)</td>
+        <td align='right' nowrap>($#on $v:tlinks2?($#vparse v:tlinks2 icondir=$p:url.icon eline=) : <br>)</td>
+  	    </tr>
+      </table>
+    </td></tr>
+	</table>
+
+pmove.front.anchor=
+	($#on $s:.ar0=="curr"?)($#else <A href="($s:recall)?db=($q:db)&mode=($q:mode)&page=($#on $s:.ar1?$s:.ar1)&category=($#on $q:category?$q:category)&ftype=($#on $q:ftype?$q:ftype)&fval=($#on $q:fval?$q:fval)">)
+
+pmove.end.anchor=
+	($#on $s:.ar0=="curr"?)($#else </A>)
+
+pmove.fmt =
+	($#disable)
+	($#set first.fmt=($#on $s:.ar1==""? )($#else <img border=0 src='($g:url.tpldir)ball/pfirst.gif' alt="($#on $s:.ar1?$s:.ar1)">))
+	($#set prev.fmt=($#on $s:.ar1==""?)($#else <img border=0 src='($g:url.tpldir)ball/pprev.gif' alt="($#on $s:.ar1?$s:.ar1)">))
+	($#set curr.fmt=($#on $s:.ar1==""?)($#else <img border=0 src='($g:url.tpldir)ball/pcurr.gif' alt="($#on $s:.ar1?$s:.ar1)">))
+	($#set page.fmt=($#on $s:.ar1==""?)($#else <img border=0 src='($g:url.tpldir)ball/ppage.gif' alt="($#on $s:.ar1?$s:.ar1)">))
+	($#set next.fmt=($#on $s:.ar1==""?)($#else <img border=0 src='($g:url.tpldir)ball/pnext.gif' alt="($#on $s:.ar1?$s:.ar1)">))
+	($#set end.fmt=($#on $s:.ar1==""? )($#else <img border=0 src='($g:url.tpldir)ball/plast.gif' alt="($#on $s:.ar1?$s:.ar1)">))
+	($#enable)
+	($#set pmoveinfo=$f:pmove())
+	($#strlist $q:pmoveinfo ($#parse g:curr.pmove.front.anchor)($#parse f:fetch(q:,$s:.ar0,.fmt))($#parse g:curr.pmove.end.anchor))
+
+
+list.rfmt=    
+	<table align=center border=0 width='98%' cellspacing=1 cellpadding=3><!-- Physical number ($r:.pn) -->
+	<tr>
+	  <th height=18 width=100 bgcolor='($p:conf.ListTitleBgColor)' align="center">($q:lfont)x</font></th>
+	  <td width=100% bgcolor='($p:conf.ListArticleBgColor)'><font face='arial' size='1' color='green'>($r:.date) (($r:.time)) from '($r:.Domain)'</font></td>
+	</tr>
+	<tr>
+	  <th height=18 width=100 bgcolor='($p:conf.ListTitleBgColor)' align="center">($q:lfont)@NAME@</font></th>
+	  <td width=100% bgcolor='($p:conf.ListArticleBgColor)'><NOBR><font size='($p:conf.FontSize)'>($#on $r:.ID? ($#qputs 1 r:.Name) [($#on $r:.Email?<a href="mailto: ($#vparse g:email.htmltolist.vfmt onlyone=true name=$r:.Name list=$r:.Email)"> <b>($r:.ID)</b> </a>)($#else  <b>($r:.ID)</b>) ])
+	  ($#else ($r:.Name) <WBR>($#parse g:curr.read.email.fmt))
+	  </font></NOBR>
+	  </td>
+	</tr>
+	($#on $r:.HomePage?<tr>
+	  <th height=18 width=100 bgcolor='($p:conf.ListTitleBgColor)' align="center">($q:lfont)@HOMEPAGE@</font></th>
+	  <td width=100% bgcolor='($p:conf.ListArticleBgColor)'><font size='($p:conf.FontSize)'>($#qputs 2 r:.HomePage)</font></td>
+	</tr>)
+    <tr>
+      <th width=100 bgcolor='($p:conf.ListTitleBgColor)' align=center nowrap><a href='($s:recall)?db=($q:db)&mode=read&num=($r:.pn)&backdepth=1'>($q:lfont)<b>@COMMENT@</b></font></a></th>
+      <td width=100% bgcolor='($p:conf.ListArticleBgColor)'>
+        <a href='($s:recall)?db=($q:db)&mode=read&num=($r:.pn)&backdepth=1'>($q:_font)
+	    ($#on $q:isurl==""?<b> ($#qputs2 1 r:.Subject L:conf.WordChanges) </b>)</a>
+	    ($#on $r:.Filename?($#strlist $r:.Filename $g:curr.dnicon.rfmt))
+	    ($#on $q:isurl==""?<br>)<br>
+
+		($#parse g:default.read.text.rfmt)
+	    </a></font>
+	  </td>
+	</tr>
+	<tr>
+	  <td></td>
+    </tr>
+	</table>
+	
+list.fmt=
+	($#parse g:cwb.init.list.fmt)
+	($#set lfont=$f:strcat(<font size=',$p:conf.FontSize,' color=',$L:conf.ListTitleFontColor,'>))
+	($#set _font=$f:strcat(<font size=',$p:conf.FontSize,' color=',$L:conf.ListArticleFontColor,'>))
+
+	($#vparse g:curr.c_head.fmt hlinks=$g:curr.list.operlinks.vfmt)
+	<table align=center width='98%' border=0 cellspacing=1 cellpadding=1>
+    <tr bgcolor='#666666'> 
+      <td align=right height="11">($#vparse g:curr.list.result.vfmt fontsize=$f:eval($p:conf.FontSize-1) fontcolor=white)<font size='($f:eval($p:conf.FontSize-1))'>&nbsp;</font></td>
+    </tr>
+    </table>
+    
+	($#list g:curr.list.rfmt)
+	
+	($#vparse g:curr.c_tail.fmt tlinks1=$g:curr.list.pagelinks.vfmt tlinks2=$g:curr.list.modelinks.vfmt ppmove=$g:curr.pmove.fmt)
+		
+read.fmt=
+	($##
+	set tborder=$p:conf.ReadTitleBorderSize
+	set border=$p:conf.ReadTextBorderSize
+	set cellspacing=0
+	set width=98%
+
+	vparse g:curr.c_head.fmt hlinks=$g:curr.read.operlinks.vfmt tlinks2=$g:curr.read.movelinks.vfmt
+	parse g:default.read.info.fmt
+	parse g:default.read.table.fmt
+	vparse g:curr.c_tail.fmt tlinks1=$g:curr.list.pagelinks.vfmt tlinks2=$g:curr.list.modelinks.vfmt
+	$)
+	
+write.fmt=	
+	($#vparse g:curr.c_head.fmt operlinks=)
+	($#parse g:default.write.fmt)
+	($#vparse g:curr.c_tail.fmt modelinks=)	
+
+stat.fmt=
+	($#vparse g:curr.c_head.fmt operlinks=)
+	($#parse g:default.stat.fmt)
+	($#vparse g:curr.c_tail.fmt modelinks=)	
+	
