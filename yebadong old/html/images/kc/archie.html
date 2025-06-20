@@ -1,0 +1,104 @@
+<HEAD><TITLE>Archie Request Form</TITLE></HEAD>
+<BODY>
+<H1>Archie Request Form</H1>
+
+This is a form based Archie gateway for the WWW.
+If You don't have a browser that can supports forms, you can
+still <A HREF="/cgi-bin/AA">make a search</A>.
+<P>
+Please remember that Archie searches can take a long time... 
+
+<P>
+<HR>
+
+<FORM ACTION="/cgi-bin/AA">
+
+What would you like to search for? <INPUT NAME="query"> 
+
+<P>
+There are several types of search: 
+<SELECT NAME="type">
+<OPTION>Case Insensitive Substring Match
+<OPTION>Exact Match
+<OPTION>Case Sensitive Substring Match
+<OPTION>Regular Expression Match
+</SELECT>
+
+<P>
+
+The results can be sorted
+<INPUT TYPE="radio" NAME="order" VALUE="host" CHECKED >By Host or
+<INPUT TYPE="radio" NAME="order" VALUE="date">By Date 
+
+</UL>
+
+<P>
+
+The impact on other users can be:
+<SELECT NAME="nice">
+<OPTION>Not Nice At All
+<OPTION>Nice
+<OPTION>Nicer
+<OPTION>Very Nice
+<OPTION>Extremely Nice
+<OPTION>Nicest
+</SELECT>
+<P>
+
+Several Archie Servers can be used:
+<SELECT NAME="server">
+<OPTION>United Kingdom
+<OPTION>ANS archie server
+<OPTION>Australia
+<OPTION>Austria
+<OPTION>Canada
+<OPTION>Finland
+<OPTION>Germany
+<OPTION>Internic
+<OPTION>Israel
+<OPTION>Italy
+<OPTION>Japan
+<OPTION>Korea
+<OPTION>New Zealand
+<OPTION>Rutgers University
+<OPTION>Spain
+<OPTION>SURAnet
+<OPTION>Sweden
+<OPTION>Taiwan
+<OPTION>University of Nebraska
+</SELECT>
+<P>
+
+You can restrict the number of results returned (default 95):
+<INPUT NAME="hits" SIZE=5> 
+
+<P>
+Press this button to submit the query: 
+<inPUT TYPE="submit" VALUE="Submit">. <P>
+
+To reset the form, press this button: <INPUT TYPE="reset" VALUE="Reset">.
+
+</FORM>
+
+<HR>
+<ADDRESS>
+Guy Brooker<BR>
+guy@jw.estec.esa.nl<BR>
+<A HREF="http://web.nexor.co.uk/mak/mak.html">
+Martijn Koster</A>
+</ADDRESS>
+<HR>
+<H2>What is archie ?</H2>
+<QUOTE>
+ "Archie" is a database of anonymous ftp sites and their contents.
+   The software for it was written by the "Archie Group" (Peter
+   Deutsch, Alan Emtage, Bill Heelan, and Mike Parker) at McGill
+   University in Montreal, Canada, and they maintain the database as
+   well.
+<P>
+   "Archie" keeps track of the entire contents of a very large number
+   of anonymous ftp sites, and allows you to search for files on those
+   sites using various different kinds of filename searches.
+</QUOTE>
+
+</BODY>

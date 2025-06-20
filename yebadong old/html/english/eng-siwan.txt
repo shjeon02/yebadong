@@ -1,0 +1,271 @@
+<title> SiWan Records Informations </title>
+
+<center> <h1> Si-Wan Records Informations </h1></center>
+
+<hr>
+<img SRC="icon/redball.gif">
+Compiled by Seong-Woo Kim(libero) <i>swkim@gaia.kaist.ac.kr</i>
+<hr>
+
+<pre>
+
+-------------------------------------------------------------------------
+
+Note : 		OS : Out of Stock
+		NR : Not Yet Released
+		1 (US) dollar mounts about 800won.
+
+==========================================================================
+SMR No.		Group/Album Title		LP	CD	etc.
+--------------------------------------------------------------------------
+SRM 0001	Latte E Miele/Passio 	       	OS   	13,000	SRMC-0003
+		 Secundum Mattheum
+SRM 0002	Latte E Miele/Papillon	      	OS	NR	SRMC-0068
+SRM 0003	Earth & Fire/Song Of The       	OS
+		 Marching Children
+SRM 0004	IBIS/Ibis			OS
+SRM 0006	Mauro Pelosi/Al Mercato		6,000
+		 Degli Uomini Piccoli
+SRM 0007	Il Balletto Di Bronzo/YS		13,000
+SRM 0010	Locanda Delle Fate/Forse Le	7.000	13,000
+		 Lucciole Non Si Amano Piu
+SRM 0014	Novalis/Brandung		7,000	13,000	NR
+SRM 0015	Dr.Z/Three Parts To my Soul    10,000 	15,000	Gimmix cover
+SRM 0018	Eela Craig/One Niter		7,000	13,000	NR
+SRM 0020	Gravy Train/Gravy Train		7,000	13,000
+SRM 0021	Mellow Candle/Swaddling Songs	7,000	13,000
+SRM 0022	T2/It'll All Work Out In 	7,000	13,000  Bonus Tracks
+		 Boomland
+SRM 0023	Magna Carta/Seasons		OS	13,000
+SRM 0024	Gravy Train/(A Ballad Of)A	7,000	13,000
+		 Peaceful Man
+SRM 0025	Mauro Pelosi/La Stagione Per	7,000	13,000
+		 Morire
+SRM 0026	Beggars Opera/Pathfinder       10,000	13,000	Post Cover
+SRM 0027	Whister/Ho Hum			7,000	13,000
+SRM 0028	Tudor Lodge/Tudor Lodge	       10,000	13,000	Post Cover
+SRM 0029	Fairfield Parlour/From Home	7,000	13,000
+		 To Home
+SRM 0030	Ange/Audela Du Delire		7,000	13,000
+SRM 0031	Kayak/Starlight Dancer &		13,000
+		Phantom Of The Night
+SRM 0032	Fantasy/Paint A Picture		7,000	13,000
+SRM 0033	Gracious/Gracious!		7,000	13,000
+SRM 0034	Clear Blue Sky/Clear Blue Sky	7,000	13,000
+SRM 0035	Bread,Love & Dream/Amarylis	7,000	13,000
+SRM 0036	Keith Cross & Peter Ross/		13,000
+		 Bored Civilians
+SRM 0037	The Parlour Band/Is A Friend?		13,000
+SRM 0038	Catherine Ribeiro/Paix			13,000
+SRM 0039 	Earth & Fire/Same			13,000
+SRM 0040	East Of Eden/Mercator projected		13,000
+SRM 0041 	Amazing Blondel/England				NR
+SRM 0042 	Illusion/Out Of Mist				NR
+SRM 0043	Room/Pre-Flight				13,000
+SRM 0044 	Gentle Giant/Octopus				NR
+SRM 0045 	Manfred Mann Chapter III/Same			NR
+SRM 0046 	Miguel Rios/La Huerta Atomica			NR
+SRM 0047 	Savage Rose/Dodens Triumf		13,000
+SRM 0048 	Ramases/Space Hymns			13,000
+SRM 0049 	Socrates/Phos					NR
+SRM 0050 	Nico/The End					NR
+SRM 0051 	Tom Newman/Fearie Symphony		13,000
+SRM 0052 	Jumbo/Vietato Ai Minori Di 18 Anni		NR
+SRM 0053 	Le Orme/Collage					NR
+SRM 0054 	Catherine Ribeiro+Alpes				NR
+		 /Ame Debout
+SRM 0055 	Spriguns/Time Will Pass			13,000	
+SRM 0056 	Aardvark/Same					NR
+SRM 0059 	Bread, Love & Dreams/The Strange Tale		NR
+		 of Captain Shannon & The Hunchback From Gigha
+SRM 0060	Arc/At This					NR
+SRM 0061	Warlus/Warlus					NR
+SRM 0062	Akritas/Akritas					NR
+SRM 0063	De De Lind/Io Non So Da Dove...			NR
+SRM 0064	Manfred Mann Chapter III/Volume 2		NR
+SRM 0065	The End/Introspection				NR
+SRM 0067	Kaleidoscope(U.K.)/Faintly Blowing		NR
+SRM 0069	Ougenweide/Eulenspiegel				NR
+SRM 0070	Magma/Kohntarkosz				NR
+SRM 0071	East Of Eden/Snafu				NR
+SRM 0073	Nirvana(U.K.)/All Of Us				NR
+SRM 0074	Eela Craig/Missa Universalis			NR
+
+SRM 1001	Q.V.L./Il Tempo Della Gioia	 OS	13,000
+SRM 1002	R.D.M./Contaminazione		 7,000	13,000
+SRM 1003	Los Canarios/Ciclos		 OS	15,000
+SRM 1004	Formula 3/Sognando E Risognando  7,000	13,000
+SRM 1005 	Lucio Battisti/Umanemente Uomo:  7,000	13,000
+		 Il Sogno
+SRM 1006	Sangiuliano/Take Off		 7,000	13,000
+SRM 1007	Formula 3/La Grande Casa	 7,000	13,000
+SRM 1008	Trip/Atlantide			10,000	13,000  Gimmix cover
+SRM 1009	P.F.M./Storia Di Un Minuto	 7,000 	13,000
+SRM 1010	P.F.M./Per Un Amico		 7,000	13,000
+SRM 1011 	Il Volo/Same			 7,000		LP released
+SRM 1012 	Pierrot Lunaire/Gudrun		 7,000	13,000
+SRM 1013 	Rustichelli E Bordini/		 7,000	13,000
+		  Opera Prima
+SRM 1014 	P.F.M/L'Isola Di Niente		10,000	13,000  Gimmix cover
+SRM 1015 	Pierrot Lunaire/Same		 7,000	13,000
+SRM 1016 	Il Volo/Essere O Non Essere			NR
+SRM 1017 	Adriano Monteduro E Reale	 7,000	13,000
+		Accademia Di Musica/Same
+SRM 1018 	Procession/Frontiera				NR
+SRM 1019 	Trader Horne/Morning Way	 7,000	13,000	Bonus tracks
+SRM 1022 	Gnidrolog/Lady Lake		 7,000		LP released
+SRM 1023 	Fire/The Magic Shoemaker	 7,000		LP released
+SRM 1024 	Jonesy/Keeping Up				NR
+SRM 1025 	Fruupp/Future Legends				NR
+SRM 1026 	Comus/First Utterance				NR
+SRM 1027 	Jackie McAuley/Same				NR
+SRM 1028 	Titus Groan/Same				NR
+SRM 1029 	Quiet World/The World				NR
+SRM 1030 	Quicksand/Home Is Where I Belong		NR
+SRM 1031 	Heron/Heron					NR
+SRM 1032 	Jonesy/Growing					NR
+SRM 1033 	Fruupp/Prince Of Heaven's Eye			NR
+SRM 1034 	Pluto/Pluto					NR
+
+SRM 2001	Alphataurus/Alphataurus		 6,000	12,000	Single Cover
+SRM 2002	Celeste/principe Di Un Giorno	 OS	12,000
+SRM 2003	N.T.Atomic System/N.T.Atomic	 6,000	12,000	Single Cover
+		 System
+SRM 2004	Corte Dei Miracoli/Corte Dei	 7,000	12,000
+		 Miracoli
+SRM 2005	Picchio Dal Pozzo/Picchio Dal	 OS	12,000
+		 Pozzo
+SRM 2006	New Trolls/Tempi Dispari	 7,000	12,000
+SRM 2007	Latte E Miele/Aquile E		 6,000	12,000 
+		 Scoiattoli
+SRM 2008	New Trolls/L.I.V.E.N.T.		 6,000	12,000
+SRM 2009	Picchio Dal Pozzo/Abbiamo Tutti 	12,000
+		 I Suoi Problemi
+SRM 2010	J.E.T./Fede Speranza Carita     10,000	12,000
+						 6,000		Single Cover
+SRM 2011	Hunka Munka/Dedicato A Giovanni 10,000	12,000
+					 	 6,000		Single Cover
+SRM 2012	Maxophone/Maxophone		 7,000	12,000
+SRM 2013	I Dik Dik/Suite Per Una Donna	 8,500	12,000
+SRM 2014	I Giganti/Terra In Bocca	 8,500	12,000	booklet
+SRM 2015 	Crystal Phoenix/Crystal Phoenix  8,500	12,000
+SRM 2016 	Dunwich/Sul Monte E'il Tuono 			NR	
+
+SRM 3001	Crack/Si Todo Hiciera Crack	 OS	12,000
+SRM 3002	Bloque/Hombre,Tierra Y Alma	 OS
+SRM 3003	Nu/A Globe De Latigo		 OS
+SRM 3004	Sandrose/Sandrose		 OS
+SRM 3005	Asia Minor/Between Flesh And 	 OS
+		 Divine
+SRM 3006	Arachnoid/Arachnoid		 OS
+SRM 3007	Halloween/Part One		 5,500
+SRM 3008	Elixir/Sabbat			 5,500  12,000
+SRM 3009	Tale Cue/Voices Beyand My	 OS 
+		 Curtain
+SRM 3010	Synopsis/Minute Ville			12,000
+SRM 3011	Mezquita/Recuerdos De Mi Tierra 	12,000
+SRM 3012	V.A./Grandes Baladas Heavy Vol.1	12,000
+SRM 3013	V.A./Grandes Baladas Heavy Vol.2	12,000
+SRM 3014	Los Brincos/Mundo Demonio Carne  6,000	12,000
+SRM 3015	Nu/Cuentos De Ayer Y De Hoy		12,000
+SRM 3016	Baron Rojo/Tierra De Nadie	 6,000	12,000
+SRM 3017	Kaipa/Kaipa			 6,000	12,000
+SRM 3018  	Flyte/Dawn Dancer			12,000
+SRM 3019  	Shylock/Gialorgues			12,000
+SRM 3020  	Asfalto/Same				12,000
+SRM 3021  	Bloque/Same					NR
+SRM 3022  	Kaipa/Inget Nytt Under Solen			NR
+SRM 3023  	Iceberg/Sentiments			12,000
+SRM 3024  	Visitors/Dies Irae		 7,000	12,000
+SRM 3025  	Shylock/Il Des Fievre				NR
+SRM 3026  	Asfalto/Ahora					NR
+SRM 3027  	Grime/Same				12,000
+SRM 3028  	Ergo Sum/Mexico					NR
+SRM 3029	Dragonfly/Same					NR
+SRM 3030 	Amber Route/				12,000
+		 Snail Headed Victrolas
+SRM 3031 	Amber Route/Ghost Tracks			NR
+
+SRM 4001	Coda/Sound Of Passion		 7,000	12,000
+SRM 4002	Tarantula/Tarantula 1		 6,000	12,000
+SRM 4003	Tarantula/Tarantula 2		 	12,000
+SRM 4004 	Gong/Camembert Electrique	 7,000	12,000
+SRM 4005	Gilli Smyth/Mother		 6,000	12,000
+SRM 4006	Daevid Allen/Now Is The 	 	12,000  
+		 Happiest Time Of Your Life
+SRM 4007	Gong/Flying Teapot		 7,000	12,000	NR
+SRM 4008	Gong/Angels Egg			 7,000 	12,000	NR
+SRM 4009	Strangers On A Train		 7,000 	12,000
+		 /The Key Part II:The Labyrinth
+SRM 4010	Differences/The Voyage		  	12,000
+SRM 4011	Twelfth Night/Live & Let Live	 7,000 	12,000  LP released
+SRM 4012	Everon/Paradoxes			12,000
+SRM 4013	Citizen Cain/Serpents In Camouflag		NR	
+SRM 4014	Shadowland/Ring Of Roses			NR	
+SRM 4015	Van Otterdyke/The Syrens			NR	
+SRM 4016	Trubrot/Trubrot					NR	
+SRM 4017	Trubrot/Undir Ahrifum				NR	
+SRM 4018	Trubrot/Lifun					NR	
+SRM 4019	Savage Rose/Sangen For Livet			NR	
+SRM 4020	Savage Rose/Kejserens Nye Klaeder		NR	
+
+SRM 5001	Triade/1998:La Storia Di 	 7,000	14,500
+		 Sabazio
+SRM 5002	Cico/Notte			 8,500	14,500	booklet
+SRM 5003	Caterina Caselli/Primavera	 7,000	14,500
+SRM 5004	Il Giardino Dei Simplici/	 7,000	14,500
+		 Il Giardino Dei Simplici
+SRM 5005 	Spirogyra/St. Radigunds          7,000   12,000
+SRM 5006 	   "   /Old Boot Wine             "       "
+SRM 5007 	   "   /Bells, Boots & Shambles   "       "
+		   "				28,000(LP Boxset)	
+
+SRM 6001 	Angelo Branduardi/Momo				NR
+SRM 6002 	      "         /Canta Yeats	 7,000	13,000
+SRM 6003 	Fusion Orchestra/		 7,000	13,000
+		Skeleton In Armour
+SRM 6004 	The Greatest Show On Earth	 7,000	13,000
+		/Horizons
+SRM 6005 	Angelo Branduardi/Cercando L'oro 7,000	13,000
+SRM 6006 	      "         /Same		 7,000	13,000
+SRM 6007 	Forest/Full Circle		 7,000	13,000
+SRM 6008 	B.J.H./Once Again		 7,000	13,000
+SRM 6009 	The Greatest Show On Earth/	 7,000	13,000
+		The Going's Easy
+SRM 6010 	People/I Love You				NR
+SRM 6011 	Hot Chocolate/Xiv Greatest Hits			NR
+SRM 6012	Matia Bazar/Semplicita		 7,000	13,000
+SRM 6013	Machiavel/Mechanical Moonbeams			NR
+SRM 6014	Saint Just/Same					NR
+SRM 6015	Alan Sorrenti/Aria				NR
+SRM 6016	La Bottega Dell'Arte/Same			NR
+SRM 6017	Saint Just/La Casa Del Lago			NR
+SRM 6018	Ciro Dammicco/Mittente				NR
+SRM 6019	La Bottega Dell'Arte/Dentro			NR
+SRM 6020	Angelo Branduardi/Gulliver,			NR
+		 La Luna E Altri Disegni
+
+	    Korean Music
+SRMK 0001 	Pot Concerto			10,000	13,000	Gimmix cover
+SRMK 0002 	Duk Project/Old Is Funny	7,000	13,000
+
+	    World Pop Series
+SRMWP 001	Mocedades/Eres Tu				OS
+SRMWP 002	Mocedades/Amor				12,000
+SRMWP 003	Los Inhumanos/9 Canciones Mensaje	12,000	NR
+		 Y Una Con Recao			
+SRMWP 004	Mia Martini/Oltre La Collina		11,000	NR
+SRMWP 005	Patty Pravo/Patty Pravo			11,000	NR
+
+
+==========================================================================
+
+</pre>
+
+<hr>
+<a href="eng-ybd.html"> <img src="icon/up.gif", align=middle>Return to Main Menu </a>
+<ADDRESS>
+Seung-hun Jeon, shjeon@cclab.kaist.ac.kr, Computer Control Laboratory,
+Electrical Engineering, KAIST
+</ADDRESS>
+

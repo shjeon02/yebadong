@@ -1,0 +1,345 @@
+
+initial.conf=
+	conf.TableWidth=95%
+	conf.FontSize=2
+	conf.UseSysDefHtml=false
+	conf.ListTitleFontColor=white
+	conf.ListTitleBgColor=#6F0021
+	conf.ListArticleFontColor=black
+	conf.ListArticleBgColor=ivory
+	conf.ListArticleEvenFontColor=black
+	conf.ListArticleEvenBgColor=#E3E3E3
+	conf.ReadTitleFontColor=white
+	conf.ReadTitleBgColor=#f5be01
+	conf.ReadTextFontColor=black
+	conf.ReadTextBgColor=white
+	conf.WriteTitleFontColor=!
+	conf.WriteTitleBgColor=!
+	conf.IconBaseUrl=$f:strcat($g:url.tpldir,en/)
+	conf.HtmlHead=<html><head></head><body bgcolor=#183F93 marginwidth=0 marginheight=0 leftmargin=0 topmargin=0 link=#183F93>
+	conf.HtmlTail=</body></html>
+
+#######################################################################################
+#
+#	목록모드 형식들...
+#
+#
+#######################################################################################
+
+list_target=_top
+
+list.headbegin.fmt=
+	($#on $q:frame==""?($##
+	
+	parse g:curr.list.frame.fmt
+	set bfmt=($#disable)
+	set tfmt=($#disable)
+	return
+	
+	$))
+	 
+	($#parse g:curr.styles.fmt)
+
+	($#on $q:frame=="menusetup"?($##
+	
+	parse g:curr.menusetup.fmt
+	set bfmt=($#disable)
+	set tfmt=($#disable)
+	return
+
+	$))
+
+
+
+list.fmt=
+	<html>
+	</head>
+	($#parse g:curr.styles.fmt)
+
+	<script language="JavaScript"> <!--
+
+	conf.fSwapImage	= false;
+	conf.fNoCtrlBtn	= false;
+	conf.align		= "left"
+	conf.ctrlon		= "($g:url.tpldir)minus.gif";
+	conf.ctrloff	= "($g:url.tpldir)plus.gif";
+
+	//--> </script>
+
+	<script language=JavaScript src="($g:url.tpl)dymenu.js"> </script>
+	<BASE TARGET="treeboard_right">
+	
+	</head>
+	<body onload="InitMenu();" bgcolor="#c0dbff" marginwidth=0 marginheight=0 leftmargin=0 topmargin=0 link=#183f93>
+
+	<DIV ALIGN=CENTER CLASS=regular style="margin-left: 0px; ">
+	<table border=0 width=100%><td align=center>
+	<img src="($g:url.tpldir)tree_top.gif" border=0>
+	
+	<a href="javascript://"
+	  onclick="wopen('($s:recall)?db=($q:db)&frame=menusetup', 'width=200','height=150'); return false;">
+	<img src="($g:url.tpldir)main_img.jpg" border=0></A>
+	</td></table>
+	</DIV>
+
+	($#strlistconf $p:conf.Category $g:curr.list.section.rfmt)
+
+
+	<DIV ALIGN=CENTER CLASS=regular>
+	<BR>
+	</DIV>
+
+list.section.rfmt=
+	($#on $s:li==0?($#return))
+	($#set lcnt=$f:eval($s:li-1))
+	<DIV ID=M($q:lcnt)Parent CLASS=parent ALIGN=left>
+		<table cellspacing=0 cellpadding=1 border=0>
+		
+		<td valign=top align=right><A HREF="#" onclick="return expandIt(($q:lcnt), true);"><IMG SRC="($g:url.tpldir)plus.gif" BORDER=0 width=25 height=14></A></td>
+		<td><A HREF="#" onmouseover="expandIt(($q:lcnt))" onclick="return expandIt(($q:lcnt), true);" class=listfont>
+		($#qputs 1 s:.ar1) </A></td></table></DIV>
+		
+
+		($#set category=$s:.ar0)
+		<DIV ID=M($q:lcnt)Child CLASS=childMenu ALIGN=left>
+			<table cellspacing=0 cellpadding=1 border=0>
+
+			($#on $s:.ar0?($#parse g:cwb.init.list.fmt)($#list g:curr.list.rfmt))
+
+			<td><img src="($g:url.icon0)blank.gif" border=0 width=25 height=1></td><td></td>
+			</table></DIV>
+		($s:LF)
+
+list.rfmt=($#enable)
+			<tr><td valign=top width=21 align=right><img src="($g:url.tpldir)arrowstop.gif" border=0></td>
+			<td><a href='($s:recall)?mode=read&num=($r:.pn)&($q:defquery)' class=listfont>
+				($#qputs 1 r:.Subject) </A></td></tr>
+
+	($#disable)
+
+#######################################################################################
+#
+#	목록모드 기타 형식들...
+#
+#
+#######################################################################################
+
+list.frame.fmt=
+	<title>($L:conf.Title)</title>
+	
+	($#init_asl guest </head><body><center>($#parse g:cwb.security.fail.fmt)</center>($#exit))
+	
+	<script language=JavaScript src="($g:url.tpl)init.js"> </script>
+	<script language=JavaScript> <!--
+	if(window.parent && ismember(window.parent.window, 'is_treeboard')) {
+		document.writeln("<!-- ");
+		window.parent.frames['treeboard_left'].document.location.reload();
+		document.location.href="($s:recall)?db=($q:db)&mode=read($#on $q:num?&num=($q:num))";
+		}
+		
+	window.is_treeboard=true;
+	// --> </script>
+
+	  <frameset cols="180,*" border=0 frameborder=0 framespacing=0>
+	  <frame name="treeboard_left"		src="($s:recall)?db=($q:db)&frame=left&f_nohead=1" SCROLLING="no" MARGINHEIGHT=0 MARGINWIDTH=0 NORESIZE>
+	  <frame name="treeboard_right"	src="($s:recall)?db=($q:db)&mode=read" SCROLLING="AUTO" MARGINHEIGHT=0 MARGINWIDTH=0>
+	  </frameset>
+	</head>
+	</html>
+	($#exit)
+
+styles.fmt=
+	<script language="JavaScript" SRC="($g:url.tpl)init.js"> </script>
+
+	<style type='text/css'> <!--
+		A:link		{ text-decoration: none; }
+		A:visited	{ text-decoration: none; }
+		A:hover		{ text-decoration: underline;}
+		DIV			{ margin-left:	5px; font-size: 10pt; }
+		A.listfont	{ font-size: 9pt; }
+	--> </style>
+
+	<comment> <style type='text/css'> <!-- 
+		.parent		{ position:	absolute; visibility: hide; text-align: left; z-index: 10;	}
+		.childMenu	{ position: absolute; visibility: hide; text-align: left; z-index: 10; font-size: 9pt; }
+		.regular	{ position: absolute; visibility: show; text-align: left; z-index: 10;	}
+	--> </style> </comment>
+
+	<script language=JavaScript> <!--
+	if(conf.isIE) document.write("<style type='text/css'>");
+	// --> </script> <!-- 
+		.regular	{ display: inline; width: 100%; text-align: left; }
+		.parent		{ display: inline; width: 100%; text-align: left; }
+		.childMenu	{ display: none; width: 100%; text-align: left; font-size: 10pt;
+			margin-left: 6px; margin-top: 0px; margin-bottom:	0px; }
+	--> </style>
+
+menusetup.fmt=
+	<body text=white bgcolor=slategray>
+
+	<center>
+	<table cellspacing=1><form action="javascript://" onsubmit='return process_setup(this);'>
+
+		<tr BGCOLOR='#333363'>
+		<th>@MENU_CONTROL@</th></tr>
+
+		<tr BGCOLOR='#111163'><td><table border=0 cellspacing=1>
+			<tr><td><font size=2>
+			<input type=checkbox name=fNoAutoOpen>  @NO_AUTO_OPEN@ </font></td></tr>
+
+			<tr><td><font size=2>
+			<input type=checkbox name=fNoAutoClose> @NO_AUTO_CLOSE@ </font></td></tr>
+
+			<tr><td><font size=2>
+			<input type=checkbox name=fExpandAll>	@ALL_OPENED_START@ </font></td></tr>	</table>
+
+		<tr BGCOLOR='#333363'>
+		<th><input type=submit   value='@APPLY@'></th></tr></form>
+
+	</table>
+	</center>
+
+	<script language='JavaScript'> <!--
+	function process_setup() { var v, f=document.forms[0];
+
+		v=(f.fNoAutoOpen.checked  ? "true" : "false");
+		SetCookie("fNoAutoOpen",  v, 30);
+
+		v=(f.fNoAutoClose.checked ? "true" : "false");
+		SetCookie("fNoAutoClose", v, 30);
+
+		v=(f.fExpandAll.checked   ? "true" : "false");
+		SetCookie("fExpandAll",   v, 30);
+
+		window.opener.window.focus();
+		window.opener.document.location.reload();
+
+		self.close();
+		return false;
+		}
+
+	function setfocus() {
+		window.focus();
+		setTimeout("setfocus();", 1000);
+		}
+
+	if(GetCookie('fNoAutoOpen')=="true")	document.forms[0].fNoAutoOpen.click();
+	if(GetCookie('fNoAutoClose')=="true")	document.forms[0].fNoAutoClose.click();
+	if(GetCookie('fExpandAll')=="true")		document.forms[0].fExpandAll.click();
+
+	window.moveTo(0,0);
+	setfocus();
+
+	//--> </script>
+	</body>
+	</html>
+
+c_head.vfmt=
+	<table border=0 cellspacing=0 cellpadding=0 width="($p:conf.TableWidth)" bgcolor=#183F93>
+	<tr>
+		<td width=3% valign=bottom><img src="($g:url.tpldir)main_01_01.gif" width=30 height=31 border=0></td>
+		<td width=92% valign=bottom align=right>
+	
+			<table border=0 cellspacing=0 cellpadding=0><td>
+			($#vparse g:curr.list.modelinks.vfmt icondir=$g:url.icon eline=</td><td>)
+			($#vparse g:curr.list.pagelinks.vfmt icondir=$g:url.icon eline=</td><td>)
+			</td></table>
+	
+	    </td>
+	</tr>
+	
+	<tr>
+	   <td BGCOLOR=#c0dbff><br></td>
+	   <td BGCOLOR=#c0dbff>
+	<br>
+		<!---------------icon-------------->
+		<table width=95% border=0>
+		<tr>
+			<td align=right>
+			($#on $v:linksfmt?($#vparse v:linksfmt icondir=$g:url.icon nolist=true))
+			($#disable)( $#vparse g:curr.read.movelinks.vfmt icondir=$g:url.icon)($#enable)
+	        </td>
+		</tr>
+	
+		</table>
+	
+		<!---------------icon end-------------->
+	
+		<!------------board------------->
+		<table border=0 cellspacing=0 cellpadding=0 width=95%>
+	  <tr>
+	    <TD width="19"><BR></td>
+	    <td align=left WIDTH=1024>
+	    
+		($#on $v:fmt1?$v:fmt1)($#else &nbsp;)
+		
+	    </td>
+	   <td width=20 align=right height=100% valign=top bgcolor=white><img src="($g:url.tpldir)round1.gif" border=0></td>
+	    <td bgcolor=white align=center valign=bottom width=1024>
+	    
+		($#on $v:fmt2?$v:fmt2)($#else &nbsp;)
+		
+	    </td>
+	    <td width=41 align=right  height=100%  valign=top BGCOLOR=white><img src="($g:url.tpldir)round2.gif"><br></td>
+	  </tr>
+	  <tr>
+	    <td colspan=5  bgcolor=white align=center valign=top height=300><br>
+
+c_tail.vfmt=
+	<br>&nbsp;
+
+	</td>
+	</tr>
+	<tr>
+	  <TD valign=bottom bgcolor=white><img src="($g:url.tpldir)round5.gif" width=19 height=21 border=0></td>
+	  <td bgcolor=white>
+	  
+  		($#on $v:fmt1?$v:fmt1)($#else &nbsp;)
+  		
+	  </td>
+	  <td valign=bottom bgcolor=white><img src="($g:url.tpldir)round3.gif" width=20 height=21 border=0></td>
+	  <td align=center valign=middle>
+	  
+	  	($#on $v:fmt2?$v:fmt2)($#else &nbsp;)
+	  	
+	  </td>
+	  <td align=right valign=top><img src="($g:url.tpldir)round4.gif" width=41 height=21 border=0></td>
+	</tr>
+	</table>
+	
+	<br>
+	<br>
+		<!----------board emd----------->
+	
+	   </td>
+	</tr>
+	<tr>
+	    <td><img src="($g:url.tpldir)main_02_01.gif" width=30 height=30 border=0></td>
+		<td width=100% align=right valign=top><font size=1 color=#A77F5D>CrazyWWWBoard <FONT COLOR=#F94145>2000</font></font>
+	    </td>
+	</tr>
+	</table>
+
+read.headbegin.fmt=
+	($##
+	set backdepth=1
+	set _backdepth=1
+	parse g:cwb.defquery.fmt
+	$)
+
+read.fmt=
+	($#vparse g:curr.c_head.vfmt linksfmt=$f:merge($g:curr.read.operlinks.vfmt,$g:curr.read.movelinks.vfmt) fmt1=$g:curr.read.info.name.fmt fmt2=$g:curr.read.info.article.fmt)
+	($#vparse g:curr.read.table.vfmt tborder=$p:conf.ReadTitleBorderSize border=$p:conf.ReadTextBorderSize cellspacing=1 width=90% nonextinfo=1 noinfo1=true)
+	($#vparse g:curr.c_tail.vfmt fmt1=$g:curr.read.info.pnview.fmt fmt2=$g:curr.read.info.time.fmt)
+
+write.fmt=
+	($#vparse g:curr.c_head.vfmt fmt1=)
+	($#parse g:default.write.fmt)
+	($#vparse g:curr.c_tail.vfmt fmt1=)
+	
+stat.fmt=
+	($#vparse g:curr.c_head.vfmt fmt1=)
+	($#parse g:default.stat.fmt)
+	($#vparse g:curr.c_tail.vfmt fmt1=)
+	
+	

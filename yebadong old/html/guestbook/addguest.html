@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Add to our Guestbook</title>
+  </head>
+<body bgcolor ="#ffffff" text="#0000aa" link ="#00aaaa" alink="#ffffff">
+    <center>
+      <h1>Add to our Guestbook</h1>
+    </center>
+
+    Fill in the blanks below to add to our guestbook.  The only blanks that you 
+    have to fill in are the comments and name section.  Thanks!<hr>
+    <form method=POST action="/cgi-bin/guestbook1.pl">
+      Your Name:<input type=text name=realname size=30><br>
+      E-Mail: <input type=text name=username size=40><br>
+      URL: <input type=text name=url size=50><br>
+      City: <input type=text name=city size=15>, State: <input type=text name=state size=2> Country: <input type=text value=Korea name=country size=15><p>
+      Comments:<br>
+      <textarea name=comments COLS=60 ROWS=4></textarea><p>
+ After you finish to fill in the blanks, make sure to click query submit.<br>
+      <input type=submit> * <input type=reset>
+    </form>
+    <hr>
+  </body>
+</html>

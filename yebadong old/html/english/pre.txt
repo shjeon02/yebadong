@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html>
+<head>
+<title>Hits:</title>
+<meta name="generator" content="Namo WebEditor v3.0">
+</head>
+
+<body bgcolor="black" text="white" link="white" vlink="silver" alink="aqua">
+
+<p>&nbsp; 
+<div align="center"><table border="0" cellpadding="2" cellspacing="0">
+    <tr>
+        <td height="117" valign="top"><p align="center"><font size="2" color="white">since 
+            April / 7/ 1994 <br> (C)Copyleft </font><font size="2">by </font><a href="mailto:shjeon@yebadong.kaist.ac.kr"><font
+             size="2">LongDal</font></a></p>
+            <p align="center">&nbsp; 
+            <div align="center"><table border="0" cellpadding="0" cellspacing="0">
+<!-

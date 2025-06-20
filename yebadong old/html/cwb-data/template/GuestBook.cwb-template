@@ -1,0 +1,91 @@
+
+initial.conf=
+	conf.TableWidth=95%
+	conf.FontSize=2
+	conf.UseSysDefHtml=true
+	conf.ListTitleFontColor=black
+	conf.ListTitleBgColor=#F7F3F7
+	conf.ListArticleFontColor=!
+	conf.ListArticleBgColor=!
+	conf.ListArticleEvenFontColor=!
+	conf.ListArticleEvenBgColor=!
+	conf.ReadTitleFontColor=white
+	conf.ReadTitleBgColor=black
+	conf.ReadTextFontColor=black
+	conf.ReadTextBgColor=#F7F3F7
+	conf.WriteTitleFontColor=black
+	conf.WriteTitleBgColor=#F7F3F7
+	conf.WriteVFieldList=hline subject homepage style dytext kinds attach upload upload hline submit
+	conf.IconBaseUrl=$f:strcat($g:url.tpldir,en/)
+
+
+list.fmt=
+	($#parse g:cwb.init.list.fmt)
+	
+	($#set lfont=$f:strcat(<font size=',$p:conf.FontSize,' color=',$L:conf.ListArticleFontColor,'>))
+	($#set _font=$f:strcat(<font size=',$p:conf.FontSize,' color=',$L:conf.ReadTextFontColor,'>))
+	
+	<table border=0 width='($p:conf.TableWidth)'><tr>
+	  <td width=30% valign=bottom align=left nowrap>($#vparse g:default.list.modelinks.vfmt icondir=$g:url.icon)</td>
+	  <td width=40% align=center valign=center nowrap>
+	    <font size='($f:eval($p:conf.FontSize-1))'>($#pmove)</font>
+	  </td>
+	  <td width=30% align=right nowrap>($#vparse g:default.list.operlinks.vfmt icondir=$g:url.icon)</td>	
+	</tr></table>
+	
+	<table border=0 width='($p:conf.TableWidth)' cellspacing=0>
+    <tr bgcolor='black'>
+      <td>&nbsp;</td>
+	  <td align=right>($#vparse g:curr.list.result.vfmt fontsize=1 fontcolor=$g:conf.ListTitleFontColor)</td>
+	</tr>
+	</table>
+	
+	($#list g:curr.list.rfmt)
+	
+	<table border=0 width='($p:conf.TableWidth)'><tr>
+	  <td width=30% align=left nowrap>($#vparse g:default.list.pagelinks.vfmt icondir=$g:url.icon)</td>	
+	  <td width=40% align=center valign=center nowrap>
+	    <font size='($f:eval($p:conf.FontSize-1))'>($#pmove)</font>
+	  </td>
+	  <td width=30% align=right nowrap>($#vparse g:default.list.operlinks.vfmt icondir=$g:url.icon)</td>	
+	</tr></table>
+	
+
+list.rfmt= 
+      
+	 <table width='($p:conf.TableWidth)' border='0'><!-- Physical number ($r:.pn) -->
+     <tr>
+       <td height=18 width=120 bgcolor='#F0F0F0' align="center"><img src='($p:url.tpldir)delete.gif'></td>
+       <td width=100%><font face='arial' size='1' color='green'>($r:.date) (($r:.time)) from '($r:.Domain)'</font></td>
+     </tr>
+     <tr>
+       <td height=18 width=120 bgcolor='#F0F0F0' align="center">($q:lfont)@NAME@</font></td>
+       <td width=100%><NOBR><font size='($p:conf.FontSize)'>($#on $r:.ID? ($#qputs 1 r:.Name) [($#on $r:.Email?<a href="mailto: ($#vparse g:email.htmltolist.vfmt onlyone=true name=$r:.Name list=$r:.Email)"> <b>($r:.ID)</b> </a>)($#else  <b>($r:.ID)</b>) ])
+       ($#else ($r:.Name) <WBR>($#parse g:curr.read.email.fmt))
+       </font></NOBR>
+       </td>
+     </tr>
+     ($#on $r:.HomePage?<tr>
+       <td height=18 width=120 bgcolor='#F0F0F0' align="center">($q:lfont)@HOMEPAGE@</font></td>
+       <td width=100%><font size='($p:conf.FontSize)'>($#qputs 2 r:.HomePage)</font></td>
+     </tr>)
+     <tr>
+       <td width=120 bgcolor='#F0F0F0' align="center">
+         <a href='($s:recall)?db=($q:db)&mode=read&num=($r:.pn)&backdepth=1'>($q:lfont)@COMMENT@</font></a>
+       </td>
+       <td width=100%>
+         <a href='($s:recall)?db=($q:db)&mode=read&num=($r:.pn)&backdepth=1'>($q:_font)
+         ($#on $q:isurl==""?<b> ($#qputs2 1 r:.Subject L:conf.WordChanges) </b>)</a>
+         ($#on $r:.Filename?($#strlist $r:.Filename $g:curr.dnicon.rfmt))
+         ($#on $q:isurl==""?<br>)<br>
+            
+         ($#parse g:default.read.text.rfmt)
+         </a></font>
+       </td>
+     </tr>
+     <tr>
+       <td width=120><img src='($p:url.tpldir)line.gif' height=1 width=120></td>
+       <td width=100%><img src='($p:url.tpldir)line.gif' height=1 width=100%></td>
+     </tr>
+     </table>
+   

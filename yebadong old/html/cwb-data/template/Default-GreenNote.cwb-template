@@ -1,0 +1,160 @@
+
+initial.conf=
+	conf.TableWidth=95%
+	conf.FontSize=2
+	conf.UseSysDefHtml=true
+	conf.ListTitleFontColor=white
+	conf.ListTitleBgColor=#829087
+	conf.ListArticleFontColor=black
+	conf.ListArticleBgColor=#F8FFDE
+	conf.ListArticleEvenFontColor=black
+	conf.ListArticleEvenBgColor=#F8FFDE
+	conf.ReadTitleFontColor=white
+	conf.ReadTitleBgColor=#829087
+	conf.ReadTextFontColor=black
+	conf.ReadTextBgColor=ivory
+	conf.WriteTitleFontColor=white
+	conf.WriteTitleBgColor=#849284
+	conf.IconBaseUrl=$f:strcat($g:url.tpldir,en/)
+
+c_head.fmt=
+	<table width="($L:conf.TableWidth)" border=0 cellspacing=0 cellpadding=0>
+	<tr>
+	  <td background="($g:url.tpldir)ring.gif" width=32 height=45 border=0><br></td>
+	</tr>
+	<tr>
+	<td align=center valign=top BGCOLOR="#BEEC28" height=300>
+
+c_tail.vfmt=
+	<font size=1><br></font>
+	</td><tr><td>
+	
+	<table border=0 cellspacing=0 cellpadding=0 width="100%"><tr>
+		<td width=60% background="($g:url.tpldir)bottom.gif" height=34 border=0 align=center>
+			($#on $q:mode=="list"?
+			<font size='($f:eval($p:conf.FontSize-1))'>
+			($#pmove)
+			</font>)
+			</td>
+		<td width=2%% valign=bottom BGCOLOR="#BEEC28"><img src="($g:url.tpldir)bottom2.gif" border=0></td>
+		<td width=34% BGCOLOR="#BEEC28" align=center nowrap>
+			($#on $v:linkfmt?($#vparse v:linkfmt icondir=$g:url.icon))
+			</td>
+		<td width=4% align=right valign=bottom BGCOLOR="#BEEC28"><img src="($g:url.tpldir)bottom4.gif" border=0></td>
+		</tr></table>
+
+	</td></tr></table>
+
+
+list.fmt=
+	($#parse g:cwb.init.list.fmt)
+	($#parse g:curr.c_head.fmt)
+	
+	<!--------------------admin---------------->
+	<table width=95% border=0>
+	<tr>
+		<td align=center>
+	    <img src="($g:url.tpldir)ball.gif" width=6 height=8 border=0>
+	    ($#vparse g:curr.list.result.vfmt fontsize=$f:eval($p:conf.FontSize-1))</td>
+		<td rowspan=2 align=right>
+	
+	<!--------------------search---------------->     
+	<table border=0 cellspacing=0 cellpadding=0>
+	<tr>
+		<td colspan=4 align=left  BGCOLOR="#BEEC28"><img src="($g:url.tpldir)search.gif" width=118 height=17 border=0></td>
+	</tr>
+	<tr>
+	   <td width=28  align=right BGCOLOR="#BEEC28"><img src="($g:url.tpldir)search01_01.gif" width=28 height=2 border=0 alt=""></td>
+	   <td width=12><img src="($g:url.tpldir)search01_02.gif" width=12 height=2 border=0 alt=""></td>
+	   <td bgcolor=#7D972A width=350><img src="($g:url.tpldir)top_line.gif" width=350 height=2 border=0></td>
+	   <td width=12 BGCOLOR="#BEEC28"><img src="($g:url.tpldir)search01_03.gif" width=12 height=2 border=0 alt=""></td>
+	</tr>
+	
+	<tr><form method='post' action='($s:recall)'>
+	   <input type='hidden' name='db'   value='($q:db)'>
+	   <input type='hidden' name='mode' value='list'>
+	   
+	   <td align=right BGCOLOR="#BEEC28"><img src="($g:url.tpldir)search02_01.gif" border=0 alt=""></td>
+	   <td><img src="($g:url.tpldir)search02_02.gif" width=12 height=36 border=0 alt=""></td>
+	   <td align=center bgcolor=white nowrap>
+	   
+	<!--------------------------form------------------------>
+			<font size='($p:conf.FontSize)'>
+		      @NAME@ <input type='checkbox' name='fname' value='checked' ($#on $f:eval($q:ftype&1)==1?checked)>
+		      ($#on $p:conf.SubjectText?($p:conf.SubjectText) : @SUBJECT@) <input type='checkbox' name='fsubject' value='checked' ($#on $f:eval($q:ftype&2)==2?checked)>
+		      @BODY@ <input type='checkbox' name='ftext' value='checked' ($#on $f:eval($q:ftype&4)==4?checked)>
+		    </font>
+    	    <font size=3><input type='text' name='fval' value='($q:fval)' size=14 maxlength=20><input type='submit' value='@SEARCH@'></font>
+	
+	<!--------------------------form end------------------------>
+	   </td>   
+	   <td><img src="($g:url.tpldir)search02_03.gif" border=0 alt=""></td>
+	</tr></form>
+	
+	<tr>
+	   <td></td>
+	   <td><img src="($g:url.tpldir)search03_02.gif" width=12 height=2 border=0 alt=""></td>
+	   <td bgcolor=#7D972A width=350><img src="($g:url.tpldir)top_line.gif" width=350 height=2 border=0></td>
+	   <td><img src="($g:url.tpldir)search03_03.gif" width=12 height=2 border=0 alt=""></td>
+	</tr>
+	
+	</table>
+	
+	
+	<!--------------------search end---------------->  
+	    </td>
+	</tr>
+	<tr>
+		<td align=center VALIGN=bottom nowrap>
+		  ($#vparse g:curr.list.modelinks.vfmt icondir=$g:url.icon)
+		  ($#vparse g:curr.list.pagelinks.vfmt icondir=$g:url.icon)
+	    </td>
+	</tr>
+	</table>
+	
+	<!--------------------admin end---------------->
+	
+	
+	<br>
+	<table border="0" cellpadding="0" cellspacing="0" bgcolor="#829087" width=95%><tr><td>
+	              
+	($##
+
+	set tsize=$p:conf.FontSize
+	set tfont=$f:strcat(<font size=',$q:tsize,' color=',$L:conf.ListTitleFontColor,'>)
+	set lfont=$f:strcat(<font size=',$p:conf.FontSize,' color=',$L:conf.ListArticleFontColor,'>)
+	set lfont2=$f:strcat(<font size=',$p:conf.FontSize,' color=',$L:conf.ListArticleFontColor,'>)
+
+	vparse g:curr.list.table.vfmt border=0 cellspacing=1 cellpadding=0 width=100%
+	
+	$)
+	
+	</td>
+	</tr>
+	</table>
+
+	<!----------------------------------------------------------->
+	<!-- Page Link -->
+	
+	($#vparse g:curr.c_tail.vfmt linkfmt=$g:curr.list.operlinks.vfmt)
+	
+read.fmt=	
+	($##
+	parse g:curr.c_head.fmt
+	#vparse g:default.read.table.vfmt noinfo1=yes tborder=$p:conf.ReadTitleBorderSize border=$p:conf.ReadTextBorderSize cellspacing=1 width=90%
+	parse g:default.read.fmt
+	vparse g:curr.c_tail.vfmt linkfmt=
+	$)
+	
+
+write.fmt=	
+	($#parse g:curr.c_head.fmt)
+	($#parse g:default.write.fmt)
+	($#vparse g:curr.c_tail.vfmt linkfmt=)
+	
+
+stat.fmt=	
+	($#parse g:curr.c_head.fmt)
+	($#parse g:default.stat.fmt)
+	($#vparse g:curr.c_tail.vfmt linkfmt=)
+	

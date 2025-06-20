@@ -2,6 +2,8 @@ import React from 'react'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import { Header } from '../components/Header'
+import { Footer } from '../components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -35,9 +37,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko" suppressHydrationWarning>
-      <body className={`${inter.className} bg-dark-950 text-white antialiased`}>
-        <div className="min-h-screen flex flex-col">
-          {children}
+      <body className={`${inter.className} bg-white text-gray-800 antialiased`}>
+        <div className="flex flex-col min-h-screen">
+          <Header />
+          <main className="flex-grow">{children}</main>
+          <Footer />
         </div>
       </body>
     </html>
