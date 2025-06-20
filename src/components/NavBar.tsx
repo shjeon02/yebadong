@@ -17,28 +17,30 @@ export default function NavBar() {
   ]
 
   return (
-    <nav className="flex justify-center flex-wrap gap-x-6 gap-y-2 py-3 border-t border-gray-200 text-sm bg-blue-100">
-      {navItems.map(({ label, href, external }) => (
-        external ? (
-          <a
-            key={label}
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-3 py-2 font-medium text-gray-500 hover:text-primary-600 transition-colors duration-200 rounded-md hover:bg-gray-200"
-          >
-            {label}
-          </a>
-        ) : (
-          <Link
-            key={label}
-            href={href}
-            className="px-3 py-2 font-medium text-gray-500 hover:text-primary-600 transition-colors duration-200 rounded-md hover:bg-gray-200"
-          >
-            {label}
-          </Link>
-        )
-      ))}
+    <nav className="w-full">
+      <div className="flex justify-center items-center gap-x-6 sm:gap-x-8 py-3 text-sm font-medium">
+        {navItems.map(({ label, href, external }) => (
+          external ? (
+            <a
+              key={label}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-black transition-colors"
+            >
+              {label}
+            </a>
+          ) : (
+            <Link
+              key={label}
+              href={href}
+              className="text-gray-600 hover:text-black transition-colors"
+            >
+              {label}
+            </Link>
+          )
+        ))}
+      </div>
     </nav>
   )
 } 
