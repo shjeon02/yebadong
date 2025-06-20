@@ -1,0 +1,302 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS Variables */
+:root {
+  --color-primary: #6366f1;
+  --color-secondary: #f97316;
+  --color-dark-bg: #020617;
+  --color-dark-surface: #1e293b;
+  --font-heading: 'Pretendard Variable', 'Inter', system-ui, sans-serif;
+  --font-body: 'Pretendard Variable', 'Inter', system-ui, sans-serif;
+}
+
+/* Base Styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1e293b;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+  }
+}
+
+/* Component Styles */
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-dark-950;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary-500 text-white hover:bg-primary-600 focus:ring-primary-500 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-secondary-500 text-white hover:bg-secondary-600 focus:ring-secondary-500;
+  }
+  
+  .btn-outline {
+    @apply btn border-2 border-primary-500 text-primary-500 hover:bg-primary-500 hover:text-white focus:ring-primary-500;
+  }
+  
+  .btn-ghost {
+    @apply btn text-gray-300 hover:text-white hover:bg-dark-700 focus:ring-gray-500;
+  }
+  
+  .btn-sm {
+    @apply px-3 py-1.5 text-sm;
+  }
+  
+  .btn-md {
+    @apply px-4 py-2 text-base;
+  }
+  
+  .btn-lg {
+    @apply px-6 py-3 text-lg;
+  }
+  
+  .card {
+    @apply bg-dark-800 border border-dark-700 rounded-lg shadow-lg transition-all duration-200;
+  }
+  
+  .card-hover {
+    @apply card hover:bg-dark-700 hover:border-dark-600 hover:shadow-xl hover:-translate-y-1;
+  }
+  
+  .input {
+    @apply w-full px-3 py-2 bg-dark-800 border border-dark-700 rounded-lg text-white placeholder-gray-400 focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-colors;
+  }
+  
+  .genre-tag {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium uppercase tracking-wide;
+  }
+  
+  .genre-prog {
+    @apply genre-tag bg-primary-500/20 text-primary-400 border border-primary-500/30;
+  }
+  
+  .genre-metal {
+    @apply genre-tag bg-red-500/20 text-red-400 border border-red-500/30;
+  }
+  
+  .genre-ambient {
+    @apply genre-tag bg-cyan-500/20 text-cyan-400 border border-cyan-500/30;
+  }
+  
+  .genre-experimental {
+    @apply genre-tag bg-purple-500/20 text-purple-400 border border-purple-500/30;
+  }
+  
+  .genre-classic {
+    @apply genre-tag bg-yellow-500/20 text-yellow-400 border border-yellow-500/30;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent;
+  }
+  
+  .glow-effect {
+    @apply shadow-glow;
+  }
+  
+  .album-art {
+    @apply relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 hover:scale-105;
+  }
+  
+  .album-art::after {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-br from-transparent via-white/10 to-transparent opacity-0 transition-opacity duration-300;
+  }
+  
+  .album-art:hover::after {
+    @apply opacity-100;
+  }
+  
+  .rating-stars {
+    @apply flex items-center gap-1;
+  }
+  
+  .rating-star {
+    @apply w-4 h-4 text-secondary-500;
+  }
+  
+  .rating-star.filled {
+    @apply text-secondary-400;
+  }
+  
+  .rating-star.empty {
+    @apply text-dark-600;
+  }
+}
+
+/* Utility Classes */
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  }
+  
+  .backdrop-blur-glass {
+    backdrop-filter: blur(12px);
+    background: rgba(15, 23, 42, 0.8);
+  }
+  
+  .gradient-border {
+    background: linear-gradient(135deg, #6366f1, #f97316);
+    padding: 1px;
+    border-radius: 0.5rem;
+  }
+  
+  .gradient-border > * {
+    background: #1e293b;
+    border-radius: calc(0.5rem - 1px);
+  }
+  
+  .animate-pulse-slow {
+    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  
+  .line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+  
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  
+  .line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.6s ease-out;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.6s ease-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+  .card {
+    border-width: 2px;
+  }
+  
+  .btn-outline {
+    border-width: 3px;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+} 
