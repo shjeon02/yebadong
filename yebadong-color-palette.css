@@ -1,0 +1,335 @@
+/* Yebadong Color Palette & Typography System */
+
+:root {
+  /* Primary Colors - Progressive Rock Inspired */
+  --color-primary-50: #f0f4ff;
+  --color-primary-100: #e0e7ff;
+  --color-primary-200: #c7d2fe;
+  --color-primary-300: #a5b4fc;
+  --color-primary-400: #818cf8;
+  --color-primary-500: #6366f1; /* Main brand color */
+  --color-primary-600: #4f46e5;
+  --color-primary-700: #4338ca;
+  --color-primary-800: #3730a3;
+  --color-primary-900: #312e81;
+  --color-primary-950: #1e1b4b;
+
+  /* Secondary Colors - Warm Accent */
+  --color-secondary-50: #fef7ee;
+  --color-secondary-100: #fdedd3;
+  --color-secondary-200: #fbd5a5;
+  --color-secondary-300: #f8b76d;
+  --color-secondary-400: #f59332;
+  --color-secondary-500: #f97316; /* Orange accent */
+  --color-secondary-600: #ea580c;
+  --color-secondary-700: #c2410c;
+  --color-secondary-800: #9a3412;
+  --color-secondary-900: #7c2d12;
+  --color-secondary-950: #431407;
+
+  /* Dark Theme Base */
+  --color-dark-50: #f8fafc;
+  --color-dark-100: #f1f5f9;
+  --color-dark-200: #e2e8f0;
+  --color-dark-300: #cbd5e1;
+  --color-dark-400: #94a3b8;
+  --color-dark-500: #64748b;
+  --color-dark-600: #475569;
+  --color-dark-700: #334155;
+  --color-dark-800: #1e293b; /* Card backgrounds */
+  --color-dark-900: #0f172a; /* Main background */
+  --color-dark-950: #020617; /* Deepest background */
+
+  /* Semantic Colors */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  --color-info: #3b82f6;
+
+  /* Music Genre Colors */
+  --color-prog-rock: #6366f1;
+  --color-metal: #dc2626;
+  --color-ambient: #06b6d4;
+  --color-experimental: #8b5cf6;
+  --color-classic: #f59e0b;
+
+  /* Typography */
+  --font-heading: 'Pretendard Variable', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Pretendard Variable', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
+
+  /* Font Sizes */
+  --text-xs: 0.75rem;    /* 12px */
+  --text-sm: 0.875rem;   /* 14px */
+  --text-base: 1rem;     /* 16px */
+  --text-lg: 1.125rem;   /* 18px */
+  --text-xl: 1.25rem;    /* 20px */
+  --text-2xl: 1.5rem;    /* 24px */
+  --text-3xl: 1.875rem;  /* 30px */
+  --text-4xl: 2.25rem;   /* 36px */
+  --text-5xl: 3rem;      /* 48px */
+  --text-6xl: 3.75rem;   /* 60px */
+
+  /* Line Heights */
+  --leading-tight: 1.25;
+  --leading-snug: 1.375;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+  --leading-loose: 2;
+
+  /* Spacing */
+  --space-xs: 0.5rem;    /* 8px */
+  --space-sm: 1rem;      /* 16px */
+  --space-md: 1.5rem;    /* 24px */
+  --space-lg: 2rem;      /* 32px */
+  --space-xl: 3rem;      /* 48px */
+  --space-2xl: 4rem;     /* 64px */
+  --space-3xl: 6rem;     /* 96px */
+
+  /* Border Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, var(--color-primary-500), var(--color-primary-700));
+  --gradient-secondary: linear-gradient(135deg, var(--color-secondary-500), var(--color-secondary-700));
+  --gradient-dark: linear-gradient(135deg, var(--color-dark-800), var(--color-dark-900));
+  --gradient-hero: linear-gradient(135deg, var(--color-dark-900) 0%, var(--color-primary-900) 100%);
+}
+
+/* Typography Classes */
+.heading-1 {
+  font-family: var(--font-heading);
+  font-size: var(--text-6xl);
+  font-weight: 800;
+  line-height: var(--leading-tight);
+  letter-spacing: -0.025em;
+}
+
+.heading-2 {
+  font-family: var(--font-heading);
+  font-size: var(--text-4xl);
+  font-weight: 700;
+  line-height: var(--leading-tight);
+  letter-spacing: -0.025em;
+}
+
+.heading-3 {
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  font-weight: 600;
+  line-height: var(--leading-snug);
+}
+
+.body-large {
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  line-height: var(--leading-relaxed);
+}
+
+.body-base {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+}
+
+.body-small {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+}
+
+.caption {
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  line-height: var(--leading-normal);
+  color: var(--color-dark-400);
+}
+
+/* Component Styles */
+.card {
+  background: var(--color-dark-800);
+  border: 1px solid var(--color-dark-700);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  background: var(--color-dark-700);
+  border-color: var(--color-dark-600);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.button-primary {
+  background: var(--gradient-primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: var(--space-sm) var(--space-lg);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: var(--text-base);
+  box-shadow: var(--shadow-md);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-1px);
+}
+
+.button-secondary {
+  background: var(--gradient-secondary);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: var(--space-sm) var(--space-lg);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: var(--text-base);
+  box-shadow: var(--shadow-md);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.button-outline {
+  background: transparent;
+  color: var(--color-primary-500);
+  border: 2px solid var(--color-primary-500);
+  border-radius: var(--radius-md);
+  padding: calc(var(--space-sm) - 2px) calc(var(--space-lg) - 2px);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: var(--text-base);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.button-outline:hover {
+  background: var(--color-primary-500);
+  color: white;
+}
+
+/* Music Genre Tags */
+.genre-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-full);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.genre-tag.prog-rock {
+  background: color-mix(in srgb, var(--color-prog-rock) 20%, transparent);
+  color: var(--color-prog-rock);
+  border: 1px solid color-mix(in srgb, var(--color-prog-rock) 30%, transparent);
+}
+
+.genre-tag.metal {
+  background: color-mix(in srgb, var(--color-metal) 20%, transparent);
+  color: var(--color-metal);
+  border: 1px solid color-mix(in srgb, var(--color-metal) 30%, transparent);
+}
+
+.genre-tag.ambient {
+  background: color-mix(in srgb, var(--color-ambient) 20%, transparent);
+  color: var(--color-ambient);
+  border: 1px solid color-mix(in srgb, var(--color-ambient) 30%, transparent);
+}
+
+/* Rating System */
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.rating-star {
+  width: 1rem;
+  height: 1rem;
+  fill: var(--color-secondary-500);
+}
+
+.rating-star.empty {
+  fill: var(--color-dark-600);
+}
+
+/* Album Art Styles */
+.album-art {
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+.album-art::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.1) 50%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.album-art:hover::after {
+  opacity: 1;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  .heading-1 {
+    font-size: var(--text-4xl);
+  }
+  
+  .heading-2 {
+    font-size: var(--text-3xl);
+  }
+  
+  .heading-3 {
+    font-size: var(--text-xl);
+  }
+}
+
+/* Dark Mode Enhancements */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+  .card {
+    border-width: 2px;
+  }
+  
+  .button-outline {
+    border-width: 3px;
+  }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+} 

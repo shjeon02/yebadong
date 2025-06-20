@@ -1,0 +1,45 @@
+import React from 'react'
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+import './globals.css'
+
+const inter = Inter({ subsets: ['latin'] })
+
+export const metadata: Metadata = {
+  title: 'Yebadong - Progressive Rock Korea Community',
+  description: 'Korean Progressive Rock Community since 1994. Reviews, interviews, discussions about progressive rock music.',
+  keywords: ['progressive rock', 'prog rock', 'korea', 'music community', 'reviews', 'interviews'],
+  authors: [{ name: 'Yebadong Community' }],
+  openGraph: {
+    title: 'Yebadong - Progressive Rock Korea',
+    description: 'Korean Progressive Rock Community since 1994',
+    type: 'website',
+    locale: 'ko_KR',
+    siteName: 'Yebadong',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Yebadong - Progressive Rock Korea',
+    description: 'Korean Progressive Rock Community since 1994',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="ko" suppressHydrationWarning>
+      <body className={`${inter.className} bg-dark-950 text-white antialiased`}>
+        <div className="min-h-screen flex flex-col">
+          {children}
+        </div>
+      </body>
+    </html>
+  )
+} 
