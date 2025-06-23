@@ -41,6 +41,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/poll/[slug]/page.js"
     ],
+    "/link/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/link/page.js"
+    ],
+    "/link/[slug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/link/[slug]/page.js"
+    ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
