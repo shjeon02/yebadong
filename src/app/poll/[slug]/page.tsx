@@ -21,7 +21,10 @@ async function getPollContent(slug: string) {
   const filePath = path.join(process.cwd(), 'src/app/poll', `${slug}.html`);
   try {
     const fileContents = await fs.readFile(filePath, 'utf8');
-    return fileContents;
+    // Extract content within <body> tags, or use the whole file if no <body> tag is found.
+    const bodyMatch = fileContents.match(/<body[^>]*>([\s\S]*)<\/body>/i);
+    const content = bodyMatch ? bodyMatch[1] : fileContents;
+    return content;
   } catch (error) {
     return null;
   }
@@ -35,6 +38,8 @@ export default async function PollDetailsPage({ params }: { params: { slug: stri
   }
 
   return (
-    <div className="prose max-w-none p-8" dangerouslySetInnerHTML={{ __html: content }} />
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="prose max-w-none" dangerouslySetInnerHTML={{ __html: content }} />
+    </div>
   );
 } 

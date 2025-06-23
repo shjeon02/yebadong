@@ -3,8 +3,7 @@ import Link from 'next/link'
 
 export default function NavBar() {
   const navItems = [
-    { label: 'Home', href: '/' },
-    { label: 'Yebadong', href: '/intro' },
+    { label: 'About Us', href: '/intro' },
     { label: 'Interview', href: '/interview' },
     { label: 'Poll', href: '/poll' },
     { label: 'Link', href: '/link' },
