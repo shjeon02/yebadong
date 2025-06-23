@@ -23,11 +23,11 @@ export default function PollPage() {
     { slug: 'ybd-poll19', title: '19회: 1998년 결산 (Album Guide)' },
     { slug: 'ybd-poll20', title: '20회: 미녀와 야수 아티스트' },
     { slug: 'ybd-poll21', title: '21회: Pink Floyd 및 무인도 앨범' },
-    { slug: 'camel2000', title: 'Camel (2000년)' },
-    { slug: 'vocal2000', title: '보컬리스트 (2000년)' },
-    { slug: '890', title: '80년대 & 90년대 앨범 (2000년)' },
-    { slug: 'live', title: '라이브 앨범 (2000년)' },
-    { slug: 'briefpoll', title: '커버 아트 (간략)' },
+    { slug: 'camel2000', title: '22회: Camel (2000년)' },
+    { slug: 'vocal2000', title: '23회: 보컬리스트 (2000년)' },
+    { slug: '890', title: '24회: 80년대 & 90년대 앨범 (2000년)' },
+    { slug: 'live', title: '25회: 라이브 앨범 (2000년)' },
+    { slug: 'briefpoll', title: '26회: 커버 아트 (간략)' },
   ];
 
   return (
