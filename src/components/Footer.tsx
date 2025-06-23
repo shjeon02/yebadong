@@ -15,7 +15,7 @@ export const Footer = () => {
           <div>
             <h3 className="text-lg font-bold text-gray-900">Links</h3>
             <ul className="mt-2 space-y-2 text-sm">
-              <li><a href="/about" className="text-gray-500 hover:text-primary-600 transition-colors">About Us</a></li>
+              <li><a href="/intro" className="text-gray-500 hover:text-primary-600 transition-colors">About Us</a></li>
               <li><a href="/contact" className="text-gray-500 hover:text-primary-600 transition-colors">Contact</a></li>
               <li><a href="/privacy" className="text-gray-500 hover:text-primary-600 transition-colors">Privacy Policy</a></li>
             </ul>
