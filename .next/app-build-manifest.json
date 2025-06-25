@@ -1,5 +1,10 @@
 {
   "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -11,10 +16,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/error.js"
     ],
-    "/page": [
+    "/review/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/review/page.js"
     ],
     "/interview/page": [
       "static/chunks/webpack.js",
@@ -26,35 +31,85 @@
       "static/chunks/main-app.js",
       "static/chunks/app/interview/[slug]/page.js"
     ],
-    "/intro/page": [
+    "/review/b/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/intro/page.js"
+      "static/chunks/app/review/b/page.js"
+    ],
+    "/review/b/jeffbeck/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/jeffbeck/page.js"
+    ],
+    "/review/a/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/a/page.js"
     ],
     "/poll/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/poll/page.js"
     ],
-    "/poll/[slug]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/poll/[slug]/page.js"
-    ],
     "/link/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/link/page.js"
     ],
-    "/link/[slug]/page": [
+    "/intro/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/link/[slug]/page.js"
+      "static/chunks/app/intro/page.js"
     ],
-    "/_not-found/page": [
+    "/review/a/2066andthen/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/review/a/2066andthen/page.js"
+    ],
+    "/review/a/abraxas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/a/abraxas/page.js"
+    ],
+    "/review/b/bacamarte/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/bacamarte/page.js"
+    ],
+    "/review/b/baberuth/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/baberuth/page.js"
+    ],
+    "/review/b/barclayjamesharvest/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/barclayjamesharvest/page.js"
+    ],
+    "/poll/[slug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/poll/[slug]/page.js"
+    ],
+    "/review/a/affinity/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/a/affinity/page.js"
+    ],
+    "/review/a/aireydon/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/a/aireydon/page.js"
+    ],
+    "/review/b/bakerloo/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/bakerloo/page.js"
+    ],
+    "/review/b/banco/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/banco/page.js"
     ]
   }
 }

@@ -1,9 +1,7 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js",
-  "/interview/page": "app/interview/page.js",
-  "/link/page": "app/link/page.js",
-  "/link/[slug]/page": "app/link/[slug]/page.js",
-  "/intro/page": "app/intro/page.js",
-  "/poll/page": "app/poll/page.js"
+  "/review/a/page": "app/review/a/page.js",
+  "/review/page": "app/review/page.js",
+  "/review/b/bacamarte/page": "app/review/b/bacamarte/page.js",
+  "/review/b/banco/page": "app/review/b/banco/page.js",
+  "/review/a/abraxas/page": "app/review/a/abraxas/page.js"
 }
