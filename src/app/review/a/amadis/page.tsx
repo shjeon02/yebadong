@@ -1,0 +1,22 @@
+import Link from "next/link";
+
+export default function Amadis() {
+  return (
+    <div className="bg-white text-gray-900 max-w-3xl mx-auto px-6 py-12 rounded-lg shadow-md">
+      <Link href="/review/a" className="text-blue-600 hover:underline block mb-8">목록으로 돌아가기</Link>
+      <h2 className="text-2xl font-bold mb-4">Amadis</h2>
+      <div className="space-y-4 text-base leading-7">
+        <p>[김진석, jindor@mmrnd.sec.samsung.co.kr]</p>
+        <p>
+          Amadis는 프랑스의 심포닉 록 밴드로, 1975년에 "Amadis"라는 앨범을 발표했습니다. 이 앨범은 클래식과 록의 조화, 그리고 서정적인 멜로디가 돋보이는 작품입니다.
+        </p>
+        <p>
+          특히 키보드와 기타의 조화, 그리고 곡마다 변화무쌍한 전개가 인상적입니다. 프랑스 록 특유의 감성과 함께 높은 완성도를 자랑합니다.
+        </p>
+        <p>
+          심포닉 록을 좋아하는 분들에게 추천할 만한 앨범입니다.
+        </p>
+      </div>
+    </div>
+  );
+} 
