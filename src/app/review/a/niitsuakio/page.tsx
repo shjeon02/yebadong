@@ -2,10 +2,11 @@ import Link from "next/link";
 
 export default function ReviewNiitsuAkio() {
   return (
-    <section className="bg-white text-[#0000aa] rounded-xl shadow p-6 mb-8">
-      <h3 className="text-2xl font-semibold mb-4">Niitsu Akio</h3>
-      <p className="mb-2 whitespace-pre-line">[Neo-Zao, 김남웅]</p>
-      <p className="mb-2 whitespace-pre-line">
+    <main className="bg-white min-h-screen text-[#0000aa] py-12 px-4">
+      <div className="max-w-3xl mx-auto">
+        <h2 className="text-3xl font-bold text-center mb-6">Niitsu Akio</h2>
+        <p className="mb-2 whitespace-pre-line">[Neo-Zao, 김남웅]</p>
+        <p className="mb-2 whitespace-pre-line">
 Niitsu Akio - I.O ('77, Philips Japan)
 
 음악은 시간의 예술이다. 악보는 통시성을 보장하지만 연주는 그렇지 못하다. 서양중세의 음유시인들이나 동양의 광대들의 노래(육성)는 그 실체가 남아 있지 않지만 현대의 광대들에겐 그들의 연주와 목소리를 영원히 새겨둘 매체가 존재한다. 현대의 광대는 너무나 행복하다.
@@ -20,15 +21,16 @@ Niitsu Akio - I.O ('77, Philips Japan)
 
 Niitsu Akio란 인물에 대해서는 아는 바가 없다. 꼭 장미화가 만발한 공간을 의미하는 것은 아니지만 비밀의 정원에 수십년동안 들어가 보기 못한 이유로 일본의 대중음악세께는 여전히 미지의 대상이다. 이 인물은 아마도 progressive field에 속한 인물은 아닌 듯 하다. 그나마 가지고 있는 몇몇 자료들 속에 그의 이름은 존재하지 않는다. 즉, 그의 음악적 배경에 대해 알 노릇이 없기 때문에 이 음반 단 한장으로 그의 음악을 언급하는 용기를 부려본다. 
 
-'77에 일본 PHILIPS에서 발매된 이 앨범 _I/O_의 주제는 Akio자신의 말대로 동심의 세계이다. 좀 더 상투적인 일본적 표현으로 말한다면, 메르헨의 세계이다. 나는 이 음반을 들으며 놀라움을 금치 못 했는데 (나는 일본의 대중음악을 들으며 好/不好를 느낀 적은 있지만 크게 놀라본 적은 없다) 그 것은 일본이란 음악시장의 뿌리깊음과 그 수준이 매우 높기 때문이었다. 전혀 정보가 없는 이러한 뮤지션의 음악이 이렇게 좋은 음악을 담고 있다니..
+'77에 일본 PHILIPS에서 발매된 이 앨범 _I/O_의 주제는 Akio자신의 말대로 동심의 세계이다. 좀 더 상투적인 일본적 표현으로 말한다면, 메르헨의 세계이다. 나는 이 음반을 들으며 놀라움을 금치 못 했는데 (나는 일본의 대중음악을 들으며 好/不好를 느낀 적은 있지만 크게 놀라본 적은 없다) 그 것은 일본이란 음악시장의 뿌리깊음과 그 수준이 매우 높기 때문이었다. 전혀 정보가 없는 이러한 뮤지션의 음악이 이렇게 좋은 음악을 담고 있다니..
 
 Aiko는 기타를 메인악기로 자신의 음반을 혼자서 만들어 낸 능력있는 뮤지션이다. 일본인 특유의 유치하지만 호감이 가는 제목의 첫 곡, Orange Paradox가 흘러나오자 나는 정신을 집중하지 않을 수 없었다. 70년대의 이리숙한 rhythm box가 깔린 상태에서 각 종의 effect가 가미된 협대역의 기타연주에 의한 담백함이 흔하게 들을 수 없는 독특한 형태로 전달되 온다. 무엇보다 그 멜로디 능력의 탁월함과 난잡하지 않은 따스함이 마음을 사로 잡는다. 이어지는 곡들에서 그는 경우는 매우 다르지만 마치 Leon Redbone과도 같이 현대의 화석같은 이미지의, 20세기 초의 캬바레풍의 회고적 선율과 바로크 시대의 대위법적 선율을 기타로 들려준다. Music of Sparkle이란 곡은 오르골의 소리를 기타로 재현한 것인데 완벽한 박자감의 피킹실력은 '77년이란 시점을 생각할 때, 세계적 수준이라고 생각한다. (아마도 그는 클래시컬 기타를 훈련한 것으로 생각된다.) 8분대의 미래영겁과 12분대의 미궁의 숲이란 곡에서 나는 그가 Gandalf의 능력에 버금가는 뮤지션이라는 생각을 굳혔다. Fuzz와 Sustainer가 깊게 걸린 기타와 oscilator의 가녀린 정적의 묘미가 지극히 예쁜 멜로디와 함께 부유한다. 
 
 음반전체적으로는 약간의 힘이 결여됨이 눈에 띄지만 이런 異種의 경험은 흔히 할 수 없는 것이다. 훌륭하다!
-      </p>
-      <div className="mt-6">
-        <Link href="/review/a" className="text-blue-600 hover:underline">목록으로 돌아가기</Link>
+        </p>
+        <div className="mt-8 text-center">
+          <Link href="/review/a" className="inline-block px-4 py-2 bg-[#0000aa] text-white rounded hover:bg-[#2222cc]">목록으로 돌아가기</Link>
+        </div>
       </div>
-    </section>
+    </main>
   );
 } 

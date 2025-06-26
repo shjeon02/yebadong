@@ -2,123 +2,68 @@ import Link from "next/link";
 
 export default function AlanParsonsProject() {
   return (
-    <div className="bg-white text-gray-900 max-w-3xl mx-auto px-6 py-12 rounded-lg shadow-md">
-      <Link href="/review/a" className="text-blue-600 hover:underline block mb-8">목록으로 돌아가기</Link>
-      <h2 className="text-2xl font-bold mb-4">Alan Parsons Project</h2>
-      <div className="space-y-4 text-base leading-7">
-        <p>[유영재, espiritu@hitel.net, 96.1]</p>
-        <p>
-          70년대 중반부터 80년대 중반까지 왕성한 활동을 펼쳤던 Alan Parsons Project의 데뷰앨범이다. Alan Parsons에 대해서는 아마도 모르는 분이 거의 안계시리라 생각된다. 본래 레코드 엔지니어로서 비틀즈의 [Abbey Road]를 비롯해서 핑크 플로이드의 몇몇 앨범들, 그리고 알 스튜어트, 윙스, 앰브러시아, 홀리스 등의 작품들을 녹음 또는 프로듀스 했었던 장본인이라는 얘기는 뭐 눈과 귀가 마르고 닳도록 보고 들으셨겠지만 혹시나 이 글을 보시는 분중에 모르셨던 분이 계실지도 모른다는 소심한 마음에 또 폐를 끼친다.
-        </p>
-        <p>
-          암튼간에 그는 그런 전적이 있었단다... 1976년에 녹음된 Alan Parsons Project의 본 데뷰작은 미국의 추리소설가 에드가 알란 포우의 작품들을 주제로 삼아서 제작되었는데 솔직히 이 앨범을 접하려면 포우의 소설을 사전에 읽어보아야 한다는 부담감이 작용할런지도 모르나 막상 들어보면 꼭 그럴 필요는 없다는 것을 알게 될 것이다. 물론 사전에 읽어보면 본 음반을 감상하는데 더 도움이 되겠지만 꼭 그래야만 하는 것은 아니다. 음악 자체로도 충분히 감동을 줄 수 있다.
-        </p>
-        <p>
-          파퓰러한 곡으로 우리에게 친숙한 알란 파슨스 프로젝트... 그래서 그런지는 몰라도 알란 파슨스 프로젝트를 아트록의 범주에 집어넣지 않는 경우가 그 반대의 경우보다 훨씬 빈번한 듯... 혹 위와 같은 곡에 익숙하신 분은 '알란 파슨스가 뭐가 아트록이냐?'고 하실지도 모르겠다. 솔직히 아트록이라는 쟝르를 구분한다는게 도무지 애매하기 짝이 없지만 이 앨범을 아직 못들어보셨다면 들어보시길... 그리고 우리가 소위 아트록이라고 부르는 음악들과 비교해보시길... 과연 얼마나 차이점이 있는지...?
-        </p>
-        <p>[안민기, fluto, 93.1]</p>
-        <p>
-          The Alan Parsons Project에 대하여
-        </p>
-        <p>
-          <b>1&gt; Alan Parsons</b><br />
-          어린 시절부터 기계에 관한한 못만지는게 없을 정도로 천부적인 재능을 가졌던 그는 17살 때 전자음향에 흥미를 갖게되어 TV카메라를 개발하는 첫 직장을 박차고 나와 레코드 스튜디오를 배회하다 폴 매카트니를 만나면서 당시 비틀즈가 경영하던 스튜디오 애비로드에서 보조 엔지니어로서의 미완의 기술을 습득해 나간게 오늘에 이르는 지름길이 된다. 1967년 그는 우연히 비틀즈의 걸작앨범인 'Sgt.pepper's lonely hearts club band'의 레코딩 광경을 보게 되었는데 여기서 큰 충격을 받게 된다. 그는 "어떻게 그런 음들이 만들어지는지 도무지 상상할 수 없더군요. 그 순간 나도 그와 같은 사운드를 만들어 보고 싶다는 생각이 들었습니다."라고 회상한다. 이후 Abbey Road, Pink Floyd의 The Dark Side of the Moon 등 수많은 명반의 엔지니어로 활약했다.
-        </p>
-        <p>
-          'Music'을 비롯하여 파일럿, 앰브로시아, 코크니 레벨 등 기라성 같은 스타들의 앨범 제작에 참여해 신들린 사운드 테크닉을 구사하면서 타의 추종을 불허하는 '믹스 다운의 황제'로 군림해 나갔다. 그는 이에 자만하지 않고 항상 진보적이고 독창적인 음악을 추구해 나가기 위해서는 남의 레코딩 작업에서는 과감한 시도가 어렵다는 것을 깨닫고 74년 작사, 작곡은 물론 연주와 보컬에서 다양한 재능을 겸비한 실력파 'Eric Woofson'과 의기 투합하여 독자적인 팀 "THE ALAN PARSONS PROJECT"를 결성해 지금에 이르기까지 항상 새롭고 시대를 초월하는 독창적인 사운드를 창조해 오고 있다.
-        </p>
-        <p>
-          <b>2&gt; Eric Woofson</b><br />
-          지난 15년 동안 에릭 울프슨(스코틀랜드 태생)은 뮤지션이며 프로듀서인 알란 파슨스와 함께 창조적이면서도 성공적인 사업적 합작을 수행하였다. 에릭 울프슨은 알란 파슨스의 명성 때문에 잊혀지기 쉬운데, 그도 사실은 'Time', 'Eye in the Sky' 등 여러 곡에서 보컬을 담당하였고 대부분의 곡에서 키보드를 담당할 정도로 대단한 실력가이다. 에릭 울프슨이 알려지기 시작한 것은 칼 더글라스의 히트작 'Kung Fu Fighting'의 매니저로 일할 때이다. 그는 한때 허먼스 허미츠와 연주한 적이 있으며 앤드류 룩 올드햄과 일한 적이 있다. 지난 91년 그는 'Jesus Christ Superstar', 'Cats', 'Phantom of the Opera'와 자리를 나란히 하게 될 록 뮤지컬 "FREUDIANA"를 만들어냈다. (역시 이 앨범에도 그의 영원한 동반자 알란 파슨스가 제작과 기술을 담당했다.)
-        </p>
-        <p>
-          <b>3&gt; THE ALAN PARSONS PROJECT</b><br />
-          알란 파슨스 프로젝트의 특징은 그들의 이름처럼 앨범 자체가 하나의 기획물로서 항상 앨범의 주제를 먼저 정해놓고 작사, 작곡이 이뤄지면 앨범 성격에 맞는 가수와 연주인들을 동원하여 레코딩에 들어가는 철저한 콘셉트 형식의 앨범 제작 방식을 채택하고 있다는 데 있다. 이러한 모든 기획의 총 지휘는 파슨스와 울프슨 두 사람에 의해 이루어지고 있는데 레코딩 엔지니어로 음악계에 투신한 뒤 오로지 독창적이고 진보적인 사운드 창조의 길을 걸어온 파슨스와 작사, 작곡 및 보컬과 키보드를 맡고 있는 울프슨의 탁월한 재능이 합해져 알란 파슨스 프로젝트의 음악이 탄생되는 것이다.
-        </p>
-        <p>
-          <b>4&gt; THE ALAN PARSONS PROJECT Discography</b><br />
-          1. Tales of Mystery and Imagination (76/Mercury/성음)<br />
-          2. I Robot (77/Arista/서울음반)<br />
-          3. Pyramid (78/Arista/서울음반)<br />
-          4. Eve (79/Arista/서울음반)<br />
-          5. The Turn of a Friendly Card (80/Arista/서울음반)<br />
-          6. Eye in the Sky (82/Arista/서울음반)<br />
-          7. The Best of THE ALAN PARSONS PROJECT (83/Arista/서울음반)<br />
-          8. Ammonia Avenue (84/Arista/서울음반)<br />
-          9. Vulture Culture (85/Arista/서울음반)<br />
-          10. Stereotomy (86/Arista/서울음반)<br />
-          11. Gaudi (87/Arista/서울음반)<br />
-          12. Instrumental Works (88)<br />
-          13. Freudiana (91/EMI-계몽사)
-        </p>
-        <p>
-          이상으로 알란 파슨스 프로젝트에 대해 알아보았습니다. 알란 파슨스 프로젝트에 대해 더 알고 싶으신 분은 저에게 메일 보내 주세요.
-        </p>
-        <hr className="my-8" />
-        <h3 className="text-xl font-semibold mt-8 mb-2">앨범 해설: Tales of Mystery and Imagination</h3>
-        <p>[안민기, fluto, 93.2]</p>
-        <p>
-          이 앨범은 에드가 앨런 포우의 시와 단편소설들을 주제로 하여 만든 알란 파슨스 프로젝트의 첫번째 앨범이다. 74년 알란 파슨스와 에릭 울프슨이 알란 파슨스 프로젝트를 결성 후 75년 이 앨범을 구상해 냈다. 그해 7월에 제작에 들어가 이듬해인 76년 1월에 발표하면서 알란 파슨스 프로젝트는 세인들의 주목을 받게 되었다.
-        </p>
-        <p>
-          특이한 사실은 첫째로 프로듀서에 의한 앨범이라는 사실이었다. 그리고 제목에 있어서 "알란 파슨스 프로젝트"라는 단어는 그룹이나 듀엣의 이름이 아니었고 이 앨범을 설명하기 위한 것이었다. 물론 이런 식으로 많은 앨범이 계속해서 발표되리라고는 생각지도 못했다고 한다.
-        </p>
-        <p>
-          두번째로 현재의 시점에서 보면 당시 이 앨범을 제작할 때에 각종 최신 기자재나 특수 방식을 사용했으리라고 생각하겠지만, 사실은 '어셔가의 몰락' 중에서 '도착' 부근의 처음의 바람소리를 현재의 신디사이저가 아닌 무그 신디사이저로 처리했을 뿐 나머지는 종전 악기를 사용하였다.
-        </p>
-        <p>
-          세번째로는 레코드에서 처음으로 나레이션을 사용하였다(첫곡에서 지금은 고인이 된 영화배우 '오손웰스'가 등장). 네번째로 예민한 사람만 느낄 수 있지만, 기타리스트 이언 베이슨이 'The Raven'과 'The Tell-Tale Heart'에서 새로운 기타주법을 시도한 사실을 들 수 있다.
-        </p>
-        <p>
-          나레이션으로 시작되는 첫곡 'A Dream With In A Dream(꿈속의 꿈)'은 무언가 시작하려는 듯한 몽환적인 곡으로 이 앨범의 에필로그라고 볼 수 있다. 뒷 배경으로 계속 '둥둥'거리는 소리는 우리를 꿈 속의 꿈으로 최면을 거는 듯 하다. '꿈속의 꿈'이 천천히 다음곡인 'The Raven(갈까마귀)'으로 이어지는데 이 곡은 알란 파슨스 프로젝트의 전 앨범에 걸쳐 알란 파슨스가 보컬을 담당한 유일한 곡이기도 하다. Effect Vocal로 시작되는 이 곡은 정교한 드러밍과 오케스트레이션이 일품이다.
-        </p>
-        <p>
-          다음곡은 'The Tell-Tale Heart(고발하는 심장)'인데 고음의 코맹맹이 소리가 독특한 Arthur Brown의 보컬은 격앙된 감정이 잘 나타나 있어 동명의 소설을 그대로 보는 듯 하다. 아서 브라운의 절규가 끝나면 'Music'으로 잘 알려진 John Miles의 'The Cask of Amontillado(아몬틸라도의 술통)'이 이어진다. 곡의 짜임새가 돋보이는 이 곡은 특히 금관 악기가 절묘하게 사용되어 완성도를 한결 높여 준다.
-        </p>
-        <p>
-          역시 존 마일즈의 보컬곡인 '(The System of)Doctor Tarr And Professor Fether(타르 박사와 페더 교수(의 요법))'은 무슨 시장 소리 같이 시작되는데 그것은 동명의 소설의 한 부분인 정신 병원에서의 환자들의 식사 장면이다(알란 파슨스 특유의 효과음이 돋보임). 이 곡은 특히 유럽 시장에서 크게 히트를 했으며 매스컴의 극찬을 받은 곡이기도 하다.
-        </p>
-        <p>
-          판을 뒤집어 플레이어에 걸면 알란 파슨스 프로젝트 최대의 명곡 중의 하나인 'The Fall of The House of Ocher(어셔가의 몰락)'이 장장 15분 13초에 걸쳐 대서사시를 이뤄낸다. 다섯 개의 악장으로 구성되어 있는 이 곡은 한편의 영화를 보는 듯하다. 도입부의 나레이션으로 시작하는 제1악장 'Prelude(전주곡)'은 순수한 오케스트레이션으로 되어있다. 장엄한 전주곡이 끝나면 긴박한 관악기와 팀파니, 그리고 베이스 기타의 조화가 두드러진 제2악장 'Arrival(도착)'이 이어지고 이어 천둥, 번개, 빗소리가 나면서 3악장 'Intermezzo(간주곡)'가 정말 감동적인 사운드를 보여준다. (필자는 처음 들었을 때 눈물을 흘리고 말았다.) 그 다음으로 이어지는 4악장 'Pavane(파반)'의 베이스와 어쿠스틱 기타 소리도 듣는이로 하여금 환희를 느끼게 한다. 이어 모든 악기들이 불협화음을 내며 일제히 연주하는 51초간의 'Fall(몰락)'으로 끝을 맺는다. 이어 'To One in Pradise'가 테리 실베스터의 가녀린 음성으로 앨범의 대미를 장식한다.
-        </p>
-        <p>
-          에드가 알란 포우와 알란 파슨스 프로젝트, 이 들의 예술세계는 많은 공통점을 갖고있다. 그래서 이 앨범이 이렇게 완벽할 수 있었던 것이다. 이 앨범을 감상하기 전에 꼭 포우의 작품들을 읽어 보기 바란다.
-        </p>
-        <hr className="my-8" />
-        <h3 className="text-xl font-semibold mt-8 mb-2">앨범 해설: Stereotomy</h3>
-        <p>[안민기, fluto, 93.2]</p>
-        <p>
-          스테레오토미는 84년 10월부터 85년 8월까지 장장 10개월간의 애비로드 스튜디오에서의 은둔 생활 끝에 나온 알란 파슨스 프로젝트의 걸작 앨범이다.
-        </p>
-        <p>
-          a면을 플레이어에 걸면 에릭 울프슨만의 독특한 키보드와 토속적인 소리의 퍼커션음으로 시작되는 타이틀곡 'Stereotomy(돌다듬는 기술)'를 단골 게스트 존 마일즈의 거친 보컬과 스튜어트 엘리옷의 강렬한 드러밍으로 처리된다. 더욱 비트있고 절제된 'Beaujolais(보졸레)'가 크리스 레인보우의 날카로운 목소리, 그리고 알란 파슨스의 효과음의 진가를 충분히 보여주며 진행된다. 이어 자동차가 질주하는 이펙트로 시작되는 연주곡 'Urbania(도시인)'가 상큼한 신디사이저와 중간부분에 나타나는 테너 색스폰 소리로 분위기를 이어준다. 마지막으로 조 카커의 목소리를 닮은 듯한 게리 브루커의 소울적인 발라드 'Limelight(라임 라이트)'가 a면을 마친다.
-        </p>
-        <p>
-          b면으로 넘기면 'In the Real World(진정한 세상에서)'가 다시 존 마일즈가 불러주는데 경쾌하고 발랄한 분위기의 록 넘버로 부담없이 들을 수 있는 곡이다. 다음곡은 연주곡인 'Where's the walrus?(해마는 어디에)'로 이 곡은 이 앨범의 백미라고 할 수 있을 만큼 인스트루멘탈의 극치를 이루는 곡이다. 이언 베이슨의 기타와 데이비드 패이튼의 베이스가 환상적인 조화를 이루고 중간 부분에 리처드 코틀의 테너 색스폰이 정말 감동적인 사운드로 놀라운 감흥을 준다. 이 곡은 빠른 템포의 퓨젼 재즈적인 분위기가 나며 마치 sky의 연주를 듣는듯하다. 이어 천둥소리와 바람 소리 등 환상적인 도입부와 에릭 울프슨의 피아노가 인상적인 'Light of the world(세상의 빛)'이 그레이험 다이의 멜랑꼴릭한 목소리로 이어지며 연주곡 'Chinese Whispers(중국인의 속삭임)'의 투명한 어쿠스틱 기타소리에 이어 다시 'Stereotomy part.2'가 대미를 장식한다.
-        </p>
-        <p>
-          다른 프로그래시브 곡들도 그렇지만 알란 파슨스 프로젝트의 앨범도 그 뜻을 이해하기란 쉬운 일이 아닙니다. 가사를 해석해 놓고도 이게 무슨 뜻인지 알 수 없는 것들이 대부분입니다. 이 앨범 "Stereotomy"도 그렇습니다. 앨범을 몇번이나 들어보고 가사를 사전을 들춰보고 해도 무슨 소린지... 어쩔 수 없이 제 짧은 머리로 해석해본 이 앨범은 인간의 창의력, 기술 등은 훌륭하나 우린 그것을 나만을 위해 남을 밟고 올라가는데 쓰지 말고 밝은 세상, 다 함께 사는 세상을 만드는데 쓰자는 내용인 것 같습니다.
-        </p>
-        <p>
-          휴... 이제야 다했구나.. 앨범 해설하기가 이렇게 어려운 것일 줄이야.. 밑에 타이틀곡 주요 가사를 적어 놓을 테니 앨범 이해에 도움이 됐으면 합니다.
-        </p>
-        <p>
-          &lt; Stereotomy &gt;<br />
-          stereotomy we can make it together<br />
-          do anything you want with me do anything you want<br />
-          stereotomy we can make it forever<br />
-          it's always the same it's always the same<br />
-          stereotomy we can make it<br />
-          we can make it do anything you want<br />
-          turn to stone do anything you want with me<br />
-          cover my eyes there's nothing more they need to see<br />
-          turn to stone before there's nothing left of me<br />
-          make me a rock and not what I appear to be<br />
-          turn to stone<br />
-          turn to stone
-        </p>
-        <p className="mt-8">플루토 올림</p>
+    <main className="bg-white min-h-screen text-[#0000aa] py-12 px-4">
+      <div className="max-w-3xl mx-auto">
+        <h2 className="text-3xl font-bold text-center mb-6">Alan Parsons Project</h2>
+        
+        <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+          <p className="text-sm text-gray-600">[유영재, espiritu@hitel.net, 96.1]</p>
+        </div>
+
+        <div className="space-y-6 leading-relaxed">
+          <p>70년대 중반부터 80년대 중반까지 왕성한 활동을 펼쳤던 Alan Parsons Project의 데뷰앨범이다. Alan Parsons에 대해서는 아마도 모르는 분이 거의 안계시리라 생각된다. 본래 레코드 엔지니어로서 비틀즈의 [Abbey Road]를 비롯해서 핑크 플로이드의 몇몇 앨범들, 그리고 알 스튜어트, 윙스, 앰브러시아, 홀리스 등의 작품들을 녹음 또는 프로듀스 했었던 장본인이라는 얘기는 뭐 눈과 귀가 마르고 닳도록 보고 들으셨겠지만 혹시나 이 글을 보시는 분중에 모르셨던 분이 계실지도 모른다는 소심한 마음에 또 폐를 끼친다.</p>
+
+          <p>암튼간에 그는 그런 전적이 있었단다... 1976년에 녹음된 Alan Parsons Project의 본 데뷰작은 미국의 추리소설가 에드가 알란 포우의 작품들을 주제로 삼아서 제작되었는데 솔직히 이 앨범을 접하려면 포우의 소설을 사전에 읽어보아야 한다는 부담감이 작용할런지도 모르나 막상 들어보면 꼭 그럴 필요는 없다는 것을 알게 될 것이다. 물론 사전에 읽어보면 본 음반을 감상하는데 더 도움이 되겠지만 꼭 그래야만 하는 것은 아니다. 음악 자체로도 충분히 감동을 줄 수 있다.</p>
+
+          <p>파퓰러한 곡으로 우리에게 친숙한 알란 파슨스 프로젝트... 그래서 그런지는 몰라도 알란 파슨스 프로젝트를 아트록의 범주에 집어넣지 않는 경우가 그 반대의 경우보다 훨씬 빈번한 듯... 혹 위와 같은 곡에 익숙하신 분은 '알란 파슨스가 뭐가 아트록이냐?'고 하실지도 모르겠다. 솔직히 아트록이라는 쟝르를 구분한다는게 도무지 애매하기 짝이 없지만 이 앨범을 아직 못들어보셨다면 들어보시길... 그리고 우리가 소위 아트록이라고 부르는 음악들과 비교해보시길... 과연 얼마나 차이점이 있는지...?</p>
+        </div>
+
+        <div className="mt-8 p-4 bg-gray-50 rounded-lg">
+          <p className="text-sm text-gray-600 mb-2">[안민기, fluto, 93.1]</p>
+          <h3 className="text-lg font-semibold mb-4">The Alan Parsons Project에 대하여</h3>
+          
+          <div className="space-y-4 text-sm leading-relaxed">
+                         <div>
+               <h4 className="font-semibold mb-2">1&gt; Alan Parsons</h4>
+               <p>어린 시절부터 기계에 관한한 못만지는게 없을 정도로 천부적인 재능을 가졌던 그는 17살 때 전자음향에 흥미를 갖게되어 TV카메라를 개발하는 첫 직장을 박차고 나와 레코드 스튜디오를 배회하다 폴 매카트니를 만나면서 당시 비틀즈가 경영하던 스튜디오 애비로드에서 보조 엔지니어로서의 미완의 기술을 습득해 나간게 오늘에 이르는 지름길이 된다.</p>
+               <p>1967년 그는 우연히 비틀즈의 걸작앨범인 'Sgt.pepper's lonely hearts club band'의 레코딩 광경을 보게 되었는데 여기서 큰 충격을 받게 된다. 그는 "어떻게 그런 음들이 만들어지는지 도무지 상상할 수 없더군요. 그 순간 나도 그와 같은 사운드를 만들어 보고 싶다는 생각이 들었습니다."라고 회상한다. 이후 Abbey Road, Pink Floyd의 The Dark Side of the Moon 등 수많은 명반의 엔지니어로 활약했다.</p>
+             </div>
+
+             <div>
+               <h4 className="font-semibold mb-2">2&gt; Eric Woofson</h4>
+               <p>지난 15년 동안 에릭 울프슨(스코틀랜드 태생)은 뮤지션이며 프로듀서인 알란 파슨스와 함께 창조적이면서도 성공적인 사업적 합작을 수행하였다. 에릭 울프슨은 알란 파슨스의 명성 때문에 잊혀지기 쉬운데, 그도 사실은 'Time', 'Eye in the Sky' 등 여러 곡에서 보컬을 담당하였고 대부분의 곡에서 키보드를 담당할 정도로 대단한 실력가이다.</p>
+             </div>
+
+             <div>
+               <h4 className="font-semibold mb-2">3&gt; THE ALAN PARSONS PROJECT</h4>
+               <p>알란 파슨스 프로젝트의 특징은 그들의 이름처럼 앨범 자체가 하나의 기획물로서 항상 앨범의 주제를 먼저 정해놓고 작사, 작곡이 이뤄지면 앨범 성격에 맞는 가수와 연주인들을 동원하여 레코딩에 들어가는 철저한 콘셉트 형식의 앨범 제작 방식을 채택하고 있다는 데 있다.</p>
+             </div>
+
+             <div>
+               <h4 className="font-semibold mb-2">4&gt; Discography</h4>
+              <div className="grid grid-cols-1 gap-1 text-xs">
+                <p>1. Tales of Mystery and Imagination (76/Mercury/성음)</p>
+                <p>2. I Robot (77/Arista/서울음반)</p>
+                <p>3. Pyramid (78/Arista/서울음반)</p>
+                <p>4. Eve (79/Arista/서울음반)</p>
+                <p>5. The Turn of a Friendly Card (80/Arista/서울음반)</p>
+                <p>6. Eye in the Sky (82/Arista/서울음반)</p>
+                <p>7. The Best of THE ALAN PARSONS PROJECT (83/Arista/서울음반)</p>
+                <p>8. Ammonia Avenue (84/Arista/서울음반)</p>
+                <p>9. Vulture Culture (85/Arista/서울음반)</p>
+                <p>10. Stereotomy (86/Arista/서울음반)</p>
+                <p>11. Gaudi (87/Arista/서울음반)</p>
+                <p>12. Instrumental Works (88)</p>
+                <p>13. Freudiana (91/EMI-계몽사)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-8 text-center">
+          <Link href="/review/a" className="inline-block px-4 py-2 bg-[#0000aa] text-white rounded hover:bg-[#2222cc]">목록으로 돌아가기</Link>
+        </div>
       </div>
-    </div>
+    </main>
   );
 } 

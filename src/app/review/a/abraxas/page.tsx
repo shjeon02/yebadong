@@ -2,10 +2,11 @@ import Link from "next/link";
 
 export default function ReviewAbraxas() {
   return (
-    <section className="bg-white text-[#0000aa] rounded-xl shadow p-6 mb-8">
-      <h3 className="text-2xl font-semibold mb-4">Abraxas</h3>
-      <p className="mb-2 whitespace-pre-line">[cicco, 이윤직, jiklee@chiak.kaist.ac.kr]</p>
-      <p className="mb-2 whitespace-pre-line">
+    <main className="bg-white min-h-screen text-[#0000aa] py-12 px-4">
+      <div className="max-w-3xl mx-auto">
+        <h2 className="text-3xl font-bold text-center mb-6">Abraxas</h2>
+        <p className="mb-2 whitespace-pre-line">[cicco, 이윤직, jiklee@chiak.kaist.ac.kr]</p>
+        <p className="mb-2 whitespace-pre-line">
 &gt; &gt;PS. 말씀드리는 순간 폴란드에서 소포가 날아왔네요.  Abraxas의 새앨범..
 &gt; &gt;    멋진 디지팩에 담겨 있네요. :-)
 
@@ -25,9 +26,9 @@ Abraxas의 두번째 앨범인 'Centurie'는 아시다시피 Polish와 English�
 아.. Quidam의 두번째 앨범도 발매가 되었습니다. 트레이드 파트너한테 사달라고 부탁은 했습니다만 언제나 받게 될지는 모르겠네요.
 
 cicco...
-      </p>
-      <p className="mb-2 whitespace-pre-line">[3M, freev@hanmail.net]</p>
-      <p className="mb-2 whitespace-pre-line">
+        </p>
+        <p className="mb-2 whitespace-pre-line">[3M, freev@hanmail.net]</p>
+        <p className="mb-2 whitespace-pre-line">
 Abraxas 1집과 99를 비교해달라는 동훈님 요청에 따라 간단한 답변 올립니다.
 
 답변은....
@@ -49,9 +50,9 @@ Kevin Rawland/Peter Hammil을 짬뽕한 보컬 + Good Melody + Mellow + Sadness 
 덧말. Quidam을 들으면서도 느꼈던 건데.. 폴란드 말 정말 아름답네요.. 세상에서 제일 아름다운 언어가 아닐까 생각되네요.. 정말 아름다워요 ^____^
 
 3M (Music, Movie and Money for 'em) 드림.
-      </p>
-      <p className="mb-2 whitespace-pre-line">[김진석, jindor@mmrnd.sec.samsung.co.kr]</p>
-      <p className="mb-2 whitespace-pre-line">
+        </p>
+        <p className="mb-2 whitespace-pre-line">[김진석, jindor@mmrnd.sec.samsung.co.kr]</p>
+        <p className="mb-2 whitespace-pre-line">
 3M님의 말씀에 공감합니다. 알리체 비스콘티의 노래를 듣고 이탈리아어의 아름다움에 감동 받았듯이, 거칠고 황량한것같던 폴란드어도 Quidam의 에밀라 데르코프스카의 음성을 통하니 얼마나 아름답게 들리던지요. (게다가 에밀라가 상당한 미인이잖아요? 음대생이었다는데 졸업하고 Quidam에 계속 있을건지 궁금합니다. 집안의 반대가 심할텐데....)
 
 그래서 폴란드어는 어떻게 생겨먹은 언어일까 궁금하여 슬쩍 소개글을 들춰 보았더니 이런 구절이 있었습니다 :
@@ -59,9 +60,9 @@ Kevin Rawland/Peter Hammil을 짬뽕한 보컬 + Good Melody + Mellow + Sadness 
 "폴란드어는 그 언어를 공부한 적이 없는 사람에게는 많은 부가기호와 유달리 긴 명사들때문에 거의 발음할수 없는 것처럼 보인다. "
 
 정말 그렇더군요. 인터넷에서 본 폴란드 텍스트에서 막 튀어 나오는 "wojewodow", "ostrzegawczych", "przewodniczacego" 이런 단어를 보세요. 발음할수 있나... AR지 14호 리뷰에도 보면 주형민씨가 "이상한 이름의..." 이런 설명과 함께 한 아티스트의 이름을 원문으로 써놓았는데 알고보니 그것도 폴란드 성이었습니다. 요즘 추세로 보면 다음 Art Rock지(언제 나올지 모르지만) 에는 "폴란드어 읽는법" 이런 기사가 한번쯤 실려도 괜찮을것 같습니다. 폴란드어가 아름답게 들린다면 그냥 들리는 대로 놔둬야지, 공연히 깊이 파고 들어갔다가는 정이 뚝 떨어질것 같습니다.. ^ ^
-      </p>
-      <p className="mb-2 whitespace-pre-line">[Piotr Tucholski]</p>
-      <p className="mb-2 whitespace-pre-line">
+        </p>
+        <p className="mb-2 whitespace-pre-line">[Piotr Tucholski]</p>
+        <p className="mb-2 whitespace-pre-line">
 Abraxas
 
 Szymon Brzezinski - guitars
@@ -71,10 +72,11 @@ Marcin Blaszczyk - keyboards, flute
 Rafal Ratajczak - bass
 
 The neo-prog band founded in 1987 but, as many others formations, got bigger success a few years later after changing their crew. They released two albums. First self-titled in '96 (Ars Mundi) presents music inspired by Marillion but in their own emotional style. Mysterious atmosphere comes into dynamic music. Overall very good. The second one ('98, Metal Mind) is different. The band "stretched the limits" and added metal and gothic influences. By some prog fans this album is called real masterpiece. In '98 Abraxas appeared at: Progressive Rock Music Festival in Zielona Gora (Poland) - where got 3 awards; Proglive '98 in  Corbigny, France or at Dutch Progressive Rock Stage, Bussum, The Netherlands.
-      </p>
-      <div className="mt-6">
-        <Link href="/review/a" className="text-blue-600 hover:underline">목록으로 돌아가기</Link>
+        </p>
+        <div className="mt-8 text-center">
+          <Link href="/review/a" className="inline-block px-4 py-2 bg-[#0000aa] text-white rounded hover:bg-[#2222cc]">목록으로 돌아가기</Link>
+        </div>
       </div>
-    </section>
+    </main>
   );
 } 
