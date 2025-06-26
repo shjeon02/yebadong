@@ -1,7 +1,4 @@
 {
-  "/review/a/arzachel/page": "app/review/a/arzachel/page.js",
-  "/review/a/affinity/page": "app/review/a/affinity/page.js",
-  "/review/a/abraxas/page": "app/review/a/abraxas/page.js",
-  "/review/a/page": "app/review/a/page.js",
-  "/review/a/asturias/page": "app/review/a/asturias/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/review/page": "app/review/page.js"
 }
