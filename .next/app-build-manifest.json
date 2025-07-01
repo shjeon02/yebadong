@@ -241,10 +241,140 @@
       "static/chunks/main-app.js",
       "static/chunks/app/review/a/aprilfool/page.js"
     ],
-    "/_not-found/page": [
+    "/review/b/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/review/b/page.js"
+    ],
+    "/review/b/baberuth/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/baberuth/page.js"
+    ],
+    "/review/b/bacamarte/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/bacamarte/page.js"
+    ],
+    "/review/b/bakerloo/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/bakerloo/page.js"
+    ],
+    "/review/b/banco/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/banco/page.js"
+    ],
+    "/review/b/barclayjamesharvest/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/barclayjamesharvest/page.js"
+    ],
+    "/review/b/barrock/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/barrock/page.js"
+    ],
+    "/review/b/sydbarrett/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/sydbarrett/page.js"
+    ],
+    "/review/b/budgie/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/budgie/page.js"
+    ],
+    "/review/b/budkasuflera/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/budkasuflera/page.js"
+    ],
+    "/review/b/bloque/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/bloque/page.js"
+    ],
+    "/review/b/jeffbeck/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/jeffbeck/page.js"
+    ],
+    "/review/b/beggarsopera/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/beggarsopera/page.js"
+    ],
+    "/intro/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/intro/page.js"
+    ],
+    "/interview/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/interview/page.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
+    "/review/b/boston/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/boston/page.js"
+    ],
+    "/poll/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/poll/page.js"
+    ],
+    "/link/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/link/page.js"
+    ],
+    "/review/b/chrisdeburgh/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/b/chrisdeburgh/page.js"
+    ],
+    "/review/c/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/c/page.js"
+    ],
+    "/review/c/alfredocarrion/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/c/alfredocarrion/page.js"
+    ],
+    "/review/c/carpediem/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/c/carpediem/page.js"
+    ],
+    "/review/c/camel/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/c/camel/page.js"
+    ],
+    "/review/c/cafeapresmidiseries/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/c/cafeapresmidiseries/page.js"
+    ],
+    "/review/c/carpenters/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/c/carpenters/page.js"
+    ],
+    "/review/c/cairo/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/review/c/cairo/page.js"
     ]
   }
 }

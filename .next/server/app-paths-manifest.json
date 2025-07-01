@@ -1,10 +1,8 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/review/a/2066andthen/page": "app/review/a/2066andthen/page.js",
-  "/review/a/alusafallax/page": "app/review/a/alusafallax/page.js",
-  "/review/a/page": "app/review/a/page.js",
-  "/review/a/abraxas/page": "app/review/a/abraxas/page.js",
-  "/review/a/america/page": "app/review/a/america/page.js",
-  "/review/page": "app/review/page.js",
-  "/review/a/asia/page": "app/review/a/asia/page.js"
+  "/review/c/page": "app/review/c/page.js",
+  "/review/c/cairo/page": "app/review/c/cairo/page.js",
+  "/review/b/bacamarte/page": "app/review/b/bacamarte/page.js",
+  "/review/c/carpenters/page": "app/review/c/carpenters/page.js",
+  "/review/c/camel/page": "app/review/c/camel/page.js",
+  "/review/b/chrisdeburgh/page": "app/review/b/chrisdeburgh/page.js"
 }
