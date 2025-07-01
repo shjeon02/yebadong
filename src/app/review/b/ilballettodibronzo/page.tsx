@@ -4,61 +4,334 @@ import Link from "next/link";
 export default function IlBallettoDiBronzoReview() {
   return (
     <main className="bg-white min-h-screen text-[#0000aa] py-12 px-4">
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-6">Il Balletto Di Bronzo - YS</h2>
-        <p className="mb-2 whitespace-pre-line">[3M, 김수환, ecokis@plaza1.snu.ac.kr]</p>
-        <p className="mb-2 whitespace-pre-line">Il Balletto Di Bronzo - YS (SRMC 0007)</p>
-        <p className="mb-2 whitespace-pre-line">데뷔작 "Sirio 2222" 이후,나폴리 출신의 키보드 주자 Gianni Leone의 참가로 Progressive Rock 그룹으로 변신하는 B.D.B 의 두번째 앨범.YS는 그리이스 로마신화에 등장하는 사랑의 여신을 상징하며, 내용은 그녀의 밤생활(性生活)을 표현하고 있다. 보너스 트랙 삽입! -97 시완 카달록에서 발췌.</p>
-        <p className="mb-2 whitespace-pre-line">91년경 성음에서 BDB의 LP가 라이센스로 발매될 때 핫뮤직에 실렸던 극찬 리뷰,아트락 매거진 1호의 BDB 특집,아트락 7호(?)의 편집진이 선정한 이탈리아 락 10선 poll 등을 접하지 못한 아트락 애호가분들은 카달록의 설명을 통해선 안타깝게도 "YS"가 얼마나 좋은 앨범인지 알 길이 없습니다.아마도 넘쳐나는 희대의 명반,걸작에 실망한 이들의 따가운 비평에 이런 소극적 기술이 이루어 졌지 않았나 생각됩니다.이춘식씨가 저술한 아트락 가이드에도 아마 "YS"가 수록되지 않았던 걸로 기억됩니다.</p>
-        <p className="mb-2 whitespace-pre-line">[유영재, espiritu@hitel.net, 1992-10-26]</p>
-        <p className="mb-2 whitespace-pre-line">IL BALLETTO DI BRONZO YS[영어버젼] 얼마전에 일본에서 IL BALLETTO DI BRONZO의 [YS] 영어 버젼이 CD싱글로 발매가 되었읍니다. 저는 이 CD를 지난 달에 구입했는데, 듣고난 소감을 조금 적어 보겠읍니다. 이 싱글에는 이태리 원어 앨범 가운데 'INTRODUZIONE'와 'SECOND INCONTRO'의 두곡만이 영어 가사로 바뀌어 수록되어 있읍니다. 비공식 작품이라 그런지 일단 음질은 그다지 좋은 편은 못됩니다. 그리고 원어 앨범의 적재적소에서 등장했던 여성 코러스가 결여 되있읍니다. 또, 같은 내용의 가사가 여러번 반복되는 것도 조금 아쉽게 느껴 지며, 사운드나 스케일면에서도 오리지날 앨범 수록곡보다 뒤지는 것 같습니다. 그러나, 그들의 트레이드 마크라 할 수 있는 뛰어난 연주력은 변함 이 없습니다. 오히려 원어 앨범보다 더 화끈한 연주를 들려주고 있어요. 프로록 팬들, 특히 이탈리안 록을 좋아하시는 분들께는 좋은 자료가 될테니 구해서 들어 보시길... [아시다시피 시완 발매반에는 영어버젼이 함께 실려있지요.]</p>
-        <p className="mb-2 whitespace-pre-line">[유영재, espiritu@hitel.net, 1994-02-01]</p>
-        <p className="mb-2 whitespace-pre-line">IL BALLETTO DI BRONZO YS</p>
-        <p className="mb-2 whitespace-pre-line">아래 종화 형님이 쓰신 Il Balletto Di Bronzo의 글을 읽고 적극동감한다는 의미에서 아무 생각없이 그냥 글을 끄적여본다...청동의 발레라는 뜻을 지니고 있는 이태리의 4인조 Il Balleto DiBronzo의 2집 [ YS ]는 이탈리안 록에서 빼놓을수 없는 걸작으로알려지고 있고 몇년전에는 파격적으로 국내에 라이센스가 출반되기도 했지만 이상하게도 이곳 게시판에선 이 앨범에 관한 언급이 나타난 글을 거의 찾아볼 수가 없었다. 근데 아래 notte님이 이들에 관한 글을 올리신걸 보니 새삼스럽게 반갑기가 그지 없구먼... 사실 본인도 나름데로 이태리 아트록의 명반이라는 작품은 적지 않게 접해보았다고 생각하고 있지만, 그 중에서 개인적으로 본인이 생각하는 이탈리안 프로그레시브의 최고 걸작으로 꼽는 앨범 하나를 거론하라고 한다면 바로 Il Balletto Di Bronzo의 [ YS ]를 꼽을 것이다.</p>
-        <p className="mb-2 whitespace-pre-line">이 앨범을 내가 구입한게 고 1때 일본 Edison사에서 재발된 CD로였다. 각종 찬사를 받아온 본앨범을 구입했을때 나는 희열감에 사로잡혔으나 정작 집에 가지고 와서 이 앨범에 담긴 음악을 들었을 때는 실망감으로 인해 적지않게 당혹감을 느껴야했다. 대체 이 앨범이 왜 뛰어나다는 것일까...? 뭐가 좋다는거지...? 난 그런 생각만 하면서 그날 이후로 이 앨범은 구석에다 쳐박아 놓은채 한동안 듣지도 않았다. 앨범 구입 이전에는 과거의 그 유명했던(?) 심야 라디오 프로그램을 통해 ' Epilogo ' 한곡만을 접해본 나는 솔직히 라디오에서 들었던 그 곡의 선율이 별 기억이 나지도 않으면서 막연히 '좋겠지..'하는 생각에 구입한것이었는데, 그날 이후 이 앨범은 내가 구입한 실패작중의 하나로 여겨지고 있었다. 그로부터 몇달이 지나고 밤에 잠이 안와서 귀에 이어폰을 꽂고 있었던 나는 그냥 아무생각 없이 잠자면서 들을 앨범을 찾다가 구석에 박힌 이 앨범을 꺼냈다. 별로 좋지도 않으니까 자장가로나 듣지 뭐...하면서 이 앨범을 휴대용 씨디피에 집어넣고 이어폰을 꽂았다. ( 이 앨범은 아시다시피 자장가용 음악으로는 전혀 어울리는 음악이 아니다...근데 내가 왜 그때 이 앨범을 자장가로 듣겠다고 어냈는지 지금도 이해를 못하겠다.)하지만 자장가로 들으려했던 이 음반은 오히려 그날밤 나를 결코 잠이 들 수 없게 만들었다. 불이 다꺼진 캄캄한 방안에서 이불을 뒤집어쓰고 이 작품을 듣고 있던 나는 '이럴수가...'하는 탄성만이 나왔다. '이런 대단한 작품을 여지껏 먼지만 쌓이게 하고 있었다니...' 그날밤 나는 이 앨범을 5번이나 반복해 듣느라 밤을 거의 새우고 담날 학교에서는 새우눈으로 지내야 했다.</p>
-        <p className="mb-2 whitespace-pre-line">분명 본작품은 처음 들었을때 귀에 쏙 들어오는 음악은 아니다. 그만큼 이 작품은 난해하다. 하지만 지금까지 본인의 개인적 경험에 의하면 첨 들었을때 귀에 쏙 들어오는 음악보다는 들으면 들을수록 끌리는 음악...그런 음악들이 더 오래 청자의 뇌리에 남고 강한 인상을 심어주는 경우가 많다. 이 작품도 그러한 경우라 생각된다. 정말이지 들으면 들을수록 진국이 아닐 수 없다. 본작품의 가치는 프로그레시브록이라는 쟝르에 딱 어울리는 주제의 신비성과 난해함에 멤버 4인의 가공할만한 연주가 어우러져 듣는 이를 꼼짝없이 얼어붙게 만드는 마력에 있다. 특히 이들의 연주는 이탈리안 록치고는 파격적인 사운드를 들려주고 있는데 하드함과 사이키한 분위기가 적절한 조화를 이루고 있다. 특히 보컬을 겸하고 있는 키보디스트 Gianni Leone의 현란한 건반 터치는 머리카락이 설정도로 전율감을 선사해주며, 그 외 찢어질듯 엄습해오는 사이키한 분위기의 기타와 베이스, 공격적인 드럼 사운드등, 4인의 멤버 각자가 최상의 연주를 들려주고 있다. 보컬을 맡은 건반주자 Gianni의 목소리도 썩 훌륭하다고 말할수는 없지만 나름데로 매력적인데, 내가 고3때 같은 학교에 다니던 SECADA 최정준군 (아트록 모임 아일랜드의 2대 추장---지난달 군대 갔음)이 이 앨범을 빌려가서 듣고서는 담날 오더니 "야~~!! 그거 되게 어렵드라...뭐가뭔지 모르겠어..."...근데 바로 그담날 다시 우리 교실로 오더니..."드디어 내가 그 음악의 진가를 알았다!! 내가 그 음반을 이해하려고 어제까지 열번도 더 들었다...보컬이 로버트 플랜트를 방불케 하던데...?!!!"......이틀만에 진가를 알았다는게 Gianni의 로버트 플랜트를 방불케하는 보컬이라는 것을 듣고선 난 황당하지 않을수가 없었다. 너무 지나친 과대평가가 아니었는지...쩝...하지만 모르지...사람의 취향이라는게 달라서 그 친구가 듣기엔 두 보컬리스트를 비교할수 있는 그 무엇을 느낄수 있었는지도...암튼 Gianni의 보컬은 앞의 SECADA군처럼 약간 훽까닥 간(?)상태에서 들으면 로버트 플랜트를 방불케한다고 느낄수도 있을 정도로 매력을 겸비하고 있다는 것이다. 아무 생각없이 꺼적거리는 글치곤 너무 길어지는것 같은데....어쨌든 결론은 이 앨범은 프로그레시브 록을 들으시는 분이라면 결코 그냥 넘어가선 안될 음반이라는 것이다. 곧 시완레코드에서 CD로도 재발매될 본작품을 지금 소장하고 계신 분중에서 아직 본앨범의 진가를 느끼지 못하신 분은 한번 저의 경우처럼 밤에 불다끄고 헤드폰 꽂고 볼륨 왕창 올려놓고 들어보시죠...그날밤 잠드시기 힘들걸요...? (잠드면 할 수 없구...)
-암튼... 명반중의 명반입니다!!!!! 그야말로 왕걸작!!!</p>
-        <p className="mb-2 whitespace-pre-line">[정철, zepelin@popsmail.com, 1995-09-11] Il Balletto di Bronzo YS</p>
-        <p className="mb-2 whitespace-pre-line">추석도 지나고 이제 내일이면 또 학교에간다. 꽤나 널널한 생활만을 지속해 온 내게는 학교가는게 오히려 기쁨이다. 왜 난 방학이나 연휴가 싫은걸까? 책도 잘 안 읽히고 음악도 너무 들으면 지겹다. 도대체 요즘엔 뭔가 명확한 것이 없는 듯 하다. 불확실성의 시대인가......!?</p>
-        <p className="mb-2 whitespace-pre-line">가끔씩 거대 음반사들이 상업성을 배제하고 명반들을 원 재킷을 살려 발매하는 걸 보면 '얘들이 철들었네..'하는 생각을 하다가도 띨띨한 홍보 내지는 홍보부재에 의해 사장되는 명반을 보며 치를 떨게되는 일이 종종 있다. 그 중 생각나는걸 들면 Sweet Smoke - Just a Poke, Novalis - Sommerabend, Country Joe and the Fish - "I-Feel-Like-I'm-Fixin'-to-Die"정도이다. 그러나 가장 큰 사태는 아마도 Il Balletto di Bronzo의 YS가 아닌가 생각된다.  처음에 이 음반을 명성만 믿고 듣게되었을때 그 황당함은 지금도 잊을 수 없다. 동생이랑 둘이서 "야 이게 음악이냐?"라는 말만 내뱉으며 듣던 황당한 기억. 그것은 Miles Davis의 Bitches Brew나 Pink Floyd의 Ummagumma를 처음들었을 때의 느낌과 유사했다. 당시 누가 꼬셨는지 폴리그램의 기획자를 꼬신 사람은 아마도 대단한 입심을 가진 사람이 분명하다. 지금은 엄청난 유명세를 갖고있는 Gianni Leone가 거의 휩쓸다시피하여 완성된 작품인 본작은 과격함과 예술성이 반응하면 어떤 결과물이 나오는가를보여준 작품이다. Gianni Leone는 보컬과 키보드 군을 맡고있는데 그 악기 중엔 Celeste라는 이름도 보인다. 그게 악기 이름이었구나.. 또 황당한 건 이게 그들의 작품이 아니라는 거다. 작사작곡은 N.Mazzocchi라는 사람이 했다고 적혀있다. 그럼 이놈들만한 괴물이 또 있다는거다. 하지만 그에대한 정보는 내게는 없다.   사실 생각해보면 이게 그렇게 명작일까 하는 생각도 든다. 또 상당수의 초심자들이 이 음반을 듣고 곤혹스러워하는 경우도 많이 봤다. 하지만 턴테이블에 올려놓으면 이내 생각이 바뀌는건 어찌된 일일까. 그것이 진짜 명작이라는 것일까? 이걸 듣고 피곤해 하는 이들은 한달에 한번씩만 들어보라. 언젠가 뽕 간다. 양적 축적이 질적 전화를 가져올 것이다. 사운드는 뭐라고 해야하나. 역시 할말이없다. 이들과 유사한 사운드는 분명히 말할 수 있는데 '없다.' 그나마 댄다면 Metamorfosi정도? 아마 이걸보고 '뭔소리여?'하시는 분이 더 많으리라. 재킷에는 요란한 옷을 입은 아주머니가 서 있는데 그걸 여신이라고 한 것 같다. 거기에 더욱 황당한 건 이 아주머니가 똥배가 잔뜩 나왔다는 거다. 그래도 재킷 색깔이 고풍스러워서 대충 보면 이쁘다. 뒷면에는 거지패션을 한 멤버 사진이 있다. 별로 똘똘해보이지는 않는데 이놈들이 과연 그런 과괌한 음악을 했을까? 이게 진짜 사랑(sex)의 여신을 표현한 걸까? 의문이다. 이걸 틀고 누가 사랑을 할까? 아마 한다면 아주 엽기적인 사람에나 어울릴거다. 나중에 장가가면 테스트해봐야겠다. 가사라도 알면 좋겠지만... 누가 해석해 줘요! 지금 두번째 듣고있지만 이 현란한 사운드와 그 사이를 굴러가는 피아노소리는 나를 뽕 가게 하기에 충분하다. 이런걸 라이브로 하는걸 한번만 봤으면 좋겠다. 아마 불가능하겠지. 아 죽인다. [아 역시 어릴때 쓴 글은 민망하군요...-_- 지금이라고 좋아진 것도 아니지만서두. 자료도 더 찾고 감정도 더 자제했어야 했는데...T_T 뭐 저 때의 저도 저죠...^^]</p>
-        <p className="mb-2 whitespace-pre-line">"그래도 복사하면 좀 틀릴걸요 ? 크롬에 해주세요 !!!"</p>
-        <p className="mb-2 whitespace-pre-line">"아 이 녀석 꼭 시완이같은 놈이네.. 왜 이렇게 질길까 ?"</p>
-        <p className="mb-2 whitespace-pre-line">--</p>
-        <p className="mb-2 whitespace-pre-line">당시 생각하기에 성시완씨도 독자적인 음반 구매의 루트를 뚫기까지는 이분들의 도움을 많이 받았나보다.. 라고 생각했습니다. ^^</p>
-        <p className="mb-2 whitespace-pre-line">그때 삼천원씩 주고 복사했던 테입들이 지금 줄줄이 생각나네요.. 알파타우르스, 엔티아토믹 시스템, 르 오르메의 펠로나 에 소로나, 카나리오스의 시클로스 (두장이라서 육천원이었습니다. ^^) 무제오 로젠바흐의 자라투스트라..정말 모든 앨범들이 감동의 연속이었고 언더그라운드 파피루스 지에서만 보던 앨범을 카셋테입으로나마 갖게되어 애지중지 복사해서 아껴듣던 그런 시절이었습니다.</p>
-        <p className="mb-2 whitespace-pre-line">하지만 당시 예민하던 고삼짜리의 귀에도 이상하게 일 발레또 디 브론조의 입실론 에세 앨범과 르 오르메의 펠로나 에 소로나는 영... 감동이 별로 없더군요.. 왜 그럴까.. 왜 이럴까.. 골백번 반복해 들어도 특히 일 발레또 디 브론조의 음반에선 여타 이탤리안 심포닉이 주었던 감동을 추출해내기 힘들었습니다. 너무 어려워서였을까요 ? 아마 그때부터 심포닉이 내 한계였나봅니다. ^^; 그래서 기억에 많이 남는 음반이었습니다.</p>
-        <p className="mb-2 whitespace-pre-line">--</p>
-        <p className="mb-2 whitespace-pre-line">몇년이 흐르고 .. 씨디라는게 등장하고 .. 성시완씨가 귀국해서 레이블을 세웠지만.. 대학까지 졸업한 나는 재즈 나부랭이 듣는둥 마는둥하다가 성인들의 유희에 빠져서 ^^; (술마시고 노래하고.. 여자 친구 사귀고.. 등등) 어렸을때 듣던 프록은 이미 과거 '정서불안이던 사춘기 시절에 들었던 음악' 으로 애써 치부하려 했었나봅니다.</p>
-        <p className="mb-2 whitespace-pre-line">종로에 신나라 레코드 (지금은 없죠 ?) 가 생기고 예전의 프록 명반들이 씨디로 하나둘씩 발매되어 쇼윈도우에 걸리는걸 보고 무척 당혹스러웠습니다.</p>
-        <p className="mb-2 whitespace-pre-line">"저런게 팔릴려나 ?"</p>
-        <p className="mb-2 whitespace-pre-line">여자친구랑 맥주를 마시러 가면서 예전에 사려고 목숨걸고 다니던 앨범이 형태만 엘피에서 씨디로 바뀌어서 걸려있는 모습을 방관적인 자세로 보는 기분은 참 묘했습니다.</p>
-        <p className="mb-2 whitespace-pre-line">"하하.. 고등학교때 나도 저런걸 들었었지.."</p>
-        <p className="mb-2 whitespace-pre-line">신세계 백화점 앞의 '부루의 뜨락' 이라는 곳도</p>
-        <p className="mb-2 whitespace-pre-line">여자친구랑 명동을 지나가다가 알게 되었습니다.</p>
-        <p className="mb-2 whitespace-pre-line">"아니 이런 앨범이 다 수입돼 ?"</p>
-        <p className="mb-2 whitespace-pre-line">정말 황당하더군요. 가격을 보는 순간 더욱더 놀랐습니다.</p>
-        <p className="mb-2 whitespace-pre-line">"뜨아.. 내가 예전에 고삐리때 이런 앨범을 어떻게 샀었지  것도 엘피로 ???"</p>
-        <p className="mb-2 whitespace-pre-line">연애를 할때는 씨디 사기가 쉽지 않습니다. ^^;</p>
-        <p className="mb-2 whitespace-pre-line">--</p>
-        <p className="mb-2 whitespace-pre-line">전영혁씨의 심야프로가 꾸준히 계속돼서 나름대로 프록 팬들이 어느정도 생긴줄은 알고 있었습니다만 이렇게 될줄은 몰랐습니다.</p>
-        <p className="mb-2 whitespace-pre-line">신촌 그레이스 (아니 현대) 백화점 건넌편에 지금은 시장화 되어버린 망한 백화점.. (이름이 뭐더라요 ?) 음반코너에 오랜만에 찾아가던 생각이 납니다. 음반 가게의 절반이 프로그레시브 코너더군요.. 프로그레시브 코너.. 아니 시완레이블 코너였습니다.</p>
-        <p className="mb-2 whitespace-pre-line">쎌레스떼와 코르테 데이 미라콜리의 엘피들이 산더미처럼 쌓여있는 황당한 모습.  T.T 정말 80년대의 한국에서의 프로그레시브 락의 위치.. 에만 친숙하던 나에겐 엘피 백장으로 뒤통수를 맞는것 처럼 충격이었습니다.</p>
-        <p className="mb-2 whitespace-pre-line">그러다가 아트락 지라는것도 사보고 예전 서대문에서 배부받던 UP지와도 비교를 해보고 (정말 엄청난 차이죠..^^) 80년대 초반에 비해 10년만에 프로그레시브 팬들이 숫자로는 천배가까이 증가한것을 드디어 실감할 수 있었습니다.</p>
-        <p className="mb-2 whitespace-pre-line">--</p>
-        <p className="mb-2 whitespace-pre-line">"좋은 시절이 오는가보군..."</p>
-        <p className="mb-2 whitespace-pre-line">좋은 시절이 오기는 왔습니다. 90년대 초중반. 저도 드디어 인터넷에 어딕션되면서 .. 인터넷 여기저기 깔린 프록 팬들의 엄청난 데이터 베이스는 물론 지금처럼 html의 형태는 아니었지만 나처럼 프록을 잊어가고있는 ex-prog fan의 향수를 달래고 새로운 열정을 불러일으키는데 충분하고도 남음이 있었습니다.</p>
-        <p className="mb-2 whitespace-pre-line">그리고 바로 그때 예바동이 생겼습니다. ^^;</p>
-        <p className="mb-2 whitespace-pre-line">10년이 다시 지나서 이번에는 시완레코드에서 발매된 일 발레토 디 브론조의 씨디를 들어보았습니다.</p>
-        <p className="mb-2 whitespace-pre-line">아...여전히 졸렸습니다. 10년전에 방송에서 가끔 듣던 여성코러스가 나오면서 마구 크레센도로 올라가던 부분.. 그 부분만 좀 들을만 했을뿐 다른부분은 여전히 졸렸습니다. 이제 또 그때부터 십년 가까이 흐른듯 합니다. 정말.. 일 발레토 디 브론조.. 오랜만에 듣는 이름입니다.</p>
-        <p className="mb-2 whitespace-pre-line">한때는 이태리 락 최고의 마스터 피스니 뭐니 말들이 많았었는데.. 프로그레시브마저 한국에선 유행을 타는지 심포닉 팬들은 줄줄이 다론 곳으로 가버리고 신세대 매니어 사이에는 모던락이 득세하면서 일 발레토 디 브론조는 정말 오랫동안 잊혀진 이름이 되고 말았네요..</p>
-        <p className="mb-2 whitespace-pre-line">한번 팬이면 영원한 팬.. !! 정도는 아니더라도 조금은 진득한 팬들의 사랑을 보고 싶기는 합니다.</p>
-        <p className="mb-2 whitespace-pre-line">일 발레토 디 브론조 .. 다시 한번 듣고 싶습니다. 지금 음반은 없으니 ..</p>
-        <p className="mb-2 whitespace-pre-line">맨 처음 이십년전 들었던 삼천원짜리 복사한 카셋테입... 두번째 십년전 들었던 컴팩트 디스크.. 다시 십년이 흐른 지금은 뭔가 새로운 버젼으로 듣고 싶습니다.</p>
-        <p className="mb-2 whitespace-pre-line">mp3 ? ^^; mp3로 들으면 되려나요 ?</p>
-        <p className="mb-2 whitespace-pre-line">DTS 5.1 채널 씨디나 DVD 씨디로 일 발레토 디 브론조의 입실론 에세가 발매되면 다시한번 듣고 리뷰를 쓸 수 있었으면 좋겠습니다. ^^</p>
-        <p className="mb-2 whitespace-pre-line">P.S. DVD 오디오 씨디로 이엘피의 브레인샐러드서저리..등등 프록 타이틀도 몇개 발매되고 있습니다. 들어볼만도 할것 같습니다.</p>
+        
+        <div className="space-y-8 leading-relaxed">
+          <div className="bg-red-50 p-4 rounded-lg border-l-4 border-red-400">
+            <div className="flex items-center mb-2">
+              <span className="bg-red-500 text-white px-2 py-1 rounded text-sm font-medium">3M</span>
+              <span className="ml-2 text-sm text-gray-600">김수환, ecokis@plaza1.snu.ac.kr</span>
+            </div>
+            <div className="space-y-4">
+              <div className="bg-white p-3 rounded">
+                <h3 className="font-semibold text-red-700 mb-2">Il Balletto Di Bronzo - YS (SRMC 0007)</h3>
+                <div className="space-y-3 text-sm leading-relaxed">
+                  <div className="bg-blue-50 p-3 rounded">
+                    <h4 className="font-medium text-blue-800 mb-2">앨범 소개</h4>
+                    <p>
+                      데뷔작 "Sirio 2222" 이후, 나폴리 출신의 키보드 주자 <strong>Gianni Leone</strong>의 참가로 
+                      Progressive Rock 그룹으로 변신하는 B.D.B의 두번째 앨범.
+                    </p>
+                    <p className="mt-2">
+                      <strong>YS</strong>는 그리스 로마신화에 등장하는 사랑의 여신을 상징하며, 
+                      내용은 그녀의 밤생활(性生活)을 표현하고 있다. 보너스 트랙 삽입!
+                    </p>
+                    <p className="mt-2 text-xs italic">-97 시완 카달록에서 발췌</p>
+                  </div>
+                  
+                  <div className="bg-yellow-50 p-3 rounded">
+                    <h4 className="font-medium text-yellow-800 mb-2">평가의 어려움</h4>
+                    <p>
+                      91년경 성음에서 BDB의 LP가 라이센스로 발매될 때 핫뮤직에 실렸던 극찬 리뷰, 
+                      아트락 매거진 1호의 BDB 특집, 아트락 7호(?)의 편집진이 선정한 이탈리아 락 10선 poll 등을 
+                      접하지 못한 아트락 애호가분들은 카달록의 설명을 통해선 안타깝게도 "YS"가 얼마나 좋은 앨범인지 알 길이 없습니다.
+                    </p>
+                    <p className="mt-2">
+                      아마도 넘쳐나는 희대의 명반, 걸작에 실망한 이들의 따가운 비평에 이런 소극적 기술이 이루어졌지 않았나 생각됩니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-green-50 p-4 rounded-lg border-l-4 border-green-400">
+            <div className="flex items-center mb-2">
+              <span className="bg-green-500 text-white px-2 py-1 rounded text-sm font-medium">유영재</span>
+              <span className="ml-2 text-sm text-gray-600">espiritu@hitel.net, 1992-10-26</span>
+            </div>
+            <div className="space-y-4">
+              <div className="bg-white p-3 rounded">
+                <h3 className="font-semibold text-green-700 mb-2">YS 영어 버전 리뷰</h3>
+                <div className="space-y-3 text-sm leading-relaxed">
+                  <div className="bg-blue-50 p-3 rounded">
+                    <h4 className="font-medium text-blue-800 mb-2">일본 CD 싱글 발매</h4>
+                    <p>
+                      얼마전에 일본에서 IL BALLETTO DI BRONZO의 [YS] 영어 버전이 CD싱글로 발매되었습니다. 
+                      이 싱글에는 이태리 원어 앨범 가운데 'INTRODUZIONE'와 'SECOND INCONTRO'의 
+                      두곡만이 영어 가사로 바뀌어 수록되어 있습니다.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-red-50 p-3 rounded">
+                    <h4 className="font-medium text-red-800 mb-2">영어 버전의 한계</h4>
+                    <ul className="space-y-1 text-xs">
+                      <li>• 비공식 작품이라 음질이 그다지 좋지 않음</li>
+                      <li>• 원어 앨범의 적재적소에서 등장했던 여성 코러스가 결여</li>
+                      <li>• 같은 내용의 가사가 여러번 반복되어 아쉬움</li>
+                      <li>• 사운드나 스케일면에서도 오리지널 앨범보다 뒤짐</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-green-50 p-3 rounded">
+                    <h4 className="font-medium text-green-800 mb-2">변함없는 연주력</h4>
+                    <p>
+                      그러나 그들의 트레이드 마크라 할 수 있는 뛰어난 연주력은 변함이 없습니다. 
+                      오히려 원어 앨범보다 더 화끈한 연주를 들려주고 있어요.
+                    </p>
+                    <p className="mt-2 text-xs italic">
+                      [아시다시피 시완 발매반에는 영어버전이 함께 실려있지요.]
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-purple-50 p-4 rounded-lg border-l-4 border-purple-400">
+            <div className="flex items-center mb-2">
+              <span className="bg-purple-500 text-white px-2 py-1 rounded text-sm font-medium">유영재</span>
+              <span className="ml-2 text-sm text-gray-600">espiritu@hitel.net, 1994-02-01</span>
+            </div>
+            <div className="space-y-4">
+              <div className="bg-white p-3 rounded">
+                <h3 className="font-semibold text-purple-700 mb-2">이탈리안 프로그레시브의 최고 걸작</h3>
+                <div className="space-y-3 text-sm leading-relaxed">
+                  <div className="bg-orange-50 p-3 rounded">
+                    <h4 className="font-medium text-orange-800 mb-2">개인적 최고 걸작</h4>
+                    <p>
+                      청동의 발레라는 뜻을 지니고 있는 이태리의 4인조 Il Balletto DiBronzo의 2집 [YS]는 
+                      이탈리안 록에서 빼놓을 수 없는 걸작으로 알려지고 있습니다.
+                    </p>
+                    <p className="mt-2">
+                      개인적으로 본인이 생각하는 이탈리안 프로그레시브의 최고 걸작으로 꼽는 앨범 하나를 거론하라고 한다면 
+                      바로 Il Balletto Di Bronzo의 [YS]를 꼽을 것입니다.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-red-50 p-3 rounded">
+                    <h4 className="font-medium text-red-800 mb-2">첫 인상의 실망</h4>
+                    <p>
+                      이 앨범을 고1때 일본 Edison사에서 재발된 CD로 구입했을 때, 각종 찬사를 받아온 본앨범을 구입했을 때는 
+                      희열감에 사로잡혔으나 정작 집에 가져와서 들었을 때는 실망감으로 인해 적지않게 당혹감을 느껴야 했습니다.
+                    </p>
+                    <p className="mt-2">
+                      "대체 이 앨범이 왜 뛰어나다는 것일까...? 뭐가 좋다는거지...?" 
+                      그런 생각만 하면서 그날 이후로 이 앨범은 구석에다 쳐박아 놓은채 한동안 듣지도 않았습니다.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-yellow-50 p-3 rounded">
+                    <h4 className="font-medium text-yellow-800 mb-2">운명적인 재발견</h4>
+                    <p>
+                      몇달이 지나고 밤에 잠이 안와서 자장가로 들을 앨범을 찾다가 구석에 박힌 이 앨범을 꺼냈습니다. 
+                      (이 앨범은 아시다시피 자장가용 음악으로는 전혀 어울리는 음악이 아닌데...)
+                    </p>
+                    <p className="mt-2">
+                      하지만 자장가로 들으려했던 이 음반은 오히려 그날밤 나를 결코 잠이 들 수 없게 만들었습니다. 
+                      불이 다꺼진 캄캄한 방안에서 이불을 뒤집어쓰고 이 작품을 듣고 있던 나는 '이럴수가...'하는 탄성만이 나왔습니다.
+                    </p>
+                    <p className="mt-2">
+                      '이런 대단한 작품을 여지껏 먼지만 쌓이게 하고 있었다니...' 
+                      그날밤 나는 이 앨범을 5번이나 반복해 듣느라 밤을 거의 새우고 담날 학교에서는 새우눈으로 지내야 했습니다.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-green-50 p-3 rounded">
+                    <h4 className="font-medium text-green-800 mb-2">난해함과 진국의 매력</h4>
+                    <p>
+                      분명 본작품은 처음 들었을 때 귀에 쏙 들어오는 음악은 아닙니다. 그만큼 이 작품은 난해합니다. 
+                      하지만 들으면 들을수록 끌리는 음악들이 더 오래 청자의 뇌리에 남고 강한 인상을 심어주는 경우가 많습니다.
+                    </p>
+                    <p className="mt-2">
+                      정말이지 들으면 들을수록 진국이 아닐 수 없습니다. 
+                      본작품의 가치는 프로그레시브록이라는 장르에 딱 어울리는 주제의 신비성과 난해함에 
+                      멤버 4인의 가공할만한 연주가 어우러져 듣는 이를 꼼짝없이 얼어붙게 만드는 마력에 있습니다.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-indigo-50 p-3 rounded">
+                    <h4 className="font-medium text-indigo-800 mb-2">음악적 특징</h4>
+                    <p>
+                      이들의 연주는 이탈리안 록치고는 파격적인 사운드를 들려주고 있는데 
+                      하드함과 사이키한 분위기가 적절한 조화를 이루고 있습니다.
+                    </p>
+                    <ul className="mt-2 space-y-1 text-xs">
+                      <li>• <strong>Gianni Leone</strong>: 보컬 겸 키보디스트, 현란한 건반 터치로 전율감 선사</li>
+                      <li>• 찢어질듯 엄습해오는 사이키한 분위기의 기타와 베이스</li>
+                      <li>• 공격적인 드럼 사운드</li>
+                      <li>• 4인의 멤버 각자가 최상의 연주</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-pink-50 p-3 rounded">
+                    <h4 className="font-medium text-pink-800 mb-2">SECADA 최정준군의 평가</h4>
+                    <p className="text-xs">
+                      같은 학교에 다니던 아트록 모임 아일랜드의 2대 추장 최정준군이 이 앨범을 빌려가서 듣고서는:
+                    </p>
+                    <div className="mt-2 space-y-1 text-xs bg-white p-2 rounded">
+                      <p><strong>첫날:</strong> "야~~!! 그거 되게 어렵드라...뭐가뭔지 모르겠어..."</p>
+                      <p><strong>둘째날:</strong> "드디어 내가 그 음악의 진가를 알았다!! 내가 그 음반을 이해하려고 어제까지 열번도 더 들었다...보컬이 로버트 플랜트를 방불케 하던데...?!!!"</p>
+                    </div>
+                    <p className="mt-2 text-xs">
+                      Gianni의 보컬은 약간 훽까닥 간(?) 상태에서 들으면 로버트 플랜트를 방불케한다고 느낄 수도 있을 정도로 매력을 겸비하고 있습니다.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-red-50 p-3 rounded border-l-2 border-red-400">
+                    <h4 className="font-medium text-red-800 mb-2">결론 및 추천</h4>
+                    <p>
+                      이 앨범은 프로그레시브 록을 들으시는 분이라면 결코 그냥 넘어가선 안될 음반입니다. 
+                      아직 본앨범의 진가를 느끼지 못하신 분은 한번 밤에 불다끄고 헤드폰 꽂고 볼륨 왕창 올려놓고 들어보시죠...
+                    </p>
+                    <p className="mt-2 font-bold">
+                      명반중의 명반입니다!!!!! 그야말로 왕걸작!!!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-orange-50 p-4 rounded-lg border-l-4 border-orange-400">
+            <div className="flex items-center mb-2">
+              <span className="bg-orange-500 text-white px-2 py-1 rounded text-sm font-medium">정철</span>
+              <span className="ml-2 text-sm text-gray-600">zepelin@popsmail.com, 1995-09-11</span>
+            </div>
+            <div className="space-y-4">
+              <div className="bg-white p-3 rounded">
+                <h3 className="font-semibold text-orange-700 mb-2">과격함과 예술성의 반응</h3>
+                <div className="space-y-3 text-sm leading-relaxed">
+                  <div className="bg-blue-50 p-3 rounded">
+                    <h4 className="font-medium text-blue-800 mb-2">첫 인상의 황당함</h4>
+                    <p>
+                      처음에 이 음반을 명성만 믿고 듣게되었을 때 그 황당함은 지금도 잊을 수 없습니다. 
+                      동생이랑 둘이서 "야 이게 음악이냐?"라는 말만 내뱉으며 듣던 황당한 기억.
+                    </p>
+                    <p className="mt-2">
+                      그것은 Miles Davis의 Bitches Brew나 Pink Floyd의 Ummagumma를 처음들었을 때의 느낌과 유사했습니다.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-yellow-50 p-3 rounded">
+                    <h4 className="font-medium text-yellow-800 mb-2">작품의 특징</h4>
+                    <p>
+                      지금은 엄청난 유명세를 갖고있는 <strong>Gianni Leone</strong>가 거의 휩쓸다시피하여 완성된 작품인 본작은 
+                      과격함과 예술성이 반응하면 어떤 결과물이 나오는가를 보여준 작품입니다.
+                    </p>
+                    <div className="mt-2 bg-white p-2 rounded text-xs">
+                      <p><strong>흥미로운 사실:</strong> 작사작곡은 N.Mazzocchi라는 사람이 했다고 적혀있습니다. 그럼 이놈들만한 괴물이 또 있다는 거죠.</p>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-green-50 p-3 rounded">
+                    <h4 className="font-medium text-green-800 mb-2">사운드의 독창성</h4>
+                    <p>
+                      사운드는 뭐라고 해야하나... 이들과 유사한 사운드는 분명히 말할 수 있는데 '없다.' 
+                      그나마 댄다면 Metamorfosi정도?
+                    </p>
+                    <p className="mt-2">
+                      이걸 듣고 피곤해 하는 이들은 한달에 한번씩만 들어보라. 언젠가 뽕 간다. 
+                      양적 축적이 질적 전화를 가져올 것입니다.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-purple-50 p-3 rounded">
+                    <h4 className="font-medium text-purple-800 mb-2">앨범 재킷 묘사</h4>
+                    <p>
+                      재킷에는 요란한 옷을 입은 아주머니가 서 있는데 그걸 여신이라고 한 것 같습니다. 
+                      거기에 더욱 황당한 건 이 아주머니가 똥배가 잔뜩 나왔다는 거죠. 
+                      그래도 재킷 색깔이 고풍스러워서 대충 보면 이쁩니다.
+                    </p>
+                    <p className="mt-2">
+                      뒷면에는 거지패션을 한 멤버 사진이 있습니다. 별로 똘똘해보이지는 않는데 이놈들이 과연 그런 과감한 음악을 했을까?
+                    </p>
+                  </div>
+                  
+                  <div className="bg-red-50 p-3 rounded">
+                    <h4 className="font-medium text-red-800 mb-2">현재의 감상</h4>
+                    <p>
+                      지금 두번째 듣고있지만 이 현란한 사운드와 그 사이를 굴러가는 피아노소리는 나를 뽕 가게 하기에 충분합니다. 
+                      이런걸 라이브로 하는걸 한번만 봤으면 좋겠습니다.
+                    </p>
+                    <p className="mt-2 font-bold">아 죽입니다.</p>
+                    <p className="mt-2 text-xs italic">
+                      [아 역시 어릴때 쓴 글은 민망하군요...-_- 지금이라고 좋아진 것도 아니지만서두.]
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-gray-50 p-4 rounded-lg">
+            <h3 className="font-semibold mb-3 text-gray-700">Il Balletto Di Bronzo 정보</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+              <div>
+                <h4 className="font-medium mb-2">기본 정보</h4>
+                <ul className="space-y-1">
+                  <li><strong>국가:</strong> 이탈리아 (나폴리)</li>
+                  <li><strong>의미:</strong> 청동의 발레</li>
+                  <li><strong>구성:</strong> 4인조</li>
+                  <li><strong>키보드/보컬:</strong> Gianni Leone</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-medium mb-2">음악적 특징</h4>
+                <ul className="space-y-1">
+                  <li>이탈리안 록치고 파격적인 사운드</li>
+                  <li>하드함과 사이키한 분위기의 조화</li>
+                  <li>현란한 건반 터치</li>
+                  <li>공격적인 드럼과 사이키 기타</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="mt-4">
+              <h4 className="font-medium mb-2">주요 앨범</h4>
+              <div className="space-y-1 text-sm">
+                <div className="bg-white p-2 rounded">
+                  <strong>Sirio 2222</strong> - 데뷔작
+                </div>
+                <div className="bg-white p-2 rounded">
+                  <strong>YS</strong> (1972) - 그리스 로마신화 사랑의 여신을 테마로 한 걸작
+                </div>
+              </div>
+            </div>
+            
+            <div className="mt-4">
+              <h4 className="font-medium mb-2">앨범 테마</h4>
+              <div className="text-xs space-y-1">
+                <p>• <strong>YS:</strong> 그리스 로마신화의 사랑의 여신</p>
+                <p>• <strong>내용:</strong> 여신의 밤생활(性生活) 표현</p>
+                <p>• <strong>작사작곡:</strong> N.Mazzocchi</p>
+              </div>
+            </div>
+            
+            <div className="mt-4">
+              <h4 className="font-medium mb-2">주요 곡</h4>
+              <div className="flex flex-wrap gap-2 text-xs">
+                <span className="bg-red-100 px-2 py-1 rounded">Introduzione</span>
+                <span className="bg-red-100 px-2 py-1 rounded">Second Incontro</span>
+                <span className="bg-red-100 px-2 py-1 rounded">Epilogo</span>
+              </div>
+            </div>
+            
+            <div className="mt-4">
+              <h4 className="font-medium mb-2">특이사항</h4>
+              <div className="text-xs space-y-1">
+                <p>• 이탈리안 프로그레시브의 최고 걸작으로 평가</p>
+                <p>• 처음엔 난해하지만 들을수록 매력적</p>
+                <p>• 영어 버전 CD 싱글 일본 발매</p>
+                <p>• 시완레코드에서 국내 라이센스 발매</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="mt-8 text-center">
-          <Link href="/review/b" className="inline-block px-4 py-2 bg-[#0000aa] text-white rounded hover:bg-[#2222cc]">메뉴로 돌아가기</Link>
+          <Link href="/review/b" className="inline-block px-4 py-2 bg-[#0000aa] text-white rounded hover:bg-[#2222cc]">목록으로 돌아가기</Link>
         </div>
       </div>
     </main>
