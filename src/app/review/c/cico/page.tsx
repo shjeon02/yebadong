@@ -34,7 +34,7 @@ export default function CicoPage() {
                 <span className="text-white font-bold text-lg">조</span>
               </div>
               <div>
-                <p className="font-semibold text-amber-800">조영래</p>
+                <p className="font-semibold text-amber-800">조영래 ★★☆</p>
                 <p className="text-sm text-amber-600">cynical@hitel.net</p>
               </div>
             </div>
@@ -46,7 +46,7 @@ export default function CicoPage() {
                 <span className="text-white font-bold text-lg">유</span>
               </div>
               <div>
-                <p className="font-semibold text-orange-800">유영재</p>
+                <p className="font-semibold text-orange-800">유영재 ★☆</p>
                 <p className="text-sm text-orange-600">espiritu@hitel.net</p>
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function CicoPage() {
                 <span className="text-white font-bold text-lg">정</span>
               </div>
               <div>
-                <p className="font-semibold text-yellow-800">정철</p>
+                <p className="font-semibold text-yellow-800">정철 A0</p>
                 <p className="text-sm text-yellow-600">zepelin@popsmail.com</p>
               </div>
             </div>
@@ -83,35 +83,6 @@ export default function CicoPage() {
               오케스트레이션의 주도 아래 <strong>서정적인 멜로디</strong>가 주를 이루는 본작품은 
               타이틀곡이 매우 특출난 넘버이긴 하지만 그 외의 곡들은 '평범' 이상을 넘지 못하고 있다는게 조금 흠입니다.
             </p>
-          </div>
-        </div>
-
-        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h2 className="text-2xl font-bold text-amber-800 mb-6">💿 Notte 앨범</h2>
-          
-          <div className="space-y-6">
-            <div className="bg-amber-50 p-4 rounded-lg border-l-4 border-amber-400">
-              <h3 className="text-lg font-semibold text-amber-800 mb-3">대표곡: La Notte</h3>
-              <p className="text-amber-700 mb-3">
-                앨범의 하이라이트는 단연 <strong>'La Notte'</strong>입니다. 
-                이 곡은 국내 프로그레시브 록 매니아들 사이에서 특별한 사랑을 받아왔으며, 
-                Cico의 서정적인 보컬과 오케스트레이션이 완벽하게 조화를 이룹니다.
-              </p>
-              <div className="bg-white p-3 rounded border-l-2 border-amber-300">
-                <p className="text-amber-800 text-sm">
-                  밤(Notte)이라는 제목에 걸맞게 몽환적이고 서정적인 분위기가 압권입니다.
-                </p>
-              </div>
-            </div>
-
-            <div className="bg-orange-50 p-4 rounded-lg border-l-4 border-orange-400">
-              <h3 className="text-lg font-semibold text-orange-800 mb-3">앨범의 한계</h3>
-              <p className="text-orange-700">
-                타이틀곡 'La Notte'가 매우 특출난 넘버이긴 하지만 
-                그 외의 곡들은 <strong>'평범' 이상을 넘지 못하고</strong> 있다는게 조금 흠입니다. 
-                전체적으로 볼 때 한 곡에 의존하는 경향이 강한 앨범이라고 할 수 있습니다.
-              </p>
-            </div>
           </div>
         </div>
 
@@ -150,7 +121,7 @@ export default function CicoPage() {
               <h3 className="text-lg font-semibold text-yellow-800 mb-3">정철 A0</h3>
               <p className="text-yellow-700 text-sm mb-2">
                 이게 왜 이리 점수가 높냐 하면 나는 이것을 <strong>락의 범주에 넣지 않았기</strong> 때문이다. 
-                이는 분명히 <strong>이탈리아 팝</strong>이며, 이를 다른 팝음반에 비교해 볼때 단연 이수준이 되는 음반이다.
+                이는 분명히 <strong>이탈리아 팝</strong>이며, 다른 팝음반에 비교해 볼때 단연 이수준이 되는 음반이다.
               </p>
               <div className="bg-white p-3 rounded border-l-2 border-yellow-300">
                 <p className="text-yellow-800 text-xs">

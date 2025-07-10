@@ -1,8 +1,10 @@
 {
-  "/review/c/page": "app/review/c/page.js",
-  "/review/c/cairo/page": "app/review/c/cairo/page.js",
-  "/review/b/bacamarte/page": "app/review/b/bacamarte/page.js",
-  "/review/c/carpenters/page": "app/review/c/carpenters/page.js",
-  "/review/c/camel/page": "app/review/c/camel/page.js",
-  "/review/b/chrisdeburgh/page": "app/review/b/chrisdeburgh/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/review/f/formula3/page": "app/review/f/formula3/page.js",
+  "/page": "app/page.js",
+  "/review/f/page": "app/review/f/page.js",
+  "/review/g/gentle-giant/page": "app/review/g/gentle-giant/page.js",
+  "/review/g/peter-gabriel/page": "app/review/g/peter-gabriel/page.js",
+  "/review/g/page": "app/review/g/page.js",
+  "/review/page": "app/review/page.js"
 }
