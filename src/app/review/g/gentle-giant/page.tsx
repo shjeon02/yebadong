@@ -27,6 +27,69 @@ export default function GentleGiantPage() {
           email: "jangms@mobi.etri.re.kr",
           content: `저도 _Acquiring The Taste_ 를 무척 좋아합니다. 은은하게 시작되는 첫번째 곡이 제가 가장 좋아하는 곡이예요 :) 이 곡은 정말 감수성이 수려하다고 할만 하지요 :)
 
+저는 _Acquiring The Taste_ 에 크게 만족하고는 _Octopus_를 구했는데요,'정감'이 좀 덜 느껴지고 지나치게 기교적으로 흐른듯한 느낌도 받았습니다._Octopus_ 보단 _The Power & The Glory_하고 _In A Glass House_를 더 좋아하는 편입니다. 
+
+어찌보면 이 두 앨범이 _Octopus_ 보다는 덜 난해하고 친숙하기 쉽다는 뜻도 되겠네요. _In A Glass House_ CD 는 커버가 반투명한 그림으로 되어 있는 특이한 모양새입니다. :)`
+        },
+        {
+          reviewer: "Fish",
+          email: "icshin@chiak.kaist.ac.kr",
+          content: `음.. Free hand는 저도 그다지 좋아하지 않았어요.. 하지만 Three Friends 는 무척 좋아했던 앨범입니다..본 YBD에서 글은 전혀쓰지 않지만 숨어계신 Observer인 저의 roommate가 88년도인가에 악명높은 Iowa에 다녀오면서 사가지고 왔던 앨범이죠.. :-) 
+
+특히 Three Friends에선 GG특유의 마력적인 vocal harmony가 정말 잘 나타나 있어요.. :-) 그리구 저의 의견으로는 Octopus보다는 The Power and the Glory, 가 더 괜찮았던것 같구요. 
+
+무엇보다도 그리고 가장 GG의 virtuorisity를 잘 나타낸 앨범은 모두들 live album인 _Playing the Fool_이라고 하죠. 저는 아직 못들어보았는데 정말 구하고 싶은 item입니다. CDC에는 없는것 같은데 Ranjit이나 CDE를 통해서 라도 꼭 사보아야 겠어요. 과연 그 복잡한 harmony 를 GG가 live에서 어떻게 소화하길래 그렇게 대단한 live album이라고 칭송을 받는지..`
+        },
+        {
+          reviewer: "libero",
+          email: "swkim@gaia.kaist.ac.kr",
+          content: `Gentle Giant - A Study on 'Octopus'...
+
+Gentle Giant는 _Three Friends_(이후 _TF_라 함) 라이센스 앨범의 속지에 쓰여진 것처럼 영국의 대표적인 progressive rock 그룹 중의 하나이면서, VDGG와 더불어 국내팬들이 많지 않은 그룹이지만, progressive rock계에서 이 그룹을 언급하지 않으면 안되는 중요한 그룹 중의 하나입니다.
+
+제가 이 그룹의 앨범 _Free Hand_(이후 _FH_로 함)를 처음 들었을 때는 전혀 좋은 줄 모르고 처박아 놨다가, 2집 _Acquiring The Taste_(이후 _AtT_라 함)를 듣고, 나중에는 거의 모든 앨범을 모을 정도로 좋아하게 됐는데, 가장 큰 이들의 매력인 하나의 곡에서 여러 파트가 각자의 멜로디, 리듬을 연주/진행하면서도 서로 화음/조화를 이루는 대위법적인(contrapuntal) 곡구성!! 에 주의해서 들으시면 분명히 만족하실 겁니다. 
+
+그러므로, 전체를 모두 들을때, 또는 각 악기 파트를 따로 주의해서 들을때, 각기 다양한 느낌을 받으실 겁니다. 이런 즐거움은 이들의 음악을 한두번이 아닌 수십번 들어도 질리지 않고, 들으면 들을수록 좋아하게 만드는 것 같습니다. 그 반면, 처음부터 좋아해지기는 무척 어렵죠.
+
+그룹에 대한 biography는 여타 널려진 자료들을 참조해 주시고, 저는 GG팬들이 "입문 앨범"중의 하나로 많이 평가하는 이들의 4집 _Octopus_(1973, 시완 라이센스)에 대해서 주제넘게 얘기해 볼까 합니다. 모두 8곡이 수록되었다 하여 이름붙여진(Octo-opus) 이 Octopus앨범은 Gentle Giant의 음악적 방향을 잡고 성숙기로 접어드는 중요한 분기점이 되는데, 그 이유는 이전 앨범들이 classical한 악기를 많이 사용하여 melody를 중시한 싸운드를 주로 들려주는 반면, 이후 앨범들은 상대적으로 대위법적인 곡구성과 리듬(즉, 더욱 Rock적이라는 의미)을 더욱 중시하기 때문이라는 게 지배적인 의견입니다.
+
+이는 Shulman형제의 맡형인 Phil이 이 앨범을 끝으로 탈퇴하고, 드러머 John Weathers가 가입한 영향이 크다는 것은 여러 자료에서 잘 알려져 있습니다. 또한, 이 사실은 이들의 8집 앨범 _Interview_의 타이틀 곡의 가사에서 잘 드러나는데, 잠시 인용해 보면 다음과 같습니다.
+
+What can we tell you?
+At the beginning had no direction,
+any other way.
+After the fourth one, realisation,
+finding our road, the same as if today.
+
+그리고, 시완 라이센스 앨범의 속지쓰신 맹경무님 말씀대로, 이 앨범에서 (아니, 전 앨범을 통틀어) Kerry Minnear의 - classical한 - 작곡능력에 감탄하게 되는데, 이는 다름아닌 Kerry가 왕립음악학교 ( Royal Academy of Music ) 의 작곡 분야에서 수학한 결과가 있기 때문이겠죠.
+
+(참고: 영국에는 Royal Academy of Music과 Royal College of Music이 있던데, 같은 학교인지는 모르지만, 이 두 학교에서 많은 progressive rock계의 영웅들이 나온 걸 다들 잘 아실 겁니다. Rick Wakeman, John Lord, Robert John Godfrey, Gryphon의 Brian Gulland, Richard Harvey 등등.)`
+        },
+        {
+          reviewer: "Neo-Zao",
+          email: "zao@jean.iml.goldstar.co.kr",
+          content: `GG와 프랑소와 라블레
+
+6개월전쯤에 젠틀자이언트에 푹 빠져 있을 때, 이 들에 대한 리뷰를 하려고, 도서관도 뒤져 보면서 이런 저런 자료를 모았죠. 그런데 리베로님이 보내준 GG의 팬진인 Proclamation을 보고 완전히 넉아웃되어서 현재로는 답보상태를 벗어나지 못하고 있습니다. :-(
+
+리베로님이 언급하신 프랑소와 라블레는 중세 프랑스의 반골적 기질이 농후했던 승려로서, 또 휴머니즘이 가득한 의사로서 기지와 유머, 체제비판적인 성향을 섞어서 '거인왕조'의 우화를 썼던 사람입니다. 
+
+이 거인왕조의 이야기는 제 1 세인 가르강튀아(시기적으로는 더 늦에 발표되었습니다.)의 이야기가 한 권, 나머지의 5권정도를 그 2 세인 빵타그뤼엘에 할애되고 있는 프랑스 중세 문학에서 중요한 위치를 차지하고 있는 작품입니다. 
+
+이 책들은 현재 국내에는 번역되어 나온 책이 없는 상태이고, 다만 십여종의 프랑스 문학사에 부분 부분이 다루어 지고 있습니다. 
+
+Proclamation에 의하면 프랑소와 라블레의 편린을 GG에 끌어들인 사람은 의외로 데뷰앨범의 제작자겸 프로듀서였던 토니 비스콘티(맞죠? 기억이..)라고 합니다. 그는 데뷰앨범에 GG의 유래에 관한 짧막하고 코믹한 전설을 썼는데, 
+
+..잠시 전설에 관해..
+숲속에서 망중한을 즐기고 있던 거인이 어느 날 숲 속 어느곳에선가 재밌는 소리가 나는 것을 느꼈다. 그는 산 하나를 한 걸음에 넘어버리는 보폭으로 그 곳을 찾아가니 그 곳에서는 몇 명의 풍각쟁이가 (게리 그린, 케리 미네어, 데렉 & 레이 * 필 슐만, 마틴 스미스) 음악을 연주하고 있었다. 거인은 그 음악이 너무도 맘에 들어 춤을 추었는데.. 지축이 흔들렸다. 풍각쟁이들은 이 거인이 두려웠으나 친절한 것을 눈치챘다. 결국 그들은 거인과 기념촬영을 하려고 했는데 아무리 해도 거인이 프레임에 들어오지 않았다. 결국 거인은 풍각쟁이들을 손바닥에 올려 놓고 사진을 찍게 되었는데, 그 사진이 데뷰앨범의 재킷이고 이 후 풍각쟁이들은 그 거인을 '친절한 거인 Gentle Giant'라고 불렀다..
+
+이 전설에 의한다면 GG의 "친절한 거인"은 라블레의 가르강튀아나 빵타그뤼엘과는 별 연관을 찾을 수 없습니다. 따라서 라블레의 아이디어는 단순히 밴드에 곡의 소재를 풍부히 할 생각으로 도입된 것으로 생각됩니다.`
+        },
+        {
+          reviewer: "Ork-Man",
+          email: "jangms@mobi.etri.re.kr",
+          content: `저도 _Acquiring The Taste_ 를 무척 좋아합니다. 은은하게 시작되는 첫번째 곡이 제가 가장 좋아하는 곡이예요 :) 이 곡은 정말 감수성이 수려하다고 할만 하지요 :)
+
 저는 _Acquiring The Taste_ 에 크게 만족하고는 _Octopus_를 구했는데요,'정감'이 좀 덜 느껴지고 지나치게 기교적으로 흐른듯한 느낌도 받았습니다._Octopus_ 보단 _The Power & The Glory_하고 _In A Glass House_를 더 좋아하는 편입니다. 어찌보면 이 두 앨범이 _Octopus_ 보다는 덜 난해하고 친숙하기 쉽다는 뜻도 되겠네요. _In A Glass House_ CD 는 커버가 반투명한 그림으로 되어 있는 특이한 모양새입니다. :)`
         },
         {
