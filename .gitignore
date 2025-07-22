@@ -248,4 +248,8 @@ agents-env/
 *.seed
 *.pid.lock
 .tgz
-.tar.gz
+.tar.gz.next/
+.next/
+dist/
+build/
+cache/
