@@ -31,6 +31,21 @@ export default function ReviewIndex() {
         <div className="mt-2 text-center">
           <Link href="/review/baberuth" className="hover:underline text-[#0000aa] font-medium">Babe Ruth</Link>
         </div>
+        <h3 className="text-2xl font-semibold text-center mb-6">Band Reviews</h3>
+        
+        <div className="mb-8">
+          <h4 className="text-xl font-semibold mb-3 text-[#0000aa]">O</h4>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pl-4 mb-4">
+            <Link href="/review/o/mike-oldfield" className="hover:underline text-[#0000aa]">Mike Oldfield</Link>
+            <Link href="/review/o/lisa-ono" className="hover:underline text-[#0000aa]">Lisa Ono</Link>
+            <Link href="/review/o/opus-avantra" className="hover:underline text-[#0000aa]">Opus Avantra</Link>
+            <Link href="/review/o/osanna" className="hover:underline text-[#0000aa]">Osanna</Link>
+            <Link href="/review/o/outer-limits" className="hover:underline text-[#0000aa]">Outer Limits</Link>
+            <Link href="/review/o/out-of-focus" className="hover:underline text-[#0000aa]">Out of Focus</Link>
+            <Link href="/review/o/ozric-tantacles" className="hover:underline text-[#0000aa]">Ozric Tantacles</Link>
+          </div>
+        </div>
+
         <h3 className="text-2xl font-semibold text-center mb-4">Big Review</h3>
         <ul className="list-disc pl-6 space-y-1 text-base">
           {[
