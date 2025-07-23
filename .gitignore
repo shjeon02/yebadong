@@ -253,3 +253,4 @@ agents-env/
 dist/
 build/
 cache/
+.cursor/
