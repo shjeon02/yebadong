@@ -2,74 +2,85 @@ import React from 'react';
 
 interface Review {
   reviewer: string;
-  email?: string;
-  date?: string;
+  email: string;
   content: string;
 }
 
 interface BandReviewProps {
   bandName: string;
-  koreanName?: string;
-  albumTitle?: string;
+  albumTitle: string;
   description?: string;
   reviews: Review[];
 }
 
-const BandReview: React.FC<BandReviewProps> = ({ 
-  bandName, 
-  koreanName, 
-  albumTitle, 
-  description, 
-  reviews 
-}) => {
+export default function BandReview({ bandName, albumTitle, description, reviews }: BandReviewProps) {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
-      {/* Header */}
-      <header className="bg-gradient-to-r from-purple-900 to-blue-900 p-8">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold mb-2">
-            {bandName}
-            {koreanName && <span className="text-3xl ml-4 text-gray-300">({koreanName})</span>}
-          </h1>
-          {albumTitle && (
-            <p className="text-xl text-gray-300">{albumTitle}</p>
-          )}
-          {description && (
-            <p className="text-lg text-gray-400 mt-2">{description}</p>
-          )}
-        </div>
-      </header>
-
-      {/* Main Content */}
-      <main className="max-w-4xl mx-auto p-8">
-        {reviews.map((review, index) => (
-          <div key={index} className="bg-gray-800 rounded-lg p-6 mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-purple-400">
-              {bandName} {albumTitle && `- ${albumTitle}`}
+    <main className="min-h-screen bg-surface text-primary">
+      <div className="container mx-auto px-4 py-8">
+        {/* 4-column grid layout as per 9UI */}
+        <div className="grid grid-cols-4 gap-4">
+          {/* Header Section - spans full width */}
+          <div className="col-span-4 mb-8 text-center">
+            <h1 className="text-3xl font-bold mb-4 text-primary">
+              {bandName}
+            </h1>
+            <h2 className="text-xl text-secondary mb-4">
+              {albumTitle}
             </h2>
-            <div className="border-l-4 border-purple-500 pl-4 mb-4">
-              <p className="font-semibold text-purple-400">
-                {review.reviewer}
-                {review.email && (
-                  <span className="text-gray-400 ml-2">({review.email})</span>
-                )}
-                {review.date && (
-                  <span className="text-gray-400 ml-2">[{review.date}]</span>
-                )}
+            {description && (
+              <p className="text-base text-muted max-w-3xl mx-auto leading-relaxed">
+                {description}
               </p>
-            </div>
-            <div className="space-y-4 text-gray-300">
-              {review.content.split('\n').map((paragraph, pIndex) => (
-                <p key={pIndex} className="whitespace-pre-line">
-                  {paragraph}
-                </p>
-              ))}
-            </div>
+            )}
           </div>
-        ))}
-      </main>
-    </div>
-  );
-};
 
-export default BandReview; 
+          {/* Reviews Section - responsive columns */}
+          <div className="col-span-4 space-y-6">
+            {reviews.map((review, index) => (
+              <div 
+                key={index} 
+                className="bg-surface-subtle border border-muted rounded-md p-4 hover:border-primary/20 transition-colors"
+              >
+                {/* Reviewer Info */}
+                <div className="mb-4 pb-4 border-b border-muted">
+                  <h3 className="text-lg font-semibold text-primary mb-1">
+                    {review.reviewer}
+                  </h3>
+                  {review.email && (
+                    <p className="text-sm text-secondary">
+                      {review.email}
+                    </p>
+                  )}
+                </div>
+
+                {/* Review Content - structured paragraphs as per rules */}
+                <div className="space-y-4">
+                  <div className="text-primary leading-relaxed">
+                    {review.content.split('\n\n').map((paragraph, pIndex) => (
+                      <p key={pIndex} className="mb-2 whitespace-pre-line">
+                        {paragraph}
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Footer CTA - spans full width */}
+          <div className="col-span-4 mt-12 text-center">
+            <a 
+              href="/review" 
+              className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:bg-primary/90 transition-colors"
+            >
+              <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+              </svg>
+              목록으로 돌아가기
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+} 

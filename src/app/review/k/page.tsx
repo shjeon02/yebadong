@@ -1,46 +1,52 @@
-"use client";
-import Link from "next/link";
+import { Metadata } from 'next';
+import Link from 'next/link';
 
-export default function KReviewPage() {
+export const metadata: Metadata = {
+  title: 'K - 밴드 리뷰 | Yebadong',
+  description: 'K로 시작하는 밴드들의 리뷰 목록',
+};
+
+export default function KBandsPage() {
   const bands = [
-    { name: "Kaizen", slug: "kaizen", description: "브라질의 심포닉 락 그룹 - Gargula 앨범" },
-    { name: "Kansas", slug: "kansas", description: "미국의 70년대 프로그레시브 록의 대표 밴드" },
-    { name: "Kayak", slug: "kayak", description: "네덜란드의 서정파 아트록 그룹 - See See The Sun" },
-    { name: "Kebnekajse", slug: "kebnekajse", description: "스웨덴의 프로그레시브 록 밴드" },
-    { name: "Kenso", slug: "kenso", description: "일본을 대표하는 프로그레시브/퓨전 록 밴드" },
-    { name: "Kerrs Pink", slug: "kerrs-pink", description: "노르웨이의 기타 중심 아트록 그룹" },
-    { name: "King Crimson", slug: "king-crimson", description: "영국 프로그레시브 록의 전설적인 밴드" },
-    { name: "Emma Kirkby", slug: "emma-kirkby", description: "영국의 클래식 소프라노 가수" },
-    { name: "Klaatu", slug: "klaatu", description: "캐나다의 신비로운 스페이스 록 그룹 - Hope 앨범" },
-    { name: "Koenji Hyakkei", slug: "koenji-hyakkei", description: "일본의 프로그레시브 록 밴드" },
-    { name: "Kolinda", slug: "kolinda", description: "크로아티아의 전통 음악 그룹" },
-    { name: "Korai Orom", slug: "korai-orom", description: "헝가리의 프로그레시브 록 밴드" },
-    { name: "Kraan", slug: "kraan", description: "독일의 크라우트록/재즈록 밴드" },
-    { name: "Kultivator", slug: "kultivator", description: "스웨덴의 프로그레시브 록 밴드" }
+    { id: 'emma-kirkby', name: 'Emma Kirkby' },
+    { id: 'kaizen', name: 'Kaizen' },
+    { id: 'kansas', name: 'Kansas' },
+    { id: 'kayak', name: 'Kayak' },
+    { id: 'kebnekajse', name: 'Kebnekajse' },
+    { id: 'kenso', name: 'Kenso' },
+    { id: 'kerrs-pink', name: 'Kerr\'s Pink' },
+    { id: 'king-crimson', name: 'King Crimson' },
+    { id: 'klaatu', name: 'Klaatu' },
+    { id: 'koenji-hyakkei', name: 'Koenji Hyakkei' },
+    { id: 'kraan', name: 'Kraan' },
+    { id: 'kraftwerk', name: 'Kraftwerk' },
+    { id: 'krokodil', name: 'Krokodil' },
+    { id: 'kyuss', name: 'Kyuss' },
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-8 text-center">K 밴드 리뷰</h1>
-      
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {bands.map((band) => (
-          <div key={band.slug} className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-            <Link href={`/review/k/${band.slug}`}>
-              <h2 className="text-xl font-semibold mb-2 text-blue-600 hover:text-blue-800">
-                {band.name}
-              </h2>
-              <p className="text-gray-600">{band.description}</p>
+    <main className="min-h-screen bg-surface text-primary">
+      <div className="container mx-auto px-4 py-8">
+        <div className="text-center mb-8">
+          <h1 className="text-4xl font-bold mb-4 text-primary">K 밴드 리뷰</h1>
+          <p className="text-base text-muted">K로 시작하는 밴드들의 리뷰를 확인하세요.</p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
+          {bands.map((band) => (
+            <Link key={band.id} href={`/review/k/${band.id}`} className="bg-surface-subtle border border-muted rounded-md p-4 hover:border-primary/20 transition-colors hover:bg-surface-hover">
+              <h3 className="text-lg font-semibold text-primary">{band.name}</h3>
             </Link>
-          </div>
-        ))}
+          ))}
+        </div>
+        <div className="text-center">
+          <Link href="/review" className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:bg-primary/90 transition-colors">
+            <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            리뷰 목록으로 돌아가기
+          </Link>
+        </div>
       </div>
-      
-      <div className="mt-8 text-center">
-        <Link href="/review" className="text-blue-600 hover:text-blue-800">
-          ← 리뷰 메인으로 돌아가기
-        </Link>
-      </div>
-    </div>
+    </main>
   );
 } 

@@ -1,63 +1,69 @@
-"use client";
-import Link from "next/link";
+import { Metadata } from 'next';
+import Link from 'next/link';
 
-export default function EReviewPage() {
+export const metadata: Metadata = {
+  title: 'E - 밴드 리뷰 | Yebadong',
+  description: 'E로 시작하는 밴드들의 리뷰 목록',
+};
+
+export default function EBandsPage() {
   const bands = [
-    { name: "Earth and Fire", slug: "earthandfire", description: "네덜란드 프로그레시브 록 밴드" },
-    { name: "Echolyn", slug: "echolyn", description: "미국 프로그레시브 록 밴드" },
-    { name: "Edu e tom", slug: "eduetom", description: "브라질 밴드" },
-    { name: "Eela Craig", slug: "eelacraig", description: "오스트리아 프로그레시브 록 밴드" },
-    { name: "Ego Wrappin", slug: "egowrappin", description: "일본 밴드" },
-    { name: "Elend", slug: "elend", description: "프랑스 다크 앰비언트 밴드" },
-    { name: "Eloy", slug: "eloy", description: "독일 프로그레시브 록 밴드" },
-    { name: "Emerson, Lake and Palmer", slug: "elp", description: "영국 프로그레시브 록 슈퍼그룹" },
-    { name: "Emperor", slug: "emperor", description: "노르웨이 블랙 메탈 밴드" },
-    { name: "England - Garden Shed", slug: "england-gardenshed", description: "영국 밴드" },
-    { name: "Enid", slug: "enid", description: "영국 프로그레시브 록 밴드" },
-    { name: "Esperanto", slug: "esperanto", description: "다국적 밴드" },
-    { name: "Espiritu", slug: "espiritu", description: "필리핀 밴드" },
-    { name: "Et Cetera", slug: "etcetera", description: "네덜란드 밴드" },
-    { name: "Etron Fou Leloublan", slug: "etronfouleloublan", description: "프랑스 아방가르드 록 밴드" },
-    { name: "Explorer's club", slug: "explorersclub", description: "미국 프로그레시브 록 밴드" }
+    { id: 'earthandfire', name: 'Earth and Fire' },
+    { id: 'echolyn', name: 'Echolyn' },
+    { id: 'eduetom', name: 'E Due Tom' },
+    { id: 'eelacraig', name: 'Eela Craig' },
+    { id: 'egowrappin', name: 'Ego Wrappin\'' },
+    { id: 'elend', name: 'Elend' },
+    { id: 'eloy', name: 'Eloy' },
+    { id: 'elp', name: 'ELP' },
+    { id: 'emperor', name: 'Emperor' },
+    { id: 'england-gardenshed', name: 'England - Garden Shed' },
+    { id: 'enid', name: 'Enid' },
+    { id: 'eno', name: 'Eno' },
+    { id: 'equilibrium', name: 'Equilibrium' },
+    { id: 'eskaton', name: 'Eskaton' },
+    { id: 'etron-fou-leloublan', name: 'Etron Fou Leloublan' },
+    { id: 'evariste', name: 'Evariste' },
   ];
 
   return (
-    <main className="bg-white min-h-screen text-[#0000aa] py-12 px-4">
-      <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-8">E</h1>
-        
+    <main className="min-h-screen bg-surface text-primary">
+      <div className="container mx-auto px-4 py-8">
+        {/* Header */}
         <div className="text-center mb-8">
-          <p className="text-lg text-gray-600">
-            E로 시작하는 아티스트들의 리뷰 모음
-          </p>
-          <p className="text-sm text-gray-500 mt-2">
-            총 {bands.length}개의 밴드
+          <h1 className="text-4xl font-bold mb-4 text-primary">
+            E 밴드 리뷰
+          </h1>
+          <p className="text-base text-muted">
+            E로 시작하는 밴드들의 리뷰를 확인하세요.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        {/* Band List */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
           {bands.map((band) => (
-            <Link 
-              key={band.slug}
-              href={`/review/e/${band.slug}`}
-              className="block p-6 bg-blue-50 border border-blue-200 rounded-lg hover:bg-blue-100 transition-colors"
+            <Link
+              key={band.id}
+              href={`/review/e/${band.id}`}
+              className="bg-surface-subtle border border-muted rounded-md p-4 hover:border-primary/20 transition-colors hover:bg-surface-hover"
             >
-              <h3 className="text-xl font-semibold mb-2 text-blue-800">
+              <h3 className="text-lg font-semibold text-primary">
                 {band.name}
               </h3>
-              <p className="text-sm text-gray-600">
-                {band.description}
-              </p>
             </Link>
           ))}
         </div>
 
+        {/* Back Link */}
         <div className="text-center">
           <Link 
             href="/review" 
-            className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:bg-primary/90 transition-colors"
           >
-            전체 리뷰로 돌아가기
+            <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            리뷰 목록으로 돌아가기
           </Link>
         </div>
       </div>

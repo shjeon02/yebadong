@@ -31,18 +31,26 @@ export default function ReviewIndex() {
         <div className="mt-2 text-center">
           <Link href="/review/baberuth" className="hover:underline text-[#0000aa] font-medium">Babe Ruth</Link>
         </div>
-        <h3 className="text-2xl font-semibold text-center mb-6">Band Reviews</h3>
+        <h3 className="text-2xl font-semibold text-center mb-6">Browse by Letter</h3>
         
         <div className="mb-8">
-          <h4 className="text-xl font-semibold mb-3 text-[#0000aa]">O</h4>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pl-4 mb-4">
-            <Link href="/review/o/mike-oldfield" className="hover:underline text-[#0000aa]">Mike Oldfield</Link>
-            <Link href="/review/o/lisa-ono" className="hover:underline text-[#0000aa]">Lisa Ono</Link>
-            <Link href="/review/o/opus-avantra" className="hover:underline text-[#0000aa]">Opus Avantra</Link>
-            <Link href="/review/o/osanna" className="hover:underline text-[#0000aa]">Osanna</Link>
-            <Link href="/review/o/outer-limits" className="hover:underline text-[#0000aa]">Outer Limits</Link>
-            <Link href="/review/o/out-of-focus" className="hover:underline text-[#0000aa]">Out of Focus</Link>
-            <Link href="/review/o/ozric-tantacles" className="hover:underline text-[#0000aa]">Ozric Tantacles</Link>
+          <p className="text-center text-sm mb-6 text-gray-700">
+            각 알파벳을 클릭하여 해당 글자로 시작하는 밴드들의 리뷰를 확인하세요.
+          </p>
+          
+          {/* Alphabet Navigation Grid */}
+          <div className="grid grid-cols-6 sm:grid-cols-8 md:grid-cols-10 lg:grid-cols-13 gap-2 max-w-5xl mx-auto">
+            {['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'].map((letter) => (
+              <Link
+                key={letter}
+                href={`/review/${letter.toLowerCase()}`}
+                className="group relative bg-surface-subtle border border-muted rounded-lg p-4 hover:border-primary/20 transition-colors hover:bg-surface-hover text-center"
+              >
+                <span className="text-2xl font-bold text-primary group-hover:text-primary/80 transition-colors">
+                  {letter}
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
 

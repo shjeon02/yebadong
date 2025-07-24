@@ -2,30 +2,32 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Y - 밴드 리뷰 | Yebadong',
-  description: 'Y로 시작하는 밴드들의 리뷰 목록',
+  title: 'P - 밴드 리뷰 | Yebadong',
+  description: 'P로 시작하는 밴드들의 리뷰 목록',
 };
 
-export default function YBandsPage() {
+export default function PBandsPage() {
   const bands = [
-    { id: 'yes', name: 'Yes' },
-    { id: 'young-persons-guide', name: 'Young Person\'s Guide' },
+    // P 폴더에는 아직 밴드가 없습니다
   ];
 
   return (
     <main className="min-h-screen bg-surface text-primary">
       <div className="container mx-auto px-4 py-8">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold mb-4 text-primary">Y 밴드 리뷰</h1>
-          <p className="text-base text-muted">Y로 시작하는 밴드들의 리뷰를 확인하세요.</p>
+          <h1 className="text-4xl font-bold mb-4 text-primary">P 밴드 리뷰</h1>
+          <p className="text-base text-muted">P로 시작하는 밴드들의 리뷰를 확인하세요.</p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
-          {bands.map((band) => (
-            <Link key={band.id} href={`/review/y/${band.id}`} className="bg-surface-subtle border border-muted rounded-md p-4 hover:border-primary/20 transition-colors hover:bg-surface-hover">
-              <h3 className="text-lg font-semibold text-primary">{band.name}</h3>
-            </Link>
-          ))}
+        
+        {/* Empty State */}
+        <div className="text-center py-16">
+          <div className="max-w-md mx-auto">
+            <div className="text-6xl mb-4">🎵</div>
+            <h3 className="text-xl font-semibold text-muted mb-2">아직 리뷰가 없습니다</h3>
+            <p className="text-muted text-sm">P로 시작하는 밴드의 리뷰가 추가되면 여기에 표시됩니다.</p>
+          </div>
         </div>
+
         <div className="text-center">
           <Link href="/review" className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:bg-primary/90 transition-colors">
             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

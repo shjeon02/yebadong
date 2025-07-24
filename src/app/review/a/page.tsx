@@ -1,71 +1,99 @@
-"use client";
-import Link from "next/link";
-import React from "react";
+import { Metadata } from 'next';
+import Link from 'next/link';
 
-const bands = [
-  { name: "2066 And Then", slug: "2066andthen" },
-  { name: "Abraxas", slug: "abraxas" },
-  { name: "Affinity", slug: "affinity" },
-  { name: "Airey, Don", slug: "aireydon" },
-  { name: "Niitsu Akio", slug: "niitsuakio" },
-  { name: "Alan Parsons Project", slug: "alanparsonsproject" },
-  { name: "Jean Pierre Alarcen", slug: "jeanpierrealarcen" },
-  { name: "Albion", slug: "albion" },
-  { name: "Algarnas Tradgard", slug: "algarnastradgard" },
-  { name: "Alphataurus", slug: "alphataurus" },
-  { name: "Alusa Fallax", slug: "alusafallax" },
-  { name: "America", slug: "america" },
-  { name: "Amon Duul II", slug: "amonduulii" },
-  { name: "Anaid", slug: "anaid" },
-  { name: "Anekdoten", slug: "anekdoten" },
-  { name: "Ange", slug: "ange" },
-  { name: "Anglagard", slug: "anglagard" },
-  { name: "Aphrodite's Child", slug: "aphroditeschild" },
-  { name: "Aquarelle", slug: "aquarelle" },
-  { name: "Arco Iris", slug: "arcoiris" },
-  { name: "Area", slug: "area" },
-  { name: "Arena", slug: "arena" },
-  { name: "Armando Tirelli", slug: "armandotirelli" },
-  { name: "Arti & mestieri", slug: "artiandmestieri" },
-  { name: "Arzachel", slug: "arzachel" },
-  { name: "Asturias", slug: "asturias" },
-  { name: "Atoll", slug: "atoll" },
-  { name: "Aunt Mary", slug: "auntmary" },
-  { name: "Ayreon", slug: "ayreon" },
-  { name: "Amadis", slug: "amadis" },
-  { name: "Amelie", slug: "amelie" },
-  { name: "Amoeba", slug: "amoeba" },
-  { name: "Analogy", slug: "analogy" },
-  { name: "Anne Briggs", slug: "annebriggs" },
-  { name: "Antonio Carlos Jobim", slug: "antoniocarlosjobim" },
-  { name: "April Wine", slug: "aprilwine" },
-  { name: "Ars Nova", slug: "arsnova" },
-  { name: "Ashra", slug: "ashra" },
-  { name: "Anima", slug: "anima" },
-  { name: "Anthony Schwartz", slug: "anthonyschwartz" },
-  { name: "Antonio Vivaldi", slug: "antoniovivaldi" },
-  { name: "Apoteosi", slug: "apoteosi" },
-  { name: "April Fool", slug: "aprilfool" },
-  { name: "Asia", slug: "asia" },
-];
+export const metadata: Metadata = {
+  title: 'A - 밴드 리뷰 | Yebadong',
+  description: 'A로 시작하는 밴드들의 리뷰 목록',
+};
 
-export default function ReviewABandList() {
+export default function ABandsPage() {
+  const bands = [
+    { id: '2066andthen', name: '2066 And Then' },
+    { id: 'abraxas', name: 'Abraxas' },
+    { id: 'affinity', name: 'Affinity' },
+    { id: 'aireydon', name: 'Airey, Don' },
+    { id: 'alanparsonsproject', name: 'Alan Parsons Project' },
+    { id: 'jeanpierrealarcen', name: 'Jean Pierre Alarcen' },
+    { id: 'albion', name: 'Albion' },
+    { id: 'algarnastradgard', name: 'Algarnas Tradgard' },
+    { id: 'alphataurus', name: 'Alphataurus' },
+    { id: 'alusafallax', name: 'Alusa Fallax' },
+    { id: 'amadis', name: 'Amadis' },
+    { id: 'amelie', name: 'Amelie' },
+    { id: 'america', name: 'America' },
+    { id: 'amoeba', name: 'Amoeba' },
+    { id: 'amonduulii', name: 'Amon Duul II' },
+    { id: 'analogy', name: 'Analogy' },
+    { id: 'anaid', name: 'Anaid' },
+    { id: 'anekdoten', name: 'Anekdoten' },
+    { id: 'ange', name: 'Ange' },
+    { id: 'anglagard', name: 'Anglagard' },
+    { id: 'anima', name: 'Anima' },
+    { id: 'annebriggs', name: 'Anne Briggs' },
+    { id: 'anthonyschwartz', name: 'Anthony Schwartz' },
+    { id: 'antoniocarlosjobim', name: 'Antonio Carlos Jobim' },
+    { id: 'antoniovivaldi', name: 'Antonio Vivaldi' },
+    { id: 'aphroditeschild', name: 'Aphrodite\'s Child' },
+    { id: 'apoteosi', name: 'Apoteosi' },
+    { id: 'aprilfool', name: 'April Fool' },
+    { id: 'aprilwine', name: 'April Wine' },
+    { id: 'aquarelle', name: 'Aquarelle' },
+    { id: 'arcoiris', name: 'Arco Iris' },
+    { id: 'area', name: 'Area' },
+    { id: 'arena', name: 'Arena' },
+    { id: 'armandotirelli', name: 'Armando Tirelli' },
+    { id: 'arsnova', name: 'Ars Nova' },
+    { id: 'artiandmestieri', name: 'Arti & mestieri' },
+    { id: 'arzachel', name: 'Arzachel' },
+    { id: 'asia', name: 'Asia' },
+    { id: 'ashra', name: 'Ashra' },
+    { id: 'asturias', name: 'Asturias' },
+    { id: 'atoll', name: 'Atoll' },
+    { id: 'auntmary', name: 'Aunt Mary' },
+    { id: 'ayreon', name: 'Ayreon' },
+    { id: 'niitsuakio', name: 'Niitsu Akio' },
+  ];
+
   return (
-    <main className="bg-white min-h-screen text-[#0000aa] py-12 px-4">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8">A로 시작하는 프로그레시브 록 밴드 목록</h2>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-12">
+    <main className="min-h-screen bg-surface text-primary">
+      <div className="container mx-auto px-4 py-8">
+        {/* Header */}
+        <div className="text-center mb-8">
+          <h1 className="text-4xl font-bold mb-4 text-primary">
+            A 밴드 리뷰
+          </h1>
+          <p className="text-base text-muted">
+            A로 시작하는 밴드들의 리뷰를 확인하세요.
+          </p>
+        </div>
+
+        {/* Band List */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
           {bands.map((band) => (
-            <li key={band.slug} className="">
-              <Link
-                href={`/review/a/${band.slug}`}
-                className="block px-3 py-2 rounded-lg border border-blue-200 bg-blue-50 hover:bg-blue-100 transition text-sm font-medium text-center shadow-sm"
-              >
+            <Link
+              key={band.id}
+              href={`/review/a/${band.id}`}
+              className="bg-surface-subtle border border-muted rounded-md p-4 hover:border-primary/20 transition-colors hover:bg-surface-hover"
+            >
+              <h3 className="text-lg font-semibold text-primary">
                 {band.name}
-              </Link>
-            </li>
+              </h3>
+            </Link>
           ))}
-        </ul>
+        </div>
+
+        {/* Back Link */}
+        <div className="text-center">
+          <Link 
+            href="/review" 
+            className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:bg-primary/90 transition-colors"
+          >
+            <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            리뷰 목록으로 돌아가기
+          </Link>
+        </div>
       </div>
     </main>
   );

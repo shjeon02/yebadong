@@ -1,47 +1,36 @@
-"use client";
-import Link from "next/link";
+import { Metadata } from 'next';
+import Link from 'next/link';
 
-const bands = [
-  { name: "X-Legged Sally", slug: "xleggedsally", description: "벨기에 출신의 재즈락/챔버록 밴드" }
-];
+export const metadata: Metadata = {
+  title: 'X - 밴드 리뷰 | Yebadong',
+  description: 'X로 시작하는 밴드들의 리뷰 목록',
+};
 
-export default function ReviewXBandList() {
+export default function XBandsPage() {
+  const bands = [
+    { id: 'xleggedsally', name: 'X-Legged Sally' },
+  ];
+
   return (
-    <main className="bg-white min-h-screen text-[#0000aa] py-12 px-4">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8">X로 시작하는 프로그레시브 록 밴드 목록</h2>
+    <main className="min-h-screen bg-surface text-primary">
+      <div className="container mx-auto px-4 py-8">
         <div className="text-center mb-8">
-          <p className="text-lg text-gray-600">
-            X로 시작하는 아티스트들의 리뷰 모음
-          </p>
-          <p className="text-sm text-gray-500 mt-2">
-            총 {bands.length}개의 밴드
-          </p>
+          <h1 className="text-4xl font-bold mb-4 text-primary">X 밴드 리뷰</h1>
+          <p className="text-base text-muted">X로 시작하는 밴드들의 리뷰를 확인하세요.</p>
         </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
           {bands.map((band) => (
-            <Link 
-              key={band.slug}
-              href={`/review/x/${band.slug}`}
-              className="block p-6 bg-blue-50 border border-blue-200 rounded-lg hover:bg-blue-100 transition-colors"
-            >
-              <h3 className="text-xl font-semibold mb-2 text-blue-800">
-                {band.name}
-              </h3>
-              <p className="text-sm text-gray-600">
-                {band.description}
-              </p>
+            <Link key={band.id} href={`/review/x/${band.id}`} className="bg-surface-subtle border border-muted rounded-md p-4 hover:border-primary/20 transition-colors hover:bg-surface-hover">
+              <h3 className="text-lg font-semibold text-primary">{band.name}</h3>
             </Link>
           ))}
         </div>
-
         <div className="text-center">
-          <Link 
-            href="/review" 
-            className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            전체 리뷰로 돌아가기
+          <Link href="/review" className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:bg-primary/90 transition-colors">
+            <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            리뷰 목록으로 돌아가기
           </Link>
         </div>
       </div>

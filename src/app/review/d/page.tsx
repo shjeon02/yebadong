@@ -1,39 +1,67 @@
-"use client";
-import Link from "next/link";
-import React from "react";
+import { Metadata } from 'next';
+import Link from 'next/link';
 
-const bands = [
-  { name: "Dada", slug: "dada" },
-  { name: "Deus Ex Machina", slug: "deusexmachina" },  
-  { name: "Devil Doll", slug: "devildoll" },
-  { name: "Al Di Meola", slug: "aldimeola" },
-  { name: "D.F.A.", slug: "dfa" },
-  { name: "Dice", slug: "dice" },
-  { name: "Discipline", slug: "discipline" },
-  { name: "Dixie Dregs", slug: "dixiedregs" },
-  { name: "Djam Karet", slug: "djamkaret" },
-  { name: "Eric Dolphy", slug: "ericdolphy" },
-  { name: "Dream Theater", slug: "dreamtheater" },
-  { name: "Dr.Z", slug: "drz" },
-];
+export const metadata: Metadata = {
+  title: 'D - 밴드 리뷰 | Yebadong',
+  description: 'D로 시작하는 밴드들의 리뷰 목록',
+};
 
-export default function ReviewDBandList() {
+export default function DBandsPage() {
+  const bands = [
+    { id: 'aldimeola', name: 'Al Di Meola' },
+    { id: 'dada', name: 'Dada' },
+    { id: 'deusexmachina', name: 'Deus Ex Machina' },
+    { id: 'devildoll', name: 'Devil Doll' },
+    { id: 'dfa', name: 'DFA' },
+    { id: 'dice', name: 'Dice' },
+    { id: 'discipline', name: 'Discipline' },
+    { id: 'dixiedregs', name: 'Dixie Dregs' },
+    { id: 'djamkaret', name: 'Djam Karet' },
+    { id: 'dreamtheater', name: 'Dream Theater' },
+    { id: 'dun', name: 'Dun' },
+    { id: 'durutti-column', name: 'Durutti Column' },
+  ];
+
   return (
-    <main className="bg-white min-h-screen text-[#0000aa] py-12 px-4">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8">D로 시작하는 프로그레시브 록 밴드 목록</h2>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-12">
+    <main className="min-h-screen bg-surface text-primary">
+      <div className="container mx-auto px-4 py-8">
+        {/* Header */}
+        <div className="text-center mb-8">
+          <h1 className="text-4xl font-bold mb-4 text-primary">
+            D 밴드 리뷰
+          </h1>
+          <p className="text-base text-muted">
+            D로 시작하는 밴드들의 리뷰를 확인하세요.
+          </p>
+        </div>
+
+        {/* Band List */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
           {bands.map((band) => (
-            <li key={band.slug} className="">
-              <Link
-                href={`/review/d/${band.slug}`}
-                className="block px-3 py-2 rounded-lg border border-blue-200 bg-blue-50 hover:bg-blue-100 transition text-sm font-medium text-center shadow-sm"
-              >
+            <Link
+              key={band.id}
+              href={`/review/d/${band.id}`}
+              className="bg-surface-subtle border border-muted rounded-md p-4 hover:border-primary/20 transition-colors hover:bg-surface-hover"
+            >
+              <h3 className="text-lg font-semibold text-primary">
                 {band.name}
-              </Link>
-            </li>
+              </h3>
+            </Link>
           ))}
-        </ul>
+        </div>
+
+        {/* Back Link */}
+        <div className="text-center">
+          <Link 
+            href="/review" 
+            className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:bg-primary/90 transition-colors"
+          >
+            <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            리뷰 목록으로 돌아가기
+          </Link>
+        </div>
       </div>
     </main>
   );

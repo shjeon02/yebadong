@@ -1,55 +1,85 @@
-import Link from "next/link";
+import { Metadata } from 'next';
+import Link from 'next/link';
 
-const bands = [
-  { name: "Cafe Apres Midi Series", slug: "cafeapresmidiseries" },
-  { name: "Cai", slug: "cai" },
-  { name: "Cairo", slug: "cairo" },
-  { name: "Camel", slug: "camel" },
-  { name: "Can", slug: "can" },
-  { name: "Canamii", slug: "canamii" },
-  { name: "Carpenters", slug: "carpenters" },
-  { name: "Alfredo Carrion", slug: "alfredocarrion" },
-  { name: "Carpe Diem", slug: "carpediem" },
-  { name: "Caterina Caselli", slug: "caterinacaselli" },
-  { name: "Casino", slug: "casino" },
-  { name: "Cast", slug: "cast" },
-  { name: "Cathedral", slug: "cathedral" },
-  { name: "Cervello", slug: "cervello" },
-  { name: "Cherry Five", slug: "cherryfive" },
-  { name: "Chroma Key", slug: "chromakey" },
-  { name: "Cico", slug: "cico" },
-  { name: "Circus", slug: "circus" },
-  { name: "Clannad", slug: "clannad" },
-  { name: "Claudio Baglioni", slug: "claudiobaglioni" },
-  { name: "Clear Blue Sky", slug: "clearbluesky" },
-  { name: "Clearlight", slug: "clearlight" },
-  { name: "Billy Cobham", slug: "billycobham" },
-  { name: "Collage", slug: "collage" },
-  { name: "Cooperativa Del Latte", slug: "cooperativadellatte" },
-  { name: "Corte Dei Miracoli", slug: "cortedeimiracolli" },
-  { name: "Cosmos Factory", slug: "cosmosfactory" },
-  { name: "Crystal Phoenix", slug: "crystalphoenix" },
-  { name: "Culpeper's Orchard", slug: "culpepersorchard" },
-  { name: "Curved Air", slug: "curvedair" }
-];
+export const metadata: Metadata = {
+  title: 'C - 밴드 리뷰 | Yebadong',
+  description: 'C로 시작하는 밴드들의 리뷰 목록',
+};
 
-export default function ReviewCBandList() {
+export default function CBandsPage() {
+  const bands = [
+    { id: 'alfredocarrion', name: 'Alfredo Carrion' },
+    { id: 'billycobham', name: 'Billy Cobham' },
+    { id: 'cafeapresmidiseries', name: 'Cafe Apres Midi Series' },
+    { id: 'cai', name: 'Cai' },
+    { id: 'cairo', name: 'Cairo' },
+    { id: 'camel', name: 'Camel' },
+    { id: 'can', name: 'Can' },
+    { id: 'canamii', name: 'Can Am II' },
+    { id: 'carpediem', name: 'Carpe Diem' },
+    { id: 'carpenters', name: 'Carpenters' },
+    { id: 'casino', name: 'Casino' },
+    { id: 'cast', name: 'Cast' },
+    { id: 'caterinacaselli', name: 'Caterina Caselli' },
+    { id: 'cathedral', name: 'Cathedral' },
+    { id: 'cervello', name: 'Cervello' },
+    { id: 'cherryfive', name: 'Cherry Five' },
+    { id: 'chromakey', name: 'Chroma Key' },
+    { id: 'cico', name: 'Cico' },
+    { id: 'circus', name: 'Circus' },
+    { id: 'clannad', name: 'Clannad' },
+    { id: 'claudiobaglioni', name: 'Claudio Baglioni' },
+    { id: 'clearbluesky', name: 'Clear Blue Sky' },
+    { id: 'clearlight', name: 'Clearlight' },
+    { id: 'collage', name: 'Collage' },
+    { id: 'cooperativadellatte', name: 'Cooperativa Del Latte' },
+    { id: 'cortedeimiracolli', name: 'Corte Dei Miracolli' },
+    { id: 'cosmosfactory', name: 'Cosmos Factory' },
+    { id: 'crystalphoenix', name: 'Crystal Phoenix' },
+    { id: 'culpepersorchard', name: 'Culpeper\'s Orchard' },
+    { id: 'curvedair', name: 'Curved Air' },
+  ];
+
   return (
-    <main className="bg-white min-h-screen text-[#0000aa] py-12 px-4">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8">C로 시작하는 프로그레시브 록 밴드 목록</h2>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-12">
+    <main className="min-h-screen bg-surface text-primary">
+      <div className="container mx-auto px-4 py-8">
+        {/* Header */}
+        <div className="text-center mb-8">
+          <h1 className="text-4xl font-bold mb-4 text-primary">
+            C 밴드 리뷰
+          </h1>
+          <p className="text-base text-muted">
+            C로 시작하는 밴드들의 리뷰를 확인하세요.
+          </p>
+        </div>
+
+        {/* Band List */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
           {bands.map((band) => (
-            <li key={band.slug} className="">
-              <Link
-                href={`/review/c/${band.slug}`}
-                className="block px-3 py-2 rounded-lg border border-blue-200 bg-blue-50 hover:bg-blue-100 transition text-sm font-medium text-center shadow-sm"
-              >
+            <Link
+              key={band.id}
+              href={`/review/c/${band.id}`}
+              className="bg-surface-subtle border border-muted rounded-md p-4 hover:border-primary/20 transition-colors hover:bg-surface-hover"
+            >
+              <h3 className="text-lg font-semibold text-primary">
                 {band.name}
-              </Link>
-            </li>
+              </h3>
+            </Link>
           ))}
-        </ul>
+        </div>
+
+        {/* Back Link */}
+        <div className="text-center">
+          <Link 
+            href="/review" 
+            className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:bg-primary/90 transition-colors"
+          >
+            <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            리뷰 목록으로 돌아가기
+          </Link>
+        </div>
       </div>
     </main>
   );
