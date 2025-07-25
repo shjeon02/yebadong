@@ -13,24 +13,7 @@ export default function ReviewIndex() {
           그 외에도 여러 동호회 및 개인이 작성한 자료가 포함되어 있습니다. 많은 분들의 참여를 바랍니다.<br />
           [<a href="http://musicisland.org/zboard/zboard.php?id=tempReview" target="_blank" rel="noopener noreferrer" className="underline text-[#00aaaa]">여기</a>]에서 더 많은 리뷰를 볼 수 있습니다.
         </p>
-        <div className="flex flex-col items-center mb-8">
-          <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 text-base font-semibold">
-            {[
-              { l: "A", f: "a.html" }, { l: "B", f: "b.html" }, { l: "C", f: "c.html" }, { l: "D", f: "d.html" }, { l: "E", f: "e.html" }, { l: "F", f: "f.html" },
-              { l: "G", f: "g.html" }, { l: "H", f: "h.html" }, { l: "I", f: "i.html" }, { l: "J", f: "j.html" }, { l: "K", f: "k.html" }, { l: "L", f: "l.html" },
-              { l: "M", f: "m.html" }, { l: "N", f: "n.html" }, { l: "O", f: "o.html" }, { l: "P", f: "p.html" }, { l: "Q", f: "q.html" }, { l: "R", f: "r.html" },
-              { l: "S", f: "s.html" }, { l: "T", f: "t.html" }, { l: "U", f: "u.html" }, { l: "V", f: "v.html" }, { l: "W", f: "w.html" }, { l: "X", f: "x.html" },
-              { l: "Y", f: "y.html" }, { l: "Z", f: "z.html" }, { l: "Korea", f: "korea.html" }, { l: "영화", f: "film.htm" }, { l: "Japan", f: "japan.htm" }
-            ].map(({ l, f }) => (
-              <Link key={l} href={"/review/" + f.replace(/\..*$/, "")} className="hover:underline text-[#0000aa] text-center">
-                {l}
-              </Link>
-            ))}
-          </div>
-        </div>
-        <div className="mt-2 text-center">
-          <Link href="/review/baberuth" className="hover:underline text-[#0000aa] font-medium">Babe Ruth</Link>
-        </div>
+
         <h3 className="text-2xl font-semibold text-center mb-6">Browse by Letter</h3>
         
         <div className="mb-8">
