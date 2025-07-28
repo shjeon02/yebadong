@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'M - 밴드 리뷰 | Yebadong',
-  description: 'M로 시작하는 밴드들의 리뷰 목록',
+  description: 'M으로 시작하는 밴드들의 리뷰 목록',
 };
 
 export default function MBandsPage() {
@@ -18,30 +18,28 @@ export default function MBandsPage() {
     { id: 'mannheim-steamroller', name: 'Mannheim Steamroller' },
     { id: 'marcos-valle', name: 'Marcos Valle' },
     { id: 'marillion', name: 'Marillion' },
-    { id: 'matching-mole', name: 'Matching Mole' },
-    { id: 'mellow-candle', name: 'Mellow Candle' },
-    { id: 'metamorfosi', name: 'Metamorfosi' },
-    { id: 'michael-kamen', name: 'Michael Kamen' },
-    { id: 'mike-oldfield', name: 'Mike Oldfield' },
-    { id: 'modus', name: 'Modus' },
-    { id: 'moira', name: 'Moira' },
-    { id: 'monster-movie', name: 'Monster Movie' },
-    { id: 'moon-safari', name: 'Moon Safari' },
-    { id: 'moondog', name: 'Moondog' },
-    { id: 'moonmadness', name: 'Moonmadness' },
-    { id: 'morphine', name: 'Morphine' },
-    { id: 'motorpsycho', name: 'Motorpsycho' },
-    { id: 'moulin-rouge', name: 'Moulin Rouge' },
-    { id: 'movimento-d-avanguardia-musicale', name: 'Movimento D\'Avanguardia Musicale' },
-    { id: 'muddy-waters', name: 'Muddy Waters' },
-    { id: 'munji', name: 'Munji' },
+    { id: 'marillion-tribute-album', name: 'Marillion Tribute Album' },
+    { id: 'mark-almond', name: 'Mark Almond' },
+    { id: 'mason-fenn', name: 'Mason + Fenn' },
+    { id: 'mastermind', name: 'Mastermind' },
+    { id: 'matia-bazar', name: 'Matia Bazar' },
+    { id: 'mephistopheles', name: 'Mephistopheles' },
+    { id: 'mercury-rev', name: 'Mercury Rev' },
+    { id: 'mia', name: 'Mia' },
+    { id: 'mia-martini', name: 'Mia Martini' },
+    { id: 'mike-heron-reputation', name: 'Mike Heron\'s Reputation' },
+    { id: 'minotaurus', name: 'Minotaurus' },
+    { id: 'mira-kubasinska-breakout', name: 'Mira Kubasinska & Breakout' },
+    { id: 'miranda-sex-garden', name: 'Miranda Sex Garden' },
+    { id: 'mongol', name: 'Mongol' },
+    { id: 'moody-blues', name: 'Moody Blues' },
+    { id: 'morte-macabre', name: 'Morte Macabre' },
+    { id: 'mugen', name: 'Mugen' },
     { id: 'museo-rosenbach', name: 'Museo Rosenbach' },
-    { id: 'myrath', name: 'Myrath' },
-    { id: 'mystic-moods-orchestra', name: 'Mystic Moods Orchestra' },
-    { id: 'mystery', name: 'Mystery' },
-    { id: 'mick-karn', name: 'Mick Karn' },
-    { id: 'milla', name: 'Milla' },
-    { id: 'million-dollar-bash', name: 'Million Dollar Bash' },
+    { id: 'mushroom', name: 'Mushroom' },
+    { id: 'mutantes', name: 'Mutantes' },
+    { id: 'mythos', name: 'Mythos' },
+    { id: 'nick-mason-fictitious-sports', name: 'Nick Mason - Fictitious Sports' },
   ];
 
   return (
@@ -49,7 +47,7 @@ export default function MBandsPage() {
       <div className="container mx-auto px-4 py-8">
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold mb-4 text-primary">M 밴드 리뷰</h1>
-          <p className="text-base text-muted">M로 시작하는 밴드들의 리뷰를 확인하세요.</p>
+          <p className="text-base text-muted">M으로 시작하는 밴드들의 리뷰를 확인하세요. ({bands.length}개 밴드)</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
           {bands.map((band) => (

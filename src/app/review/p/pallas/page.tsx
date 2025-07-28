@@ -1,34 +1,47 @@
-import { Metadata } from "next";
-import Link from "next/link";
+import React from 'react';
+import BandReview from "@/components/BandReview";
 
-export const metadata: Metadata = {
-  title: "Pallas - 밴드 리뷰 | Yebadong",
-  description: "Pallas의 리뷰 모음",
+export const metadata = {
+  title: "Pallas 리뷰 - yebadong",
+  description: "Pallas의 The Sentinel 앨범에 대한 유영재님과 이상우님의 상세한 리뷰입니다."
 };
 
 export default function PallasPage() {
   return (
-    <main className="min-h-screen bg-surface text-primary">
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold text-center mb-4">Pallas</h1>
-        <p className="text-center text-lg mb-8 text-muted">스코틀랜드의 네오 프로그레시브 밴드</p>
-        
-        <div className="space-y-8">
-          <div className="bg-surface-subtle border border-muted rounded-lg p-6">
-            <h2 className="text-2xl font-bold mb-2">The Sentinel</h2>
-            <p className="text-sm text-muted mb-4">by 유영재</p>
-            <div className="prose max-w-none">
-              <p>Pallas의 대표작 The Sentinel에 대한 리뷰입니다.</p>
-            </div>
-          </div>
-        </div>
+    <BandReview
+      bandName="Pallas"
+      albumTitle="The Sentinel"
+      description="스코틀랜드의 5인조 하드 프로그레시브 밴드 Pallas의 대표작 The Sentinel에 대한 두 리뷰어의 상세한 리뷰입니다."
+      reviews={[
+        {
+          reviewer: "유영재",
+          email: "espiritu@hitel.net",
+          content: `70년대 중반 스코틀랜드에서 결성된 5인조 하드 프로그레시브 밴드인 Pallas는 본래는 Rainbow라는 이름으로 출발하게 된다. 하지만 77년에 다시 그룹 이름을 Pallas로 바꾸고 주로 라이브 위주의 음악 활동을 보였다. 이들의 공식적인 첫앨범은 1983년에서야 [ Arrive Alive ]라는 제목으로 발매된다.
 
-        <div className="text-center mt-12">
-          <Link href="/review/p" className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:bg-primary/90 transition-colors">
-            P 밴드 목록으로 돌아가기
-          </Link>
-        </div>
-      </div>
-    </main>
+이 앨범은 지금 소개할 두번째 앨범 [ The Sentinel ]의 전초격인 앨범이며 이 앨범을 계기로 이들은 메이저 레이블인 EMI와 계약을 맺게 되며 EMI 산하의 Harvest를 통해 이들의 두번째 작품이자 80년대에 발매된 프로그레시브 작품중 가장 완성도 높은 작품의 하나로 손꼽히는 [ The Sentinel ]이 뛰어난 더블 재킷과 함께 발매된다. 이 때가 1984년이었다.
+
+이들이 이 [ The Sentinel ]의 컨셉트를 구상하기 시작한것은 앨범 발매 4년전인 1980년부터였다고 한다. 이들이 이 앨범을 통해서 노래하는 내용은 전쟁을 반대하는, 그리고 전쟁의 위험을 경고하는 일종의 반전가라고 할 수 있겠다. 본앨범이 발매되자 이들은 신세대 프로그레시브 그룹의선두 주자로 부상했으며, 각 매스컴의 찬사와 함께 국내 매니아들 사이에서도 만만치않은 인기를 누린바 있다.
+
+CD의 첫곡으로 담겨있는 ' Shock Treatment '는 본앨범에서 본인이 개인적으로 가장 좋아하는 곡중의 한 곡이다. 국내 FM 심야 프로그램에서는 ' Atlantis '나 ' Rise And Fall '이 방송을 많이 탔으나, 개인적으로는 1번과 2번곡을 가장 하이라이트로 꼽고 싶다.
+
+첫곡인 ' Shock Treatment '에서부터 터져나오는 웅장하고 화려한 사운드는 80년대 헤비 심포닉 록의 이상형을 제시하고 있는듯 하다. 강력한 사운드를 구사하는 기타연주, 순식간에 공간을 장악해버리는 신디사이저, 거기에 비장감이 감도는 Euan Lawson의 리드 보컬이 한데 어우러져 단숨에 듣는 이를 압도해 버리고 만다.
+
+이 앨범은 전체적으로 각곡마다 비슷한 풍의 사운드를 구사하고 있어서 다분히 지루함을 느낄수 있다는 취약점이 있지만, 화려한 키보드와 기타를 중심으로 헤비록과 심포니록을 적절히 조화시킨 80년대 프로그레시브의 대표작으로 자리잡고 있다.`
+        },
+        {
+          reviewer: "이상우",
+          email: "midikey",
+          content: `음악을 많이 듣는 사람들은 자연히 많은 음반들을 사게된다. 하지만 십중팔구는 처음 사서 몇 번 듣고 쳐박아놓게 되는 경우가 흔하다. 때로는 그렇게 쳐박혀 있는 음반들이 애처러워 보이긴 하지만, 그것들을 다시 들어보겠다는 생각을 하기는 쉽지가 않다. 그래도, 그런 갈등을 극복하고 모처럼 꺼내서 듣는 음반들은 때로는 새로 산 따끈따끈한 놈들보다도 더 깊은 인상을 주는 경우도 있다.
+
+산 지 1년도 더 된 Pallas의 이 앨범을 최근에 다시 들어보니 그런 느낌이 들었다. Marillion과 함께 80년대 초, 소위 "네오 프로그레시브"의 붐을 일으켰던 이 앨범의 신선한 느낌은 요즘 나오는 "아트 메틀"과는 또다른 감동을 선사한다.
+
+일단 이들의 음악이 주는 느낌은 "시원하다"는 것이다. 마릴리온의 음악이 섬세하다고 한다면, 이들의 음악은 상당히 굵직하고 파워가 있다. 간혹 이들을 메탈의 범주에 넣는 사람들도 있을 정도니까... 첫곡인 <Shock Treament>에서 내뿜는 파워는 다른 아트록과는 나름대로 차별성을 느끼게 해준다.
+
+뭐니뭐니해도 이 음반의 대표곡이라면 <Rise & Fall>과 <Atlantis>를 꼽을 수 있다. 아트록 그룹답지 않게 드럼의 파워가 매우 강하면서도 함께 어우러지는 강력한 기타와 아름다우면서도 시원한 느낌을 주는 키보드연주... 이들의 음악은 아트록이 복잡하고 골치 아픈 음악이라고 생각하는 사람에게는 시원한 청량제 역할을 해줄 수 있을 것 같다.
+
+요즘 유행하는 Dream Theater, Magellan류의 음악을 좋아하는 분이라면 분명히 마음에 들어할 거라고 믿는다. 그리고 자켓그림도 상당히 예쁘다. LP로 본다면 더 멋있을 것 같다. 83년도에 나온 음악이지만 요즘 나왔어도 괜찮을텐데 하는 생각도 든다.`
+        }
+      ]}
+    />
   );
 }
