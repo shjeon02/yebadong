@@ -8,13 +8,26 @@ export const metadata: Metadata = {
 
 export default function TBandsPage() {
   const bands = [
+    { id: 'tai-phong', name: 'Tai Phong' },
+    { id: 'tako', name: 'Tako' },
+    { id: 'talking-heads', name: 'Talking Heads' },
     { id: 'tangerine-dream', name: 'Tangerine Dream' },
-    { id: 'tarkus', name: 'Tarkus' },
-    { id: 'the-moody-blues', name: 'The Moody Blues' },
-    { id: 'toto', name: 'Toto' },
-    { id: 'traffic', name: 'Traffic' },
+    { id: 'tangle-edge', name: 'Tangle Edge' },
+    { id: 'tarantula', name: 'Tarantula' },
+    { id: 't2', name: 'T2' },
+    { id: 'tears-for-fears', name: 'Tears For Fears' },
+    { id: 'tempus-fugit', name: 'Tempus Fugit' },
+    { id: 'terus-symphonia', name: "Teru's Symphonia" },
+    { id: 'timescape', name: 'Timescape' },
+    { id: 'tipographica', name: 'Tipographica' },
+    { id: 'tozzi-umberto', name: 'Tozzi, Umberto' },
+    { id: 'trace', name: 'Trace' },
+    { id: 'transatlantic', name: 'Transatlantic' },
+    { id: 'the-trinity', name: 'The Trinity' },
+    { id: 'trip', name: 'Trip' },
     { id: 'triumvirat', name: 'Triumvirat' },
-    { id: 'tull', name: 'Jethro Tull' },
+    { id: 'il-trono-dei-ricordi', name: 'Il Trono Dei Ricordi' },
+    { id: 'twelfth-night', name: 'Twelfth Night' },
   ];
 
   return (
