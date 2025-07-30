@@ -8,22 +8,22 @@ export const metadata: Metadata = {
 
 export default function RBandsPage() {
   const bands = [
-    { id: 'raccanandata', name: 'Raccanandata' },
-    { id: 'ragnaroknz', name: 'Ragnarok NZ' },
-    { id: 'ragnarokswe', name: 'Ragnarok SWE' },
+    { id: 'raccanandata', name: 'RACCANANDATA CON RICEVUTA DI RITORNO' },
+    { id: 'ragnarokswe', name: 'Ragnarok (Sweden)' },
+    { id: 'ragnaroknz', name: 'Ragnarok (NewZealand)' },
     { id: 'rainbowtheatre', name: 'Rainbow Theatre' },
     { id: 'rawmaterial', name: 'Raw Material' },
-    { id: 'rdm', name: 'RDM' },
-    { id: 'realeaccademia', name: 'Reale Accademia' },
+    { id: 'realeaccademia', name: 'Reale Accademia Di Musica' },
     { id: 'redjasper', name: 'Red Jasper' },
     { id: 'renaissance', name: 'Renaissance' },
     { id: 'rimeoftheancientsampler', name: 'Rime of the Ancient Sampler' },
-    { id: 'rockyeats', name: 'Rocky Eats' },
-    { id: 'rushfan', name: 'Rush Fan' },
-    { id: 'ryukyu-underground', name: 'Ryukyu Underground' },
-    { id: 'rush', name: 'Rush' },
-    { id: 'robert-fripp', name: 'Robert Fripp' },
-    { id: 'roedelius', name: 'Roedelius' },
+    { id: 'rollingstones', name: 'Rolling Stones' },
+    { id: 'romanticwarrior', name: 'Romantic Warrior' },
+    { id: 'roxymusic', name: 'Roxy Music' },
+    { id: 'il-rovescio-della-medaglia', name: 'Il Rovescio Della Medaglia' },
+    { id: 'rsc', name: 'RSC' },
+    { id: 'ruins', name: 'Ruins' },
+    { id: 'ryuichisakamoto', name: 'Ryuichi, Sakamoto' },
   ];
 
   return (
