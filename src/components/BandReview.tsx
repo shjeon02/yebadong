@@ -2,18 +2,20 @@ import React from 'react';
 
 interface Review {
   reviewer: string;
-  email: string;
+  email?: string;
+  date?: string;
   content: string;
 }
 
 interface BandReviewProps {
   bandName: string;
-  albumTitle: string;
+  koreanName?: string;
+  albumTitle?: string;
   description?: string;
   reviews: Review[];
 }
 
-export default function BandReview({ bandName, albumTitle, description, reviews }: BandReviewProps) {
+export default function BandReview({ bandName, koreanName, albumTitle, description, reviews }: BandReviewProps) {
   return (
     <main className="min-h-screen bg-surface text-primary">
       <div className="container mx-auto px-4 py-8">
@@ -23,10 +25,17 @@ export default function BandReview({ bandName, albumTitle, description, reviews 
           <div className="col-span-4 mb-8 text-center">
             <h1 className="text-3xl font-bold mb-4 text-primary">
               {bandName}
+              {koreanName && (
+                <span className="block text-2xl text-secondary mt-1">
+                  {koreanName}
+                </span>
+              )}
             </h1>
-            <h2 className="text-xl text-secondary mb-4">
-              {albumTitle}
-            </h2>
+            {albumTitle && (
+              <h2 className="text-xl text-secondary mb-4">
+                {albumTitle}
+              </h2>
+            )}
             {description && (
               <p className="text-base text-muted max-w-3xl mx-auto leading-relaxed">
                 {description}
@@ -49,6 +58,11 @@ export default function BandReview({ bandName, albumTitle, description, reviews 
                   {review.email && (
                     <p className="text-sm text-secondary">
                       {review.email}
+                    </p>
+                  )}
+                  {review.date && (
+                    <p className="text-sm text-secondary">
+                      {review.date}
                     </p>
                   )}
                 </div>
