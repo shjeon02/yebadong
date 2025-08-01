@@ -10,7 +10,7 @@ export default function UBandsPage() {
   const bands = [
     { id: 'uk', name: 'UK' },
     { id: 'univers-zero', name: 'Univers Zero' },
-    { id: 'uriah-heep', name: 'Uriah Heep' },
+    { id: 'urban-sax', name: 'Urban Sax' },
   ];
 
   return (
