@@ -1,8 +1,8 @@
 import React from 'react';
 import { ChevronRight } from 'lucide-react';
 
-const ContentCard = ({ imageUrl, category, title, author, date }) => (
-  <div className="bg-white rounded-lg shadow-md overflow-hidden group transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+const ContentCard = ({ imageUrl, category, title, author, date, href }) => (
+  <a href={href} className="block bg-white rounded-lg shadow-md overflow-hidden group transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
     <div className="relative">
       <img src={imageUrl} alt={title} className="w-full h-48 object-cover" />
       <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -20,31 +20,34 @@ const ContentCard = ({ imageUrl, category, title, author, date }) => (
         <span>{date}</span>
       </div>
     </div>
-  </div>
+  </a>
 );
 
 export const LatestContent = () => {
   const contents = [
     {
-      imageUrl: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEyfHxhbGJ1bSUyMGFydHxlbnwwfHx8fDE2NzExNjU4Mzc&ixlib=rb-4.0.3&q=80&w=400',
-      category: '앨범 리뷰',
-      title: 'Haken - Fauna: 다채로운 음악적 생태계의 탐험',
-      author: 'ProgMaster',
-      date: '2023년 10월 27일',
-    },
-    {
-      imageUrl: 'https://images.unsplash.com/photo-1587814299498-2435889a7313?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE1fHxhbGJ1bSUyMGNvdmVyfGVufDB8fHx8MTY3MTE2NTg1MQ&ixlib=rb-4.0.3&q=80&w=400',
+      imageUrl: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHByb2dyZXNzaXZlJTIwcm9ja3xlbnwwfHx8fDE2NzExNjU4Mzc&ixlib=rb-4.0.3&q=80&w=400',
       category: '아티스트 인터뷰',
-      title: 'Dream Theater의 John Petrucci가 말하는 프로그레시브 메탈의 미래',
-      author: 'MetalHead',
-      date: '2023년 10월 25일',
+      title: 'Magellan: 미국 프로그레시브 메탈의 심층 인터뷰',
+      author: '예바동',
+      date: '아카이브',
+      href: '/interview/interview-magellan',
     },
     {
-      imageUrl: 'https://images.unsplash.com/photo-1506157786151-b8491531f063?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fG11c2ljJTIwY29uY2VydHxlbnwwfHx8fDE2NzExNjU4NjU&ixlib=rb-4.0.3&q=80&w=400',
-      category: '공연 후기',
-      title: 'Porcupine Tree 내한 공연, 감동의 3시간',
-      author: 'LiveFan',
-      date: '2023년 10월 22일',
+      imageUrl: 'https://images.unsplash.com/photo-1487180144351-b8472da7d491?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE1fHxhbGJ1bSUyMGNvdmVyfGVufDB8fHx8MTY3MTE2NTg1MQ&ixlib=rb-4.0.3&q=80&w=400',
+      category: '설문조사',
+      title: 'Pink Floyd 무인도 앨범: 단 한 장만 가져간다면?',
+      author: '예바동',
+      date: '21회 설문',
+      href: '/poll/ybd-poll21',
+    },
+    {
+      imageUrl: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fG11c2ljJTIwY29uY2VydHxlbnwwfHx8fDE2NzExNjU4NjU&ixlib=rb-4.0.3&q=80&w=400',
+      category: '앨범 리뷰',
+      title: 'A부터 Z까지: 방대한 프로그레시브 록 리뷰 아카이브',
+      author: '예바동',
+      date: '수백 개 리뷰',
+      href: '/review',
     },
   ];
 
@@ -61,7 +64,7 @@ export const LatestContent = () => {
             </p>
           </div>
           <a
-            href="/archive"
+            href="/review"
             className="group inline-flex items-center text-primary-600 hover:text-primary-700 transition-colors duration-300 font-semibold"
           >
             <span>더보기</span>

@@ -1,53 +1,50 @@
 import React from 'react';
 
-const ForumPost = ({ title, author, replies, views, lastPostTime, lastPostAuthor }) => (
-  <div className="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:border-primary-300 hover:bg-gray-50 transition-all duration-200">
-    <div>
-      <h4 className="font-semibold text-gray-800">{title}</h4>
-      <p className="text-sm text-gray-500">by {author}</p>
-    </div>
-    <div className="hidden md:flex items-center gap-8 text-sm text-center">
-      <div>
-        <p className="font-bold text-gray-800">{replies}</p>
-        <p className="text-gray-500">Replies</p>
+const HighlightCard = ({ title, description, link, type }) => (
+  <a 
+    href={link}
+    target={link.startsWith('http') ? '_blank' : '_self'}
+    rel={link.startsWith('http') ? 'noopener noreferrer' : ''}
+    className="block p-6 bg-white rounded-lg border border-gray-200 hover:border-primary-300 hover:bg-gray-50 transition-all duration-200 group"
+  >
+    <div className="flex items-center justify-between">
+      <div className="flex-1">
+        <div className="flex items-center gap-3 mb-2">
+          <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary-100 text-primary-800">
+            {type}
+          </span>
+        </div>
+        <h4 className="text-lg font-semibold text-gray-800 group-hover:text-primary-600 transition-colors mb-1">{title}</h4>
+        <p className="text-sm text-gray-500">{description}</p>
       </div>
-      <div>
-        <p className="font-bold text-gray-800">{views}</p>
-        <p className="text-gray-500">Views</p>
+      <div className="ml-4">
+        <svg className="w-6 h-6 text-gray-400 group-hover:text-primary-500 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+        </svg>
       </div>
     </div>
-    <div className="text-right text-sm">
-      <p className="text-gray-800">{lastPostTime}</p>
-      <p className="text-gray-500">by {lastPostAuthor}</p>
-    </div>
-  </div>
+  </a>
 );
 
 export const CommunitySection = () => {
-  const posts = [
+  const highlights = [
     {
-      title: '가장 과소평가된 프로그레시브 앨범은?',
-      author: 'ProgSnob',
-      replies: 128,
-      views: '12.1k',
-      lastPostTime: '58분 전',
-      lastPostAuthor: 'GentleGiant',
+      title: '예바동 페이스북 그룹',
+      description: '1994년부터 이어져 온 프로그레시브 록 커뮤니티',
+      link: 'https://www.facebook.com/groups/337670826283451',
+      type: '커뮤니티',
     },
     {
-      title: 'King Crimson 입문자 가이드',
-      author: 'Starless',
-      replies: 42,
-      views: '8.9k',
-      lastPostTime: '2시간 전',
-      lastPostAuthor: 'LizardKing',
+      title: '방명록 (Guestbook)',
+      description: '당신의 소중한 의견과 추억을 남겨주세요',
+      link: 'http://freegb1.interpia98.net/list.asp?db=yebadong',
+      type: '방명록',
     },
     {
-      title: '내한했으면 하는 프로그 밴드',
-      author: 'WishfulThinker',
-      replies: 205,
-      views: '25.6k',
-      lastPostTime: '5시간 전',
-      lastPostAuthor: 'HopefulFan',
+      title: '26회의 설문조사 아카이브',
+      description: '20년간 진행된 프로그레시브 록 팬들의 선택',
+      link: '/poll',
+      type: '아카이브',
     },
   ];
 
@@ -63,13 +60,13 @@ export const CommunitySection = () => {
           </p>
         </div>
         <div className="space-y-4">
-          {posts.map((post) => (
-            <ForumPost key={post.title} {...post} />
+          {highlights.map((highlight) => (
+            <HighlightCard key={highlight.title} {...highlight} />
           ))}
         </div>
         <div className="mt-12 text-center">
-          <a href="/forums" className="btn btn-primary btn-lg">
-            포럼 바로가기
+          <a href="/intro" className="btn btn-primary btn-lg">
+            예바동 자세히 알아보기
           </a>
         </div>
       </div>

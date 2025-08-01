@@ -26,26 +26,26 @@ export const QuickAccessGrid = () => {
     {
       icon: BookOpen,
       title: '앨범 리뷰',
-      description: '국내외 명반에 대한 심도 깊은 분석과 토론. 전문가와 팬들의 다양한 시각을 만나보세요.',
-      href: '/reviews',
+      description: '국내외 명반에 대한 심도 깊은 분석과 토론. A부터 Z까지 방대한 리뷰 아카이브를 만나보세요.',
+      href: '/review',
     },
     {
       icon: Users,
-      title: '커뮤니티 포럼',
-      description: '자유게시판부터 앨범 추천까지. 프로그레시브 록 팬들과 자유롭게 소통하고 정보를 나누세요.',
-      href: '/forums',
+      title: '아티스트 인터뷰',
+      description: 'IQ, Magellan, Änglagård 등 프로그레시브 록 거장들과의 생생한 대화를 확인하세요.',
+      href: '/interview',
     },
     {
       icon: Music,
-      title: '아티스트 DB',
-      description: '전 세계 프로그레시브 록 아티스트의 디스코그래피와 멤버 정보 등 방대한 데이터를 제공합니다.',
-      href: '/artists',
+      title: '예바동 소개',
+      description: '1994년부터 시작된 한국 프로그레시브 록 커뮤니티의 역사와 활동을 알아보세요.',
+      href: '/intro',
     },
     {
       icon: BarChart,
-      title: '올해의 앨범',
-      description: '커뮤니티 회원들의 투표로 선정된 최고의 앨범들을 확인하고, 당신의 명반을 추천하세요.',
-      href: '/charts',
+      title: '과거 설문들',
+      description: '20년간 진행된 26회의 설문조사 결과. Pink Floyd부터 King Crimson까지의 팬 선택을 확인하세요.',
+      href: '/poll',
     },
   ];
 
