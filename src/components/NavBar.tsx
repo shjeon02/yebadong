@@ -17,7 +17,8 @@ export default function NavBar() {
 
   return (
     <nav className="w-full">
-      <div className="flex justify-center items-center gap-x-6 sm:gap-x-8 py-3 text-sm font-medium">
+      {/* Desktop Navigation */}
+      <div className="hidden md:flex justify-center items-center gap-x-6 lg:gap-x-8 py-3 text-sm font-medium">
         {navItems.map(({ label, href, external }) => (
           external ? (
             <a
@@ -34,6 +35,31 @@ export default function NavBar() {
               key={label}
               href={href}
               className="text-gray-600 hover:text-black transition-colors"
+            >
+              {label}
+            </Link>
+          )
+        ))}
+      </div>
+      
+      {/* Mobile Navigation - Grid Layout */}
+      <div className="md:hidden grid grid-cols-2 gap-x-2 gap-y-2 py-2 text-xs font-medium">
+        {navItems.map(({ label, href, external }) => (
+          external ? (
+            <a
+              key={label}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-black transition-colors text-center py-1"
+            >
+              {label}
+            </a>
+          ) : (
+            <Link
+              key={label}
+              href={href}
+              className="text-gray-600 hover:text-black transition-colors text-center py-1"
             >
               {label}
             </Link>
