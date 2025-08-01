@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   description: 'Korean Progressive Rock Community since 1994. Reviews, interviews, discussions about progressive rock music.',
   keywords: ['progressive rock', 'prog rock', 'korea', 'music community', 'reviews', 'interviews'],
   authors: [{ name: 'Yebadong Community' }],
+  icons: {
+    icon: '/icon.png',
+    apple: '/icon.png',
+  },
   openGraph: {
     title: 'Yebadong - Progressive Rock Korea',
     description: 'Korean Progressive Rock Community since 1994',
