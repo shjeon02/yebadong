@@ -1,7 +1,16 @@
 import React from 'react';
 import { ChevronRight } from 'lucide-react';
 
-const ContentCard = ({ imageUrl, category, title, author, date, href }) => (
+interface ContentCardProps {
+  imageUrl: string;
+  category: string;
+  title: string;
+  author: string;
+  date: string;
+  href: string;
+}
+
+const ContentCard = ({ imageUrl, category, title, author, date, href }: ContentCardProps) => (
   <a href={href} className="block bg-white rounded-lg shadow-md overflow-hidden group transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
     <div className="relative">
       <img src={imageUrl} alt={title} className="w-full h-48 object-cover" />

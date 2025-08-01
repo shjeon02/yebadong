@@ -15,33 +15,21 @@ export default function NavBar() {
     { label: 'Misc', href: '/misc' },
     { label: 'FAQ', href: '/faq' },
     { label: 'Jacket', href: '/images' },
-    { label: 'Guestbook', href: 'http://freegb1.interpia98.net/list.asp?db=yebadong', external: true }
+    { label: 'Guestbook', href: '/guestbook' }
   ]
 
   return (
     <nav className="w-full">
       {/* Desktop Navigation */}
       <div className="hidden md:flex justify-center items-center gap-x-6 lg:gap-x-8 py-3 text-sm font-medium">
-        {navItems.map(({ label, href, external }) => (
-          external ? (
-            <a
-              key={label}
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-black transition-colors"
-            >
-              {label}
-            </a>
-          ) : (
-            <Link
-              key={label}
-              href={href}
-              className="text-gray-600 hover:text-black transition-colors"
-            >
-              {label}
-            </Link>
-          )
+        {navItems.map(({ label, href }) => (
+          <Link
+            key={label}
+            href={href}
+            className="text-gray-600 hover:text-black transition-colors"
+          >
+            {label}
+          </Link>
         ))}
       </div>
       
@@ -65,28 +53,15 @@ export default function NavBar() {
           <div className="fixed top-20 right-4 w-56 min-w-48 max-w-[calc(100vw-2rem)] bg-white rounded-lg shadow-xl border border-gray-200 z-50 max-h-[calc(100vh-6rem)] overflow-y-auto">
             <div className="p-4">
               <div className="flex flex-col gap-2">
-                {navItems.map(({ label, href, external }) => (
-                  external ? (
-                    <a
-                      key={label}
-                      href={href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-600 hover:text-black transition-colors text-left py-3 px-4 rounded-md hover:bg-gray-50 border border-gray-100 whitespace-nowrap"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      {label}
-                    </a>
-                  ) : (
-                    <Link
-                      key={label}
-                      href={href}
-                      className="text-gray-600 hover:text-black transition-colors text-left py-3 px-4 rounded-md hover:bg-gray-50 border border-gray-100 whitespace-nowrap"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      {label}
-                    </Link>
-                  )
+                {navItems.map(({ label, href }) => (
+                  <Link
+                    key={label}
+                    href={href}
+                    className="text-gray-600 hover:text-black transition-colors text-left py-3 px-4 rounded-md hover:bg-gray-50 border border-gray-100 whitespace-nowrap"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {label}
+                  </Link>
                 ))}
               </div>
             </div>

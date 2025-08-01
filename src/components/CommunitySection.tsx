@@ -1,6 +1,13 @@
 import React from 'react';
 
-const HighlightCard = ({ title, description, link, type }) => (
+interface HighlightCardProps {
+  title: string;
+  description: string;
+  link: string;
+  type: string;
+}
+
+const HighlightCard = ({ title, description, link, type }: HighlightCardProps) => (
   <a 
     href={link}
     target={link.startsWith('http') ? '_blank' : '_self'}
