@@ -27,9 +27,9 @@ export default function ReviewIndex() {
               <Link
                 key={letter}
                 href={`/review/${letter.toLowerCase()}`}
-                className="group relative bg-surface-subtle border border-muted rounded-lg p-4 hover:border-primary/20 transition-colors hover:bg-surface-hover text-center"
+                className="group relative bg-surface-subtle border border-muted rounded-lg hover:border-primary/20 transition-colors hover:bg-surface-hover flex items-center justify-center h-16 sm:h-20"
               >
-                <span className="text-2xl font-bold text-primary group-hover:text-primary/80 transition-colors">
+                <span className="text-xl sm:text-2xl font-bold text-primary group-hover:text-primary/80 transition-colors">
                   {letter}
                 </span>
               </Link>

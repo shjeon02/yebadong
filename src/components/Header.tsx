@@ -16,15 +16,15 @@ export default function Header() {
           <NavBar />
         </div>
         
-        {/* Mobile Layout - Stacked */}
+        {/* Mobile Layout - Header with Hamburger */}
         <div className="md:hidden">
-          <div className="flex items-center justify-center h-16">
+          <div className="flex items-center h-16 relative">
             <Link href="/" className="text-xl font-bold text-gray-800 hover:text-blue-600 transition-colors">
               YEBADONG
             </Link>
-          </div>
-          <div className="pb-3">
-            <NavBar />
+            <div className="absolute right-0 top-1/2 transform -translate-y-1/2">
+              <NavBar />
+            </div>
           </div>
         </div>
       </div>
