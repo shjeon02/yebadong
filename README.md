@@ -207,8 +207,8 @@ Guestbook → Community/Discussions
 ## 📞 연락처
 
 - **프로젝트 관리자**: Yebadong Community
-- **이메일**: webmaster@yebadong.net
-- **웹사이트**: https://yebadong.net
+- **이메일**: webmaster@yebadong.org
+- **웹사이트**: https://yebadong.org
 
 ## 🙏 감사의 말
 
