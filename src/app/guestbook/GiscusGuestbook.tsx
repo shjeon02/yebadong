@@ -12,9 +12,10 @@ const GiscusGuestbook: React.FC = () => {
     script.src = 'https://giscus.app/client.js';
     script.setAttribute('data-repo', 'shjeon02/yebadong');
     script.setAttribute('data-repo-id', '');
-    script.setAttribute('data-category', 'General');
+    script.setAttribute('data-category', 'Announcements');
     script.setAttribute('data-category-id', '');
-    script.setAttribute('data-mapping', 'pathname');
+    script.setAttribute('data-mapping', 'specific');
+    script.setAttribute('data-term', 'Guestbook');
     script.setAttribute('data-strict', '0');
     script.setAttribute('data-reactions-enabled', '1');
     script.setAttribute('data-emit-metadata', '0');
