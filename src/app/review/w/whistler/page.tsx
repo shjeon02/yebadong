@@ -87,11 +87,42 @@ export default function WhistlerPage() {
                   12곡 중에서 어느 곡하나 버릴 수 없는 그야말로 포크록의 명작입니다.
                 </p>
               </div>
+              
               <p>
-                이 앨범은 설명하기 어려운 특별한 매력을 가지고 있습니다. 
-                복잡한 구성이나 화려한 연주보다는 자연스럽고 소박한 아름다움으로 
-                듣는 이의 마음을 편안하게 만드는 작품입니다.
+                음... 전 한곡 한곡 설명을 할 수 없습니다. 
+                왜냐구요?
               </p>
+              
+              <div className="text-center text-gray-500 text-sm my-4">
+                ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... 
+                ... ... ... ... ... ... ... ... ... 음 ... ... ... .. .. 
+                .... ... .... ... ... .. .... .. ... .. .. 음... 그건... 
+                너무 편하기 때문이예요. :-)
+              </div>
+              
+              <div className="space-y-3">
+                <p className="italic">
+                  마치 따스한 태양 광선을 받는 대지위에 누운 기분이랄까요?
+                </p>
+                
+                <p className="italic">
+                  마치 길다란 막대사탕을 볼이 볼록 나오도록 녹여먹는 아이의 기분이랄까요?
+                </p>
+              </div>
+              
+              <div className="bg-white p-4 rounded border-l-4 border-purple-500">
+                <p className="text-sm font-medium italic">
+                  아... 가슴이 떨려요... 지구상에 이런 소리가 있었다니.
+                </p>
+              </div>
+              
+              <div className="text-center">
+                <p className="font-medium">
+                  Tudor Lodge의 우아함과<br/>
+                  Heron의 털털함의<br/>
+                  French Kiss !
+                </p>
+              </div>
             </div>
           </div>
 

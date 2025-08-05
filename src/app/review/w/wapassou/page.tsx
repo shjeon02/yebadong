@@ -187,6 +187,119 @@ export default function WapassouPage() {
                 </p>
               </div>
             </div>
+
+            {/* Pollen Review - Deep Musical Philosophy */}
+            <div className="bg-purple-50 p-6 rounded-lg">
+              <div className="flex items-center mb-4">
+                <div className="bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                  Pollen (폴렌)
+                </div>
+              </div>
+              <h2 className="text-xl font-semibold text-purple-800 mb-4">음악 감상론과 Wapassou의 미학</h2>
+              <div className="space-y-6 text-gray-700">
+                <div className="bg-white p-4 rounded border-l-4 border-purple-500">
+                  <h3 className="font-medium text-gray-800 mb-2">롱달님과 나의 Wapassou</h3>
+                  <p className="text-sm">
+                    롱달님이 듣고 있는 Wapassou와 내가 들었던 Wapassou는 조금 다른 Wapassou이다.
+                  </p>
+                  <p className="text-sm mt-2">
+                    빽판에 관한 한가지 묘한 점은, 깨끗한 음원을 구해서 들어보면 이상하게 빽판으로 듣던 때의 
+                    감흥이 일지 않는다는 것입니다. 일테면, 그 스크래치 음 조차도 
+                    최초에 음악을 접했을 때 일정한 '음악적 환경'에 기여했다는 말일 텐데요.
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 className="font-medium text-gray-800 mb-2">비 오는 날의 Wapassou</h3>
+                  <p className="text-sm">
+                    자, 우리는 이 지점에서 '비가 주룩주룩 내리고 있는 날씨'에 주의해볼 필요가 있을 겁니다. 
+                    말하자면, 롱달님의 기억에 지나치게 늘어붙어 있던 스크래치음에 대한 민감한 반응을 누그러뜨려줌과 
+                    동시에 Wapassou가 노리고 있는 음악적 정서에 보다 근접한 물리적 환경이 일단 조성이 된 거지요.
+                  </p>
+                </div>
+                
+                <div className="bg-white p-4 rounded border-l-4 border-purple-500">
+                  <h3 className="font-medium text-gray-800 mb-2">여린 음악의 철학</h3>
+                  <p className="text-sm">
+                    Wapassou의 음악을 듣노라면 어딘지 빈 공간이 항상 존재하고 있음을 감지하게 되는데, 
+                    여리다라는 표현이 늘어지는 바이얼린과 몽롱한 스캣 외에도 이런 의도적 작법과도 맞물리는 것 같습니다. 
+                    (주의하십시요. '의도적 작법'입니다!)
+                  </p>
+                  <p className="text-sm mt-2">
+                    여리다는 것은 잘 휘고, 부드럽고, 변화에 민감하고, 받아들일 수 있는 것 아니겠습니까.
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 className="font-medium text-gray-800 mb-2">King Crimson과의 비교</h3>
+                  <p className="text-sm">
+                    King Crimson의 'One More Red Nightmare'를 듣고 있으면 빗소리가 잘 안들립니다. 
+                    롱달님은 Wapassou의 음악을 들으면서 빗소리도 함께 들으셨으리라고 예상됩니다. 
+                    단언하건대, Wapassou의 음악은 빗소리가 들립니다.
+                  </p>
+                  <p className="text-sm mt-2">
+                    그리고, 이 음악 외적 소리가 '들린다'는 것, 그리고 그것도 음악 내적인 요소로 착각되게 비워둔다는 것 - 
+                    이 점이 이런 성긴 음악의 매력이 됩니다.
+                  </p>
+                </div>
+                
+                <div className="bg-white p-4 rounded border-l-4 border-purple-500">
+                  <h3 className="font-medium text-gray-800 mb-2">남성적 논리 vs 여성적 작법</h3>
+                  <p className="text-sm">
+                    이 점이 라인업의 중기 King Crimson이 구사하는 남성적 논리와 Wapassou의 '의도적' 여성적 
+                    작법이 명확히 변별되는 지점입니다. 프로그록에서도 이런 변별은 쉽게 되지 않습니까.
+                  </p>
+                  <p className="text-sm mt-2">
+                    많은 부류의 프로그록은 상당히 유형화된 남성성에 고착되어 있는 요소가 많습니다. 
+                    논리, 치밀한 구성, 치열한 연주, 웅장함 등의 단어들이 여기에 맞아 떨어집니다.
+                  </p>
+                  <p className="text-sm mt-2">
+                    우리는 이 연주들에 대해 경탄하고, 세부적인 악기의 음감을 따라가며 즐기기도 하지만, 
+                    그 와중에 이 연주들의 권력에 종속되기도 합니다.
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 className="font-medium text-gray-800 mb-2">환경친화적 음악</h3>
+                  <p className="text-sm">
+                    Wapassou의 여백으로 인해서, 우리 롱달님과 저 폴렌은 그들의 음악에 대해 비슷한 느낌을 가지게 되었습니다. 
+                    아주 고맙지 않습니까.
+                  </p>
+                  <p className="text-sm mt-2">
+                    근데, 보다 더 중요한 것은 그들은 강요하지 않는다는 것이며, 빗소리를 살려준다는 것이며, 
+                    어머니의 외침 소리가 들릴 수 있도록 한다는 것이며, 내 방바닥의 뜨뜻함을 느낄 수 있게 해준다는 것입니다. 
+                    즉, 감상자는 Wapassou에 종속되지 않으며, '함께 갑니다'.
+                  </p>
+                  <p className="text-sm mt-2 italic">
+                    이거, 아주 탁월한 환경친화적 음악 아니겠습니까.
+                  </p>
+                </div>
+                
+                <div className="bg-white p-4 rounded border-l-4 border-purple-500">
+                  <h3 className="font-medium text-gray-800 mb-2">어설픔의 미학</h3>
+                  <p className="text-sm">
+                    어쨌든, Wapassou의 음악을 평하면서, '왠지 어설픈 느낌을 준다'는 말을 자주 하는 것 같은데, 
+                    단언하건대, Wapassou는 어설프지 않으면 안됩니다.
+                  </p>
+                  <p className="text-sm mt-2">
+                    우리는 그들이 Robert Fripp과는 다른 작법을 갖고 있다고 평가해야 합니다. 
+                    그리고 그것은 제가 앞서 강조한대로, '의도적'인 것이라고 말해지는 게 더 좋을 것 같습니다.
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 className="font-medium text-gray-800 mb-2">비슷한 아티스트들</h3>
+                  <p className="text-sm">
+                    비슷한 느낌을 갖고 있는 아티스트들로, Gillie Smith(Gong), Alan Sorrenti, 
+                    Opus Avantra 등이 떠오르는군요. 이들을 신비주의자들이라고 이름 붙여도 되겠습니까.
+                  </p>
+                  <p className="text-sm mt-2">
+                    저는 프로그록계에 이런 신비주의자들이 좀 있어서 애착이 갑니다. 
+                    귀신 불러들이는 능력은 이 장르에서가 아니면 좀 어려울 것 같네요. ^^
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Album Art Description */}

@@ -261,6 +261,214 @@ export default function RickWrightPage() {
             </div>
           </div>
 
+          {/* Broken China Album Reviews */}
+          <div className="space-y-8 mb-8">
+            {/* Fish Review */}
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <div className="flex items-center mb-4">
+                <div className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                  Fish (신인철)
+                </div>
+              </div>
+              <h2 className="text-xl font-semibold text-blue-800 mb-4">Broken China (1996) 리뷰</h2>
+              <div className="space-y-4 text-gray-700">
+                <p>
+                  아직 미국에선 발매되지 않았지만 영국에서 발매된 씨디를 미국을 
+                  통하여.. 방금 배달 받았습니다.. 슬리브디자인은 역시 Pink Floyd 
+                  패밀리인 만큼.. ex-Hipgnosis의 Storm Thorgerson이 Wish you were here를 
+                  연상시키는 그림을 만들어주고 있구요.. 참여한 뮤지션들은 전에 말씀드린대로 
+                  ex- Slapp Happy의 Anthony Moore, Dominic Miller, Sinead O'Conor 그리고 
+                  Manu Katche등이 참가해주고 있네요..
+                </p>
+                
+                <div className="bg-white p-4 rounded border-l-4 border-blue-500">
+                  <h3 className="font-medium text-gray-800 mb-2">음악적 특징</h3>
+                  <p className="text-sm">
+                    간간이 끼어있는 짤막한 연주곡.. 몽환적인 분위기.. 꽤나 Floydian한 
+                    사운드를 내어주고 있구요.. Rick Wright의 보컬은 낮게 읖조리는 면에서는 
+                    David Gilmour와 비슷하게 들리기도 합니다..
+                  </p>
+                </div>
+                
+                <p>
+                  최근 Pink Floyd의 공연에서 기타연주자로 많이 참가하는 Tim Renwick이 
+                  (Delicate sound of thunder, Pulse 등의 비디오에서 그의 모습을 볼 수 
+                  있죠..) 많은 곡에서 무척이나 Gilmouresque한 기타를 들려주는 덕택에 
+                  가끔씩 깔리는 마치 Enigma의 곡을 연상시키는 단순한 반복 리듬의 
+                  리듬섹션만 아니라면 최근 Floyd의 곡이라고 할만한 분위기의 곡들이 
+                  연결되고 있습니다.
+                </p>
+                
+                <div className="bg-white p-4 rounded border-l-4 border-blue-500">
+                  <h3 className="font-medium text-gray-800 mb-2">전체적 평가</h3>
+                  <p className="text-sm">
+                    많은 분들이 One Way의 리이슈 덕택에 소장하고 계실 77년도 솔로앨범 
+                    'Wet Dream'과 84년에 Rick Wright가 Zee project를 결성해 발표한 
+                    Identity라는 electronic pop album의 중간을 걷는듯한 앨범이라고 해야 겠네요.
+                  </p>
+                  <p className="text-sm mt-2">
+                    Pink Floyd의 die hard fan이라면 사보아야 하겠지만.. 
+                    Rick의 플로이드 시절 작품들인 The Great Gig in the Sky나 
+                    Sysyphus, Summer '68등을 기대하실 필요는 없을 듯 하네요..
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Atoll Review */}
+            <div className="bg-green-50 p-6 rounded-lg">
+              <div className="flex items-center mb-4">
+                <div className="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                  atoll
+                </div>
+              </div>
+              <h2 className="text-xl font-semibold text-green-800 mb-4">개인적 감상</h2>
+              <div className="space-y-4 text-gray-700">
+                <p>
+                  이 음반 얘기가 나와서 짧은 느낌이나마 적고 싶었습니다. 
+                  예전에 명반이란 리뷰를 보고선 샀었습니다 저도 ONE MUSIC 
+                  3M 님이 말씀하신대로...비오는 날에 들으면 딱 좋겠다..하는 느낌이 
+                  저도 들었습니다~@ :)
+                </p>
+                
+                <p>
+                  지금은 이 앨범을 팔았지만요..아깝다는 생각이 들정도로 전 느낌이 
+                  괜찮았던 것 같습니다. 
+                  모랄까...앨범 자켓의 그림처럼...푸른 지중해 위에서의 젖은(?) 꿈이랄까요?
+                </p>
+                
+                <div className="bg-white p-4 rounded border-l-4 border-green-500">
+                  <h3 className="font-medium text-gray-800 mb-2">음악적 인상</h3>
+                  <p className="text-sm">
+                    지금 앨범이 없어서 자세한 곡명들은 모르겠지만 
+                    나른하면서도..전체적으로..분위기 있고...비오는 날..조용한 카페에서 
+                    틀었으면..하는 그런 앨범이구요.
+                  </p>
+                  <p className="text-sm mt-2">
+                    전체적으로 릭의 키보드와 여운이 남는듯한 보컬(멋지던데;;) 
+                    그리고 간간히 들리는 색소폰 소리....그중에서도 역시 릭의 몽롱하면서도 
+                    분위기 있는듯한 건반연주가 인상적이었구요
+                  </p>
+                </div>
+                
+                <p>
+                  ****그러나,한 곡 한 곡들었을때 특별히 눈에 띄는 그런 좋은 곡은 
+                  별로 없었던것 같습니다***
+                </p>
+                
+                <p>
+                  하지만...hypnosis(스펠맞나요?)의 정말 예술 사진처럼 &lt;&lt;이쁜 자켓&gt;&gt;과 
+                  전체적으로 ...쓸쓸하면서도 아름다운 느낌을 주는 이 앨범은 
+                  볼때마다 좋은 감정이 들더군요.
+                </p>
+                
+                <p className="font-medium">
+                  **저는 명반이란 말보다  GOOD~~~ 이었다는 평을 하고싶군요*** ^^ ***
+                </p>
+                
+                <p className="text-sm">
+                  PS.음반을 쳐다볼때마다 좋은 느낌이 나는 정도면 괜찮지 않을까요? 
+                  그럼 비도 주룩 내리는데 좋은 음악 많이 들으시길~~~~@
+                </p>
+              </div>
+            </div>
+
+            {/* LJW Review */}
+            <div className="bg-purple-50 p-6 rounded-lg">
+              <div className="flex items-center mb-4">
+                <div className="bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                  ljw1031
+                </div>
+              </div>
+              <h2 className="text-xl font-semibold text-purple-800 mb-4">구매 동기</h2>
+              <div className="space-y-4 text-gray-700">
+                <p>
+                  또 한가지 제가 이 앨범에 관심을 보이는 이유는 바로 Mel Collins 와 
+                  Snowy White 라는 게스트들의 무게때문이지요. 둘다 적어도 실망시킨 
+                  기억은 없기 때문에 아무래도 구해야 될것 같습니다.
+                </p>
+                
+                <p>
+                  Atoll 님께서도 색소폰을 언급하셨는데 그 비오는 날에 어울릴 느낌이라는게 
+                  바로 멜 콜린스도 한 몫 한게 아닐까 상상하게 됩니다. 결국 이러다 보니 
+                  궁금증과 구매욕은 절정에 이르는군요.
+                </p>
+                
+                <p>
+                  퇴근길에 사가지고 들어 가야겠습니다.
+                </p>
+              </div>
+            </div>
+
+            {/* 박준식 Review */}
+            <div className="bg-amber-50 p-6 rounded-lg">
+              <div className="flex items-center mb-4">
+                <div className="bg-amber-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                  박준식
+                </div>
+              </div>
+              <h2 className="text-xl font-semibold text-amber-800 mb-4">Wet Dream vs Broken China</h2>
+              <div className="space-y-4 text-gray-700">
+                <p>
+                  Rick의 첫번째 solo앨범은 전체적으로는 다소 재즈적인 분위기가 납니다. 
+                  그냥 음들이 흘러가는 느낌...
+                </p>
+                
+                <p>
+                  Hipgnosis의 커버가 너무도 잘 어울리는... 
+                  꼭 Division Bell 의 Wearing the Inside Out 과도 유사한 분위기가 느껴지고요...
+                </p>
+                
+                <div className="bg-white p-4 rounded border-l-4 border-amber-500">
+                  <h3 className="font-medium text-gray-800 mb-2">참여 멤버</h3>
+                  <ul className="text-sm space-y-1">
+                    <li>• Richard Wright - Vocals, Keyboards, Oberheim Synthesizer</li>
+                    <li>• Mel Collins - Saxophone, Flute</li>
+                    <li>• Snowy White - Guitars</li>
+                    <li>• Larry Steele - Bass</li>
+                    <li>• Reg Isadore - Drums</li>
+                  </ul>
+                </div>
+                
+                <p>
+                  계속 예기되는 일이지만 Snowy White와 Mel Collins의 참여가 이 앨범의 분위기를 
+                  결정하는것 같군요..
+                </p>
+                
+                <div className="bg-white p-4 rounded border-l-4 border-amber-500">
+                  <h3 className="font-medium text-gray-800 mb-2">수록곡</h3>
+                  <ul className="text-sm space-y-1">
+                    <li>• Mediterranenan C (3:52)</li>
+                    <li>• Against the Odds (3:57)</li>
+                    <li>• Cat Cruise (5:14)</li>
+                    <li>• Summer Elegy (4:53)</li>
+                    <li>• Waves (4:19)</li>
+                    <li>• Holiday (6:11)</li>
+                    <li>• Mad Yannis Dance (3:19)</li>
+                    <li>• Drop in from the Top (3:25)</li>
+                    <li>• Pink's Song (3:28)</li>
+                    <li>• Funky Deux (4:57)</li>
+                  </ul>
+                </div>
+                
+                <p>
+                  Holiday랑 Pink's Song이 가장 괜찮았던 것으로 기억됩니다.
+                </p>
+                
+                <div className="bg-white p-4 rounded border-l-4 border-amber-500">
+                  <h3 className="font-medium text-gray-800 mb-2">최종 평가</h3>
+                  <p className="text-sm">
+                    얼마전에 발표된 Broken China와 비교 할때 저는 이 작품을 더 높게 평가하고 
+                    싶어요. 흔히 귀에 쏙들어오는 곡이 없어서 상대적으로 다른 핑플 멤버들의 
+                    solo작들에 비해 낮게 평가되는 느낌이 들지만 흔히 우리가 핑플의 음반을 
+                    들으면서 "아! 이건 Rick이다."라고 생각되는 부분들이 확장되서 들어있다고 
+                    말하고 싶네요...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Memorial */}
           <div className="bg-rose-50 p-6 rounded-lg mb-8">
             <h2 className="text-xl font-semibold text-rose-800 mb-4">추모</h2>

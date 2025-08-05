@@ -1,5 +1,5 @@
 import React from 'react';
-import { BarChart, BookOpen, Music, Users } from 'lucide-react';
+import { BarChart, BookOpen, Music, Users, MessageSquare } from 'lucide-react';
 
 const FeatureCard = ({ icon: Icon, title, description, href }) => (
   <a
@@ -36,6 +36,12 @@ export const QuickAccessGrid = () => {
       href: '/interview',
     },
     {
+      icon: MessageSquare,
+      title: '방명록',
+      description: '당신의 소중한 의견과 추억을 남겨주세요. 프로그레시브 록에 대한 이야기를 자유롭게 공유하세요.',
+      href: '/guestbook',
+    },
+    {
       icon: Music,
       title: '예바동 소개',
       description: '1994년부터 시작된 한국 프로그레시브 록 커뮤니티의 역사와 활동을 알아보세요.',
@@ -60,7 +66,7 @@ export const QuickAccessGrid = () => {
             30년간 축적된 방대한 자료와 활발한 커뮤니티 활동을 만나보세요.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
           {features.map((feature, index) => (
             <div key={feature.title} className="animate-fade-in-up" style={{ animationDelay: `${index * 0.1}s` }}>
               <FeatureCard {...feature} />

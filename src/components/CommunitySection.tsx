@@ -44,7 +44,7 @@ export const CommunitySection = () => {
     {
       title: '방명록 (Guestbook)',
       description: '당신의 소중한 의견과 추억을 남겨주세요',
-      link: 'http://freegb1.interpia98.net/list.asp?db=yebadong',
+      link: '/guestbook',
       type: '방명록',
     },
     {
