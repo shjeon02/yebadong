@@ -9,7 +9,9 @@ export const metadata: Metadata = {
 export default function YBandsPage() {
   const bands = [
     { id: 'yes', name: 'Yes' },
-    { id: 'young-persons-guide', name: 'Young Person\'s Guide' },
+    { id: 'yezdaurfa', name: 'Yezda Urfa' },
+    { id: 'yoninbayashi', name: 'Yoninbayashi' },
+    { id: 'yumiarai', name: 'Yumi Arai' },
   ];
 
   return (
