@@ -837,13 +837,13 @@ export default function RogerWatersPage() {
                 <div className="lg:col-span-1">
                   <div className="space-y-4">
                   <Image 
-                      src="/images/roger-waters/roger90.jpg" 
-                      alt="Roger Waters" 
+                      src="/images/roger-waters/wyh.jpg" 
+                      alt="Wish You Were Here front jacket" 
                       width={187} 
                       height={183} 
                         className="w-full border rounded"
                       />
-                    <p className="text-xs text-center">Roger Waters 1990s</p>
+                    <p className="text-xs text-center">Wish You Were Here의 front jacket</p>
                     </div>
                 </div>
               </div>
@@ -893,13 +893,13 @@ export default function RogerWatersPage() {
 
                 <div className="lg:col-span-1">
                   <Image 
-                    src="/images/roger-waters/rogertix.jpg" 
-                    alt="Roger Waters 티켓/상품" 
+                    src="/images/roger-waters/shirts.jpg" 
+                    alt="T-shirts?" 
                     width={130} 
                     height={130} 
                     className="w-full border rounded"
                   />
-                  <p className="text-xs text-center mt-2">Roger Waters 티켓/상품</p>
+                  <p className="text-xs text-center mt-2">T-shirts?</p>
                 </div>
                 </div>
               </div>
@@ -934,8 +934,8 @@ export default function RogerWatersPage() {
                 
                 <div className="lg:col-span-1">
                   <Image 
-                    src="/images/roger-waters/rw2.jpg" 
-                    alt="Roger Waters 공연 장면" 
+                    src="/images/roger-waters/spaceodyssey.jpg" 
+                    alt="2001 Space Odyssey" 
                     width={120} 
                     height={210} 
                     className="w-full border rounded"
@@ -951,8 +951,8 @@ export default function RogerWatersPage() {
               <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div className="lg:col-span-1">
                   <Image 
-                    src="/images/roger-waters/pig2.gif" 
-                    alt="Pink Floyd Pig Animation" 
+                    src="/images/roger-waters/3littlepigs.gif" 
+                    alt="3 Little Pigs" 
                     width={177} 
                     height={54} 
                     className="w-full border rounded"
@@ -1056,7 +1056,7 @@ export default function RogerWatersPage() {
               <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div className="lg:col-span-1">
                   <Image 
-                    src="/images/roger-waters/pros.jpg" 
+                    src="/images/roger-waters/proscons_nude.jpg" 
                     alt="Pros and Cons of Hitchhiking 앨범" 
                     width={182} 
                     height={182} 
