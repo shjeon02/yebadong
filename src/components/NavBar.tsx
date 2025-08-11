@@ -11,7 +11,7 @@ export default function NavBar() {
     { label: 'Poll', href: '/poll' },
     { label: 'Link', href: '/link' },
     { label: 'Review', href: '/review' },
-    { label: 'Gigs', href: '/concert' },
+    { label: 'Gigs', href: '/gigs' },
     { label: 'Misc', href: '/misc' },
     { label: 'FAQ', href: '/faq' },
     { label: 'Jacket', href: '/images' },
