@@ -849,33 +849,501 @@ export default function RogerWatersPage() {
               </div>
             </div>
 
+            {/* 인터미션과 티셔츠 구매 */}
+            <div className="mb-12 p-6 bg-gray-700 bg-opacity-30 rounded-lg">
+              <h3 className="text-xl font-bold text-gray-300 mb-4">인터미션과 티셔츠 구매</h3>
+              
+              <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+                <div className="lg:col-span-3 space-y-4 text-sm leading-relaxed">
+                  <p>
+                    노래도 끝나고.. 카드판도  끝나고..
+                    검은색 정장을 아래위로 입은 Roger는 마이크를 잡고
+                    인터미션을 알립니다.
+                  </p>
+                  
+                  <blockquote className="border-l-4 border-gray-500 pl-4 italic">
+                    <p>&quot;Thank you. We&apos;re gonna take a short break. We&apos;ll come 
+                    back after 20 minutes&quot;</p>
+                  </blockquote>
+                  
+                  <p>
+                    솔직히 이날 공연의 &apos;부틀레깅&apos;을 위해서 미니디스크 레코더를
+                    하나 살까 하는 생각도 있었습니다. 하지만.. 정말 
+                    너무 엄격히 출입문에서 몸을 뒤지는 덕에 &apos;안 사길 잘했다..&apos;
+                    하는 생각이 들었습니다. :-) 가방은 아예 못가지고 들어가고
+                    돈좀 아껴볼려고 싸왔던 도시락도 물론 못가지고 들어가고 
+                    주차장에서 너무 일찍 도시락을 우걱우걱 까먹은 탓에 
+                    배가 고프더군요.. 하지만 .. 그 엄청나게 비싼 먹을것, 마실 것
+                    가격탓에.. 구경만 하다가 $3 짜리 프렛젤과 역시 $3 짜리
+                    팝콘하나만 사먹었습니다. T.T
+                  </p>
+                  
+                  <p>
+                    그래도 평생을 기다리던 공연인만큼. 티셔츠는 하나 사야겠기에..
+                    티셔츠 부스를 가봤습니다. In the Flesh 로고와 이번 투어
+                    도시들이 등짝에 써있는 티셔츠가 $28 씩이나 하더군요.
+                    눈물을 머금고 하나 샀습니다. ^^;
+                    생각 같아서는 리미티드 에디션 인디비쥬얼리 넘버드 
+                    앤드 로저워터스 오토그래프드 석판화도 하나 살까 했는데 
+                    무려 $75나 하더군요. 그래도 꽤 사가는 녀석들이 많았습니다.
+                    꽤 괜찮게 만든 프로그램은 $15, 돼지가 가슴에 그려져 있는
+                    폴로셔츠는 $45 였습니다.
+                  </p>
+            </div>
+
+                <div className="lg:col-span-1">
+                  <Image 
+                    src="/images/roger-waters/shirts.jpg" 
+                    alt="T-shirts?" 
+                    width={130} 
+                    height={130} 
+                    className="w-full border rounded"
+                  />
+                  <p className="text-xs text-center mt-2">T-shirts?</p>
+                </div>
+                </div>
+              </div>
+
+            {/* 2부 시작 - Set the Controls */}
+            <div className="mb-12 p-6 bg-blue-800 bg-opacity-30 rounded-lg">
+              <h3 className="text-xl font-bold text-blue-300 mb-4">2부 시작 - Set the Controls for the Heart of the Sun</h3>
+              
+              <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+                <div className="lg:col-span-3 space-y-4 text-sm leading-relaxed">
+                <p>
+                  기나긴 줄을 서서 화장실에 다녀오니 2부 순서가 시작되었습니다.
+                  Set the controls for the heart of the sun.
+                  이 오래된 노래를 새로 편곡해서 다시 연주하더군요.
+                  Syd Barrett 시절의 Floyd 사진들과 사이키델릭 조명이 
+                  번갈아가며 스크린을 강타했습니다.
+                    실제로 이 노래는 84년 85년 Roger의 The Pros and Cons 
+                    공연시에도 연주되었었습니다. 여성 코러스와 후반에 등장한 
+                    이름을 알 수 없는색스폰 주자의 연주가 무척이나 맛깔스러운 
+                    곡으로 만들어 주었습니다.
+                    Pros and Cons 공연 때에는 Mel Collins가 이 곡에서 색스폰을
+                    불어주었는데 나름대로 이번 공연의 색스폰 연주도 괜찮았다고
+                    생각합니다.
+                  </p>
+                  
+                  <p>
+                    무대위에는 약 34인치 정도의 티비가 하나 설치되어 있었는데요
+                    스탠리 큐브릭 감독의 2001 스페이스 오디세이의 오프닝 장면이
+                    비춰지고 있었습니다.
+                  </p>
+                </div>
+                
+                <div className="lg:col-span-1">
+                  <Image 
+                    src="/images/roger-waters/spaceodyssey.jpg" 
+                    alt="2001 Space Odyssey" 
+                    width={120} 
+                    height={210} 
+                    className="w-full border rounded"
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Dark Side of the Moon 곡들 */}
+            <div className="mb-12 p-6 bg-gray-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-xl font-bold text-white mb-4">Dark Side of the Moon</h3>
+              
+              <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+                <div className="lg:col-span-1">
+                  <Image 
+                    src="/images/roger-waters/3littlepigs.gif" 
+                    alt="3 Little Pigs" 
+                    width={177} 
+                    height={54} 
+                    className="w-full border rounded"
+                  />
+                </div>
+                
+                <div className="lg:col-span-3 space-y-4 text-sm leading-relaxed">
+                  <p>
+                    이제 Dark Side of the Moon의 곡들이 연주될 차례입니다.
+                    왼손잡이 기타리스트 Doyle Bramhall II가 무대 왼쪽에서
+                    검은색 쫄 남방을 입고 Breath를 부르기 시작했습니다.
+                    Doyle의 기타는 물론 두말할 나위 없이 만족스럽지만
+                    보컬은 약간 David Gilmour를 아쉽게 만드는 스타일 입니다.
+                    부드러운 목소리.. 전체적인 톤은 David과 비슷하지만 
+                    보컬에 감정을 넣는 테크닉이 부족한듯 싶었습니다.
+                  </p>
+                  
+                  <p>
+                    시계소리... 화면에 가득차는 The dark side of the moon의
+                    자켓 이미지 드러머 Graham Broad에게 스포트라이트가 집중되었습니다.
+                    푸른색 형광으로 빛나는 드럼 키트 뒤에서 짧은 ..그러나나
+                    이에 걸맞지않게 너무나 파워풀한 드럼솔로로 Floyd의
+                    영원한 고전 Time이 시작되었습니다.
+                  </p>
+                  
+                  <p>
+                    보컬은 Roger가 맡았고 Rick Wright가 부르는 부분인
+                    Tired of lying in the sunshine.. verse는 
+                    다시 Doyle이 깔끔하게 커버해주었습니다.
+                  </p>
+                  
+                <p>
+                  Great gig in the sky를 연주하지 않을거라는 것을 
+                  알고 있었지만 마치 안문숙과 도나섬머를 합쳐 놓은것 같이
+                  생긴 PP Arnold의 보컬로 Great gig in the sky를 들으면 
+                  어떨까 하는 아쉬움을 달래고 있을 때.. 이번 공연의 
+                  instrumental highlight중의 하나인 Money가 시작되었습니다.
+                </p>
+                </div>
+              </div>
+            </div>
+                
+            {/* Money - 기타 솔로 대결 */}
+            <div className="mb-12 p-6 bg-green-800 bg-opacity-30 rounded-lg">
+              <h3 className="text-xl font-bold text-green-300 mb-4">Money - 기타 솔로 대결</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <p>
+                  어쩌면 Floyd 최고의 히트곡일지도 모를 이곡.
+                  Doyle의 보컬과 기타로 Money가 시작되자 객석은 다시한번
+                  떠나갈듯한 함성으로 응수했습니다.
+                  Gilmour가 전혀 아쉽지 않은 Doyle의 기타 플레이.
+                  그리고 Doyle Bramhall II의 블루지하고 화려한 플레이에 
+                  그동안 주눅이 들어있던 Andy Fairweather-low (Berlin the Wall 
+                  공연에서 보여주었던 쿨한 외모는 어디가고 반 대머리의 
+                  아저씨가 되어있었습니다.) 그리고 Snowy White가 번갈아가며 
+                  기타 솔로를 흩뿌렸습니다.
+                  Doyle이 마치 빨리 연주하는 Stevei Ray Vaughn같은 
+                  플레이를 보여주었다면 Andy Fairweather-low는 Mark Knopfler와 
+                  비슷한 사운드를 들려주었고 Snowy White는 역시 가장 
+                  Floyd tradition에 충실한 플레이어 답게 Gilmouresque한 
+                  솔로로 팬들을 흥분시켰습니다.
+                </p>
+                
+                <div className="bg-green-700 bg-opacity-50 p-4 rounded">
+                  <h4 className="font-bold text-green-300 mb-2">마누라의 재즈 코멘트</h4>
+                  <p className="text-sm">
+                    &quot;이곡은 마치 Jazz같아..&quot;
+                    &quot;좀 그렇지  ? 즉흥연주가 많아서 그럴듯.&quot;
+                    마누라의 커멘트가 아니더라도 Money의 후반부는 완전히
+                    triple guitarist system의 잔치같은 분위기였습니다.
+                  한발짝 뒤로 물러서서 베이스를 튕기며 이들 기타리스트를 
+                  흐뭇하게 바라보는 Roger.
+                  잘생긴 외모처럼 쿨한 플레이로 일관한 Doyle.
+                  아직도 백설 (Snow White) 처럼 차분한 이미지의 Snowy.
+                  오버액션으로 Doyle에게 밀린 이미지를 보상받으려는 Andy.
+                  이들의 피튀기는 competitive한 솔로는 .. 정말..
+                  이제 Money는 좀 은퇴시키고 다른 솔로 곡들을 많이
+                  연주해주지..하던 내 생각을 완전히 바꾸게 만들었습니다.
+                </p>
+            </div>
+
+                <p>
+                  Money가 끝났습니다.
+                  아.. 황량한 사막이 스크린에 펼쳐지고..
+                  대형 트럭이 질주하는 모습이 투영되었습니다.
+                  인디안의 모습들.
+                  사막의 절경들.
+                  빠르게 달리는 차의 엔진소리.
+                  The pros and cons of hitchhiking 앨범의 Every 
+                  stranger&apos;s eyes가 연주될 차례입니다.
+                </p>
+              </div>
+            </div>
+
+            {/* Roger Waters 솔로곡들 */}
+            <div className="mb-12 p-6 bg-red-800 bg-opacity-30 rounded-lg">
+              <h3 className="text-xl font-bold text-red-300 mb-4">Roger Waters 솔로곡들</h3>
+              
+              <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+                <div className="lg:col-span-1">
+                  <Image 
+                    src="/images/roger-waters/proscons_nude.jpg" 
+                    alt="Pros and Cons of Hitchhiking 앨범" 
+                    width={182} 
+                    height={182} 
+                    className="w-full border rounded"
+                  />
+                  <p className="text-xs text-center mt-2">까망 네모로 가려졌던 Pros and Cons of Hitchhiking 앨범</p>
+                </div>
+                
+                <div className="lg:col-span-3 space-y-4 text-sm leading-relaxed">
+                <p>
+                  많은 관중들은 아직도 Money의 열기에서 정신을 차리지 못한 
+                  분위기입니다만.. 누구못지 않은 pros and cons의 팬이라 
+                  생각하는 저는 모든 정신을 무대위로 집중시켰습니다.
+                </p>
+                
+                  <p>
+                    물론 좋아하는 곡이기도 하지만.. Roger가 이 곡에서 과연
+                    립싱크를 할까 안할까.. 그것이 궁금했기 때문일 수도 있습니다.
+                  </p>
+                  
+                  <blockquote className="border-l-4 border-red-500 pl-4 italic">
+                    <p>Hello ~ you wanna cup of coffee ?OK ? cream and sugar ?sure..</p>
+                  </blockquote>
+                  
+                  <p>
+                    일어서서 the dark side of the moon의 곡들에 발맞춰 흥분하던
+                    팬들이 하나둘씩 자리에 앉기 시작했지만 저는 여전히 서서이 
+                    공연 최초로 연주되는 내 최고의 아티스트의 최고의 
+                    솔로곡을 감상했습니다.
+                  </p>
+                  
+                  <div className="bg-yellow-800 bg-opacity-50 p-4 rounded">
+                    <h4 className="font-bold text-yellow-300 mb-2">립싱크의 아쉬움</h4>
+                  <p className="text-sm">
+                    슬프게도.
+                    Roger Waters는 &quot;And now... from where I stand..&quot;
+                    부분에서 립싱크를 했습니다. 커다란 스크린에 비춰지는
+                    Roger의 입모습을 열심히 보았지만. 너무나 스튜디오 앨범과
+                    똑같은 보컬 스타일이 100 % 립싱크가 맞다는 확신을
+                    내릴 수 있게 해주었습니다. 하지만. 사실 크게 신경쓸
+                    부분은 아닌듯 싶었습니다. 그의 지나친 완벽주의(?)가 
+                    아쉽기도 했습니다.
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Perfect Sense */}
+            <div className="mb-12 p-6 bg-purple-800 bg-opacity-30 rounded-lg">
+              <h3 className="text-xl font-bold text-purple-300 mb-4">Perfect Sense</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <p>
+                  2부 공연의 또 하나의 하이라이트.
+                  Pefect Sense part 2와 part1이 연주될 차례입니다.
+                  스크린에는 2001 스페이스 오디세이의 원숭이들이 시커먼 
+                  물체로 모여드는 장면이 영사되었습니다.
+                  Roger의 큐브릭 감독에 대한 짝사랑을 보여주는부분입니다.
+                </p>
+                
+                <p>
+                  그리고.. Perfect Sense의 전주부분이..
+                  원래 앨범에 집어넣으려고 했으나 스탠리 큐브릭
+                  (머 그렇게 잘난척 하는지 :-)) 감독의 반대로 넣지 못하였던
+                  컴퓨터 HAL의 목소리가 삽입된 버젼으로 연주되었습니다.
+                  환상적인 조명이 낮게 깔리고..
+                </p>
+                
+                <blockquote className="border-l-4 border-purple-500 pl-4 italic">
+                  <p>monkey sat on a pile of stone..</p>
+                </blockquote>
+                
+                <p>
+                    PP Arnold의 그야말로 exhaustive한 보컬이 빛을 발할 순간이
+                    왔습니다.
+                    호흡 조절을 잘 해야 할텐데..
+                  Germans killed the Jews
+                  Jews killed the Arabs
+                  Arabs killed the hostages
+                  and that is the news.
+                  history&apos;s for foolsand man is a tool
+                </p>
+                
+                <p>
+                    아쉽게도 PP Arnold는 약간의 삑사리를 초반에 냈습니다.
+                    조금 긴장한듯도 싶네요. 공연 끝나고 아마 Roger한테
+                    혼났을것 같습니다. :-)
+                  </p>
+                
+                <p>
+                  아뭏든 그녀의 엄청난 가창력에 Amsouth를 가득 메운 관객들은
+                  열렬한 환호를 보냈습니다.
+                    이번에는 Roger의 차례죠.
+                </p>
+                
+                <p>
+                    Roger는 Perfect Sense 이 곡에서 다시한번 연극적인
+                    요소를 무대에 도입합니다. 무대위의 스크린에는
+                    잠망경으로 올려다 본 바다의 모습이 비춰지고
+                    Roger는 핵잠수함을 조정하는 역할을 담당합니다.
+                </p>
+                
+                <p>
+                    이리 저리 핸들을 돌리는 Roger.
+                    객석으로는 무대 위에서 레이저가 쏟아지고.
+                    잠시나마 Roger가 발사하는 어뢰가 이곳으로 날아오는
+                    것은아닐까 하는 착각을 불러일으킬 정도로 그 열기와
+                    현장감은 대단했습니다.
+                  </p>
+                  
+                <div className="bg-white bg-opacity-20 p-4 rounded text-center">
+                  <h4 className="font-bold text-2xl mb-2">Can&apos;t you see it all MAKES PERFECT SENSE !!</h4>
+                  <p className="text-sm">
+                    무대위에는 백광이 작렬합니다. 아마 공연 시작해서
+                    가장 밝은 조명이 아닐까 싶네요. 여성 백업 싱어들이
+                    코러스를 부르는 순간 Roger는 무대위를 종횡무진 
+                    누비면서 두 손을 높이 쳐들어 관객들의 함성을 유도합니다.
+                    it all makes PERFECT SENSE.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Amused to Death */}
+            <div className="mb-12 p-6 bg-cyan-800 bg-opacity-30 rounded-lg">
+              <h3 className="text-xl font-bold text-cyan-300 mb-4">Amused to Death</h3>
+              
+              <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+                <div className="lg:col-span-1">
+                  <Image 
+                    src="/images/roger-waters/sing.jpg" 
+                    alt="노래하는 Roger" 
+                    width={100} 
+                    height={100} 
+                    className="w-full border rounded"
+                  />
+                </div>
+                
+                <div className="lg:col-span-3 space-y-4 text-sm leading-relaxed">
+                  <p>
+                    아.. 소파에 앉아서 티비를 보는 원숭이의 그림입니다.
+                    화면에 가득찬 눈알도 다시한번 스크린에 클로우즈 업 됩니다.
+                    원숭이가 소파에 앉아서 우주공간으로 떠다닙니다.
+                    Amused to Death의 명곡 It&apos;s a miracle이 연주될 차례입니다.
+                  </p>
+                  
+                  <p>
+                    장내의 불은 모두 꺼지고 약한 보라색 조명이 무대를 메웠습니다.
+                    베이스 기타를 벗어던진 Roger는 마이크 하나만을 들고
+                    마치 Tom Jones나 Julio Iglecias가 하듯이 무대 앞으로 나왔습니다.
+                  </p>
+                  
+                  <blockquote className="border-l-4 border-cyan-500 pl-4 italic">
+                    <p>They had sex in Pennsylvania..</p>
+                  </blockquote>
+                  
+                  <p>
+                    관중들의 환호가 떠나갈듯 합니다. Roger가 관중석에 가까이 와서
+                    쪼그리고 앉아 몇명의 팬들과 악수를 하는듯이도 보였습니다.
+                    아.. 나도 앞에 앉았었으면..
+                  </p>
+                  
+                  <p>
+                    전체적으로 Roger의 솔로곡들의 반응은 다른 Floyd의 클래식 만큼
+                    열렬한 관객 모두로부터의 환호는 받지 못하였습니다.
+                    글쎄요. 절반 이상의 관객. 아마도 거의 대부분의 외야 lawn에 
+                    앉은 친구들은 Roger Waters의 곡 보다는 Pink Floyd의 곡을
+                    들으러 공연에 왔을것으로 생각됩니다.
+                  </p>
+                  
+                  <p>
+                    하지만 지정석의 몇몇 die hard Waters 팬들은.. Roger의 솔로곡에
+                    더 많은 박수갈채를 보내주었습니다. Roger 자신도 무척이나
+                    쇼를 즐기는 듯한 모습이었습니다.
+                  </p>
+                  
+                  <p>
+                    Amused to Death가 연주됩니다.
+                    Rita Coolidge대신 백업 여자 가수 한명이 Roger와 같이노래 부릅니다.
+                  </p>
+                  
+                  <blockquote className="border-l-4 border-red-500 pl-4 italic">
+                    <p>Doctor Doctor, what is the wrong with me ?</p>
+                  </blockquote>
+                  
+                  <p>
+                    조금 쪽팔리지만 일어나서. 가드들의 제지를 조금 물리치고
+                    앞자리로 옮겼습니다. 서서 Amused to Death를 따라 불렀습니다.
+                    음냐.. 눈물이 피잉 돌았습니다.
+                    Roger도 나의 감동에 만족해하는것처럼 보였습니다. T.T
+                  </p>
+                  
+                  <div className="bg-red-700 bg-opacity-50 p-4 rounded text-center">
+                    <h4 className="font-bold text-red-300 mb-2">This species has amused itself to death !!!</h4>
+                    <p className="text-sm">No tears to cry...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Brain Damage/Eclipse - 메인 엔딩 */}
+            <div className="mb-12 p-6 bg-gray-800 bg-opacity-30 rounded-lg">
+              <h3 className="text-xl font-bold text-gray-300 mb-4">Brain Damage/Eclipse - 메인 엔딩</h3>
+              
+              <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+                <div className="lg:col-span-1">
+                  <Image 
+                    src="/images/roger-waters/Rogfloorbass.gif" 
+                    alt="Roger with bass on floor" 
+                    width={137} 
+                    height={379} 
+                    className="w-full border rounded"
+                  />
+                </div>
+                
+                <div className="lg:col-span-3 space-y-4 text-sm leading-relaxed">
+                  <p>
+                    Amused to Death가 끝나고 가라앉는 분위기.. 숙연한 분위기가
+                    몇십초 계속되었습니다.
+                  </p>
+                  
+                  <p>
+                    Roger가 기타를 튕기면서 다시 노래를 시작했습니다.
+                    Roger Waters 공연의 단골 엔딩인 Brain Damage/Eclipse입니다.
+                  </p>
+                  
+                  <blockquote className="border-l-4 border-gray-500 pl-4 italic">
+                    <p>The lunatic is on the grass..</p>
+                  </blockquote>
+                  
+                  <p>
+                    Lawn에 누워있던 약먹은 애들이 환호성을 질렀습니다.
+                    영원히 계속될 줄 알았던 공연이 끝나가는것을 알아차린
+                    팬들이 하나둘씩 자리에서 다시 일어났습니다.
+                  </p>
+                  
+                  <p>
+                    처음 Brain Damage를 듣던 중학시절의 내가 떠올랐습니다.
+                    헤드폰으로 듣다가 웃음소리가 갑자기 나오는 순간
+                    깜짝 놀랐던 기억이 있습니다.
+                    이번 공연에서도 무척이나 큰 데시벨로 바로 그 웃음소리가..
+                    뒷쪽 스피커에서 울려퍼졌습니다.
+                    모두들 그 현장감에 전율했습니다.
+                  </p>
+                  
+                  <blockquote className="border-l-4 border-yellow-500 pl-4 italic">
+                    <p>But the sun is eclipsed by the moon....</p>
+                  </blockquote>
+                  
+                  <p>
+                    메인 리스트가 모두 끝났습니다.
+                  </p>
+                  
+                  <p>
+                    짧게 인사를 마친 Roger.
+                    공연장의 불이 모두 꺼졌습니다.
+                    관객들은 모두 난리를 쳤습니다.
+                  </p>
+                  
+                  <p>
+                    &quot;Roger !! Roger !!!&quot;
+                    Comfortably numb을 연주할 것을 다들 알고 있었죠.
+                    2분 정도 지난 후.
+                    무대에는 불이 다시 켜졌습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             {/* 임시 복원 완료 표시 */}
               <div className="bg-[#8080FF] bg-opacity-20 p-6 rounded-lg mb-6">
-              <h3 className="text-xl font-bold text-[#8080FF] mb-4">🔄 Roger Waters 리뷰 복원 진행 중...</h3>
+              <h3 className="text-xl font-bold text-[#8080FF] mb-4">🔄 Roger Waters 리뷰 복원 진행 중 (메인 공연 완료!)...</h3>
                 <p className="text-sm leading-relaxed">
-                <strong>✅ 복원 완료된 섹션 (1부 완료!):</strong><br />
-                • 도입부와 개인적 배경<br />
-                • 공연장 도착과 대기 과정<br />
-                • 팬들의 연령대와 복장 관찰<br />
-                • 현지 팬과의 만남과 대화<br />
-                • 공연장과 무대 설정 묘사<br />
-                • 공연 시작 - In the Flesh<br />
-                • Another Brick in the Wall 기타 솔로<br />
-                • Mother 어쿠스틱 연주<br />
-                • The Final Cut 정치적 메시지<br />
-                • Animals - Pigs on the Wing & Dogs<br />
-                • 카드놀이 퍼포먼스<br />
-                • Welcome to the Machine 음향 시설<br />
-                • Wish You Were Here - Syd Barrett 추모<br />
-                • Shine on Crazy Diamond 사이키델릭 라이트쇼<br />
+                <strong>✅ 복원 완료된 섹션:</strong><br />
+                <strong>1부 (완료):</strong> In the Flesh → Shine on Crazy Diamond<br />
+                <strong>2부 (완료):</strong> 인터미션 → Brain Damage/Eclipse<br />
                 <br />
-                <strong>🔄 다음 복원 예정 (2부):</strong><br />
-                • 인터미션과 상품 구매<br />
-                • 2부 시작 (Set the Controls for the Heart of the Sun)<br />
-                • Dark Side of the Moon 곡들<br />
-                • Money 기타 솔로 대결<br />
-                • Roger Waters 솔로곡들 (Perfect Sense, Amused to Death)<br />
-                • 앵콜 (Comfortably Numb, Each Small Candle)<br />
+                <strong>주요 하이라이트들:</strong><br />
+                • Money 기타 솔로 대결 (3명 기타리스트)<br />
+                • Perfect Sense 연극적 연출 (핵잠수함)<br />
+                • Amused to Death 감동적 순간 (눈물의 합창)<br />
+                • Brain Damage 웃음소리 현장감<br />
+                <br />
+                <strong>🔄 마지막 복원 예정:</strong><br />
+                • 앵콜 1: Comfortably Numb (벽 위 기타 듀엣)<br />
+                • 앵콜 2: Each Small Candle (신곡, 라이터 촛불)<br />
+                • 공연 후 소감과 최종 리뷰<br />
                 <br />
                 </p>
               </div>
