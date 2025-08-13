@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function ReoStyxPage() {
   return (
-    <main className="min-h-screen bg-black text-silver" style={{backgroundImage: "url('images/reo_styx_bg.gif')"}}>
+    <main className="min-h-screen bg-black text-silver" style={{backgroundImage: "url('/images/reo_styx_bg.gif')"}}>
       <div className="container mx-auto px-4 py-8">
         
         {/* Header Banner */}
