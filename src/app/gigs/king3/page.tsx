@@ -469,10 +469,110 @@ export default function King3Page() {
               </div>
             </div>
 
+            {/* 누락된 중요 내용들 추가 */}
+            <div className="mb-12 p-6 bg-yellow-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-yellow-400 mb-4">Patricia Fripp의 대대적인 상술과 Robert과의 대화</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-orange-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-orange-400 mb-2">Patricia의 티셔츠 영업</h4>
+                  <p>
+                    패트리샤 프립 아줌마는 뒤이어 티셔츠 선전.. 온갖 씨디 선전 .. 
+                    그리고 프립과의 컨버세이션을 담은 영어회화 테이프 
+                    (어제는 네대여섯개 테이프가 들어가는건줄 알았더니 무려 아홉장짜리더군요.. ^^;)
+                    을 다시한번 선전하더니 무대를 내려가서 자신의 지정석 (무대 맨 뒷자리 씨디 파는 부스)로 자리잡았습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mb-12 p-6 bg-purple-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-purple-400 mb-4">둘째날 앰비언트 오프닝과 첫 번째 앙코르 Deception of the Thrush</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-indigo-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-indigo-400 mb-2">Trey Gunn을 위한 환상적인 연주</h4>
+                  <p>
+                    아아.. 도저히 이날 들었던 Deception..의 감동을 글로 표현할 자신이 없습니다. 
+                    씨디로 들었을때는 그렇게 인상적인 곡이 아니었지만... 이날 연주된 이 버젼은... 바로 
+                    Trey Gunn을 위한.. Trey에 의한.. Trey의 곡이었습니다.
+                  </p>
+                  <p className="mt-2">
+                    프립이 주옥 백그라운드로 깔아주는 넘실거리는 사운드스케이프를 배경으로 그가 정말 연주한다기보다는 
+                    주물럭 거리는... 아니 애무하는 스틱 신세사이저의 환상적인 소리는 그야말로 텀을 다물지 못하게 했습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mb-12 p-6 bg-blue-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-blue-400 mb-4">두 번째 앙코르의 기적 - Elephant Talk</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-red-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-red-400 mb-2">Discipline의 압도적 위력</h4>
+                  <p>
+                    하지만 프립이 신세사이저 버튼을 만지면서 연주된곡은 Elephant Talk였습니다. 
+                    과연 예바동선정 최고의 80년대 프로그레시브 앨범이었던 Discipline의 위력은 대단했습니다. 
+                    Thela Hun Ginjeet도 그랬지만 Elephant Talk의 관중 흡인력은 정말 상상을 초월했습니다.
+                  </p>
+                  
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded mt-2">
+                    <p className="text-center font-bold">"뿌우우우우우우우우웅 !!!"</p>
+                    <p className="text-center">"톡 톡 톡 톡 엘레펀 톡 !!!!"</p>
+                  </div>
+                  
+                  <p className="mt-2">
+                    코끼리 소리가 신세사이저에서 뿜어져 나오자 여기저기 실신할듯 아저씨들이 광란하기 시작했습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mb-12 p-6 bg-pink-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-pink-400 mb-4">Patricia Fripp과의 마지막 대화</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-purple-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-purple-400 mb-2">누나인지 동생인지 확인</h4>
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded mt-2 italic text-xs space-y-1">
+                    <p>"참 궁금한게 있는데요..."</p>
+                    <p>"뭔데"</p>
+                    <p>"니가 누나에요 동생이에요?"</p>
+                    <p>"아 내가 누나... 한살 많아 로버트보다..."</p>
+                  </div>
+                  
+                  <p className="mt-2">
+                    무척 나이보다 젊어보인다는 생각이 들었습니다. 확실히 사람은 하기 나름인것 같습니다. 
+                    어제는 쭈구리한 표정으로 로버트 프립 영어회화 테이프 선전하는 모습만 보아서 할머니라고 생각했으나 
+                    오늘 무대 아래서 춤추는 모습을 보니 그녀는 정말 쿨한 아줌마였습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mb-12 p-6 bg-red-800 bg-opacity-60 rounded-lg">
+              <h3 className="text-2xl font-bold text-red-400 mb-4">능숙한 음주운전으로 마무리</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-purple-800 bg-opacity-40 p-4 rounded border-l-4 border-purple-500">
+                  <h4 className="font-bold text-purple-400 mb-2">이틀간의 King Crimson 여정 완주</h4>
+                  <p className="italic">
+                    이렇게 이렇게 세째날 (제가 본거로는 둘째날)의 12th and Porter에서의 크림슨 공연이 끝났습니다. 
+                    Deception of Thrush에 감명받은 친구는 Trey Gunn Band의 Joy of Molybdenum을 샀고 
+                    저는 어제 눈치보면서 못샀던 로버트 프립의 얼굴이 그려져 있는 끄벅한 티셔츠를 한장 샀습니다.
+                  </p>
+                  <p className="mt-2">
+                    20년을 기다린 이 순간의 감동과 함께, 이제 능숙한 음주운전으로 집에 돌아갈 시간입니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             {/* Navigation */}
             <div className="mt-8 text-center">
               <p className="text-sm text-gray-400 mb-4">
-                ✅ King Crimson 3 100% 복원 완료! 두 번째 앙코르 Elephant Talk의 기적부터 Patricia Fripp과의 마지막 만남까지 모든 드라마가 완벽하게 되살아났습니다!
+                ✅ King Crimson 3 100% 완전 복원 완료! Patricia Fripp의 티셔츠 판매부터 두 번째 앙코르 Elephant Talk의 기적, 그리고 능숙한 음주운전 마무리까지 모든 드라마가 완벽하게 되살아났습니다!
               </p>
               
               <Link

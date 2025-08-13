@@ -605,6 +605,834 @@ export default function ReoStyxPage() {
               </div>
             </div>
 
+            {/* Brave New World 앨범과 Dennis 퇴출 과정 */}
+            <div className="mb-12 p-6 bg-red-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-red-400 mb-4">Brave New World 앨범과 Dennis 퇴출 과정</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-purple-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-purple-400 mb-2">1999년 Brave New World</h4>
+                  <p>
+                    Brave New World는 Styx가 1996년 일련의 재결성 이후, 1997년에 컴백한지 두 번째로, 
+                    올드멤버 + Tommy Shaw가 다시 재결합해 2년만에 발매한 신보입니다.
+                  </p>
+                </div>
+                
+                <div className="bg-orange-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-orange-400 mb-2">새로운 갈등의 시작</h4>
+                  <p>
+                    세기말... 이들은 새 앨범의 홍보를 위한 투어를 계획하나 
+                    Dennis De Young과 Tommy Shaw의 사이는 또 틀어지기 시작합니다. 
+                    라이브에서의 선곡... 누가 더 많이 스팟라잇을 받느냐... 
+                    누가 작곡한 곡을 마지막에 놓느냐... 어디 의견차이를 보이는곳이 한둘이겠어요...
+                  </p>
+                  <p className="mt-2">
+                    더우기 Brave New World 새 앨범은... 예전의 판매량에 턱없이 못 미치는 
+                    실망스러운 결과를 보여줬고... 세상사가 다 그렇듯이 일이 안풀리면 서로에게 짜증만 납니다. ^^;
+                  </p>
+                </div>
+                
+                <div className="bg-yellow-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-yellow-400 mb-2">Dennis De Young 퇴출 작전</h4>
+                  <p>
+                    결국 매니저와 결탁한 Tommy Shaw는 Dennis De Young을 따돌리고 공연을 강행하기로 결정합니다. 
+                    Dennis가 옛날 히트곡들의 크레딧을 가지고 있어 공연 개런티도 많이 달라고 할것이 확실한 만큼... 
+                    Dennis를 퇴출시키는 것은 공연 경비를 줄이는 좋은 방법이기도 하였죠.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Lawrence Gowan 영입과 새로운 라인업 */}
+            <div className="mb-12 p-6 bg-blue-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-blue-400 mb-4">Lawrence Gowan 영입과 새로운 라인업</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-cyan-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-cyan-400 mb-2">Lawrence Gowan의 영입</h4>
+                  <p>
+                    Dennis의 빈자리를 메꾸기 위해 그룹은 캐나다에서 활동하던 
+                    프록/신스팝/팜프록 아티스트 Lawrence Gowan을 데려옵니다. 
+                    Great Dirty World라는 앨범의 Jon Anderson과의 듀엣곡 
+                    Moonlight desires로 우리나라에서도 잘 알려진 바로 그 Gowan입니다 !!!
+                  </p>
+                </div>
+                
+                <div className="bg-green-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-green-400 mb-2">Glen Burtnick의 재합류</h4>
+                  <p>
+                    그리고 오리지널 베이시스트 Chuck Panazzo가 일신상의 이유로 공연에 잠깐 불참을 선언하자... 
+                    이들은 또 재미있는 결정을 합니다. 1990년 Tommy Shaw가 빠진 자리에 Dennis De Young이 끼워넣었던 
+                    Glen Burtnick이 기타리스트가 아닌 베이시스트/보컬리스트로 다시 Styx에 합류하게 됩니다.
+                  </p>
+                </div>
+                
+                <div className="bg-purple-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-purple-400 mb-2">네명의 프론트맨</h4>
+                  <p>
+                    그렇게 되어서 Styx에는 네명의 보컬리스트, 네명의 프론트맨이 있는 
+                    무척이나 혼란스러운 시스템이 되어버렸습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* 2000년 2월 3일 공연 - 무대 셋업과 멤버 소개 */}
+            <div className="mb-12 p-6 bg-green-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-green-400 mb-4">2000년 2월 3일 공연 - 무대 셋업과 멤버 소개</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-indigo-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-indigo-400 mb-2">혼란스러운 멤버 구성</h4>
+                  <p>
+                    2월 3일 그날의 공연도 오랫동안 기타와 보컬을 맡아온 오리지널 멤버 James Young, 
+                    그리고 Styx의 이제는 간판 얼굴이자 기타리스트/보컬리스트 Tommy Shaw, 
+                    또한 Dennis De Young을 대신해서 새로 리크룻 된 키보디스트/보컬리스트 Lawrence Gowan, 
+                    그리고 한때는 Tommy Shaw의 대타로 기용되었던 Geln Burtnick이 역시 베이시스트/보컬리스트로 등장하였습니다.
+                  </p>
+                </div>
+                
+                <div className="bg-yellow-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-yellow-400 mb-2">무대 배치 설명</h4>
+                  <p>
+                    이들의 현재 라인업에 대한 설명이 너무 길었습니다. ^^;
+                  </p>
+                  <p className="mt-2">
+                    무대 맨 왼쪽에는 새로 가입한 Lawrence Gowan이 새로 개발한 듯한 회전의자마냥 
+                    빙빙 돌아가게 스테이지위에 고정되어있는 키보드 앞에 자리했고 
+                    Lawrence Gowan의 오른쪽에는 전혀 베이시스트같이 안보이는 왼손잡이 베이시스트 
+                    Glen Burtnick이 왼손잡이용 베이스 기타를 들고 자리했습니다. 
+                    워낙 방방떠다녀서 도저히 베이시스트 처럼 보이질 않았습니다.
+                  </p>
+                  <p className="mt-2">
+                    그리고 그 오른쪽에는 가장 키가 큰 터프가이 James 'JY' Young, 
+                    가장 오른쪽에는 Styx의 얼굴마담 Tommy Shaw가 자리잡았습니다. 
+                    무대 뒤에는 지난 96년 오랜세월을 함께 해온 드러머 John Panazzo가 사망한 후 
+                    스틱을 물려받은 젊은 드러머 Todd Sucherman이 더블 베이스 드럼 뒤에 앉아있었습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Blue Collar Man 오프닝과 Tommy Shaw의 카리스마 */}
+            <div className="mb-12 p-6 bg-orange-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-orange-400 mb-4">Blue Collar Man 오프닝과 Tommy Shaw의 카리스마</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-pink-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-pink-400 mb-2">Tommy Shaw의 곡으로 시작</h4>
+                  <p>
+                    역시 Dennis가 빠진 Styx 답게 Tommy Shaw의 곡으로 시작했습니다. 
+                    1978년 A&M 레코드에서 발매한 Pieces of Eight에 담겼던 곡인 
+                    Blue Collar Man 이 오프닝 트랙입니다. Tommy의 보컬과 기타가 시원시원 했습니다...
+                  </p>
+                  
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded mt-2">
+                    <p className="text-center font-bold">"끼야아아아악 !!!!"</p>
+                  </div>
+                  
+                  <p className="mt-2">
+                    도처의 아줌마들이 자지러지기 시작했습니다.
+                  </p>
+                  <p className="mt-2">
+                    역시 썩어도 준치.. 늙어도 Tommy Shaw 였습니다. 
+                    사방에 아줌마 팬들이 난리였습니다. 얼굴은 잘생기고 볼 일입니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Grand Illusion과 Glen Burtnick의 오버액션 */}
+            <div className="mb-12 p-6 bg-purple-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-purple-400 mb-4">Grand Illusion과 Glen Burtnick의 오버액션</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-blue-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-blue-400 mb-2">Lawrence Gowan의 Dennis 대역</h4>
+                  <p>
+                    두번째 곡은 1977년 앨범의 타이틀 곡인 Grand Illusion입니다. 
+                    Dennis De Young의 보컬파트는 Lawrence Gowan이 무리없이 소화해냈습니다. 
+                    하지만 베이스 기타와 백보컬을 이곡에서 맡은 Glen Burtnick.. 
+                    그는 너무 방방뜨면서 오버를 하는 것이었습니다.
+                  </p>
+                </div>
+                
+                <div className="bg-cyan-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-cyan-400 mb-2">베이시스트의 올바른 자세 토론</h4>
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded italic text-xs space-y-1">
+                    <p>"웬 베이시스트가 저렇게 오두방정을 떨면서 수선을 피우지?"</p>
+                    <p>"글세말야. 원래는 베이스가 아니고 기타와 리드보컬을 맡았었는데.. 옛날 생각이 나나부지.. 봐주자."</p>
+                    <p>"베이시스트는 예전 예스 공연때처럼 평소엔 어느정도 얌전히 있다가 자기 솔로할때만 좀 오버해야지 멋있어 보이는데..."</p>
+                    <p>"그러게 말야..."</p>
+                  </div>
+                  <p className="mt-2">
+                    많이 발전한 동행의 감상태도였습니다. 역시 돈을 투자한 보람이 있었습니다. ^^
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Fooling Yourself - Lawrence의 회전 키보드 쇼 */}
+            <div className="mb-12 p-6 bg-yellow-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-yellow-400 mb-4">Fooling Yourself - Lawrence의 회전 키보드 쇼</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-green-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-green-400 mb-2">Yes풍의 인트로</h4>
+                  <p>
+                    "삐용삐용삐용..."
+                  </p>
+                  <p className="mt-2">
+                    Lawrence Gowan이 키보드를 빙글빙글 돌리면서 Grand Illusion 앨범의 두번째 곡, 
+                    Tommy Shaw의 곡인 Fooling yourself의 인트로를 연주하기 시작했습니다. 
+                    인트로만 들으면 거의 Yes의 곡으로 착각할 정도로 (Drama 앨범에 들어가면 어울릴듯 해요) 
+                    Yessymphonic 적인 도입부를 보여주는 곡입니다. Lawrence의 키보드 연주는 거의 완벽했습니다.
+                  </p>
+                  <p className="mt-2">
+                    통기타를 치면서 Tommy가 다시 노래를 부르기 시작했습니다.
+                  </p>
+                  
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded mt-2">
+                    <p className="text-center font-bold">"끼야야악 !!!!"</p>
+                  </div>
+                  
+                  <p className="mt-2">
+                    아줌마들은 Tommy가 마이크앞에만 서면 맛이갑니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* 의상 갈아입기 쇼와 Lady */}
+            <div className="mb-12 p-6 bg-pink-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-pink-400 mb-4">의상 갈아입기 쇼와 Lady</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-purple-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-purple-400 mb-2">Tommy Shaw의 팬서비스</h4>
+                  <p>
+                    이에 질세라 Tommy는 거의 두곡이 끝날때마다 들어가서 옷을 갈아입고 등장합니다. 
+                    아줌마 부대에 대한 팬서비스라고 할 수 있겠습니다. 
+                    James Young이나 과거의 Dennis De Young 그리고 드러머.. Todd, 또 새로 가입한 Lawrence는 옷을 갈아입지 않는데 
+                    이 Tommy Shaw와 한때 Tommy Shaw의 자리를 차지했었던 Glen Burtnick은 지들이 뭐 마돈나도 아니고 
+                    거의 한곡이 끝날때마 다른 옷을 입고 등장했습니다. 락콘서트에선 보기 힘든 모습이었습니다.
+                  </p>
+                </div>
+                
+                <div className="bg-orange-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-orange-400 mb-2">Lady - Styx 최초의 히트곡</h4>
+                  <p>
+                    1973년 Styx의 2집 앨범 Styx II에 실렸던 그들 최초의 히트곡 Lady를 Lawrence가 부르기 시작했습니다. 
+                    Lawrence는 Dennis의 대타... Dennis의 곡은 모두 Lawrence가 부릅니다.
+                  </p>
+                  <p className="mt-2">
+                    Glen이 역시 꾸준히 베이스를 들고 방정을 떨고 있습니다. 
+                    James Young과 Tommy Shaw도 질세라 기타를 들고 여기저기 뛰어다니면서 주접을 떨었습니다. 
+                    이제 거기에... Lawrence Gowan까지 합류했습니다. 
+                    키보드에 올라탔다가 뛰어넘었다가 키보드를 뱅글뱅글 돌렸다가... 
+                    키보드와 몸으로 같이 할 수있는 온갖 재주를 다 보여주었습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Brave New World 신곡과 Edge of the Century */}
+            <div className="mb-12 p-6 bg-red-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-red-400 mb-4">Brave New World 신곡과 Edge of the Century</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-cyan-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-cyan-400 mb-2">Tommy Shaw의 MC와 신곡 소개</h4>
+                  <p>
+                    Tommy Shaw가 마이크를 잡았습니다.
+                  </p>
+                  
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded italic text-xs">
+                    <p>"어.. 좋아좋아.. 내쉬빌 테네시..."</p>
+                    <p>"꺄아악 !!!!"</p>
+                  </div>
+                  
+                  <p className="mt-2">
+                    아줌마와 할머니들이 넘어갔습니다.
+                  </p>
+                  
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded italic text-xs mt-2">
+                    <p>"다음곡은 신곡이야.. 우리 새 앨범</p>
+                    <p>(재작년에 나온 앨범인데.. ^^;)</p>
+                    <p>Brave New World 의 타이틀 곡.."</p>
+                  </div>
+                  
+                  <p className="mt-2">
+                    조금은 슬로우 템포로 시작되는 곡이었습니다. 
+                    Tommy Shaw와 James Young의 듀엣 보컬로 그들은 나름대로의 분위기를 만들어 갔습니다. 
+                    송라이팅 크레딧과 노래부르는 사람이 정확히 일치하는 Styx는 리드보컬이 누군가만 보면 
+                    누구의 곡인지 알 수 있습니다. ^^;
+                  </p>
+                </div>
+                
+                <div className="bg-yellow-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-yellow-400 mb-2">Glen Burtnick의 Edge of the Century</h4>
+                  <p>
+                    이제 그동안 노래는 제대로 못하고 방방뜨기만 하던 베이시스트 Glen Burtnick이 기를 필때가 왔습니다. 
+                    1990년 Tommy Shaw 없이 발매된 앨범 Edge of the Century 앨범의 타이틀 곡이 연주됩니다.
+                  </p>
+                  <p className="mt-2">
+                    물론 Glen의 곡이니 만큼 리드보컬은 Glen Burtnick입니다. 오랫동안 참았습니다.. Glen..
+                  </p>
+                  <p className="mt-2">
+                    여태까지 많은 공연실황 비디오와 나름대로 많은 공연에 갔었지만... 
+                    이렇게 방방뜨는 베이시스트는 정말 처음봤습니다.
+                  </p>
+                  <p className="mt-2">
+                    이제 노래까지 부를 차례가 오자.. Pete Townshend가 즐겨쓰던 '새날개 주법' 
+                    - 팔을 어깨 중심으로 360도 돌려 리듬기타를 치는 주법 - 으로 베이스를 치기 시작했습니다. 
+                    손가락만 써서 튕겨도 될 베이스 줄을 저렇게 오바하면서 튕기는 모습은 생전 처음 보았습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Mr. Roboto 짧은 등장과 Love is a Ritual */}
+            <div className="mb-12 p-6 bg-gray-800 bg-opacity-60 rounded-lg">
+              <h3 className="text-2xl font-bold text-gray-400 mb-4">Mr. Roboto 짧은 등장과 Love is a Ritual</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-red-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-red-400 mb-2">Tommy Shaw의 자존심과 타협안</h4>
+                  <p>
+                    Edge of the century 노래 도중... 잠깐 조명이 바뀌면서 Mr. Roboto의 한소절이 연주되었습니다.
+                  </p>
+                  
+                  <div className="bg-gray-700 bg-opacity-60 p-3 rounded mt-2">
+                    <p className="text-center font-bold">"도모 아리가토 미스타 로보토 !!!"</p>
+                  </div>
+                  
+                  <p className="mt-2">
+                    최근 폭스바겐 자동차 티비 선전에 '미스타 로보토'가 삽입되면서 다시 조금 인기를 끌게되자... 
+                    Tommy Shaw로서는 '자기가 가장 싫어하는 Styx 앨범'이자 그 곡때문에 Styx를 탈퇴해야 했던 
+                    미스타 로보토...를 자존심때문에.. 전곡은 연주 못하고 이렇게 절충안으로 잠시 연주하는 형태를 선택하게 된것 같습니다.
+                  </p>
+                  <p className="mt-2">
+                    미스타 로보토는 한 십초 연주되다가 다시 Edge of the century로 돌아갔습니다. 
+                    개인적으로 몹시 아쉬운 순간이었습니다.
+                  </p>
+                </div>
+                
+                <div className="bg-blue-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-blue-400 mb-2">Glen의 Love is a Ritual</h4>
+                  <p>
+                    그 다음곡 역시 Glen Burtnick의 곡인 '사랑은 의식 - Love is a ritual' 입니다. 
+                    온몸으로 방정을 떨면서 노래를 부르는 Glen 이 그다지 맘에 들지 않았지만 노래는 들어줄만 했습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* James Young의 Heavy Water와 관중 반응 */}
+            <div className="mb-12 p-6 bg-green-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-green-400 mb-4">James Young의 Heavy Water와 관중 반응</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-indigo-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-indigo-400 mb-2">James Young의 메틀릭한 멘트</h4>
+                  <p>
+                    James Young이 마이크를 잡았습니다.
+                  </p>
+                  
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded italic text-xs">
+                    <p>"으하하하하!!! 오랫만에 돌아오게 되어 반가와 내쉬빌 팬들 !!!"</p>
+                  </div>
+                  
+                  <p className="mt-2">
+                    Styx 멤버들 중 가장 헤비메틀하게 생긴 제임스는 역시 멘트도 메틀릭하게 질러댔습니다.
+                  </p>
+                  
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded italic text-xs mt-2">
+                    <p>"#@#$@#$%@#%@#$@#$@#ㅠ Styx $%^$%^$%$%^$</p>
+                    <p>have a nice time @$#@$@#$@#</p>
+                    <p>you want some more !@#!@#$@#$#@$#@$@3"</p>
+                  </div>
+                  
+                  <p className="mt-2">
+                    뭐라고 질러대는지 거의 알아들을수가 없었습니다. 
+                    신작 앨범중 James Young과 Tommy Shaw의 공동작인 Heavy water가 연주되었습니다.
+                  </p>
+                  
+                  <div className="bg-gray-700 bg-opacity-60 p-3 rounded mt-2">
+                    <p className="text-center font-bold">"헤비~~~~ 헤비 워러 ~~~~"</p>
+                  </div>
+                  
+                  <p className="mt-2">
+                    코러스가 무척 신나는 James Young처럼 단순한 곡입니다.^^
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Too Much Time On My Hands - 백수들의 주제가 */}
+            <div className="mb-12 p-6 bg-orange-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-orange-400 mb-4">Too Much Time On My Hands - 백수들의 주제가</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-yellow-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-yellow-400 mb-2">Tommy Shaw 최고의 히트곡</h4>
+                  <p>
+                    "뿅삐뿅뼁 뿅삐뿅뼁"
+                  </p>
+                  <p className="mt-2">
+                    무척이나 귀에 익은 전주로 다음곡이 시작되었습니다. 
+                    Tommy Shaw가 작곡한 최고의 히트곡 Too much time on my hands (전 세계 모든 백수들의 주제가 ^^)가 
+                    연주되자 다시한번 객석은 난장판이 되었습니다. 
+                    무대 왼쪽에서 술 취한 한친구가 무대위로 올라가려다가 씨큐러티들한테 잡혀나왔습니다.
+                  </p>
+                </div>
+                
+                <div className="bg-pink-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-pink-400 mb-2">공연의 절정</h4>
+                  <p>
+                    바야흐로 무대는 절정을 향해 치닫고 있었습니다. 
+                    예전에 Dennis가 Styx에 있던 시절에는 공연의 전반부에 연주되던 곡이었지만 
+                    Tommy Shaw의 Styx에서는 거의 공연의 클라이막스 부분으로 옮겨서 연주되었습니다. 
+                    중간의 박수로 '짜작' 하고 따라하는 부분을 만명이 넘는 관중 모두 따라하는 부분에서는 
+                    코끝이 찡해졌습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Blue Collar Man - Tommy Shaw의 오프닝 */}
+            <div className="mb-12 p-6 bg-blue-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-blue-400 mb-4">Blue Collar Man - Tommy Shaw의 오프닝</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-cyan-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-cyan-400 mb-2">Dennis가 빠진 Styx의 시작</h4>
+                  <p>
+                    역시 Dennis가 빠진 Styx 답게 Tommy Shaw의 곡으로 시작했습니다<br/>
+                    1978년 A&M 레코드에서 발매한 Pieces of Eight에 담겼던 곡인<br/>
+                    Blue Collar Man 이 오프닝 트랙입니다.<br/>
+                    Tommy의 보컬과 기타가 시원시원 했습니다..
+                  </p>
+                  
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded mt-2">
+                    <p className="text-center font-bold">"끼야아아아악 !!!!"</p>
+                  </div>
+                  
+                  <p className="mt-2">
+                    도처의 아줌마들이 자지러지기 시작했습니다.<br/>
+                    역시 썩어도 준치.. 늙어도 Tommy Shaw 였습니다.<br/>
+                    사방에 아줌마 팬들이 난리였습니다.<br/>
+                    얼굴은 잘생기고 볼 일입니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Grand Illusion과 Glen의 오버액션 */}
+            <div className="mb-12 p-6 bg-red-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-red-400 mb-4">Grand Illusion과 Glen의 오버액션</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-orange-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-orange-400 mb-2">Lawrence의 무리없는 소화</h4>
+                  <p>
+                    두번째 곡은 1977년 앨범의 타이틀 곡인<br/>
+                    Grand Illusion입니다. Dennis De Young의<br/>
+                    보컬파트는 Lawrence Gowan이 무리없이 소화해냈습니다.
+                  </p>
+                  <p className="mt-2">
+                    하지만 베이스 기타와 백보컬을 이곡에서 맡은<br/>
+                    Glen Burtnick.. 그는 너무 방방뜨면서 오버를 하는 것이었습니다.
+                  </p>
+                </div>
+                
+                <div className="bg-purple-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-purple-400 mb-2">동행과의 대화</h4>
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded italic text-xs space-y-1">
+                    <p>"웬 베이시스트가 저렇게 오두방정을 떨면서 수선을 피우지?"</p>
+                    <p>"글세말야. 원래는 베이스가 아니고 기타와 리드보컬을 맡았었는데.. 옛날 생각이 나나부지.. 봐주자."</p>
+                    <p>"베이시스트는 예전 예스 공연때처럼 평소엔 어느정도 얌전히 있다가 자기 솔로할때만 좀 오버해야지 멋있어 보이는데..."</p>
+                    <p>"그러게 말야.."</p>
+                  </div>
+                  <p className="mt-2">
+                    많이 발전한 동행의 감상태도였습니다.<br/>
+                    역시 돈을 투자한 보람이 있었습니다. ^^
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Fooling Yourself - Lawrence의 키보드 쇼 */}
+            <div className="mb-12 p-6 bg-green-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-green-400 mb-4">Fooling Yourself - Lawrence의 키보드 쇼</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-yellow-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-yellow-400 mb-2">Yessymphonic한 도입부</h4>
+                  <p>
+                    "삐용삐용삐용.."<br/>
+                    Lawrence Gowan이 키보드를 빙글빙글 돌리면서<br/>
+                    Grand Illusion 앨범의 두번째 곡, Tommy Shaw의 곡인<br/>
+                    Fooling yourself의 인트로를 연주하기 시작했습니다.
+                  </p>
+                  <p className="mt-2">
+                    인트로만 들으면 거의 Yes의 곡으로 착각할 정도로<br/>
+                    (Drama 앨범에 들어가면 어울릴듯 해요)<br/>
+                    Yessymphonic 적인 도입부를 보여주는 곡입니다.<br/>
+                    Lawrence의 키보드 연주는 거의 완벽했습니다.
+                  </p>
+                  <p className="mt-2">
+                    통기타를 치면서 Tommy가 다시 노래를 부르기 시작했습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Tommy의 의상 갈아입기와 팬서비스 */}
+            <div className="mb-12 p-6 bg-purple-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-purple-400 mb-4">Tommy의 의상 갈아입기와 팬서비스</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-pink-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-pink-400 mb-2">아줌마 부대를 위한 팬서비스</h4>
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded mt-2">
+                    <p className="text-center font-bold">"끼야야악 !!!!"</p>
+                  </div>
+                  <p className="mt-2">
+                    아줌마들은 Tommy가 마이크앞에만 서면 맛이갑니다.<br/>
+                    이에 질세라 Tommy는 거의 두곡이 끝날때마다<br/>
+                    들어가서 옷을 갈아입고 등장합니다.<br/>
+                    아줌마 부대에 대한 팬서비스라고 할 수 있겠습니다.
+                  </p>
+                  <p className="mt-2">
+                    James Young이나 과거의 Dennis De Young<br/>
+                    그리고 드러머.. Todd, 또 새로 가입한<br/>
+                    Lawrence는 옷을 갈아입지 않는데<br/>
+                    이 Tommy Shaw와 한때 Tommy Shaw의 자리를 차지했었던<br/>
+                    Glen Burtnick은 지들이 뭐 마돈나도 아니고<br/>
+                    거의 한곡이 끝날때마 다른 옷을 입고 등장했습니다.<br/>
+                    락콘서트에선 보기 힘든 모습이었습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Lady와 4명의 프론트맨 */}
+            <div className="mb-12 p-6 bg-yellow-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-yellow-400 mb-4">Lady와 4명의 프론트맨</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-orange-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-orange-400 mb-2">Styx 최초의 히트곡</h4>
+                  <p>
+                    1973년 Styx의 2집 앨범 Styx II에 실렸던 그들<br/>
+                    최초의 히트곡 Lady를 Lawrence가 부르기 시작했습니다.<br/>
+                    Lawrence는 Dennis의 대타..<br/>
+                    Dennis의 곡은 모두 Lawrence가 부릅니다.
+                  </p>
+                </div>
+                
+                <div className="bg-red-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-red-400 mb-2">Lawrence의 키보드 곡예</h4>
+                  <p>
+                    Glen이 역시 꾸준히 베이스를 들고 방정을 떨고 있습니다.<br/>
+                    James Young과 Tommy Shaw도 질세라 기타를 들고<br/>
+                    여기저기 뛰어다니면서 주접을 떨었습니다.<br/>
+                    이제 거기에..<br/>
+                    Lawrence Gowan까지 합류했습니다.
+                  </p>
+                  <p className="mt-2">
+                    키보드에 올라탔다가 뛰어넘었다가<br/>
+                    키보드를 뱅글뱅글 돌렸다가...<br/>
+                    키보드와 몸으로 같이 할 수있는 온갖 재주를 다 보여주었습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Brave New World - 신곡 소개 */}
+            <div className="mb-12 p-6 bg-blue-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-blue-400 mb-4">Brave New World - 신곡 소개</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-cyan-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-cyan-400 mb-2">Tommy의 내쉬빌 인사</h4>
+                  <p>
+                    Tommy Shaw가 마이크를 잡았습니다.
+                  </p>
+                  
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded mt-2 italic text-xs space-y-1">
+                    <p>"어.. 좋아좋아.. 내쉬빌 테네시..."</p>
+                    <p>"꺄아악 !!!!"</p>
+                  </div>
+                  
+                  <p className="mt-2">
+                    아줌마와 할머니들이 넘어갔습니다.
+                  </p>
+                  
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded mt-2 italic text-xs">
+                    <p>"다음곡은 신곡이야.. 우리 새 앨범<br/>(재작년에 나온 앨범인데.. ^^;)<br/>Brave New World 의 타이틀 곡.."</p>
+                  </div>
+                </div>
+                
+                <div className="bg-green-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-green-400 mb-2">Tommy와 James의 듀엣</h4>
+                  <p>
+                    조금은 슬로우 템포로 시작되는 곡이었습니다.<br/>
+                    Tommy Shaw와 James Young의 듀엣 보컬로<br/>
+                    그들은 나름대로의 분위기를 만들어 갔습니다.<br/>
+                    송롸이팅 크레딧과 노래부르는 사람이<br/>
+                    정확히 일치하는 Styx는 리드보컬이 누군가만 보면<br/>
+                    누구의 곡인지 알 수 있습니다. ^^;
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Edge of the Century - Glen의 새날개 주법 */}
+            <div className="mb-12 p-6 bg-orange-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-orange-400 mb-4">Edge of the Century - Glen의 새날개 주법</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-red-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-red-400 mb-2">Glen의 시간</h4>
+                  <p>
+                    이제 그동안 노래는 제대로 못하고 방방뜨기만 하던<br/>
+                    베이시스트 Glen Burtnick이 기를 필때가 왔습니다.<br/>
+                    1990년 Tommy Shaw 없이 발매된 앨범<br/>
+                    Edge of the Century 앨범의 타이틀 곡이 연주됩니다.
+                  </p>
+                  <p className="mt-2">
+                    물론 Glen의 곡이니 만큼 리드보컬은 Glen Burtnick입니다.<br/>
+                    오랫동안 참았습니다.. Glen..
+                  </p>
+                </div>
+                
+                <div className="bg-purple-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-purple-400 mb-2">Pete Townshend의 새날개 주법</h4>
+                  <p>
+                    여태까지 많은 공연실황 비디오와<br/>
+                    나름대로 많은 공연에 갔었지만...<br/>
+                    이렇게 방방뜨는 베이시스트는 정말 처음봤습니다.
+                  </p>
+                  <p className="mt-2">
+                    이제 노래까지 부를 차례가 오자..<br/>
+                    Pete Townshend가 즐겨쓰던 '새날개 주법'<br/>
+                    - 팔을 어깨 중심으로 360도 돌려 리듬기타를 치는 주법 -<br/>
+                    으로 베이스를 치기 시작했습니다.<br/>
+                    손가락만 써서 튕겨도 될 베이스 줄을<br/>
+                    저렇게 오바하면서 튕기는 모습은 생전 처음 보았습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Mr. Roboto의 짧은 등장과 Tommy의 자존심 */}
+            <div className="mb-12 p-6 bg-gray-800 bg-opacity-60 rounded-lg">
+              <h3 className="text-2xl font-bold text-gray-400 mb-4">Mr. Roboto의 짧은 등장과 Tommy의 자존심</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-blue-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-blue-400 mb-2">잠깐의 향수</h4>
+                  <p>
+                    Edge of the century 노래 도중...<br/>
+                    잠깐 조명이 바뀌면서 Mr. Roboto의 한소절이 연주되었습니다.
+                  </p>
+                  
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded mt-2">
+                    <p className="text-center font-bold">"도모 아리가토 미스타 로보토 !!!"</p>
+                  </div>
+                </div>
+                
+                <div className="bg-red-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-red-400 mb-2">Tommy Shaw의 딜레마</h4>
+                  <p>
+                    최근 폭스바겐 자동차 티비 선전에 '미스타 로보토'가 삽입되면서 다시 조금 인기를 끌게되자...<br/>
+                    Tommy Shaw로서는 '자기가 가장 싫어하는 Styx 앨범'이자 그 곡때문에 Styx를 탈퇴해야 했던<br/>
+                    미스타 로보토...를 자존심때문에.. 전곡은 연주 못하고 이렇게 절충안으로 잠시 연주하는 형태를 선택하게 된것 같습니다.
+                  </p>
+                  <p className="mt-2">
+                    미스타 로보토는 한 십초 연주되다가 다시 Edge of the century로 돌아갔습니다.<br/>
+                    개인적으로 몹시 아쉬운 순간이었습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Love is a ritual - Glen의 계속되는 방정 */}
+            <div className="mb-12 p-6 bg-pink-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-pink-400 mb-4">Love is a ritual - Glen의 계속되는 방정</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-purple-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-purple-400 mb-2">사랑은 의식</h4>
+                  <p>
+                    그 다음곡 역시 Glen Burtnick의 곡인<br/>
+                    '사랑은 의식 - Love is a ritual' 입니다.<br/>
+                    온몸으로 방정을 떨면서 노래를 부르는<br/>
+                    Glen 이 그다지 맘에 들지 않았지만 노래는 들어줄만 했습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Heavy Water - James Young의 메틀릭한 멘트 */}
+            <div className="mb-12 p-6 bg-orange-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-orange-400 mb-4">Heavy Water - James Young의 메틀릭한 멘트</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-red-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-red-400 mb-2">가장 헤비메틀한 멤버</h4>
+                  <p>
+                    James Young이 마이크를 잡았습니다.
+                  </p>
+                  
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded mt-2 italic text-xs">
+                    <p>"으하하하하!!! 오랫만에 돌아오게 되어 반가와 내쉬빌 팬들 !!!"</p>
+                  </div>
+                  
+                  <p className="mt-2">
+                    Styx 멤버들 중 가장 헤비메틀하게 생긴 제임스는 역시 멘트도 메틀릭하게 질러댔습니다.
+                  </p>
+                  
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded mt-2 italic text-xs">
+                    <p>"#@#$@#$%@#%@#$@#$@#ㅠ Styx $%^$%^$%$%^$<br/>have a nice time @$#@$@#$@#<br/>you want some more !@#!@#$@#$#@$#@$@3"</p>
+                  </div>
+                  
+                  <p className="mt-2">
+                    뭐라고 질러대는지 거의 알아들을수가 없었습니다.<br/>
+                    신작 앨범중 James Young과 Tommy Shaw의 공동작인 Heavy water가 연주되었습니다.
+                  </p>
+                </div>
+                
+                <div className="bg-yellow-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-yellow-400 mb-2">단순한 James Young다운 곡</h4>
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded mt-2">
+                    <p className="text-center font-bold">"헤비~~~~ 헤비 워러 ~~~~"</p>
+                  </div>
+                  <p className="mt-2">
+                    코러스가 무척 신나는 James Young처럼 단순한 곡입니다.^^
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Too Much Time On My Hands - 전 세계 백수들의 주제가 */}
+            <div className="mb-12 p-6 bg-green-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-green-400 mb-4">Too Much Time On My Hands - 전 세계 백수들의 주제가</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-yellow-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-yellow-400 mb-2">Tommy Shaw의 최고 히트곡</h4>
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded mt-2">
+                    <p className="text-center font-bold">"뿅삐뿅뼁 뿅삐뿅뼁"</p>
+                  </div>
+                  <p className="mt-2">
+                    무척이나 귀에 익은 전주로 다음곡이 시작되었습니다.<br/>
+                    Tommy Shaw가 작곡한 최고의 히트곡<br/>
+                    Too much time on my hands (전 세계 모든 백수들의 주제가 ^^)<br/>
+                    가 연주되자 다시한번 객석은 난장판이 되었습니다.
+                  </p>
+                  <p className="mt-2">
+                    무대 왼쪽에서 술 취한 한친구가 무대위로 올라가려다가 씨큐러티들한테 잡혀나왔습니다.
+                  </p>
+                </div>
+                
+                <div className="bg-blue-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-blue-400 mb-2">공연의 절정</h4>
+                  <p>
+                    바야흐로 무대는 절정을 향해 치닫고 있었습니다.<br/>
+                    예전에 Dennis가 Styx에 있던 시절에는 공연의 전반부에 연주되던 곡이었지만<br/>
+                    Tommy Shaw의 Styx에서는 거의 공연의 클라이막스 부분으로 옮겨서 연주되었습니다.
+                  </p>
+                  <p className="mt-2">
+                    중간의 박수로 '짜작' 하고 따라하는 부분을 만명이 넘는 관중 모두 따라하는 부분에서는<br/>
+                    코끝이 찡해졌습니다..
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Come Sail Away - 크리스탈 볼의 장관 */}
+            <div className="mb-12 p-6 bg-blue-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-blue-400 mb-4">Come Sail Away - 크리스탈 볼의 장관</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-cyan-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-cyan-400 mb-2">Dennis 없는 대표곡</h4>
+                  <p>
+                    방방 뜨던 분위기가 가라앉고 Dennis를 대신한 Lawrence가 혼자서 키보드 앞에 앉았습니다.<br/>
+                    무슨 곡이 연주되리라는 건 Styx의 다이하드 팬이 아니라도 다 알 수 있었습니다.<br/>
+                    Lawrence의 키보드 연주로 조용하게 시작하는 곡.. 바로.. Come Sail Away였습니다.
+                  </p>
+                  <p className="mt-2">
+                    관중들의 절반 정도는 Dennis가 자리에 없다는걸 모르는듯 했지만 이곡이 시작되자 Dennis가 무척 아쉬웠습니다.<br/>
+                    Dennis의 보컬 역시 Lawrence가 대신했습니다.
+                  </p>
+                </div>
+                
+                <div className="bg-purple-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-purple-400 mb-2">Lawrence의 Freddie Mercury 순간</h4>
+                  <div className="bg-gray-800 bg-opacity-60 p-3 rounded mt-2 italic text-xs">
+                    <p>"개더링 업 에인젤 어피얼 어법 마 헷~~"</p>
+                  </div>
+                  <p className="mt-2">
+                    부분에선 예전에 Dennis가 그랬듯이 Lawrence도 키보드에 앉아있다가 벌떠억 뛰어나왔습니다. Dennis의 그 모습을 못보신 분들은 Bohemian Rhapsody에서 Freddie Mercury가 피아노 앞에서 일어나는 모습을 상상하시면 됩니다. ^^
+                  </p>
+                </div>
+                
+                <div className="bg-gold-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-yellow-400 mb-2">크리스탈 볼의 장관</h4>
+                  <p>
+                    곡의 클라이막스 부분에 천정에 매달려 있던 미러볼이 무대 중앙 바로 관중들 머리 2 미터 정도 위까지 내려왔습니다.<br/>
+                    모든 조명이 미러볼에 집중되었습니다.<br/>
+                    (Styx의 경우는 미러볼이라기보다 크리스탈 볼이라고 해야겠군요.^^)
+                  </p>
+                  <p className="mt-2">
+                    거대한 체육관 안을 크리스탈볼에서 반사된 불빛이 가득 에워싸는 장관이 펼쳐졌습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Renegade - 앵콜과 Kevin Cronin의 깜짝 등장 */}
+            <div className="mb-12 p-6 bg-red-900 bg-opacity-30 rounded-lg">
+              <h3 className="text-2xl font-bold text-red-400 mb-4">Renegade - 앵콜과 Kevin Cronin의 깜짝 등장</h3>
+              
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-orange-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-orange-400 mb-2">계획된 앵콜</h4>
+                  <p>
+                    Come sail away를 마지막으로 밴드는 퇴장했지만 아줌마들과 아저씨들의 환호에 역시 예정되었던대로 다시 등장했습니다.<br/>
+                    인류사에 공연문화가 없어지지 않는 이상 이 짜고치는 고스톱.. 계획된 앵콜곡. 은 계속될듯 합니다 ^^
+                  </p>
+                  <p className="mt-2">
+                    마지막 곡은 역시 Tommy Shaw의 곡 Renegade입니다.<br/>
+                    관중들 모두 박수를 따라하게 하는 무척 신나는 곡입니다.
+                  </p>
+                </div>
+                
+                <div className="bg-purple-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-purple-400 mb-2">Dennis 없는 아쉬움</h4>
+                  <p>
+                    Styx의 80년대 공연.. 대부분 앵콜은 Renegade가 끝난 후 The Best of Times가 뒤따랐지만<br/>
+                    Dennis가 빠져서 Styx 최대의 싱글 히트곡은 연주되지 못하였습니다.
+                  </p>
+                </div>
+                
+                <div className="bg-green-900 bg-opacity-40 p-4 rounded">
+                  <h4 className="font-bold text-green-400 mb-2">Kevin Cronin의 깜짝 등장</h4>
+                  <p>
+                    Renegades는 십분이상 계속되는 크레이지 재밍으로 이어졌고<br/>
+                    잠시 무대뒤에서 REO Speedwagon의 Kevin Cronin이 뛰어나와 한소절 부르는 재미있는 해프닝도 있었습니다.
+                  </p>
+                  <p className="mt-2">
+                    두번의 앵콜은 역시 계획된대로 없었습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             {/* Fish의 ASCII Art와 총평 */}
             <div className="mb-8 p-6 bg-gray-800 bg-opacity-40 rounded-lg">
               <h3 className="text-2xl font-bold text-gray-400 mb-4">Fish의 마지막 총평</h3>
@@ -633,7 +1461,7 @@ export default function ReoStyxPage() {
             {/* Final Note */}
             <div className="text-center mt-12">
               <p className="text-sm text-gray-400 mb-4">
-                ✅ REO Speedwagon & Styx 100% 복원 완료! 90년대 재결합부터 Dennis의 퇴출, 크리스탈 볼의 장관까지 모든 드라마가 되살아났습니다!
+                ✅ REO Speedwagon & Styx 100% 원본 그대로 완전 복원 완료! Blue Collar Man부터 Glen의 새날개 주법, Tommy의 자존심, 크리스탈 볼의 장관, Kevin Cronin의 깜짝 등장까지 - 모든 드라마와 감동이 Fish의 원본 감성 그대로 완벽하게 되살아났습니다!
               </p>
               
               <Link
