@@ -22,6 +22,7 @@ export default function GigsPage() {
     { t: "Dream Theater 2000 METROPOLIS Tour (올림픽 테니스 경기장, '00.5.6)", f: "/fun/dt2000" },
     { t: "Roger Waters 1999-2000 in the Flesh Tour (Antioch Tennessee, USA - Amsouth Amphitheater, 2000. 6. 6)", f: "/gigs/rogerwaters" },
     { t: "Kansas (Antioch Tennessee, USA - Amsouth Amphitheater, 2000. 7. 31)", f: "/gigs/kansas" },
+    { t: "Yes Masterworks Tour Preview (2000. 7월 예정)", f: "/gigs/yes-masterworks" },
     { t: "Yes (Antioch Tennessee, USA - Amsouth Amphitheater, 2000. 7. 31)", f: "/gigs/yes" },
     { t: "Camel (SF, USA - Great American music hall, 2000. 8. 27)", f: "/gigs/camel" },
     { t: "King Crimson (Tokyo, Japan - 2000. 10. 9)", f: "/gigs/king" },
