@@ -321,8 +321,8 @@ export default function YesMasterworksPage() {
 
             {/* Fish 서명 */}
             <div className="mb-8 p-6 bg-gray-900 bg-opacity-50 rounded-lg">
-              <div className="font-mono text-xs text-gray-400 text-center">
-                <pre>{`o
+              <div className="font-mono text-xs text-gray-400 overflow-x-auto">
+                <pre className="whitespace-pre">{`o
                   o  It was a wedding ring,
   \\  __\\\\___    o    Destined to be found in a cheap hotel,
    \\/     o \\ o      Lost in a kitchen sink,
