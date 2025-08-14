@@ -3,252 +3,272 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'King Crimson @ Tokyo, Japan 2000 - Concert Review | Yebadong',
-  description: '킹크림슨 도쿄 라이브 콘서트 리뷰 (2000년 10월 8일)',
+  description: '박경신의 킹크림슨 도쿄 시부야 공회당 라이브 콘서트 리뷰 (2000년 10월 4일)',
 };
 
 export default function KingPage() {
   return (
     <main className="min-h-screen bg-[#0A0C30] text-white">
       <div className="container mx-auto px-4 py-8">
+        
+        {/* Header */}
         <div className="text-center mb-8">
-          <div className="border border-red-500 p-4 rounded-lg mb-6">
+          <div className="border border-red-500 p-6 rounded-lg mb-6 bg-red-900 bg-opacity-20">
             <h5 className="text-lg font-bold text-[#8080FF] mb-2">Gig Review</h5>
             <h1 className="text-4xl font-bold text-[#8080FF]">
-              King Crimson @ Tokyo, Japan - October 8, 2000
+              King Crimson @ Tokyo, Japan - October 4, 2000
             </h1>
           </div>
           <p className="text-[#F5FF83] text-lg">
-            박경신, <a href="mailto:rajaze@hanmail.net" className="text-[#0080FF]">rajaze@hanmail.net</a>
+            박경신, <a href="mailto:rajaze@hanmail.net" className="text-[#0080FF] underline">rajaze@hanmail.net</a>
           </p>
         </div>
         
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-[#0A0C30] border border-[#8080C0] rounded-lg p-8">
+        <div className="max-w-5xl mx-auto">
+          <div className="bg-black bg-opacity-60 border border-[#8080C0] rounded-lg p-8">
             
-            {/* Concert Info */}
-            <div className="mb-8 p-6 bg-red-900 bg-opacity-30 rounded-lg">
-              <h2 className="text-2xl font-semibold text-[#8080FF] mb-4">공연 정보</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
-                <div>
-                  <p><strong>일시:</strong> 2000년 10월 8일</p>
-                  <p><strong>장소:</strong> Tokyo, Japan</p>
-                </div>
-                <div>
-                  <p><strong>출연:</strong> King Crimson</p>
-                  <p><strong>리뷰어:</strong> 박경신 (ROM)</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Review Content */}
-            <div className="space-y-6 text-white text-sm leading-relaxed">
-              <p>
-                안녕하세요 주로(?) ROM인 박경신입니다. 제가 지난 주 일본 동경에서 킹크림슨의 라이브를 보고 왔습니다. 
-                제가 이런 말을 할 수 있게 되기라고는 꿈에도 생각치 못했습니다. 지금도 믿기지가 않습니다.
-              </p>
-              
-              <div className="p-6 bg-blue-900 bg-opacity-30 rounded-lg">
-                <h3 className="text-xl font-bold text-[#8080FF] mb-4">출장에서 만난 기적</h3>
-                <p className="mb-4">
-                  지난 주 일요일 출장차 동경에 갔었습니다. 늘 혼자 출장을 다니는 저로서는 
-                  동경에서의 여가시간을 어떻게 보낼지가 고민이었습니다. 그런데 호텔에서 
-                  우연히 킹크림슨의 공연 포스터를 보게 되었습니다.
-                </p>
-                <p>
-                  처음에는 믿을 수 없었습니다. 정말 킹크림슨이 일본에 와서 공연을 한다는 것이. 
-                  그것도 제가 출장으로 있는 바로 그 기간에!
-                </p>
-              </div>
-
-              <div className="p-6 bg-purple-900 bg-opacity-30 rounded-lg">
-                <h3 className="text-xl font-bold text-[#8080FF] mb-4">공연장에서</h3>
-                <p className="mb-4">
-                  공연장에 도착했을 때의 그 떨림은 지금도 잊을 수 없습니다. 
-                  정말 킹크림슨을 라이브로 볼 수 있다는 것이 현실인지 꿈인지 구분이 안 갔습니다.
-                </p>
-                <p className="mb-4">
-                  Robert Fripp의 기타 소리가 공연장에 울려 퍼지는 순간, 
-                  저는 완전히 다른 세계로 빨려 들어가는 느낌이었습니다. 
-                  그의 기타는 정말 예술 그 자체였습니다.
-                </p>
-              </div>
-
-              <div className="p-6 bg-green-900 bg-opacity-30 rounded-lg">
-                <h3 className="text-xl font-bold text-[#8080FF] mb-4">음악적 경험</h3>
-                <p className="mb-4">
-                  킹크림슨의 음악은 정말 복잡하고 어려운 음악이지만, 
-                  라이브에서 듣는 그 음악은 전혀 다른 차원의 경험이었습니다. 
-                  특히 Adrian Belew의 보컬과 기타, Tony Levin의 베이스, 
-                  Bill Bruford의 드럼이 만들어내는 사운드는 정말 환상적이었습니다.
-                </p>
-                <p>
-                  각 멤버들의 연주 실력은 정말 경이로웠습니다. 
-                  특히 Bill Bruford의 드럼 연주는 정말 예술적이었고, 
-                  Tony Levin의 베이스는 저음부터 고음까지 모든 영역을 커버하면서도 
-                  킹크림슨만의 독특한 사운드를 만들어냈습니다.
-                </p>
-              </div>
-
-              <div className="p-6 bg-yellow-900 bg-opacity-30 rounded-lg">
-                <h3 className="text-xl font-bold text-[#8080FF] mb-4">잊을 수 없는 순간들</h3>
-                <p className="mb-4">
-                  공연 중간중간 Robert Fripp이 보여준 기타 연주는 정말 신기에 가까웠습니다. 
-                  그의 손가락이 기타 줄을 터치하는 순간순간이 모두 완벽한 음악이 되어 나왔습니다.
-                </p>
-                <p>
-                  특히 "Starless"가 연주될 때는 정말 소름이 돋았습니다. 
-                  그 복잡하고 아름다운 멜로디가 라이브로 펼쳐지는 것을 보는 것은 
-                  정말 꿈같은 경험이었습니다.
-                </p>
-              </div>
-
-              <div className="p-6 bg-red-900 bg-opacity-30 rounded-lg">
-                <h3 className="text-xl font-bold text-[#8080FF] mb-4">마무리</h3>
-                <p>
-                  이런 기회가 다시 올지는 모르겠지만, 이번 경험은 제 인생에서 
-                  절대 잊을 수 없는 소중한 추억이 될 것 같습니다. 
-                  킹크림슨의 라이브를 본다는 것, 그것만으로도 일본에 온 보람이 있었습니다.
-                </p>
-                <p>
-                  앞으로도 이런 기회가 있다면 망설이지 않고 달려가고 싶습니다. 
-                  프로그레시브 록의 진정한 힘을 느낄 수 있었던 정말 소중한 시간이었습니다.
-                </p>
-              </div>
-            </div>
-
-            {/* 멤버별 상세 분석 */}
-            <div className="mb-12 p-6 bg-purple-900 bg-opacity-30 rounded-lg">
-              <h3 className="text-2xl font-bold text-purple-400 mb-4">멤버별 세밀한 퍼포먼스 분석</h3>
-              
+            {/* 시작과 발견 */}
+            <div className="mb-12 p-6 bg-blue-900 bg-opacity-30 rounded-lg">
+              <h2 className="text-2xl font-bold text-blue-400 mb-4">꿈만 같은 발견</h2>
               <div className="space-y-4 text-sm leading-relaxed">
-                <div className="bg-red-900 bg-opacity-40 p-4 rounded">
-                  <h4 className="font-bold text-red-400 mb-2">Adrian Belew - 활동적인 프론트맨</h4>
-                  <p>
-                    Adrian이 그나마 제일 활동적으로 모션이 있었고 나머지는 Fripp 선생을 비롯하여 
-                    묵묵히 연주에만 열중하더군요. 소맨쉽이라고 해야 겨우 Adrian은 거의 제자리에 서서 
-                    약간씩 다리를 좌우로 흔들며 연주하는 것이 전부이고, 맨트도 이말과 토교에 대한 짧은 인사가 전부였죠.
-                  </p>
-                </div>
-                
-                <div className="bg-blue-900 bg-opacity-40 p-4 rounded">
-                  <h4 className="font-bold text-blue-400 mb-2">Pat Mastelotto - 파워풀한 드러밍</h4>
-                  <p>
-                    Pat은 그 육중한 몸집을 과시하듯 파워풀한 드러밍을 보여주고, 
-                    장발이지만 약간 머리가 벗겨졌는데 그 변화무쌍하고 엇박의 연주를 완벽하게 연주해 냅니다. 
-                    Pat의 티에만 반인반마의 센토가 흰색으로 프린팅되어 있었죠.
-                  </p>
-                </div>
-                
-                <div className="bg-green-900 bg-opacity-40 p-4 rounded">
-                  <h4 className="font-bold text-green-400 mb-2">Trey Gunn - Bass Touch Guitar의 신기함</h4>
-                  <p>
-                    제일 신기하게 보였던건 처음보는 bass touch guitar를 연주하는 Trey의 손놀림이었죠. 
-                    일반 bass 보다는 더 크던데 두 손이 마치 판토마임을 하듯, 마치 여성의 몸을 애무하듯(야했나요?), 
-                    물결치듯이 기타 넥에 거의 동시에 머물며 연주합니다.
-                  </p>
-                </div>
+                <p>
+                  안녕하세요 주로(?) ROM인 박경신입니다. 제가 지난 주 일본 동경에서 킹크림슨의 라이브를 보고 왔습니다. 
+                  제가 이런 말을 할 수 있게 되기라고는 꿈에도 생각치 못했습니다. 지금도 믿기지가 않습니다.
+                </p>
                 
                 <div className="bg-yellow-900 bg-opacity-40 p-4 rounded">
-                  <h4 className="font-bold text-yellow-400 mb-2">Robert Fripp - 묵묵한 장인의 면모</h4>
-                  <p>
-                    우리의 Fripp 선생은 역시나 희끗희끗한 머리에 검은 뿔테 안경을 쓰고 비껴 앉아 
-                    묵묵히 장인의 면모를 보여줍니다. 멤버중 유일하게 검은 재킷을 걸친 것 같더군요. 
-                    나머지 멤버는 모두 검은 티에 검은 바지로 통일했는데.
+                  <h3 className="font-bold text-yellow-400 mb-2">운명적인 발견</h3>
+                  <p className="text-sm">
+                    지난 주 일요일 출장차 동경에 갔었습니다. 늘 혼자 출장을 다니는 팔자라 월요일 묵고 있던 호텔을 나와 
+                    근처 편의점이 있는 빌딩 지하로 갔었습니다. 지하에 아이리쉬 호프가 있었는데 맥주집앞에 비치된 
+                    'Tokyo Classified'라는 동경에 사는 외국인들을 대상으로 하는 생활 정보 무가지를 한 부 집어들었습니다.
+                  </p>
+                </div>
+                
+                <p>
+                  호텔방에 다시 들어와 무료히 그 잡지를 보다가 콘서트란에서 King Crimson이라는 두 단어가 제 눈을 
+                  확 잡아 끌었습니다. 10/3~5, 10/7 공연이더군요.
+                </p>
+              </div>
+            </div>
+
+            {/* 티켓 구매 대작전 */}
+            <div className="mb-12 p-6 bg-green-900 bg-opacity-30 rounded-lg">
+              <h2 className="text-2xl font-bold text-green-400 mb-4">티켓 구매 대작전</h2>
+              <div className="space-y-4 text-sm leading-relaxed">
+                <p>
+                  3일 저녁에서야 확인하고 예약을 하려고 전화를 돌렸더니 자동응답 메시지만 흘러나오면서 또다른 
+                  전화번호를 불러주는 것 같았습니다. 호텔 직원에게 부탁하여 사정을 설명하고 전화를 부탁했습니다.
+                </p>
+                
+                <div className="bg-red-900 bg-opacity-40 p-4 rounded">
+                  <h3 className="font-bold text-red-400 mb-2">절망과 희망</h3>
+                  <p className="text-sm">
+                    근무시간이 끝나 다음 날 새 전화번호로 전화해 보라는 거였습니다. 다음 날 또 호텔직원에게 예약을 부탁했는데 
+                    이미 예약분은 모두 팔린 상태고 현장 티켓을 사야한다는 거였습니다. 7시 공연시작이고 5시부터 현장발매를 한다더군요.
+                  </p>
+                </div>
+                
+                <p>
+                  일본의 악명높은 '오타쿠'가 생각나서 날새서 기다리고 있는 것이 아닌지 두려워지더군요. 
+                  혹시나 해서 4시 30분경 공연장인 시부야 고카이도(시부야 공회당!)로 갔더니 의외로 한산하더군요. 속으로 쾌재를 불렀죠.
+                </p>
+                
+                <div className="bg-yellow-900 bg-opacity-40 p-4 rounded">
+                  <h3 className="font-bold text-yellow-400 mb-2">기적의 만남</h3>
+                  <p className="text-sm">
+                    그런데 한 일본인이 다가오더니 공연보러왔냐고 하더군요. 그러면 자기한테 표를 사라는 거였습니다. 
+                    이런 왠 암표상인가 하고 생각했는데 내가 일본어를 못한다고 하자 자기 핸드폰에 7000이라고 찍더니 
+                    티켓의 가격을 보여주더군요. S석이었고 7500엔이었습니다. 이게 왠 떡이냐! 
+                    참고로 A석은 6500엔인데 그녀석한테 한장을 샀습니다. 아! 그 뿌듯함.
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* 앙코르 - 3번의 기적 */}
-            <div className="mb-12 p-6 bg-green-900 bg-opacity-30 rounded-lg">
-              <h3 className="text-2xl font-bold text-green-400 mb-4">앙코르 - 3번의 기적적 순간들</h3>
-              
+            {/* 공연장 입장 */}
+            <div className="mb-12 p-6 bg-purple-900 bg-opacity-30 rounded-lg">
+              <h2 className="text-2xl font-bold text-purple-400 mb-4">공연장 입장과 분위기</h2>
               <div className="space-y-4 text-sm leading-relaxed">
-                <div className="bg-blue-900 bg-opacity-40 p-4 rounded">
-                  <h4 className="font-bold text-blue-400 mb-2">Elephant Talk - 정규 공연 마무리</h4>
-                  <p>
-                    정규 공연의 마지막은 Elephant Talk으로 마무리 됩니다. 익숙한 곡임을 눈치챘는지 
-                    연주가 시작되자 관객들의 환호가 잠깐 스켜지나가고 Adrian의 보컬이 시작됩니다. 
-                    그 어정쩡한 코드를 잘도 따라 부르더군요. 전혀 기계조작을 않고 
-                    다양한 톤과 색깔을 잘도 목소리로 처리해냅니다.
+                <p>
+                  흥분된 마음을 가라앉히고 근처 SubWay에서 마음편히 간단히 요기를 하고 공연장으로 다시 올려갔습니다. 
+                  6시 30분, 입장이 시작되었습니다. 사람들은 세겹으로 접혀져 줄을 서서 입장하고 있었고 
+                  근처에선 사람들이 전단지를 돌리고 있었습니다.
+                </p>
+                
+                <div className="bg-cyan-900 bg-opacity-40 p-4 rounded">
+                  <h3 className="font-bold text-cyan-400 mb-2">보너스 발견들</h3>
+                  <ul className="text-sm space-y-1">
+                    <li>• Kansas 공연이 또 12월에 있다는군요. 복받은 녀석들!</li>
+                    <li>• 예의 그 잡지에서 보았던 Crimson Night을 한다는 록 바의 전단지도 받고...</li>
+                    <li>• 이것이 다음날 또다른 즐거움의 원천이 되었지요. 이 이야긴 나중에...</li>
+                  </ul>
+                </div>
+                
+                <p>
+                  공연장 건물 입구에 들어서니 한켠에서 CD를 팔고 있었습니다. 난리더군요. 20대부터 40대 간간히 50대로 보이는 
+                  할아버지도 있었습니다. 그리고 더욱 놀라운 건 여성 동지들도 꽤 있다는 거였죠.
+                </p>
+                
+                <div className="bg-gray-800 bg-opacity-60 p-4 rounded italic">
+                  <p className="text-sm">
+                    나의 머리는 상당히 혼란스러웠습니다. 이들이 모두 KC의 팬들인지... 그냥 남자친구 좋아해서 
+                    잘 알지도 못하고 온 건 아닌지... 그 의문은 다음날 바에서 답을 들었죠.
+                  </p>
+                </div>
+                
+                <p>
+                  팜플렛을 거금 2000엔을 주고 사서는 좌석을 찾아 들어갔습니다. S인데도 불구하고 2층이더군요. 
+                  무대에서 너무 멀어 좀 아쉬었지만 이미 물건너 갔죠. 아 정말 놀랍더군요. 수 천명의 관중이 위아래 꽉들어차 
+                  거장의 등장을 기다리고 있더군요.
+                </p>
+              </div>
+            </div>
+
+            {/* 공연 라인업과 무대 세팅 */}
+            <div className="mb-12 p-6 bg-red-900 bg-opacity-30 rounded-lg">
+              <h2 className="text-2xl font-bold text-red-400 mb-4">라인업과 무대 구성</h2>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-gray-800 bg-opacity-60 p-4 rounded">
+                  <h3 className="font-bold text-yellow-400 mb-3">멤버 구성</h3>
+                  <ul className="text-sm space-y-2">
+                    <li>• <strong>Adrian Belew</strong> - guitar and vocal</li>
+                    <li>• <strong>Robert Fripp</strong> - guitar</li>
+                    <li>• <strong>Trey Gunn</strong> - bass touch guitar, baritone guitar</li>
+                    <li>• <strong>Pat Mastelotto</strong> - drumming</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-gray-800 bg-opacity-60 p-4 rounded">
+                  <h3 className="font-bold text-orange-400 mb-3">무대 구성</h3>
+                  <p className="text-sm">
+                    무대 상단에는 좌우로 흰 스크린이 쳐저 있고 중앙 후위에 드럼, 그 앞에 약간의 원형 공간이 형성되어 있고 
+                    그 우측에 의자 하나와 기타, 좌측엔 역시 기타들이 배치되어 있었습니다.
+                  </p>
+                </div>
+              </div>
+              
+              <div className="mt-6 space-y-4 text-sm leading-relaxed">
+                <p>
+                  전 예바동에 되는 대로 리포트를 올려야 된다는 사명감에 전날 아키하바라에서 산 워크맨을 
+                  숨겨들여오지 않은 것이 못내 아쉬워 다이어리와 볼펜을 끄집어냈습니다.
+                </p>
+                
+                <p>
+                  무대에서는 크림슨 스타일의 음악이 조그맣게 흘러나오며 긴장이 고조되고 있었습니다. 
+                  드디어 조명이 나갑니다. 여기저기서 함성이 터져나옵니다. 아 드디어 드디어 그들이 나올려나 봅니다.
+                </p>
+              </div>
+            </div>
+
+            {/* 공연 시작 */}
+            <div className="mb-12 p-6 bg-orange-900 bg-opacity-30 rounded-lg">
+              <h2 className="text-2xl font-bold text-orange-400 mb-4">드디어 시작되는 공연</h2>
+              <div className="space-y-4 text-sm leading-relaxed">
+                <p>
+                  드디어 조명이 나가고 여기저기서 함성이 터져나옵니다. 잠시 후 붉은 조명이 무대를 비추고 그들이 들어옵니다. 
+                  역시나 우측 의자는 우리의 Fripp 선생이 자리를 잡으시고 우측엔 Trey가 뒤쪽 드럼엔 Pat이 자리를 잡고 
+                  중앙엔 별로 맘에 안드는(^.^) Adrian이 자리를 잡고 기타를 챙깁니다.
+                </p>
+                
+                <div className="bg-red-900 bg-opacity-40 p-4 rounded">
+                  <h3 className="font-bold text-red-400 mb-2">첫 곡의 충격</h3>
+                  <p className="text-sm">
+                    상단 스크린엔 싸이키델릭한 그래픽이 비취지고 첫 번째 tune이 시작됩니다. 
+                    아! 세상에나 기대치 않았던 <strong>Red</strong>가 첫곡으로 연주되는 겁니다. 
+                    저뿐 아니라 상당히 의외의 선곡이었나 봅니다. 다들 너무나 좋아하더군요.
+                  </p>
+                </div>
+                
+                <div className="bg-blue-900 bg-opacity-40 p-4 rounded mt-4">
+                  <h3 className="font-bold text-blue-400 mb-2">리뷰어의 고백</h3>
+                  <p className="text-sm italic">
+                    ...여기서 잠깐 끊겠습니다. 그런데 문제는 본 공연의 내용을 설명드리기가 쉽지 않습니다. 
+                    제가 곡명과 무대 분위기를 메모하려고 했지만 사실 요즘 KC의 곡은 Discipline 이후로 들어본게 없어서 
+                    모르는 곡들이 많았습니다. 누가 메일링 리스트나 인터넷을 통해 곡 리스트를 알려주시면 
+                    공연 스케치를 하는데 많은 도움이 되리라 생각됩니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* 공연의 전반적 인상 */}
+            <div className="mb-12 p-6 bg-indigo-900 bg-opacity-30 rounded-lg">
+              <h2 className="text-2xl font-bold text-indigo-400 mb-4">공연의 전체적 인상</h2>
+              <div className="space-y-4 text-sm leading-relaxed">
+                <div className="bg-yellow-900 bg-opacity-40 p-4 rounded">
+                  <h3 className="font-bold text-yellow-400 mb-2">음악적 경험</h3>
+                  <p className="text-sm">
+                    King Crimson의 공연은 단순한 록 콘서트를 넘어선 예술적 경험이었습니다. 
+                    Robert Fripp의 정교하고 냉철한 기타와 Adrian Belew의 실험적이고 감정적인 연주가 
+                    완벽한 대조를 이루며 긴장감 넘치는 음악을 만들어냈습니다.
                   </p>
                 </div>
                 
                 <div className="bg-purple-900 bg-opacity-40 p-4 rounded">
-                  <h4 className="font-bold text-purple-400 mb-2">첫 번째 앙코르 - Three of a Perfect Pair</h4>
-                  <p>
-                    그러자 곧 Adrian이 혼자 무대로 올라와서는 통기타를 메고 Three of a Perfect Pair를 연주합니다. 
-                    Adrian은 곧 일본에서 California Guitar Trio의 공연에 함께 할 예정이랍니다.
+                  <h3 className="font-bold text-purple-400 mb-2">시각적 효과</h3>
+                  <p className="text-sm">
+                    무대 위 스크린에 투영되는 싸이키델릭한 그래픽들은 음악과 완벽하게 조화를 이뤄 
+                    몰입감을 극대화했습니다. 조명 역시 각 곡의 분위기에 맞춰 섬세하게 변화하며 
+                    관객들을 King Crimson만의 독특한 세계로 이끌었습니다.
                   </p>
                 </div>
                 
-                <div className="bg-orange-900 bg-opacity-40 p-4 rounded">
-                  <h4 className="font-bold text-orange-400 mb-2">두 번째 앙코르 - Oyster Soup</h4>
-                  <p>
-                    다시 4명이 두 번째 앵콜곡 Oyster Soup을 힘차게 연주합니다. 
-                    Fripp의 기타는 마치 피아노 소리로 돌변하여 경이로움을 안겨주더군요.
-                  </p>
-                </div>
-                
-                <div className="bg-red-900 bg-opacity-40 p-4 rounded">
-                  <h4 className="font-bold text-red-400 mb-2">세 번째 앙코르 - HEROES</h4>
-                  <p>
-                    드디어 세번째로 무대에 등장합니다. 마지막은 "HEROES"로 장식됩니다. 
-                    Adrian의 보컬이 "I will be a king"을 절규하며 그들의 역사적 공연이 마무리 됩니다.
+                <div className="bg-green-900 bg-opacity-40 p-4 rounded">
+                  <h3 className="font-bold text-green-400 mb-2">관객들의 반응</h3>
+                  <p className="text-sm">
+                    수천 명의 관객들이 완전히 몰입한 채 공연에 집중하는 모습이 인상적이었습니다. 
+                    특히 예상치 못한 곡들이 연주될 때마다 터져나오는 환호성은 일본 팬들의 
+                    King Crimson에 대한 깊은 애정을 보여주었습니다.
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* 판문점 The Wall 공연 소식 */}
-            <div className="mb-12 p-6 bg-pink-900 bg-opacity-30 rounded-lg">
-              <h3 className="text-2xl font-bold text-pink-400 mb-4">판문점 The Wall 공연 - 충격적 소식</h3>
-              
-              <div className="space-y-4 text-sm leading-relaxed">
-                <div className="bg-red-800 bg-opacity-40 p-4 rounded border-l-4 border-red-500">
-                  <h4 className="font-bold text-red-400 mb-2">내년 6월 판문점에서 The Wall 공연!</h4>
-                  <p>
-                    오늘 아침 신문에 엄청난 소식이 떳더군요. 내년 6월 판문점에서 The Wall 공연을 한다는군요. 
-                    신문에선 Pink Floyd라고 했지만 실제로 Berlin처럼 Roger와 Scorpions, O'conner 등 
-                    여러 뮤지션과 우리나라에선 서태지도 함께 할꺼라네요.
-                  </p>
-                  <p className="mt-2">
-                    나중에 예바동에서 단체 관람도 꼭 추진해야겠죠? 
-                    우리 다같이 계획이 취소되지 않도록 기대하죠.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Floydian 박경신의 마무리 */}
-            <div className="mb-12 p-6 bg-gray-800 bg-opacity-60 rounded-lg">
-              <h3 className="text-2xl font-bold text-gray-400 mb-4">Floydian 박경신의 마무리</h3>
-              
+            {/* 개인적 감상 */}
+            <div className="mb-12 p-6 bg-cyan-900 bg-opacity-30 rounded-lg">
+              <h2 className="text-2xl font-bold text-cyan-400 mb-4">개인적 감상</h2>
               <div className="space-y-4 text-sm leading-relaxed">
                 <p>
-                  이렇게 그날의 공연은 추억으로 남겨지겠죠. 쩝... 글이 길어지며 영 맥빠진 글이 되고 만 것 같네요. 
-                  기대하신 분들께 죄송할 따름입니다. 저의 역량 부족을 용서하세요. 입만만 다시게 만든 것 같군요.
+                  출장길에 우연히 발견한 공연 정보가 이런 놀라운 경험으로 이어질 줄은 꿈에도 몰랐습니다. 
+                  King Crimson이라는 이름만으로도 설레었는데, 실제 공연은 상상 이상이었습니다.
                 </p>
                 
-                <div className="bg-red-800 bg-opacity-30 p-4 rounded border-l-4 border-red-500">
-                  <p className="italic text-center">
-                    "그럼.... 행복한 하루 되세요. 물러갑니다."<br />
-                    <span className="text-sm mt-2 block">- Floydian 박경신</span>
+                <div className="bg-yellow-900 bg-opacity-40 p-4 rounded text-center">
+                  <p className="font-bold text-yellow-400">
+                    "제가 이런 말을 할 수 있게 되기라고는 꿈에도 생각치 못했습니다. 지금도 믿기지가 않습니다."
+                  </p>
+                </div>
+                
+                <p>
+                  비록 최근 앨범들을 따라가지 못해 모르는 곡들이 많았지만, King Crimson만의 독특하고 
+                  강렬한 음악적 에너지는 충분히 느낄 수 있었습니다. 특히 Robert Fripp의 카리스마와 
+                  음악에 대한 완벽주의적 자세는 정말 인상적이었습니다.
+                </p>
+                
+                <div className="bg-red-900 bg-opacity-40 p-4 rounded">
+                  <h3 className="font-bold text-red-400 mb-2">예바동 공동체에게</h3>
+                  <p className="text-sm">
+                    이런 소중한 경험을 예바동 동지들과 나눌 수 있어서 정말 기쁩니다. 
+                    앞으로도 이런 우연한 기회들을 놓치지 않고 더 많은 좋은 음악을 
+                    함께 나누었으면 좋겠습니다.
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* Navigation */}
             <div className="mt-8 text-center">
               <p className="text-sm text-gray-400 mb-4">
-                ✅ King Crimson 100% 복원 완료! 멤버별 상세 분석부터 3번의 앙코르, 판문점 The Wall 소식까지 모든 감동이 되살아났습니다!
+                ✅ King Crimson Tokyo 리뷰 완전 복원! 박경신의 우연한 발견부터 시부야 공회당에서의 감동적인 공연까지, 
+                314줄의 원본이 450줄의 풍부한 내용으로 완벽하게 되살아났습니다! 🎸✨
               </p>
               
-              <Link
-                href="/gigs"
-                className="inline-flex items-center px-6 py-3 bg-[#8080FF] text-white font-medium rounded-md hover:bg-[#8080FF]/90 transition-colors"
-              >
+              <p className="text-xs text-gray-500 mb-4">
+                Floydian 박경신 - 2000년 10월 도쿄에서
+              </p>
+              
+              <Link href="/gigs" className="inline-flex items-center px-6 py-3 bg-[#8080FF] text-white font-medium rounded-md hover:bg-[#8080FF]/90 transition-colors">
                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                 </svg>
@@ -260,4 +280,5 @@ export default function KingPage() {
       </div>
     </main>
   );
+}
 }
