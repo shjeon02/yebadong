@@ -13,8 +13,8 @@ export default function NavBar() {
     { label: 'Review', href: '/review' },
     { label: 'Gigs', href: '/gigs' },
     { label: 'Misc', href: '/misc' },
-    { label: 'FAQ', href: '/faq' },
-    { label: 'Jacket', href: '/images' },
+    { label: 'Fun', href: '/fun' },
+    { label: 'Gathering', href: '/gathering' },
     { label: 'Guestbook', href: '/guestbook' }
   ]
 
