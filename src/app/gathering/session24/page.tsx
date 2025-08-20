@@ -1,13 +1,7 @@
 'use client';
 
-import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
-
-export const metadata: Metadata = {
-  title: '제24회 YBD 이탈리아 슈퍼밴드 특집 - 2000년 8월 12일 | Yebadong',
-  description: '예바동 제24회 이탈리아 슈퍼밴드 특집 (2000년 8월 12일, Man+)',
-};
 
 export default function Session24Page() {
   return (
