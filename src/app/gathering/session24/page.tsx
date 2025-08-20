@@ -1,3 +1,5 @@
+'use client';
+
 import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -265,67 +267,144 @@ export default function Session24Page() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 
                 <div className="text-center">
-                  <div className="w-full h-40 bg-gray-700 border border-gray-500 rounded flex items-center justify-center mb-2">
-                    <span className="text-gray-400 text-sm">000813/01.jpg</span>
+                  <div className="relative w-full h-40 mb-2 cursor-pointer hover:opacity-80 transition-opacity">
+                    <Image 
+                      src="/images/roger-waters/000813/01.jpg" 
+                      alt="이강영, 권재륜"
+                      fill
+                      className="object-cover rounded border border-gray-500"
+                      onClick={() => window.open('/images/roger-waters/000813/DSC00001.JPG', '_blank')}
+                    />
                   </div>
                   <p className="text-sm text-gray-300">이강영, 권재륜</p>
                 </div>
 
                 <div className="text-center">
-                  <div className="w-full h-40 bg-gray-700 border border-gray-500 rounded flex items-center justify-center mb-2">
-                    <span className="text-gray-400 text-sm">000813/02.jpg</span>
+                  <div className="relative w-full h-40 mb-2 cursor-pointer hover:opacity-80 transition-opacity">
+                    <Image 
+                      src="/images/roger-waters/000813/02.jpg" 
+                      alt="강창우"
+                      fill
+                      className="object-cover rounded border border-gray-500"
+                      onClick={() => window.open('/images/roger-waters/000813/DSC00002.JPG', '_blank')}
+                    />
                   </div>
                   <p className="text-sm text-gray-300">강창우</p>
                 </div>
 
                 <div className="text-center">
-                  <div className="w-full h-40 bg-gray-700 border border-gray-500 rounded flex items-center justify-center mb-2">
-                    <span className="text-gray-400 text-sm">000813/03.jpg</span>
+                  <div className="relative w-full h-40 mb-2 cursor-pointer hover:opacity-80 transition-opacity">
+                    <Image 
+                      src="/images/roger-waters/000813/03.jpg" 
+                      alt="전혜정, 전승훈, 강창우"
+                      fill
+                      className="object-cover rounded border border-gray-500"
+                      onClick={() => window.open('/images/roger-waters/000813/DSC00003.JPG', '_blank')}
+                    />
                   </div>
                   <p className="text-sm text-gray-300">전혜정, 전승훈, 강창우</p>
                 </div>
 
                 <div className="text-center">
-                  <div className="w-full h-40 bg-gray-700 border border-gray-500 rounded flex items-center justify-center mb-2">
-                    <span className="text-gray-400 text-sm">000813/04.jpg</span>
+                  <div className="relative w-full h-40 mb-2 cursor-pointer hover:opacity-80 transition-opacity">
+                    <Image 
+                      src="/images/roger-waters/000813/04.jpg" 
+                      alt="김남웅, 정영수"
+                      fill
+                      className="object-cover rounded border border-gray-500"
+                      onClick={() => window.open('/images/roger-waters/000813/DSC00004.JPG', '_blank')}
+                    />
                   </div>
                   <p className="text-sm text-gray-300">김남웅, 정영수</p>
                 </div>
 
                 <div className="text-center">
-                  <div className="w-full h-40 bg-gray-700 border border-gray-500 rounded flex items-center justify-center mb-2">
-                    <span className="text-gray-400 text-sm">000813/05.jpg</span>
+                  <div className="relative w-full h-40 mb-2 cursor-pointer hover:opacity-80 transition-opacity">
+                    <Image 
+                      src="/images/roger-waters/000813/05.jpg" 
+                      alt="안병욱, 도태영"
+                      fill
+                      className="object-cover rounded border border-gray-500"
+                      onClick={() => window.open('/images/roger-waters/000813/DSC00005.JPG', '_blank')}
+                    />
                   </div>
                   <p className="text-sm text-gray-300">안병욱, 도태영</p>
                 </div>
 
                 <div className="text-center">
-                  <div className="w-full h-40 bg-gray-700 border border-gray-500 rounded flex items-center justify-center mb-2">
-                    <span className="text-gray-400 text-sm">000813/06.jpg</span>
+                  <div className="relative w-full h-40 mb-2 cursor-pointer hover:opacity-80 transition-opacity">
+                    <Image 
+                      src="/images/roger-waters/000813/06.jpg" 
+                      alt="김남웅, 안병욱, 도태영"
+                      fill
+                      className="object-cover rounded border border-gray-500"
+                      onClick={() => window.open('/images/roger-waters/000813/DSC00006.JPG', '_blank')}
+                    />
                   </div>
                   <p className="text-sm text-gray-300">김남웅, 안병욱, 도태영</p>
                 </div>
 
                 <div className="text-center">
-                  <div className="w-full h-40 bg-gray-700 border border-gray-500 rounded flex items-center justify-center mb-2">
-                    <span className="text-gray-400 text-sm">000813/08.jpg</span>
+                  <div className="relative w-full h-40 mb-2 cursor-pointer hover:opacity-80 transition-opacity">
+                    <Image 
+                      src="/images/roger-waters/000813/07.jpg" 
+                      alt="김남웅, 안병욱, 도태영"
+                      fill
+                      className="object-cover rounded border border-gray-500"
+                      onClick={() => window.open('/images/roger-waters/000813/DSC00007.JPG', '_blank')}
+                    />
+                  </div>
+                  <p className="text-sm text-gray-300">김남웅, 안병욱, 도태영</p>
+                </div>
+
+                <div className="text-center">
+                  <div className="relative w-full h-40 mb-2 cursor-pointer hover:opacity-80 transition-opacity">
+                    <Image 
+                      src="/images/roger-waters/000813/08.jpg" 
+                      alt="모두"
+                      fill
+                      className="object-cover rounded border border-gray-500"
+                      onClick={() => window.open('/images/roger-waters/000813/DSC00008.JPG', '_blank')}
+                    />
                   </div>
                   <p className="text-sm text-gray-300">모두</p>
                 </div>
 
                 <div className="text-center">
-                  <div className="w-full h-40 bg-gray-700 border border-gray-500 rounded flex items-center justify-center mb-2">
-                    <span className="text-gray-400 text-sm">000813/09.jpg</span>
+                  <div className="relative w-full h-40 mb-2 cursor-pointer hover:opacity-80 transition-opacity">
+                    <Image 
+                      src="/images/roger-waters/000813/09.jpg" 
+                      alt="모두"
+                      fill
+                      className="object-cover rounded border border-gray-500"
+                      onClick={() => window.open('/images/roger-waters/000813/DSC00009.JPG', '_blank')}
+                    />
                   </div>
                   <p className="text-sm text-gray-300">모두</p>
                 </div>
 
                 <div className="text-center">
-                  <div className="w-full h-40 bg-gray-700 border border-gray-500 rounded flex items-center justify-center mb-2">
-                    <span className="text-gray-400 text-sm">000813/10.jpg</span>
+                  <div className="relative w-full h-40 mb-2 cursor-pointer hover:opacity-80 transition-opacity">
+                    <Image 
+                      src="/images/roger-waters/000813/10.jpg" 
+                      alt="모두"
+                      fill
+                      className="object-cover rounded border border-gray-500"
+                      onClick={() => window.open('/images/roger-waters/000813/DSC00010.JPG', '_blank')}
+                    />
                   </div>
                   <p className="text-sm text-gray-300">모두</p>
                 </div>
+              </div>
+              
+              <div className="mt-6 p-4 bg-gray-700 rounded">
+                <p className="text-sm text-gray-300 text-center">
+                  💡 <strong>사진 클릭하면 고해상도 원본을 볼 수 있습니다!</strong>
+                  <br />
+                  <span className="text-xs text-gray-400">
+                    썸네일 (.jpg) → 클릭 → 고해상도 원본 (.JPG)
+                  </span>
+                </p>
               </div>
             </div>
 
