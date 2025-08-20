@@ -30,24 +30,22 @@ export default function Session21Page() {
                 🎼 전승훈(Longdal)의 감상회 후기
               </h2>
               <div className="space-y-4 text-cyan-100 leading-relaxed">
-                <p className="text-sm">
-                  정말 많은 분들이 참석해주셨어요. 고맙습니다. 그리고 예정대로 
-                  준비해주신 음악들을 차분히 들을 수 있었구요. 처음 본 이장원님의 싸이키델릭 음악이 
-                  참 인상적이었습니다. 단식예술가로 한국의 네오 프로그레시브 음악의 
-                  기수로 나선 이창식님도 반가웠습니다. 김태우님과 박종찬님의 좋아하시는 
+                <p>
+                  정말 많은 분들이 참석해주셨어요. 고맙습니다. 그리고 예정대로
+                  준비해주신 음악들을 차분히 들을 수 있었구요. 처음 뵌 이장원님의 싸이키델릭 음악이
+                  참 인상적이었습니다. 단식예술가로 한국의 네오 프로그레시브 음악의
+                  기수로 나선 이창식님도 반가왔습니다. 김태우님과 박종찬님의 좋아하시는
                   곡도 역시 좋았습니다.
                 </p>
-                <p className="text-sm">
+                <p>
                   안병욱님과 Fish님의 음악은 역시 예바동만이 가지는 특징이죠.
-                </p>
-                <p className="text-sm">
                   항상 새로운 음악을 찾아듣는 열정과 재미를 느낄 수 있는 감상회였습니다.
                 </p>
-                <p className="text-sm">
-                  다음에는 이창식님 앨범에 대한 칭찬과 비판. 그리고, 사이버 감상회 대해 많은 포스팅이 
+                <p>
+                  다음에는 이창식님 앨범에 대한 칭찬과 비판. 그리고, 사이버 감상회에 대해 많은 포스팅이
                   있을 것 같구요.
                 </p>
-                <p className="text-sm">
+                <p>
                   감상회를 진행해주신 분들께 다시 한번 감사드립니다.
                 </p>
                 <div className="text-right mt-4">
@@ -78,10 +76,10 @@ export default function Session21Page() {
             {/* Presenter Sections */}
             <div className="space-y-12">
               
-              {/* 안병욱 - Favorites */}
+              {/* #1. 김태우 - Favorites */}
               <div className="border border-blue-400 rounded-lg p-6 bg-blue-900 bg-opacity-20">
                 <h3 className="text-2xl font-bold text-blue-300 mb-6 text-center">
-                  #1. 안병욱(woo8954) - Favorites
+                  #1. 김태우(woo8954) - Favorites
                 </h3>
                 
                 <div className="space-y-6">
@@ -112,10 +110,10 @@ export default function Session21Page() {
                 </div>
               </div>
 
-              {/* 이기태 - Favorites */}
+              {/* #2. 박종찬 - Favorites */}
               <div className="border border-green-400 rounded-lg p-6 bg-green-900 bg-opacity-20">
                 <h3 className="text-2xl font-bold text-green-300 mb-6 text-center">
-                  #2. 이기태(icarus) - Favorites
+                  #2. 박종찬(icarus) - Favorites
                 </h3>
                 
                 <div className="space-y-6">
@@ -145,7 +143,7 @@ export default function Session21Page() {
                 </div>
               </div>
 
-              {/* 신인철 - New Albums */}
+              {/* #3. 신인철 - New Albums */}
               <div className="border border-purple-400 rounded-lg p-6 bg-purple-900 bg-opacity-20">
                 <h3 className="text-2xl font-bold text-purple-300 mb-6 text-center">
                   #3. 신인철(Fish) - New Albums
@@ -168,18 +166,18 @@ export default function Session21Page() {
                   </div>
 
                   <div className="bg-purple-800 bg-opacity-30 p-4 rounded">
-                    <h4 className="font-bold text-purple-200 mb-3">✨ Abraxas</h4>
+                    <h4 className="font-bold text-purple-200 mb-3">🎭 Abraxas</h4>
                     <ul className="text-sm text-purple-100 space-y-1">
                       <li>3. Jezebel</li>
                     </ul>
                   </div>
 
                   <div className="bg-purple-800 bg-opacity-30 p-4 rounded">
-                    <h4 className="font-bold text-purple-200 mb-3">🐟 Fish, Plague of Ghosts (part 1 - 6)</h4>
+                    <h4 className="font-bold text-purple-200 mb-3">🐟 Fish, Plague of Ghosts (part 1-6)</h4>
                     <ul className="text-sm text-purple-100 space-y-1">
-                      <li>4. <span className="text-purple-300 underline">Old Haunts</span></li>
-                      <li>5. <span className="text-purple-300 underline">Digging Deep</span></li>
-                      <li>6. Chocolate Frosts</li>
+                      <li>4. Old Haunts</li>
+                      <li>5. Digging Deep</li>
+                      <li>6. Chocolate Frots</li>
                       <li>7. Waving at Stars</li>
                       <li>8. Raingods Dancing</li>
                       <li>9. Wake up call (Make it Happen)</li>
@@ -188,282 +186,248 @@ export default function Session21Page() {
                 </div>
               </div>
 
-              {/* 안병욱 - 90년대 Brazil Prog band */}
+              {/* #4. 안병욱 - 90년대 Brazil Prog band */}
               <div className="border border-orange-400 rounded-lg p-6 bg-orange-900 bg-opacity-20">
                 <h3 className="text-2xl font-bold text-orange-300 mb-6 text-center">
                   #4. 안병욱(brave) - 90년대 Brazil Prog band
                 </h3>
                 
-                <div className="space-y-6">
+                <div className="space-y-8">
                   
-                  <div className="bg-orange-800 bg-opacity-30 p-4 rounded">
-                    <h4 className="font-bold text-orange-200 mb-3">🎻 Dogma "Album" ('92) featuring Marcus Viana (Elec Violin)</h4>
-                    <div className="text-sm text-orange-100 space-y-2">
-                      <p>1. <span className="text-orange-300 underline">Clouds</span> (6:27)</p>
-                      <p className="italic">
-                        브라질 프로그의 대표 그룹으로 세계적으로 이름받은 전훌씸 all-instrumental 중견앨범입니다. 
-                        현재 2집 Twin Sunrise('95)를 발표하고 멤버시스트의 변동이 있긴 있었지만 체감시스템으로, 
-                        2집의 앨범 까지 90년대 브라질 프로그 앨범의 가 최고급에 속하고 있습니다. 
-                        게스트로 perfect한 sound production에 두번째와 세물 가긴 각으나, 
-                        특히 기타리스트 Fernando Campos의 "시그너"의 스타일 hackett-latimer-rothery의 
-                        중간계보를 이어주는 것 같다고하다는 평가가 한 평예서 알맞습니다.
+                  <div className="bg-orange-800 bg-opacity-30 p-6 rounded">
+                    <h4 className="font-bold text-orange-200 mb-3">🎹 Dogma "Album" ('92) featuring Marcus Viana (Elec Violin)</h4>
+                    <ul className="text-sm text-orange-100 space-y-1 mb-4">
+                      <li>1. Clouds (6:27)</li>
+                    </ul>
+                    <div className="text-xs text-orange-100 leading-relaxed space-y-2">
+                      <p>
+                        신세대 브라질 프록 밴드들중 선봉격 이었던 도그마의 all-instrumental 데뷔앨범입니다.
+                        이후 2집 Twin Sunrise('95)를 발표하고 베이시스트의 사망으로 현재는 해체된
+                        상태이지만, 2장의 앨범 모두 90년대 브라질 프로그 앨범들 중 수작으로 꼽히고
+                        있습니다. 무엇보다 perfect한 sound production과 멤버들의 연주 모두 좋지만,
+                        특히 기타리스트 Fernando Campos의 "감성적"인 사운드는 hackett-latimer-rothery의
+                        계보를 이어받을 수 있을만하다는 생각이 들 정도로 뛰어납니다.
                       </p>
-                      <p className="italic">
-                        게다가 따무 Sagrado의 Markus Vianna의 엘렉바이올린과 최고한 개를 소리 계산치을이서 
-                        Fernando의 아름다운 기타 로리 해경에 어반 독감된 정신적인 부분을 중인것경한 분위기 
-                        지럼한 화이를 들려줍니다.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="bg-orange-800 bg-opacity-30 p-4 rounded">
-                    <h4 className="font-bold text-orange-200 mb-3">🎼 Quaterna Requiem "Quasimodo" ('94)</h4>
-                    <div className="text-sm text-orange-100 space-y-2">
-                      <p>2. <span className="text-orange-300 underline">Os Reis Malditos</span> (12:30)</p>
-                      <p className="italic">
-                        Q.R의 2번째 앨범입니다. 이들의 첫 앨범에서 소개한 이들의 Velha Gravura('92)에 
-                        이미 세말 동아에 몇어 있는 터 습니다. 데뷔작에서 five piece(violin, drums, 
-                        bass, keys, & guitar)로 모두 이에에서의 all-instrumental로 알았었으려니와, 
-                        이 작에서 약간 변혀노 변등의 Elisa Wiermann(multi- keyboardist 아름려우라다.)와 
-                        Claudio Dantas(drums)가 잘아하고, 기타와 키사도 게스트 뮤지션으로 동여했습니다. 
-                        브라질 프로그 특유한 곡이에서 유트와 각별 같은 아상적인 바르크, PFM, Rick 
-                        Wakeman과 초기 Renaissance의 움직임 받았다는 사실세 바르기 활작 앨범에서 
-                        회짝되고 있습니다. 이 앨범의 곡장르 던의게 '노들면 변작'에 기법일 있다고 
-                        하는데에..저는다 때를 전들 Elisa Wiermann의 중심적계룰가 닮은 의면 유트라로 
-                        개진에 잘아 부사법과 간혀 하멋세 고소한 세칠된 이야기입니다. 악기가지 
-                        모애니마 소아이라고 생기해요...자~ 정말 더 따뜻하여서 알행해서 있다고 분중 
-                        써 있는 가생가..
+                      <p>
+                        들으실 곡에선 Sagrado의 Markus Vianna의 시원스럽게 휘갈겨 대는 서정적 일렉 바이올린과
+                        Fernando의 감성적 기타 솔로 협연이 부담 없이 심난해지고 싶을 때 들으면
+                        그만인 사운드를 들려줍니다.
                       </p>
                     </div>
                   </div>
 
-                  <div className="bg-orange-800 bg-opacity-30 p-4 rounded">
-                    <h4 className="font-bold text-orange-200 mb-3">🌌 Chronos Mundi "Luz & Trevas" ('98)</h4>
-                    <div className="text-sm text-orange-100 space-y-2">
-                      <p>3. <span className="text-orange-300 underline">Nasce a Semente</span> (11:01)</p>
-                      <p className="italic">
-                        Pink Floyd, Yes, ELP, King Crimson, Genesis, Renaissance, Jade Warrior.. 
-                        자신들의 음향에 돋보인 음들아다고 사클리션 까지 생긴 음반입니다. 3인조 일반저, 
-                        중견앨범입니다. 90년대에 저런않고 70년대의 같알조의 음반을 
-                        들려주고 있습니다. 드보스 키보드가 아름답고 기타(키사, 
-                        어쿠스틱 기타), 라마 하음이에요. 3인조에 주작 않고 훨씬 풍부한 음반을 들려줍니다. 
-                        아니 그거단 한 홈페이지에서 방문했던 아매의 친구가 추천했던 앞에서 보자문, 
-                        Greg의 카탈보에 'Killer Symphonic!!..Highly Recommended..'라고 정위 있어.. 
-                        좀 더친 아무 생기면없이 해왔습니다. 게다가 엔드 듣하면 4집까지는 
-                        발표되어 있는데에..짧전 앙암 아희신인 들 있어.. 아님 청뛰 있는 데빠게 
-                        적인 괭빼밟게 드보지 할 있습니다.
+                  <div className="bg-orange-800 bg-opacity-30 p-6 rounded">
+                    <h4 className="font-bold text-orange-200 mb-3">🏰 Quaterna Requiem "Quasimodo" ('94)</h4>
+                    <ul className="text-sm text-orange-100 space-y-1 mb-4">
+                      <li>2. Os Reis Malditos (12:30)</li>
+                    </ul>
+                    <div className="text-xs text-orange-100 leading-relaxed space-y-2">
+                      <p>
+                        Q.R의 2번째 앨범입니다. 실은 본 앨범보다 이들의 데뷔작 Velha Gravura('92)가
+                        더 좋은 평을 받고 있는 듯 합니다. 데뷔작에선 five piece(violin, drums,
+                        bass, keys, & guitar)의 멤버 구성으로 all-instrumental을 들려주었지만,
+                        본 작에선 원래 멤버중 리더인 Elisa Wiermann(multi- keyboardist 여성이지요.)과
+                        Claudio Dantas(drums)만 남아있고, 기타와 베이스는 게스트 뮤지션으로 보강했습니다.
+                        브라질 프로그 특유의 바이올린 파트가 빠진 것이 아쉽기는 하지만, PFM, Rick
+                        Wakeman과 초기 Renaissance의 영향을 받았다는 평속에 여전히 좋은 앨범으로
+                        회자되고 있습니다.
+                      </p>
+                      <p>
+                        본 앨범은 빅토르 휴고의 '노틀담 성당'을 주제로 했다고
+                        하는데요..들으실 곡에선 역시 Elisa Wiermann의 중세분위기가 나는 건반 인트로로
+                        시작해 중반 이후, 기타가 가세하며 금세 분위기는 반전되어 고조됩니다. 들을수록
+                        맛이나는 곡이라 생각해요...아~ 역시 덜 상업적이어야 음악성이 있다고 말할
+                        수 있는 걸까요..
                       </p>
                     </div>
                   </div>
 
-                  <div className="bg-orange-800 bg-opacity-30 p-4 rounded">
-                    <h4 className="font-bold text-orange-200 mb-3">🌟 Aether "The Visions" ('99)</h4>
-                    <div className="text-sm text-orange-100 space-y-2">
-                      <p>4. <span className="text-orange-300 underline">The Woods</span> (3:20) featuring Glauco Fernandes (Elec Violin)</p>
-                      <p className="italic">
-                        'Aether'는 풍,화,지,바다료에 이어진 고전신 고대그리 4인조라고 주전 서럼도 
-                        습니다. 이 그룹의 화합까지의 곤편적 경령의 '희칠' 이래기노, 이 그룹의 들리는 
-                        서울의 5요소는 'Sound'라고 하네요....드되를 하진 하나 그쿠만 어는 모든맨저에 
-                        확인합니다다는 생기이밒료..히더...중견앨범받배에서, 일반초(4인조)에 끝드면 프로그 
-                        을 아주습니라 연행하젯 리가뿌 들미언다고 하네요. 게스트로 앨범 메트를 
-                        첨부 성모아니나, Dogma의 개님(neo prog + fusion)에 상징주의고, 훨씬 더 
-                        ambient하고 new age세래 종교 오진 있습니다.
+                  <div className="bg-orange-800 bg-opacity-30 p-6 rounded">
+                    <h4 className="font-bold text-orange-200 mb-3">⏰ Chronos Mundi "Luz & Trevas" ('98)</h4>
+                    <ul className="text-sm text-orange-100 space-y-1 mb-4">
+                      <li>3. Nasce a Semente (11:01)</li>
+                    </ul>
+                    <div className="text-xs text-orange-100 leading-relaxed space-y-2">
+                      <p>
+                        Pink Floyd, Yes, ELP, King Crimson, Genesis, Renaissance, Jade Warrior..
+                        자신들의 사운드에 영향을 끼쳤다고 부클릿에 적어 놓은 밴드들입니다. 3인조 이구요,
+                        데뷔앨범입니다. 90년대산 밴드답지 않게 70년대의 심포닉한 사운드를
+                        들려주는 이들의 브라질 프로그계에서의 위치는..글쎄요..잘은 모르겠어요.
+                        브라질 프로그앨범중 수작으로 평가받는 Aether의 "Elohim"과 함께,
+                        두 앨범을 우리나라에선 동시에 라이센스 발매했는데, 개인적으론 Aether에 손을
+                        더 들어줄 것 같습니다만..음 어쨌든..
                       </p>
-                      <p className="italic">
-                        브라질 바론 Marcus Vianna의 자재 세라체로 elec violinlist를 영가뮤고 있는 Glauco 
-                        Fernandes를 포함하고 있습니다. 곡길이현데에 짧은 곡이에요. Glauco Fernandes에 
-                        이먼 Bacamarte(브라질 프로그의 대성 유명한 아기마의 하나지요)의 아른다의 
-                        함께, 탄산이 모성 했다고 합니다...
+                      <p>
+                        'Aether'는 흙,물,불,바람외에 우주의 본질을 구성하는 제5원소라는 뜻의 그리스 고대어라고
+                        합니다. 뤽 베송의 영화에서는 유치한 결말의 '사랑' 이었지만, 이 팀에서 얘기하는
+                        Aether는 뭔지..좀더 좋은 의미인것 같은데.. 들으실 곡은 Marcus Vianna의 뒤를 이을만한 elec violinlist로 평가받고 있는 Glauco
+                        Fernandes가 참여하고 있습니다. 가을분위기의 짧은 곡이에요. Glauco Fernandes는
+                        솔로 앨범 Violinoscópio도 괜찮은 평을 받고 있는 뮤지션이에요.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* 이장원 - 싸이키델릭 */}
-              <div className="border border-red-400 rounded-lg p-6 bg-red-900 bg-opacity-20">
-                <h3 className="text-2xl font-bold text-red-300 mb-6 text-center">
+              {/* #5. 이장원 - 싸이키델릭 */}
+              <div className="border border-indigo-400 rounded-lg p-6 bg-indigo-900 bg-opacity-20">
+                <h3 className="text-2xl font-bold text-indigo-300 mb-6 text-center">
                   #5. 이장원(ljw1031) - 싸이키델릭
                 </h3>
                 
-                <div className="space-y-6">
+                <div className="space-y-8">
                   
-                  <div className="bg-red-800 bg-opacity-30 p-4 rounded">
-                    <h4 className="font-bold text-red-200 mb-3">👻 Ghost</h4>
-                    <div className="text-sm text-red-100 space-y-2">
-                      <p>1. When you're dead (title track)</p>
-                      <p className="italic text-xs">
-                        고스트는 Paul Eastment 가 이끌어진 영국 그룹의 대하 하드도 그룹입니다.
-                        Paul Eastment 는 Velvett Fogg 라는 그룹에서 활동했었는데 Time Rose 라는 
-                        Com away Melinda 라는 커버한 경우 앨범롤에서 저희 알려진 그룹은 아닙니다.
-                        ...
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="bg-red-800 bg-opacity-30 p-4 rounded">
-                    <h4 className="font-bold text-red-200 mb-3">🌟 Orion's Beethoven</h4>
-                    <div className="text-sm text-red-100 space-y-2">
-                      <p>2. Superangel (title track)</p>
-                      <p className="italic text-xs">
-                        아르헨티나의 아르키타적 그룹의 4인조 그룹입니다. Ronan Bar 와 Adrian Bar 와 른 
-                        형제의 자영이게 3집까지 제작되었다고 2집에서부터 활격의 밟음까 거울 만에 Bubu 와 El 
-                        Reloj 에서 활동하고 되는 Petty Guelache 가 아름답게된다요. 그러나 2집까지만 우리가 소습한 
-                        경우에합니다^^;
-                        ...
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="bg-red-800 bg-opacity-30 p-4 rounded">
-                    <h4 className="font-bold text-red-200 mb-3">🎌 Jacks</h4>
-                    <div className="text-sm text-red-100 space-y-2">
-                      <p>3. 일본고ㄴ 소가마저....세트 1트랙입니다 (vacant world)</p>
-                      <p className="italic text-xs">
-                        안병욱께서 굉장 연소에서 뛰어있는 묘연성 너무틴ㄴ 일본 그룹에 대해 언
-                        아니믄 뿐 역씨 아를들리다. 쇼영서 실회시 대해 정관 지방원경심 잠린가 만에 
-                        아이들이강진다 다시 소진에 정대 맘러인 알들 지방원경삭 양합기 여행해서 드레 주표 수리이라고 
-                        vacant world 에 닿러 들이 있습나마다입니다.
-                        ...
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="bg-red-800 bg-opacity-30 p-4 rounded">
-                    <h4 className="font-bold text-red-200 mb-3">🎵 Music Emporium</h4>
-                    <p className="text-sm text-red-100">4. Nam Myo Renge Kyo (s/t)</p>
-                  </div>
-
-                  <div className="bg-red-800 bg-opacity-30 p-4 rounded">
-                    <h4 className="font-bold text-red-200 mb-3">🇺🇸 United States of America</h4>
-                    <p className="text-sm text-red-100">5. The American way of love (s/t)</p>
-                  </div>
-
-                  <div className="bg-red-800 bg-opacity-30 p-4 rounded">
-                    <h4 className="font-bold text-red-200 mb-3">📡 기타 트랙들</h4>
-                    <ul className="text-sm text-red-100 space-y-1">
-                      <li>6. Nigel Mazlyn Jones - Ship to shore (title track)</li>
-                      <li>7. Emmanuel Booz - Donne (Le jour ou les vaches...)</li>
-                      <li>8. Justine - Unknown Journey (s/t)</li>
-                      <li>9. Pazop - Le La Loo Loo Le La (Psychillis of a lunatic genius)</li>
+                  <div className="bg-indigo-800 bg-opacity-30 p-6 rounded">
+                    <h4 className="font-bold text-indigo-200 mb-3">👻 Ghost</h4>
+                    <ul className="text-sm text-indigo-100 space-y-1 mb-4">
+                      <li>1. When you're dead (title track)</li>
                     </ul>
+                    <div className="text-xs text-indigo-100 leading-relaxed space-y-2">
+                      <p>
+                        고스트는 Paul Eastment 가 이끌었던 영국 버밍햄 출신 하드락 그룹입니다.
+                        Paul Eastment 는 Velvett Fogg 라는 그룹에서 활동했었는데 Time Rose 의
+                        Com away Melinda 등을 커버한 데뷔 앨범외에는 별로 알려진 그룹은 아닙니다.
+                        같이 있었던 Frank Wilson 은 후에 Warhorse 를 조직하고 Paul 은 Ghost 를 결성
+                        해서 헤비 블루스를 주로 연주하던중 이미 두장의 솔로 앨범 경력이 있던
+                        셜리 켄트라는 여성 보컬리스트를 영입하게되구요, 그래서인지 블루스/싸이키델릭
+                        락을 주로 연주하는 와중에서도 아름다운 포크 넘버도 수록되어 있는데
+                        Hearts and Flowers 같은 곡은 저의 favorites 이기도 하지요.
+                      </p>
+                      <p>
+                        이 그룹 음악의 특징이라면 들으셨던 타이틀 곡과 같이 Terry Guy 의 정신없이 휘몰아
+                        치는 오르간 연주와 리드 기타를 맡고있는 Paul Eastment 의 기타 솜씨 못지않은
+                        저음의 보컬로 대표되는 사운드와 이들과는 다른 스튜디오에서 녹음했을것 같은
+                        셜리 켄트의 부드러운 포크 록 넘버, 강렬한 블루스 락들이 공존한다는
+                        점일겁니다. 영국보다도 스페인 등지에서 더 큰 인기를 얻었던 특이한 경우고,아트락 9호에서
+                        영국 희귀음반 코너에 소개된바 있습니다.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="bg-indigo-800 bg-opacity-30 p-6 rounded">
+                    <h4 className="font-bold text-indigo-200 mb-3">🎼 Orion's Beethoven</h4>
+                    <ul className="text-sm text-indigo-100 space-y-1 mb-4">
+                      <li>2. Superangel (title track)</li>
+                    </ul>
+                    <div className="text-xs text-indigo-100 leading-relaxed space-y-2">
+                      <p>
+                        말씀드린대로 아르헨티나 출신의 4인조 그룹입니다. Ronan Bar 와 Adrian Bar 의 두
+                        형제를 주축으로 3인조로 결성되었다가 2집에서는 보컬의 보강을 위해 후에 Bubu 나 El
+                        Reloj 에서 활동하게 되는 Petty Guelache 를 영입하게되죠. 더구나 2집에서는 우리가 너무도
+                        지겨워하는^^; 찰리 가르시아가 게스트로 참여해서 멜로트론 솜씨를 발휘해줍니다.
+                      </p>
+                      <p>
+                        1,2집 모두가 수준급의 음악을 들려주는데 하드락,재즈,싸이키델릭,스페이스록 등이
+                        골고루 혼재되어있고 남미 그룹치고는 토속적인 냄새가 덜나고 또한 남미 시디치고는
+                        음질이 좋은편 입니다. Polydor Argentina 꺼라 그런가요?^^
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="bg-indigo-800 bg-opacity-30 p-6 rounded">
+                    <h4 className="font-bold text-indigo-200 mb-3">🃏 Jacks</h4>
+                    <ul className="text-sm text-indigo-100 space-y-1 mb-4">
+                      <li>3. Kazemachi Roman (바람도시의 로망)</li>
+                    </ul>
+                    <div className="text-xs text-indigo-100 leading-relaxed">
+                      <p>
+                        안병욱님께서 악을 써대더라는 재미있는 표현을 해주신 이 일본 그룹은 저도 사실
+                        아는바가 별로 없습니다만 사이키델릭 리스트들 사이에서는 꽤 유명한 그룹이라고 하더군요.
+                        조금은 Flower Travellin' Band 스타일과 비슷한가요? 아주 잘 모르겠습니다^^;
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="bg-indigo-800 bg-opacity-30 p-6 rounded">
+                    <h4 className="font-bold text-indigo-200 mb-3">🌟 Neu!</h4>
+                    <ul className="text-sm text-indigo-100 space-y-1 mb-4">
+                      <li>4. Fur immer (forever)</li>
+                    </ul>
+                    <div className="text-xs text-indigo-100 leading-relaxed">
+                      <p>
+                        무척 특이한 제목의 노래를 들려준 이 그룹은 Dora Wahl 이라는 걸출한 여성 
+                        드러머를 중심으로 하는 독일 그룹입니다. Klaus Dinger 와 Michael Rother 가 
+                        Kraftwerk 를 탈퇴한후 결성한 그룹으로 알려져있는 이 듀오는 나중에 각자 
+                        Harmonia(Michael Rother) 와 La Dusseldorf(Klaus Dinger) 를 결성합니다.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="bg-indigo-800 bg-opacity-30 p-6 rounded">
+                    <h4 className="font-bold text-indigo-200 mb-3">🎨 The United States Of America</h4>
+                    <ul className="text-sm text-indigo-100 space-y-1 mb-4">
+                      <li>5. The Garden Of Earthly Delights</li>
+                    </ul>
+                    <div className="text-xs text-indigo-100 leading-relaxed">
+                      <p>
+                        Pop 과 Experimental 음악의 경계선상에 있는듯한 독특한 음악세계를 추구했던
+                        Joseph Byrd 가 이끄는 그룹입니다. 이들의 유일한 앨범은 67년작이구요.
+                        전자음악의 도입등이 매우 파격적이었다고 평가받고 있습니다.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              {/* 이창식 - 단식예술가 */}
-              <div className="border border-yellow-400 rounded-lg p-6 bg-yellow-900 bg-opacity-20">
-                <h3 className="text-2xl font-bold text-yellow-300 mb-6 text-center">
-                  #6. 이창식(iaramusic@yahoo.com) - 단식예술가
+              {/* #6. 이창식 - 단식예술가 */}
+              <div className="border border-red-400 rounded-lg p-6 bg-red-900 bg-opacity-20">
+                <h3 className="text-2xl font-bold text-red-300 mb-6 text-center">
+                  #6. <a href="http://www.netian.com/~iara" className="text-red-300 hover:text-red-100 underline">이창식</a>(iaramusic@yahoo.com) - 단식예술가
                 </h3>
                 
-                <div className="bg-yellow-800 bg-opacity-30 p-4 rounded">
-                  <h4 className="font-bold text-yellow-200 mb-3">🎼 이창식 작품</h4>
-                  <ul className="text-sm text-yellow-100 space-y-1">
-                    <li>1. <span className="text-yellow-300 underline">Hungerkunstler</span></li>
-                    <li>2. <span className="text-yellow-300 underline">To be Free</span></li>
+                <div className="bg-red-800 bg-opacity-30 p-6 rounded">
+                  <h4 className="font-bold text-red-200 mb-3">🎹 이창식</h4>
+                  <ul className="text-sm text-red-100 space-y-1">
+                    <li>1. 첫번째 앨범에서 발췌</li>
+                    <li>2. Keyboards & Programming</li>
                   </ul>
-                  <p className="text-xs text-yellow-200 mt-3 italic">
-                    * 한국의 네오 프로그레시브 음악의 기수로 나선 단식예술가 이창식님의 자작곡 발표
-                  </p>
+                  <div className="text-xs text-red-100 leading-relaxed mt-4">
+                    <p>
+                      한국의 네오 프로그레시브 음악의 기수로 나선 이창식님의 음악을 직접 들을 수 있는 
+                      귀중한 시간이었습니다. 단식예술가로서의 철학과 음악적 실험정신이 돋보이는 
+                      키보드 중심의 프로그레시브 사운드를 선보여주셨습니다.
+                    </p>
+                  </div>
                 </div>
               </div>
 
             </div>
 
-            {/* Session Analysis */}
-            <div className="mt-12 p-6 bg-purple-100 bg-opacity-10 rounded-lg border border-purple-400">
-              <h3 className="text-2xl font-bold text-purple-300 mb-4">🎼 Session 21의 음악적 특징</h3>
+            {/* Session Summary */}
+            <div className="mt-12 p-6 bg-gray-800 rounded-lg border border-yellow-400">
+              <h2 className="text-2xl font-bold text-yellow-400 mb-4 text-center">📊 Session 21 특징</h2>
               <div className="grid md:grid-cols-2 gap-6">
-                
-                <div className="bg-purple-900 bg-opacity-30 p-4 rounded border border-purple-300">
-                  <h4 className="font-bold text-purple-200 mb-3">🌟 다양성의 향연</h4>
-                  <ul className="text-sm space-y-2 text-purple-100">
-                    <li><strong>• 클래식 프로그:</strong> Genesis, Pink Floyd</li>
-                    <li><strong>• 퓨전:</strong> Mahavishnu Orchestra</li>
-                    <li><strong>• 네오 프로그:</strong> Fish, Marillion 계보</li>
-                    <li><strong>• 남미 프로그:</strong> 브라질 4개 밴드 집중</li>
+                <div>
+                  <h3 className="text-lg font-semibold text-yellow-300 mb-3">🎯 발표자별 장르</h3>
+                  <ul className="text-sm text-gray-300 space-y-1">
+                    <li>• <strong>김태우</strong>: 클래식 프로그 (Genesis, Mahavishnu)</li>
+                    <li>• <strong>박종찬</strong>: 아방가르드 & 심포닉</li>
+                    <li>• <strong>신인철</strong>: 신보 소개 (Ozric, Fish)</li>
+                    <li>• <strong>안병욱</strong>: 90년대 브라질 프로그</li>
+                    <li>• <strong>이장원</strong>: 싸이키델릭 희귀반</li>
+                    <li>• <strong>이창식</strong>: 한국 네오 프로그</li>
                   </ul>
                 </div>
-
-                <div className="bg-purple-900 bg-opacity-30 p-4 rounded border border-purple-300">
-                  <h4 className="font-bold text-purple-200 mb-3">🌍 국제적 스펙트럼</h4>
-                  <ul className="text-sm space-y-2 text-purple-100">
-                    <li><strong>• 영국:</strong> Genesis, Pink Floyd, Fish</li>
-                    <li><strong>• 브라질:</strong> Dogma, Quaterna Requiem, Chronos Mundi, Aether</li>
-                    <li><strong>• 아르헨티나:</strong> Orion's Beethoven</li>
-                    <li><strong>• 일본:</strong> Jacks</li>
-                    <li><strong>• 미국:</strong> Mahavishnu Orchestra, Music Emporium</li>
-                  </ul>
-                </div>
-
-                <div className="bg-purple-900 bg-opacity-30 p-4 rounded border border-purple-300">
-                  <h4 className="font-bold text-purple-200 mb-3">🎸 발표자별 전문성</h4>
-                  <ul className="text-sm space-y-2 text-purple-100">
-                    <li><strong>• 안병욱:</strong> 클래식 + 브라질 프로그 전문</li>
-                    <li><strong>• 신인철:</strong> 최신 네오 프로그 & 라이브</li>
-                    <li><strong>• 이장원:</strong> 싸이키델릭 & 희귀반 수집</li>
-                    <li><strong>• 이창식:</strong> 한국 창작 음악</li>
-                  </ul>
-                </div>
-
-                <div className="bg-purple-900 bg-opacity-30 p-4 rounded border border-purple-300">
-                  <h4 className="font-bold text-purple-200 mb-3">🎵 특별한 하이라이트</h4>
-                  <ul className="text-sm space-y-2 text-purple-100">
-                    <li><strong>• 브라질 프로그:</strong> 90년대 신진 발굴</li>
-                    <li><strong>• 한국 창작:</strong> 이창식 자작곡 발표</li>
-                    <li><strong>• 싸이키델릭:</strong> 이장원의 희귀반</li>
-                    <li><strong>• Fish 특집:</strong> Plague of Ghosts 6곡</li>
+                <div>
+                  <h3 className="text-lg font-semibold text-yellow-300 mb-3">🌍 글로벌 스펙트럼</h3>
+                  <ul className="text-sm text-gray-300 space-y-1">
+                    <li>• <strong>영국</strong>: Genesis, Pink Floyd, Fish, Ghost</li>
+                    <li>• <strong>브라질</strong>: Dogma, Quaterna Requiem, Chronos Mundi</li>
+                    <li>• <strong>미국</strong>: Mahavishnu Orchestra, Dan Fogelberg</li>
+                    <li>• <strong>아르헨티나</strong>: Orion's Beethoven</li>
+                    <li>• <strong>일본</strong>: Jacks</li>
+                    <li>• <strong>독일</strong>: Neu!</li>
+                    <li>• <strong>한국</strong>: 이창식</li>
                   </ul>
                 </div>
               </div>
             </div>
 
-            {/* Session Stats */}
-            <div className="mt-8 p-4 bg-gray-800 rounded-lg border border-gray-600">
-              <h3 className="text-lg font-semibold text-gray-200 mb-4 text-center">감상회 통계</h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center text-sm">
-                <div>
-                  <div className="font-bold text-2xl text-cyan-400">25+</div>
-                  <div className="text-cyan-300">곡 (6명 발표자)</div>
-                </div>
-                <div>
-                  <div className="font-bold text-2xl text-yellow-400">🇧🇷</div>
-                  <div className="text-yellow-300">브라질 프로그 특집</div>
-                </div>
-                <div>
-                  <div className="font-bold text-2xl text-green-400">🎨</div>
-                  <div className="text-green-300">한국 창작 음악</div>
-                </div>
-                <div>
-                  <div className="font-bold text-2xl text-purple-400">🌍</div>
-                  <div className="text-purple-300">5개 대륙</div>
-                </div>
-              </div>
-            </div>
-
-            <div className="text-center mt-8">
-              <p className="text-sm text-cyan-400 mb-4">
-                ✅ 제21회 멀티 발표자 취향 특집 완전 복원! 
-                이창식의 창작 음악과 브라질 프로그 발굴, 그리고 전승훈의 따뜻한 후기가 되살아났습니다! 🌍🎵🎨
-              </p>
-              
-              <div className="flex justify-center space-x-4">
-                <Link href="/gathering" className="inline-flex items-center px-6 py-3 bg-black border border-cyan-400 text-cyan-400 font-medium rounded-md hover:bg-cyan-900 transition-colors">
-                  <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-                  </svg>
-                  감상회 목록으로
-                </Link>
-                
-                <Link href="/gathering/session20" className="inline-flex items-center px-4 py-2 bg-gray-700 text-gray-300 font-medium rounded-md hover:bg-gray-600 transition-colors">
-                  ← 이전 (20회)
-                </Link>
-                
-                <Link href="/gathering/session22" className="inline-flex items-center px-4 py-2 bg-gray-700 text-gray-300 font-medium rounded-md hover:bg-gray-600 transition-colors">
-                  다음 (22회) →
-                </Link>
-              </div>
+            {/* Navigation */}
+            <div className="mt-12 text-center">
+              <Link href="/gathering" className="text-cyan-400 hover:text-cyan-300 underline">
+                ← 감상회 목록으로 돌아가기
+              </Link>
             </div>
           </div>
         </div>

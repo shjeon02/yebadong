@@ -151,9 +151,13 @@ export default function CyberPage() {
               <div className="bg-gray-700 rounded-lg p-6">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <div className="w-full h-48 bg-gray-600 rounded flex items-center justify-center">
-                      <span className="text-gray-400 text-sm">Mark Shreeve<br/>Assassin ('83)</span>
-                    </div>
+                    <Image 
+                      src="/images/concert/shreeve.jpg" 
+                      alt="Mark Shreeve - Assassin (1983)" 
+                      width={200} 
+                      height={196}
+                      className="w-full h-48 object-cover rounded-lg shadow-lg"
+                    />
                   </div>
                   <div className="md:w-2/3">
                     <h4 className="text-xl font-bold text-orange-300 mb-4">
@@ -216,9 +220,13 @@ export default function CyberPage() {
               <div className="bg-gray-700 rounded-lg p-6">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <div className="w-full h-48 bg-gray-600 rounded flex items-center justify-center">
-                      <span className="text-gray-400 text-sm">AirSculpture<br/>Attrition System ('95)</span>
-                    </div>
+                    <Image 
+                      src="/images/concert/airsculpture.jpg" 
+                      alt="AirSculpture - Attrition System (1995)" 
+                      width={200} 
+                      height={193}
+                      className="w-full h-48 object-cover rounded-lg shadow-lg"
+                    />
                   </div>
                   <div className="md:w-2/3">
                     <h4 className="text-xl font-bold text-purple-300 mb-4">
@@ -248,24 +256,46 @@ export default function CyberPage() {
               {/* Other Artists */}
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-gray-700 rounded-lg p-4">
-                  <h4 className="text-lg font-bold text-cyan-300 mb-3">Rob Essers</h4>
-                  <p className="text-sm text-gray-300">
-                    네덜란드의 전자음악 뮤지션으로, 데뷔작 &lt;Raincolours&gt;와 &lt;A Lizards Walk&gt;등 2매의 앨범을 발표하였습니다. 
-                    슈멜링 시대의 탠저린 드림과 맥이 닿아 있는, 밝고 경쾌한 "양지"의 전자음향을 들을 수 있습니다.
-                  </p>
+                  <div className="flex gap-4 mb-3">
+                    <Image 
+                      src="/images/concert/essers.jpg" 
+                      alt="Rob Essers - A Lizard Walk (1997)" 
+                      width={80} 
+                      height={77}
+                      className="rounded shadow-lg flex-shrink-0"
+                    />
+                    <div>
+                      <h4 className="text-lg font-bold text-cyan-300 mb-2">Rob Essers</h4>
+                      <p className="text-sm text-gray-300">
+                        네덜란드의 전자음악 뮤지션으로, 데뷔작 &lt;Raincolours&gt;와 &lt;A Lizards Walk&gt;등 2매의 앨범을 발표하였습니다. 
+                        슈멜링 시대의 탠저린 드림과 맥이 닿아 있는, 밝고 경쾌한 "양지"의 전자음향을 들을 수 있습니다.
+                      </p>
+                    </div>
+                  </div>
                 </div>
 
                 <div className="bg-gray-700 rounded-lg p-4">
-                  <h4 className="text-lg font-bold text-red-300 mb-3">
-                    <Link href="http://www.users.dircon.co.uk/~redshift" className="hover:text-red-200">
-                      Redshift
-                    </Link>
-                  </h4>
-                  <p className="text-sm text-gray-300">
-                    마크 슈리브가 그의 솔로 활동을 잠시 접고 조직한 밴드가 레드시프트입니다. 
-                    70년대 탠저린 드림으로의 회귀라고 하면 적당한 표현이 될까요. 
-                    강한 에너지로 가득한 음공간은 여전하지만, 과거의 흔적을 어루만지며 아쉬워 하는 듯한 느낌을 자아냅니다.
-                  </p>
+                  <div className="flex gap-4 mb-3">
+                    <Image 
+                      src="/images/concert/redshift.jpg" 
+                      alt="Redshift - Ether (1997)" 
+                      width={80} 
+                      height={79}
+                      className="rounded shadow-lg flex-shrink-0"
+                    />
+                    <div>
+                      <h4 className="text-lg font-bold text-red-300 mb-2">
+                        <Link href="http://www.users.dircon.co.uk/~redshift" className="hover:text-red-200">
+                          Redshift
+                        </Link>
+                      </h4>
+                      <p className="text-sm text-gray-300">
+                        마크 슈리브가 그의 솔로 활동을 잠시 접고 조직한 밴드가 레드시프트입니다. 
+                        70년대 탠저린 드림으로의 회귀라고 하면 적당한 표현이 될까요. 
+                        강한 에너지로 가득한 음공간은 여전하지만, 과거의 흔적을 어루만지며 아쉬워 하는 듯한 느낌을 자아냅니다.
+                      </p>
+                    </div>
+                  </div>
                 </div>
 
                 <div className="bg-gray-700 rounded-lg p-4">
@@ -282,16 +312,27 @@ export default function CyberPage() {
                 </div>
 
                 <div className="bg-gray-700 rounded-lg p-4">
-                  <h4 className="text-lg font-bold text-green-300 mb-3">
-                    <Link href="http://www.geocities.com/SunsetStrip/Lounge/6639/mindflux.html" className="hover:text-green-200">
-                      Mind Flux
-                    </Link>
-                  </h4>
-                  <p className="text-sm text-gray-300">
-                    도이치 테크노 그룹 마인드 플럭스는 슐체의 수법을 많이 닮은 전자음악을 만들고 있습니다. 
-                    주류 테크노에서 한걸음 비켜난 듯한 비딱함이 매력입니다. 
-                    토마스 팽거, 마이클 커스턴의 2인조로, 다양한 스펙트럼에 걸친 전자음악을 만들며 테크노에서 느끼는 소외감을 잘 감싸안는 가교역할을 하고 있습니다.
-                  </p>
+                  <div className="flex gap-4 mb-3">
+                    <Image 
+                      src="/images/concert/mindflux.jpg" 
+                      alt="Mind Flux - Konception of Space (1997)" 
+                      width={80} 
+                      height={77}
+                      className="rounded shadow-lg flex-shrink-0"
+                    />
+                    <div>
+                      <h4 className="text-lg font-bold text-green-300 mb-2">
+                        <Link href="http://www.geocities.com/SunsetStrip/Lounge/6639/mindflux.html" className="hover:text-green-200">
+                          Mind Flux
+                        </Link>
+                      </h4>
+                      <p className="text-sm text-gray-300">
+                        도이치 테크노 그룹 마인드 플럭스는 슐체의 수법을 많이 닮은 전자음악을 만들고 있습니다. 
+                        주류 테크노에서 한걸음 비켜난 듯한 비딱함이 매력입니다. 
+                        토마스 팽거, 마이클 커스턴의 2인조로, 다양한 스펙트럼에 걸친 전자음악을 만들며 테크노에서 느끼는 소외감을 잘 감싸안는 가교역할을 하고 있습니다.
+                      </p>
+                    </div>
+                  </div>
                 </div>
 
                 <div className="bg-gray-700 rounded-lg p-4">
