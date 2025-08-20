@@ -33,10 +33,10 @@ export default function GatheringPage() {
             <div className="mb-6 p-4 bg-blue-50 rounded-lg">
               <h4 className="font-semibold text-blue-800 mb-2">주요 감상회 장소</h4>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
-                <Link href="/gathering/venues/manplus" className="text-yellow-600 hover:underline">Man plus (테헤란로)</Link>
-                <Link href="/gathering/venues/freebird" className="text-yellow-600 hover:underline">FreeBird (홍대앞)</Link>
-                <Link href="/gathering/venues/baechugage" className="text-yellow-600 hover:underline">배추가게 (건대앞)</Link>
-                <Link href="/gathering/venues/cars" className="text-yellow-600 hover:underline">CARS (홍대앞)</Link>
+                <Link href="/gathering/session-venues/manplus" className="text-yellow-600 hover:underline">Man plus (테헤란로)</Link>
+                <Link href="/gathering/session-venues/freebird" className="text-yellow-600 hover:underline">FreeBird (홍대앞)</Link>
+                <Link href="/gathering/session-venues/baechugage" className="text-yellow-600 hover:underline">배추가게 (건대앞)</Link>
+                <Link href="/gathering/session-venues/cars" className="text-yellow-600 hover:underline">CARS (홍대앞)</Link>
               </div>
             </div>
 
