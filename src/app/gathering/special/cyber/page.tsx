@@ -194,9 +194,13 @@ export default function CyberPage() {
               <div className="bg-gray-700 rounded-lg p-6">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <div className="w-full h-48 bg-gray-600 rounded flex items-center justify-center">
-                      <span className="text-gray-400 text-sm">Rainbow Serpent<br/>Sequel to the Voyager ('99)</span>
-                    </div>
+                    <Image 
+                      src="/images/concert/serpent.jpg" 
+                      alt="Rainbow Serpent - Sequel to the Voyager (1999)" 
+                      width={200} 
+                      height={193}
+                      className="w-full h-48 object-cover rounded-lg shadow-lg"
+                    />
                   </div>
                   <div className="md:w-2/3">
                     <h4 className="text-xl font-bold text-green-300 mb-4">Rainbow Serpent</h4>
