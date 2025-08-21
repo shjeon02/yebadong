@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '제25회 YBD 다장르 융합 특집 - 2001년 6월 16일 | Yebadong',
@@ -394,50 +395,85 @@ export default function Session25Page() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 
                 <div className="text-center">
-                  <div className="w-full h-40 bg-gray-300 border border-gray-400 rounded flex items-center justify-center mb-2">
-                    <span className="text-gray-600 text-sm">25/Image-01.jpg</span>
+                  <div className="relative w-full h-40 mb-2 cursor-pointer hover:opacity-80 transition-opacity">
+                    <Image 
+                      src="/images/25/Image-01.JPG" 
+                      alt="프립, 인티고, 타락, 박석규, 종합예술인"
+                      fill
+                      className="object-cover rounded border border-gray-500"
+                    />
                   </div>
                   <p className="text-sm text-gray-700">프립, 인티고, 타락, 박석규, 종합예술인</p>
                 </div>
 
                 <div className="text-center">
-                  <div className="w-full h-40 bg-gray-300 border border-gray-400 rounded flex items-center justify-center mb-2">
-                    <span className="text-gray-600 text-sm">25/Image-02.jpg</span>
+                  <div className="relative w-full h-40 mb-2 cursor-pointer hover:opacity-80 transition-opacity">
+                    <Image 
+                      src="/images/25/Image-02.JPG" 
+                      alt="박준식, 임선희, 홍성하, 정철"
+                      fill
+                      className="object-cover rounded border border-gray-500"
+                    />
                   </div>
                   <p className="text-sm text-gray-700">박준식, 임선희, 홍성하, 정철</p>
                 </div>
 
                 <div className="text-center">
-                  <div className="w-full h-40 bg-gray-300 border border-gray-400 rounded flex items-center justify-center mb-2">
-                    <span className="text-gray-600 text-sm">25/Image-03.jpg</span>
+                  <div className="relative w-full h-40 mb-2 cursor-pointer hover:opacity-80 transition-opacity">
+                    <Image 
+                      src="/images/25/Image-03.JPG" 
+                      alt="홍성하, 정철"
+                      fill
+                      className="object-cover rounded border border-gray-500"
+                    />
                   </div>
                   <p className="text-sm text-gray-700">홍성하, 정철</p>
                 </div>
 
                 <div className="text-center">
-                  <div className="w-full h-40 bg-gray-300 border border-gray-400 rounded flex items-center justify-center mb-2">
-                    <span className="text-gray-600 text-sm">25/Image-04.jpg</span>
+                  <div className="relative w-full h-40 mb-2 cursor-pointer hover:opacity-80 transition-opacity">
+                    <Image 
+                      src="/images/25/Image-04.JPG" 
+                      alt="이강영, 이윤직, 최창규, 전혜정"
+                      fill
+                      className="object-cover rounded border border-gray-500"
+                    />
                   </div>
                   <p className="text-sm text-gray-700">이강영, 이윤직, 최창규, 전혜정</p>
                 </div>
 
                 <div className="text-center">
-                  <div className="w-full h-40 bg-gray-300 border border-gray-400 rounded flex items-center justify-center mb-2">
-                    <span className="text-gray-600 text-sm">25/Image-05.jpg</span>
+                  <div className="relative w-full h-40 mb-2 cursor-pointer hover:opacity-80 transition-opacity">
+                    <Image 
+                      src="/images/25/Image-05.JPG" 
+                      alt="이강영, 권재륜"
+                      fill
+                      className="object-cover rounded border border-gray-500"
+                    />
                   </div>
                   <p className="text-sm text-gray-700">이강영, 권재륜</p>
                 </div>
 
                 <div className="text-center">
-                  <div className="w-full h-40 bg-gray-300 border border-gray-400 rounded flex items-center justify-center mb-2">
-                    <span className="text-gray-600 text-sm">25/Image-06.jpg</span>
+                  <div className="relative w-full h-40 mb-2 cursor-pointer hover:opacity-80 transition-opacity">
+                    <Image 
+                      src="/images/25/Image-06.JPG" 
+                      alt="안병욱, 김남웅, 최정욱, 도태영"
+                      fill
+                      className="object-cover rounded border border-gray-500"
+                    />
                   </div>
                   <p className="text-sm text-gray-700">안병욱, 김남웅, 최정욱, 도태영</p>
                 </div>
 
                 <div className="text-center">
-                  <div className="w-full h-40 bg-gray-300 border border-gray-400 rounded flex items-center justify-center mb-2">
-                    <span className="text-gray-600 text-sm">25/Image-09.jpg</span>
+                  <div className="relative w-full h-40 mb-2 cursor-pointer hover:opacity-80 transition-opacity">
+                    <Image 
+                      src="/images/25/Image-09.JPG" 
+                      alt="맨플러스 전경"
+                      fill
+                      className="object-cover rounded border border-gray-500"
+                    />
                   </div>
                   <p className="text-sm text-gray-700">맨플러스 전경</p>
                 </div>

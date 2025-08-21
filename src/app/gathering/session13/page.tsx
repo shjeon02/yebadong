@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '제13회 YBD 영상감상회 & Porcupine Tree 특집 - 1997년 3월 22일 | Yebadong',

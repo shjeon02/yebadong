@@ -18,10 +18,6 @@ export default function GatheringPage() {
         <div className="max-w-6xl mx-auto">
           {/* Concert Information Section */}
           <div className="bg-surface-subtle border border-muted rounded-lg p-8">
-            <h2 className="text-2xl font-semibold text-primary mb-6 text-center border-b border-muted pb-4">
-              감상회 역사
-            </h2>
-            
             <div className="text-center mb-6">
               <p className="text-muted mb-4">
                 지금까지 예바동 감상회를 정리했습니다. 예바동 탄생이래 가진 감상회입니다.<br />

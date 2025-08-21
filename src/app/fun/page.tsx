@@ -23,7 +23,7 @@ export default function FunPage() {
               Humorous Posts
             </h2>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               <Link href="/fun/yebadong" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
                 <div className="font-semibold text-primary mb-1">예바당이란???</div>
                 <div className="text-sm text-muted">예바동의 정체성에 대한 유머러스한 정의</div>
@@ -31,18 +31,28 @@ export default function FunPage() {
               
               <Link href="/fun/worst96" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
                 <div className="font-semibold text-primary mb-1">Worst Top 10 in Prog 1996</div>
-                <div className="text-sm text-muted">1996년 프로그레시브 록 최악의 앨범들</div>
+                <div className="text-sm text-muted">1996년 프로그레시브 록 최악의 목록</div>
               </Link>
               
               <Link href="/fun/ybdlogo" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
-                <div className="font-semibold text-primary mb-1">YeBaDong Logo 의 변천사</div>
+                <div className="font-semibold text-primary mb-1">YeBaDong Logo의 변천사</div>
                 <div className="text-sm text-muted">예바동 로고의 역사적 변화 과정</div>
               </Link>
               
               <Link href="/fun/ledzeppelin" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
                 <div className="font-semibold text-primary mb-1">Led Zeppelin이란 가수는?</div>
-                <div className="text-sm text-muted">레드 제플린에 대한 재미있는 오해들</div>
+                <div className="text-sm text-muted">레드 제플린에 대한 재미있는 패러디</div>
               </Link>
+              
+              <Link href="/fun/essay1" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
+                <div className="font-semibold text-primary mb-1">Essay 1: 영국의 제2세대 Progressive Rock</div>
+                <div className="text-sm text-muted">1980년대 후반 영국 프로그 밴드들 소개</div>
+              </Link>
+              
+              <div className="block p-4 bg-gray-100 border border-gray-300 rounded-md opacity-60">
+                <div className="font-semibold text-gray-600 mb-1">More Content Coming...</div>
+                <div className="text-sm text-gray-500">추가 컨텐츠 복원 예정</div>
+              </div>
             </div>
           </div>
 
@@ -82,7 +92,7 @@ export default function FunPage() {
             <h3 className="text-lg font-semibold text-purple-800 mb-4 text-center">Fun Facts</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center text-sm">
               <div>
-                <div className="font-bold text-2xl text-purple-600">4+</div>
+                <div className="font-bold text-2xl text-purple-600">6+</div>
                 <div className="text-purple-700">재미있는 포스트</div>
               </div>
               <div>
