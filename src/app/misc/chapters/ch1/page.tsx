@@ -2,293 +2,485 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: '프로그레시브락의 탄생 - Rocking the Classics #1 | Yebadong',
-  description: '홍사여리님 번역 - 프로그레시브 록의 탄생과 발전 과정',
+  title: '1장 - 프로그레시브락의 탄생 | Yebadong',
+  description: 'Rocking the Classics: English Progressive Rock and the Counterculture - Chapter 1',
 };
 
-export default function Ch1Page() {
+export default function Chapter1Page() {
   return (
     <main className="min-h-screen bg-[#F7EFCE] text-[#0000AA]">
-      <div className="container mx-auto px-4 py-8">
-        <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold mb-4 text-[#0000AA]">프로그레시브락의 탄생</h1>
-          <p className="text-base text-[#0000AA]">The Birth of Progressive Rock</p>
-        </div>
+      <div className="container mx-auto px-4 py-8 max-w-4xl">
         
-        <div className="max-w-6xl mx-auto">
-          <div className="bg-white bg-opacity-70 border border-[#0000AA] rounded-lg p-8">
-            
-            {/* Warning */}
-            <div className="mb-8 p-6 bg-red-100 border border-red-400 rounded-lg text-center">
-              <p className="text-red-600 font-bold mb-2">
-                ⚠️ WARNING!
+        {/* Copyright Warning */}
+        <div className="text-center mb-8 p-4 bg-red-100 border border-red-400 rounded-lg">
+          <p className="text-red-600 font-bold text-sm">
+            ⚠️ WARNING!<br />
+            <em>This page is a strict COPYRIGHT VIOLATION, constructed for PURE PRIVATE PURPOSE. 
+            Please DON'T reproduce or distribute the contents of this page.</em>
+          </p>
+        </div>
+
+        {/* Main Title */}
+        <h1 className="text-3xl font-bold text-center mb-8 text-[#0000AA]">
+          1. 프로그레시브락의 탄생<br />
+          (The Birth of Progressive Rock)
+        </h1>
+
+        {/* Translator Info */}
+        <div className="bg-blue-50 p-6 rounded-lg mb-8 border border-blue-200">
+          <div className="text-sm text-blue-800">
+            <p className="mb-4">
+              이 글은 홍사여리[<a href="mailto:sayuhri@kornet.net" className="text-blue-600 underline">sayuhri@kornet.net</a>]님께서 
+              코리아닷컴의 아트락클럽[<a href="http://club.korea.com/artrock/" className="text-blue-600 underline">http://club.korea.com/artrock</a>]에 
+              올리신 글을 필자의 허락하에 올리는 글입니다. 다행스럽게도 리베로님께서 번역하신 5,6,7,8장과는 안겹치네요. 
+              혹시 이 글을 퍼가실 생각이 있으시다면 필자의 허락을 꼭 얻으시길 바랍니다.
+            </p>
+            <p className="text-red-600 font-semibold">
+              🔴 translated by 홍사여리[<a href="mailto:sayuhri@kornet.net" className="text-red-600 underline">sayuhri@kornet.net</a>]
+            </p>
+          </div>
+        </div>
+
+        {/* Introduction */}
+        <div className="bg-white p-6 rounded-lg border border-gray-300 mb-8">
+          <div className="prose prose-blue max-w-none">
+            <p className="mb-4 text-sm leading-relaxed">
+              제목이 멋있지 않습니까? Rocking the Classic....<br />
+              프로그레시브록이란게 제 귀에 무뎌질 무렵 우연히 아마존에서 눈에 띄어 구입한 책인데, 나름대로 제게 안내를 해 준 책입니다. 
+              미국의 에드워드 매컨이라는 모 음대 교수라는 사람이 썼는데... (아트록지에서 언젠가 전정기씨도 이 책을 인용한것 같다는 
+              기억이 술김에 어렴풋이 나는군요.@ @ ) 제게 도움이 된 책이길래 클럽 회원 여러분들에게도 도움이 되지 않을까 싶어 
+              발췌/번역하여 올립니다. 한권 전체를 한번에 올릴 순 없고, 여러번에 나눠서 올립니다.
+            </p>
+            <p className="mb-4 text-sm leading-relaxed">
+              매회 글 머리에 그 글의 위치를 알리는 표시를 할 예정이구요, 양이 많아서 좀 오래 걸릴것 같아요. 한1~ 2주에 한번씩 올리면 
+              한 서너달 걸리지 않을까 싶습니다. 한번에 올리는 글이 너무 길면 읽기에 부담될테기도 하니가 조금씩 나눠서 싣도록 하겠습니다.
+            </p>
+            <p className="mb-4 text-sm leading-relaxed">
+              초심자 여러분에겐 하나의 안내가 되기를, 고수 여러분에겐 비교/코멘트의 대상이 되기를 바랍니다.
+            </p>
+            <p className="text-sm leading-relaxed">
+              (부제목은 English progressive rock and the counterculture입니다. 주로 영국의 프로그레시브 록을 다루고 있다는 뜻이죠. 
+              프로그레시브 록을 당시 영국의 대중 음악계 및 사회와 연관시켜 해석한 책이라는 뜻도 되겠지요)
+            </p>
+          </div>
+        </div>
+
+        {/* Table of Contents */}
+        <div className="bg-gray-50 p-6 rounded-lg border border-gray-300 mb-8">
+          <h3 className="text-lg font-semibold mb-4 text-[#0000AA]">목차</h3>
+          <ol className="text-sm space-y-1 text-[#0000AA]">
+            <li><strong>1. The Birth of Progressive Rock</strong></li>
+            <li>2. The Progressive Rock Style: The Music</li>
+            <li>3. The Progressive Rock Style: The Visuals</li>
+            <li>4. The Progressive Rock Style: The Lyrics</li>
+            <li>5. Four Different Progressive Rock Pieces</li>
+            <li>6. Related Styles</li>
+            <li>7. A Sociology of Progressive Rock</li>
+            <li>8. The Critical Reception of Progressive Rock</li>
+            <li>9. The Progressive Rock after 1976</li>
+          </ol>
+        </div>
+
+        {/* Main Content Section 1: Introduction */}
+        <div className="bg-white p-6 rounded-lg border border-gray-300 mb-8">
+          <h2 className="text-xl font-semibold mb-4 text-[#0000AA]">1. 프로그레시브락의 탄생</h2>
+          
+          {/* David Jackson Quote */}
+          <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-400 mb-6">
+            <p className="italic text-blue-800 text-sm leading-relaxed">
+              "(비틀즈의) 서전트 페퍼의 출현을 지금도 생생히 기억하고 있어요.- 날카로운 불신의 소음이었죠. 
+              어딜 가나 이 음악을 들을 수 있었어요. 이 놀라운 음악으로 인해 모든 게 가능할 것처럼 생각되었어요"
+            </p>
+            <p className="text-right text-blue-600 text-sm mt-2 font-semibold">- VDGG의 David Jackson</p>
+          </div>
+
+          <div className="prose prose-blue max-w-none text-sm leading-relaxed space-y-4">
+            <p>
+              1960년대 중반까지 영국(서구) 중산층의 록큰롤에 대한 입장은 이런 것이었다: 원시적인 음악, 기본적으로 하류 계급이 듣는 음악. 
+              특별한 미적 감각을 느낄 수 없는 음악. 심지어는 청소년 비행의 원인으로 보는 시각도 있었다. (1955년을 그 탄생의 해라 할 때) 
+              십 년의 역사를 갓 넘긴 록큰롤이, 그것도 엘비스 프레슬리나 제리 리 루이스, 척 베리 같은 사람들에 의해 주도되어온 거칠고, 
+              단순하며 비예술적인 음악이 이렇게 복잡하고 다차원적인 프로그레시브 록의 모습으로 변형될 수 있다고 생각한 사람은 아무도 없었다.
+            </p>
+
+            <p>
+              이러한 일이 가능할 수 있었던 근본적인 요인은 60년대 중반 젊은이들을 기반으로 한, 샌프란시스코, 런던에서 출발하여 서구 전반을 
+              휩쓴 이른바 하위 문화의 출현이었다. 이 하위문화는 주로 젊은, 중산층의 백인에 의해 주도되었다. 이들은 부모들의 라이프 스타일을 
+              따르길 의식적으로 거부하고 보다 실험적인 인생을 살고 싶어하였다.
+            </p>
+          </div>
+        </div>
+
+        {/* Hippie Culture Section */}
+        <div className="bg-white p-6 rounded-lg border border-gray-300 mb-8">
+          <h3 className="text-lg font-semibold mb-4 text-[#0000AA]">히피 문화와 반문화 운동</h3>
+          
+          <div className="prose prose-blue max-w-none text-sm leading-relaxed space-y-4">
+            <p>
+              "히피"라고 불리기도 했던 이들은 (조직이란 것 자체를 싫어하기로 유명했지만) 비교적 조직적인 원칙을 가지고 있었다. 
+              그들은 사회 전반의 정치적/영적 변화를 추구하였다. 의식과 인지의 영역에서의 새로운 지평을 발견하는데 큰 가치를 두었다. 
+              그래서 마약과 명상에 빠져들기도 한 것이다. 정치적으로는 자본주의 사회의 제도화된 물질주의를 거부하였다. 
+              일하기를 거부하고, 방랑 생활을 추구하였으며, 다양한 공동체 생활을 실험하였다. 베트남 참전을 거부하고 전쟁 자체를 반대하였다. 
+              특히 남자들의 긴 머리와 여자들의 미니 스커트는 기성세대에 대한 정면 도전이자 타격으로 받아들여졌다.
+            </p>
+
+            <p>
+              1968년은 이러한 하위 문화의 정점을 이루는 해였다. 프랑스, 멕시코, 미국, 그리스 등지에서 (특히 정치적으로) 이러한 젊은이들이 
+              주도하는 정치적 소요가 정점에 달했으며 마약, 섹스, 록큰롤은 이러한 젊은이들의 3대 상징이었다.
+            </p>
+
+            <p>
+              마약 등 환각제의 영향으로 앨범커버 역시 초현실주의적인 모습은 띄었으며 콘서트에서는 라이트 쇼를 동원하여 집단적 환각상태를 시도한다. 
+              환각제 (Lysergic Acid Diethylamide (LSD)를 줄여서 Acid라고도 불렀다.) 는 가사에도 영향을 미쳐 밥 딜런과 비틀즈의 60년대 
+              중반의 가사는 초현실적인 방향으로 나가는 것을 볼 수 있다. 나아가 밥 딜런은 저항적인 가사를 비틀즈는 우주적인 명상을 가사에 
+              담기도 한다. 이러한 경향은 당시 팝뮤직 씬에서는 상당히 새로운 시도로 받아들여졌다.
+            </p>
+          </div>
+        </div>
+
+        {/* Psychedelic Music Development */}
+        <div className="bg-white p-6 rounded-lg border border-gray-300 mb-8">
+          <h3 className="text-lg font-semibold mb-4 text-[#0000AA]">사이키델릭 음악의 발전</h3>
+          
+          <div className="prose prose-blue max-w-none text-sm leading-relaxed space-y-4">
+            <p>
+              이러한 모든 변화에 더하여 "음악적"으로 하위문화를 규정하는 것은 사이키델릭 스타일이다. 사이키델릭은 60년대 당시까지의 기존 
+              팝음악에 대한 명백한 도전이었다. 브리티쉬 블루스의 리바이벌이 싸이키델릭에 큰 영향을 미쳤다. Alexis Korner's Blues Inc.와 
+              John Mayall's Blues Breakers는 특히 다음과 같은 두 가지 점에서 영국 싸이키델릭에 큰 영향을 끼친다.
+            </p>
+
+            <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
+              <p className="mb-2">1. Muddy Waters나 B.B. King같은 미국 흑인 스타일의 블루스 음악을 라이브로 영국 젊은이들에게 선보였다.</p>
+              <p>2. 이들의 블루스 음악은 당시로선 약간 나이 많은 중견에 속하던 Brian Auger, Ginger Baker같은 영국의 재즈 뮤지션들의 관심을 
+              끌었다. 이들이 재즈를 통해 쌓은 임프로비제이션 실력은 싸이키델릭의 출현을 가능하게 한 주요한 요인이 된다.</p>
+            </div>
+
+            <p>
+              싸이키델릭의 특징으로 자리잡은 장시간에 걸친 솔로 연주 자체는 재즈나 리듬앤 블루스에 영향을 받은 것이고, 전기를 이용한 사운드와 
+              믹싱 스타일은 새로운 것이었다. 여기에 더불어 환각을 중시하는 당시 하위문화의 요구에 따라, 기존의 대중 음악이 주로 "따라 부르"거나 
+              "춤추기" 위한 음악이었던 것에 반해, 싸이키델릭은 머리로 듣는 "감상용"음악으로 출발하였고 이는 음악적 실험이 다양하게 시도된 이유가 된다.
+            </p>
+
+            <p>
+              66년에서 67년에 걸쳐 런던과 샌프란시스코등 하위문화의 주요 거점이 되었던 도시들에는 클럽이라는 형태의 공연장이 속속 문을 여는데, 
+              이런 곳에서 주로 싸이키델릭이 연주되었다. 이러한 작은 공간에서 연주자와 관객의 관계는 무척 가깝게 된다. 예를 들어 66년 2월 어느 
+              일요일 오후 런던의 마키 클럽에서 "Spontaneous Underground"가 연주되었을 때, 관객과 연주자사이의 구분은 없어졌던 것이 좋은 예라 할 것이다. 
+              밴드와 관객의 구분은 없었다. 연주자 자신이 하위문화의 산물이자 하위문화의 생산자였다. 이러한 관계 속에서 후에 프로그레시브 록의 
+              스타일 형성에 있어 중요한 역할을 하는 음악적, 시각적, 그리고 구술적 전통이 생겨나게 된 것이다.
+            </p>
+          </div>
+        </div>
+
+        {/* Record Industry and Underground Media */}
+        <div className="bg-white p-6 rounded-lg border border-gray-300 mb-8">
+          <h3 className="text-lg font-semibold mb-4 text-[#0000AA]">음반 산업과 언더그라운드 미디어</h3>
+          
+          <div className="prose prose-blue max-w-none text-sm leading-relaxed space-y-4">
+            <p>
+              싸이키델릭 스타일이 폭발적으로 대중의 인기를 얻자, 이 새로운 음악 스타일에 대해서 레코드 회사들은 이러한 음악을 음반으로 발매해야 할지 
+              하지 말아야 할지, 또는 어떤 음악을 음반화하고 어떤 것을 말아야할지 판단을 할 수가 없었다. 다른 음악 스타일에서는 대중이 특정 밴드의 
+              음악을 좋아할지 안 할지 판단할 능력이 있는 것이 음반 회사였지만, 이경우는 달랐다. 이들은 무척 당황했으며, 따라서 일단 모두와 계약을 
+              맺고 음반화한 후 시장의 반응을 볼 수밖에 없었다. 이렇게 해서 60년대 후반에서 70년대 초에 이르는 기간동안 엄청난 양의 음악이 음반화 
+              되었고, 많은 수의 레코드 회사들이 설립되기도 했던 것이다.
+            </p>
+
+            <p>
+              당시 싸이키델릭을 다루었던 언더그라운드 신문과 라디오 방송 또한 프로그레시브 록의 탄생에 커다란 역할을 했다. 싸이키델릭 음악의 
+              정교화와 보급에 이들이 기여했을 뿐만 아니라, 나아가 이 방송사들이 클래식, 재즈등의 음악을 통해 기른 비판적 감상, 감정 평가, 
+              예술성등의 감각을 프로그레시브 록을 평가하고 보급하는데 사용하였던 것이다.
+            </p>
+
+            <p>
+              위에 서술한바와 같은 문화적, 경제적 배경이 없었다면 프로그레시브록은 결코 생성되지 않았을 것이다. 요약하면, 하위문화의 생성, 
+              사이키델릭 스타일의 형성, 클럽 문화, 언더그라운드 라디오 방송국이 프로그레시브 록 형성의 토대를 이룬 것이다.
+            </p>
+          </div>
+        </div>
+
+        {/* Three Psychedelic Styles */}
+        <div className="bg-white p-6 rounded-lg border border-gray-300 mb-8">
+          <h3 className="text-lg font-semibold mb-4 text-[#0000AA]">사이키델릭의 세 가지 스타일</h3>
+          
+          <div className="prose prose-blue max-w-none text-sm leading-relaxed space-y-4">
+            <p>
+              일반적으로, 사이키델릭의 생성 당시엔 이 장르에 한가지 스타일만 있는 것으로 간주되었었다. (십분이 넘는 경우가 허다한) 장편 편성, 
+              강화된 연주 섹션, 긴 솔로 연주, 피드백 효과 사용, 에코 머신등의 이펙트, 멀티 트랙킹이나 스플라이싱같은 테잎 이펙트등이 사용된 
+              음악으로 규정되었던 것이다. 여기에 북인도의 악기가 간간이 사용되었다. 그러나, 이러한 여러 가지 비슷한 점이 있는 동시에 서로 다른 
+              스타일이라고 불릴만한 요소도 많이 있었다. 이제 와서 보면, 프로그레시브 록의 모태가 된 싸이키델릭에는 크게 세가지 스타일이 존재하였다.
+            </p>
+
+            {/* Style 1: Heavy Blues */}
+            <div className="bg-red-50 p-4 rounded-lg border border-red-200 mb-4">
+              <h4 className="font-semibold text-red-800 mb-3">1. Cream, Yardbirds, Jimi Hendrix 스타일</h4>
+              <p className="text-sm text-red-700 mb-2">
+                헤비하고 블루스를 전기 음향으로 재해석한 스타일. 이는 롤링 스톤즈가 60년대 중반에 이미 시도하기 시작한 것이다. 스톤즈와 마찬가지로 
+                이들은 단순하고 블루스적인 화음진행을 사용하였으며, 반복적인 기타 리프 (두마디 혹은 길어야 네마디), 그리고 드라이빙 백비트를 사용하였다.
               </p>
-              <p className="text-red-600 italic">
-                This page is a strict COPYRIGHT VIOLATION, constructed for PURE PRIVATE PURPOSE. 
-                Please DON'T reproduce or distribute the contents of this page.
+              <p className="text-sm text-red-700 mb-2">
+                하지만 스톤즈나 어번 블루스의 마스터로 통하던 더 후와는 달리 이들은 연주 부분에 긴 시간을 할애하였으며 특히 불꽃튀는 기타 연주로 
+                라이브에서 관객을 압도하였다. 이들 밴드는 대개 한 대나 두 대 정도의 기타와 베이스, 드럼 그리고 한명의 보컬로 이루어졌다. 
+                프로그레시브 록의 대명사격인 풍부한 보컬 하모니나 웅장한 키보드 반주는 이들의 음악에선 찾아보기 힘들다.
+              </p>
+              <p className="text-sm text-red-700">
+                이러한 면에서는 스톤즈나 더 후가 이들보다 프로그레시브 록에 가까왔다고 해야 할지도 모르겠다. 이 부류의 음악은 후에 레드 제플린, 
+                블랙 사바스, (71년 머신헤드 앨범 발표 이후의) 딥 퍼플에 의해 헤비메탈로 발전된다.
               </p>
             </div>
 
-            <hr className="my-8" />
-
-            {/* Translator Info */}
-            <div className="mb-8 p-6 bg-blue-50 rounded-lg border-l-4 border-blue-500">
-              <p className="text-sm mb-4">
-                이 글은 홍사여리[<a href="mailto:sayuhri@kornet.net" className="text-[#00AAAA] hover:underline">sayuhri@kornet.net</a>]님께서 
-                코리아닷컴의 아트락클럽[<a href="http://club.korea.com/artrock/" className="text-[#0B0A52] hover:underline">http://club.korea.com/artrock</a>]에 
-                올리신 글을 필자의 허락하에 올리는 글입니다. 다행스럽게도 리베로님께서 번역하신 5,6,7,8장과는 안겹치네요. 
-                혹시 이 글을 퍼가실 생각이 있으시다면 필자의 허락을 꼭 얻으시길 바랍니다.
+            {/* Style 2: Jazz Fusion */}
+            <div className="bg-green-50 p-4 rounded-lg border border-green-200 mb-4">
+              <h4 className="font-semibold text-green-800 mb-3">2. Traffic, Colosseum, IF와 Soft Machine, Caravan 스타일</h4>
+              <p className="text-sm text-green-700 mb-2">
+                브리티쉬 블루스와 재즈를 기반으로 형성된 지파. 이들은 플륫이나 색소폰 같은 관악기를 도입하였다. 사이키델릭에서조차 시도되지 못했던 
+                수준으로까지 실험적 연주파트를 강화하였다. 코드 변화와 리듬 패턴의 변화가 더 심하고 복잡해진다.
               </p>
-              <p className="text-sm text-red-600">
-                🔴 translated by 홍사여리[<a href="mailto:sayuhri@kornet.net" className="text-red-600 hover:underline">sayuhri@kornet.net</a>]
+              <p className="text-sm text-green-700">
+                70년대 초 이들의 음악은 마하비쉬누 오케스트라 및 그 추종자들, 그리고 이들보다 더 실험적인 캔터베리/ 소프트머쉰 학파에 의해 
+                재즈록 퓨전으로 발전해간다.
               </p>
             </div>
 
-            {/* Introduction */}
-            <div className="mb-8 p-6 bg-yellow-50 rounded-lg">
-              <p className="text-sm leading-relaxed">
-                제목이 멋있지 않습니까? Rocking the Classic....<br/>
-                프로그레시브록이란게 제 귀에 무뎌질 무렵 우연히 아마존에서 눈에 띄어 구입한 책인데,나름대로 제게 안내를 해 준 책입니다. 
-                미국의 에드워드 매컨이라는 모 음대 교수라는 사람이 썼는데... (아트록지에서 언젠가 전정기씨도 이 책을 인용한것 같다는 기억이 술김에 어렴풋이 나는군요.@@) 
-                제게 도움이 된 책이길래 클럽 회원 여러분들에게도 도움이 되지 않을까 싶어 발췌/번역하여 올립니다.<br/><br/>
-                
-                한권 전체를 한번에 올릴 순 없고, 여러번에 나눠서 올립니다. 매회 글 머리에 그 글의 위치를 알리는 표시를 할 예정이구요, 
-                양이 많아서 좀 오래 걸릴것 같아요. 한1~2주에 한번씩 올리면 한 서너달 걸리지 않을까 싶습니다. 한번에 올리는 글이 너무 길면 읽기에 부담될테기도 하니까 조금씩 나눠서 싣도록 하겠습니다.<br/><br/>
-                
-                초심자 여러분에겐 하나의 안내가 되기를, 고수 여러분에겐 비교/코멘트의 대상이 되기를 바랍니다.<br/><br/>
-                
-                (부제목은 English progressive rock and the counterculture입니다. 주로 영국의 프로그레시브 록을 다루고 있다는 뜻이죠. 
-                프로그레시브 록을 당시 영국의 대중 음악계 및 사회와 연관시켜 해석한 책이라는 뜻도 되겠지요)
+            {/* Style 3: Symphonic/Beatles influenced */}
+            <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+              <h4 className="font-semibold text-blue-800 mb-3">3. Moody Blues, Procol Harum, Pink Floyd, Nice</h4>
+              <p className="text-sm text-blue-700 mb-2">
+                위의 두 부류에 비해 후기 비틀즈 영향을 더 많이 받은 부류이다. 후기 비틀즈는 실제로 거의 사이키델릭 밴드가 되어 있었으며 
+                (바르토크나 스톡하우젠의 영향하에) 아방가르드 스타일도 채용하고 있었다. (She's leaving home을 들어보라. 실제로 비틀즈의 
+                서전트 페퍼 앨범의 커버에는 쉬톡하우젠의 얼굴이 나온다.)
+              </p>
+              <p className="text-sm text-blue-700">
+                앨범의 마지막 부분에서 들려오는 앨범 첫곡서부터 끄트머리까지의 재현과, 환상적인 테이프 이펙트에 의한 곡과 곡간의 연결, 
+                무엇보다도 한가지 컨셉에 의한 앨범 구성으로 인해 서전트 페퍼는 최초의 컨셉트 앨범으로 평가되고 있으며 이는 19세기 초의 클래식 
+                음악가인 슈만이나 슈베르트까지 거슬러 올라가는 서양 고전 음악의 전통과 닿아 있다. 이것이 비평가들이 서전트 페퍼 앨범의 
+                컨셉튜얼한 구조를 "클래식"하다고 말하는 이유이다.
               </p>
             </div>
+          </div>
+        </div>
 
-            {/* Table of Contents */}
-            <div className="mb-8 p-6 bg-green-50 rounded-lg">
-              <h3 className="text-xl font-bold mb-4">차례</h3>
-              <ol className="text-sm space-y-1">
-                <li><strong>1. The Birth of Progressive Rock</strong></li>
-                <li>2. The Progressive Rock Style: The Music</li>
-                <li>3. The Progressive Rock Style: The Visuals</li>
-                <li>4. The Progressive Rock Style: The Lyrics</li>
-                <li>5. Four Different Progressive Rock Pieces</li>
-                <li>6. Related Styles</li>
-                <li>7. A Sociology of Progressive Rock</li>
-                <li>8. The Critical Reception of Progressive Rock</li>
-                <li>9. The Progressive Rock after 1976</li>
-              </ol>
-            </div>
+        {/* Symphonic Development */}
+        <div className="bg-white p-6 rounded-lg border border-gray-300 mb-8">
+          <h3 className="text-lg font-semibold mb-4 text-[#0000AA]">심포닉 록의 발전</h3>
+          
+          <div className="prose prose-blue max-w-none text-sm leading-relaxed space-y-4">
+            <p>
+              이를 보다 더 직접적으로 클래식 음악과 연결한 것이 무디 블루스가 런던 페스티발 오케스트라와 함께 녹음한 Days of Future Passed이다. 
+              이 앨범으로 무디 블루스는 한번에 "심포닉 록"이라는 단어를 만들어 낸다. 후에 무디 블루스는 멜로트론을 써서 심포닉한 반주 부분을 
+              만들어 내었으며, 비틀즈의 3부 보컬을 발전시켜 4부 보컬로 풍부한 보컬 하모니를 만들어 내었다. 67년 A Whiter Shade of Pale로 
+              단번에 명성을 얻는 프로콜 하럼은 하몬드 오르간으로 파이프 오르간을 대치한다. 이전의 팝음악에서 별로 사용되지 않다가 비틀즈에 의해 
+              시도되기 시작한 어쿠스틱 악기의 과감한 도입을 발전시켰다.(69, Salty Dog)
+            </p>
 
-            {/* Main Content */}
-            <div className="space-y-6">
-              
-              {/* Opening Quote */}
-              <div className="mb-8 p-6 bg-purple-50 rounded-lg border-l-4 border-purple-500">
-                <blockquote className="italic text-lg mb-2">
-                  "(비틀즈의) 서전트 페퍼의 출현을 지금도 생생히 기억하고 있어요.- 날카로운 불신의 소음이었죠. 
-                  어딜 가나 이 음악을 들을 수 있었어요. 이 놀라운 음악으로 인해 모든 게 가능할 것처럼 생각되었어요"
-                </blockquote>
-                <cite className="text-right block">- VDGG의 David Jackson</cite>
-              </div>
+            <p>
+              나이스와 핑크 플로이드도 적어도 그들의 데뷔 앨범에선 비틀즈의 영향을 피할 수 없었다. 그러나 위의 두 밴드에 비해 좀더 (프로그레시브 
+              록쪽으로) 발전된 모습을 보인다. 특히 핑크 플로이드에 의해 선보여진 사운드는 소프트 머쉰의 음악과도 연관된다. 이 두 밴드는 특히 
+              장편의 연주곡에 의한 음악적 파노라마를 만들어 내는데 큰 관심을 가지고 있었으며 이를 구현하기 위해 19세기와 20세기 초에 걸친 클래식음악의 
+              표제음악에서 다악장 조곡 기법을 사이키델릭 음악에 도입하였다.
+            </p>
 
-              {/* Historical Context */}
-              <div className="space-y-4">
-                <p className="text-sm leading-relaxed">
-                  1960년대 중반까지 영국(서구) 중산층의 록큰롤에 대한 입장은 이런 것이었다: 원시적인 음악, 기본적으로 하류 계급이 듣는 음악. 
-                  특별한 미적 감각을 느낄 수 없는 음악. 심지어는 청소년 비행의 원인으로 보는 시각도 있었다. 
-                  (1955년을 그 탄생의 해라 할 때) 십 년의 역사를 갓 넘긴 록큰롤이, 그것도 엘비스 프레슬리나 제리 리 루이스, 척 베리 같은 사람들에 의해 
-                  주도되어온 거칠고, 단순하며 비예술적인 음악이 이렇게 복잡하고 다차원적인 프로그레시브 록의 모습으로 변형될 수 있다고 생각한 사람은 아무도 없었다. 
-                  이러한 일이 가능할 수 있었던 근본적인 요인은 60년대 중반 젊은이들을 기반으로 한, 샌프란시스코, 런던에서 출발하여 서구 전반을 휩쓴 
-                  이른바 하위 문화의 출현이었다. 이 하위문화는 주로 젊은, 중산층의 백인에 의해 주도되었다. 
-                  이들은 부모들의 라이프 스타일을 따르길 의식적으로 거부하고 보다 실험적인 인생을 살고 싶어하였다.
-                </p>
+            <p>
+              핑크 플로이드의 A Sauceful of Secrets (68)와 나이스의 Ars Longa Vita는 4악장으로 된 표제 음악이다. A Sauceful of Secrets는 
+              신비한 체험 (혹은 커버 아트로 미루어 봐선 우주 여행?)에 대한 표제 음악이고, 바하의 브란덴 부르그 조곡 3번을 인용한 Ars Longa Vita 
+              역시 음악 자체로 해석된다기보다는 음반의 이너 노트에 쓰여진 철학적인 글을 보충하는 표제 음악이다.
+            </p>
 
-                <p className="text-sm leading-relaxed">
-                  "히피"라고 불리기도 했던 이들은 (조직이란 것 자체를 싫어하기로 유명했지만) 비교적 조직적인 원칙을 가지고 있었다. 
-                  그들은 사회 전반의 정치적/영적 변화를 추구하였다. 의식과 인지의 영역에서의 새로운 지평을 발견하는데 큰 가치를 두었다. 
-                  그래서 마약과 명상에 빠져들기도 한 것이다. 정치적으로는 자본주의 사회의 제도화된 물질주의를 거부하였다. 
-                  일하기를 거부하고, 방랑 생활을 추구하였으며, 다양한 공동체 생활을 실험하였다. 베트남 참전을 거부하고 전쟁 자체를 반대하였다. 
-                  특히 남자들의 긴 머리와 여자들의 미니 스커트는 기성세대에 대한 정면 도전이자 타격으로 받아들여졌다.
-                </p>
+            <p>
+              이들이 발표한 연주곡은 또 하나의 중요한 의미를 갖는다. 클래식으로 훈련된 나이스의 키보디스트 키스 에머슨이 구사한 당당하고 강력한 
+              키보드 플레이는 프로그레시브 록의 표상이 되었고, 핑크 플로이드의 이 세상에서 만들어진 것이라고는 믿을 수 없는 사운드 이펙트 또한 
+              프로그레시브 록의 주요 유산이 되었다. 핑크 플로이드가 이 때 보여준 실험적 전자 음향 효과는, 70년대 이후 이들의 앨범에선 확실히 
+              감소하고 대신 앨범이나 곡 전체를 대상으로한 구조적 어프로치를 더 많이 사용되어 이러한 구조적 어프로치가 프로그레시브 록의 또 다른 
+              특징으로 굳어졌지만, 그럼에도 불구하고, 이들이 보여준 오르간 사운드(다른 세상에서 만들어진 것 같은)와 미묘하게 짤랑거리는 기타 라인, 
+              듣는 이를 최면 상태로 이끄는 반복적인 리듬 패턴, 그리고 아방가르드한 전자 음향은 70년대 독일 일렉트로닉 록과 80년대 뉴에이지 음악의 
+              발전에 커다란 영향을 끼쳤다.
+            </p>
+          </div>
+        </div>
 
-                <p className="text-sm leading-relaxed">
-                  1968년은 이러한 하위 문화의 정점을 이루는 해였다. 프랑스, 멕시코, 미국, 그리스 등지에서 (특히 정치적으로) 
-                  이러한 젊은이들이 주도하는 정치적 소요가 정점에 달했으며 마약, 섹스, 록큰롤은 이러한 젊은이들의 3대 상징이었다.
-                </p>
-              </div>
+        {/* Progressive Rock Formation */}
+        <div className="bg-white p-6 rounded-lg border border-gray-300 mb-8">
+          <h3 className="text-lg font-semibold mb-4 text-[#0000AA]">프로그레시브 록의 형성</h3>
+          
+          <div className="prose prose-blue max-w-none text-sm leading-relaxed space-y-4">
+            <p>
+              서전트 페퍼 시절의 비틀즈로부터 받은 영향에 더불어 위에 언급된 밴드들의 또 하나의 공통점은 60년대 중흥기를 맞이했던 포크뮤직으로부터 
+              영향을 받았다는 점이다. 풍부한 보컬 사운드를 주무기로 하는 포크 스타일과 어쿠스틱 악기(특히 어쿠스틱 기타)의 연주를 강조하는 포크는 
+              서로 각자의 길을 걸어 발전하다가 60년대 중반에서부터 서로 섞이기 시작했다. 밥딜런, 버즈 그리고 비틀즈가 그 선두에 있었다. 
+              프로그레시브 록이 하나의 장르로서 본격적인 형성이 시작된 것은 서전트 페퍼 이후의 이러한 비틀즈 음악에 포크와 사이키델릭을 혼합하면서부터이다. 
+              체계적으로 어쿠스틱와 일렉트릭 소절, 악절 혹은 악장을 병치(竝置) 시키기 시작한 것이다. 멜로트론, 하몬드 오르간, 그리고 다양한 어쿠스틱 
+              악기들이 풍부한 보컬 하모니 속에서 길고 정교한 음악을 만들어 내었다.
+            </p>
 
-              {/* Psychedelic Influence */}
-              <div className="space-y-4">
-                <h3 className="text-xl font-bold text-[#0000AA] border-b-2 border-[#0000AA] pb-2">사이키델릭의 영향</h3>
-                
-                <p className="text-sm leading-relaxed">
-                  마약 등 환각제의 영향으로 앨범커버 역시 초현실주의적인 모습은 띄었으며 콘서트에서는 라이트 쇼를 동원하여 집단적 환각상태를 시도한다. 
-                  환각제 (Lysergic Acid Diethylamide (LSD)를 줄여서 Acid라고도 불렀다.) 는 가사에도 영향을 미쳐 밥 딜런과 비틀즈의 60년대 중반의 가사는 
-                  초현실적인 방향으로 나가는 것을 볼 수 있다. 나아가 밥 딜런은 저항적인 가사를 비틀즈는 우주적인 명상을 가사에 담기도 한다. 
-                  이러한 경향은 당시 팝뮤직 씬에서는 상당히 새로운 시도로 받아들여졌다.
-                </p>
+            <p>
+              이러한 이유로, 무디 블루스, 프로콜 하럼, 핑크 플로이드, 나이스등이 사이키델릭 음악의 선두 주자로 불리는 동시에 프로그레시브 록의 
+              기본적인 원형을 만들어낸 "프로그레시브 록 1세대"를 형성했다고 평가되는 것이다. 그렇다고 해서 이러한 프로그레시브 록의 특징들이 각각의 
+              밴드의 음악에서 완전히 드러나지는 않았다. 또한, 프로그레시브 록의 전형에선 이미 사라진 사이키델릭적 요소가 여전히 살아 있었기 때문에 
+              아직은 프로그레시브 록이 장르로서 충분히 성숙된 단계는 아니다.
+            </p>
 
-                <p className="text-sm leading-relaxed">
-                  이러한 모든 변화에 더하여 "음악적"으로 하위문화를 규정하는 것은 사이키델릭 스타일이다. 
-                  사이키델릭은 60년대 당시까지의 기존 팝음악에 대한 명백한 도전이었다. 브리티쉬 블루스의 리바이벌이 싸이키델릭에 큰 영향을 미쳤다. 
-                  Alexis Korner's Blues Inc.와 John Mayall's Blues Breakers는 특히 다음과 같은 두 가지 점에서 영국 싸이키델릭에 큰 영향을 끼친다.
-                </p>
+            <p>
+              60년대의 마지막해인 69년에 와서야 프로그레시브 록은 제 2세대를 맞으면서 장르로서의 정체성을 확립하기에 이른다. 모든 메이저 프로그레시브 
+              록 밴드들이 그들의 첫 번째 앨범-혹은 프로그레시브 록으로 평가받는 첫 번째 앨범-을 발표한다. 제쓰로 툴이 68년에, 킹 크림즌, 예스, 제네시스, 
+              VDGG가 69년에, ELP, 젠틀 자이언트 그리고 커브드 에어가 70년에 앨범을 발표하였다.
+            </p>
+          </div>
+        </div>
 
-                <div className="bg-gray-100 p-4 rounded-lg">
-                  <ol className="text-sm space-y-2">
-                    <li><strong>1.</strong> Muddy Waters나 B.B. King같은 미국 흑인 스타일의 블루스 음악을 라이브로 영국 젊은이들에게 선보였다.</li>
-                    <li><strong>2.</strong> 이들의 블루스 음악은 당시로선 약간 나이 많은 중견에 속하던 Brian Auger, Ginger Baker같은 영국의 재즈 뮤지션들의 관심을 끌었다. 
-                    이들이 재즈를 통해 쌓은 임프로비제이션 실력은 싸이키델릭의 출현을 가능하게 한 주요한 요인이 된다.</li>
-                  </ol>
-                </div>
+        {/* King Crimson Impact */}
+        <div className="bg-white p-6 rounded-lg border border-gray-300 mb-8">
+          <h3 className="text-lg font-semibold mb-4 text-[#0000AA]">킹 크림즌의 충격과 2세대 발전</h3>
+          
+          <div className="prose prose-blue max-w-none text-sm leading-relaxed space-y-4">
+            <p>
+              특히 킹 크림즌의 데뷔 앨범 In the Court of the Crimson King은 발생기에 있는 프로그레시브 록의 움직임에 강한 충격을 주었다. 
+              아마 프로그레시브 록 앨범 중 가장 영향력 있는 앨범이라 해도 과언이 아닐 것이다. 예스, VDGG, 제쓰로 툴의 데뷔 앨범이 완전히 성숙한 
+              음악적 비전을 제시하지는 못한데 비해 킹 크림즌의 음악은 프로그레시브 록의 완숙기에 볼 수 있는 모든 주요 요소들을 보여준다. 
+              핑크 플로이드나 무디 블루스등이 보여준 프로그레시브 록의 기본적인 요소들을 킹 크림즌은 뚜렷하고 금방 알아챌 수 있는 형태로 정교하게 다듬었다.
+            </p>
 
-                <p className="text-sm leading-relaxed">
-                  싸이키델릭의 특징으로 자리잡은 장시간에 걸친 솔로 연주 자체는 재즈나 리듬앤 블루스에 영향을 받은 것이고, 
-                  전기를 이용한 사운드와 믹싱 스타일은 새로운 것이었다. 여기에 더불어 환각을 중시하는 당시 하위문화의 요구에 따라, 
-                  기존의 대중 음악이 주로 "따라 부르"거나 "춤추기" 위한 음악이었던 것에 반해, 
-                  싸이키델릭은 머리로 듣는 "감상용"음악으로 출발하였고 이는 음악적 실험이 다양하게 시도된 이유가 된다.
-                </p>
-              </div>
+            <p>
+              Epitaph에서 어쿠스틱 기타와 심포닉한 색채를 띤 멜로트론을 통해 보여준 우울한 마이너 키 진행과 21st Century Schizoid Man에서 들려준 
+              알토 색소폰과 퍼즈 기타의 재즈 색채 짙은 힘찬 폴리리듬(서로 다른 리듬을 동시에 사용하는 것) 양식은 70년대 프로그레시브 록 역사를 
+              관통하여 울려 퍼진 요소들이다. 음악 자체의 요소 이외에도, Epithaph와 21st Century Schizoid Man에서 다루어진 묵시록적인 주제, 
+              중세적 이미지와 신비로운 저음이 강력하게 부각된 타이틀곡은 고딕 양식의 초현실주의적인 커버 아트와 함께 이후의 프로그레시브 록에 지대한 영향을 끼쳤다.
+            </p>
 
-              {/* Club Culture */}
-              <div className="space-y-4">
-                <h3 className="text-xl font-bold text-[#0000AA] border-b-2 border-[#0000AA] pb-2">클럽 문화의 발전</h3>
-                
-                <p className="text-sm leading-relaxed">
-                  66년에서 67년에 걸쳐 런던과 샌프란시스코등 하위문화의 주요 거점이 되었던 도시들에는 클럽이라는 형태의 공연장이 속속 문을 여는데, 
-                  이런 곳에서 주로 싸이키델릭이 연주되었다. 이러한 작은 공간에서 연주자와 관객의 관계는 무척 가깝게 된다. 
-                  예를 들어 66년 2월 어느 일요일 오후 런던의 마키 클럽에서 "Spontaneous Underground"가 연주되었을 때, 
-                  관객과 연주자사이의 구분은 없어졌던 것이 좋은 예라 할 것이다. 밴드와 관객의 구분은 없었다. 
-                  연주자 자신이 하위문화의 산물이자 하위문화의 생산자였다. 이러한 관계 속에서 후에 프로그레시브 록의 스타일 형성에 있어 
-                  중요한 역할을 하는 음악적, 시각적, 그리고 구술적 전통이 생겨나게 된 것이다.
-                </p>
-              </div>
+            <p>
+              예스와 제네시스가 Epitaph 스타일을 차용하여 풍부하고 심포닉한 긴장을 만들어 내었다. 즉, 포크 느낌의 기타 라인과 지속적인 키보드 코드를 
+              통한 육중한 백드롭, (예스의 경우에는) 복잡하고 합창단 수준에 가까운 보컬 편곡, 예리한 일렉트릭 리드 기타와 리듬 섹션의 록적인 파워와 
+              혼합하여 심포닉 록 수준의 곡을 만들어 내었다. 예스의 The Yes Album, Fragile (둘다 71년 발표), 제네시스의 Tresspass (70), 
+              Nursery Cryme(71), Foxtrot(72)이 모두 이렇게 만들어진 작품들이다.
+            </p>
 
-              {/* Record Industry Impact */}
-              <div className="space-y-4">
-                <h3 className="text-xl font-bold text-[#0000AA] border-b-2 border-[#0000AA] pb-2">음반 산업의 변화</h3>
-                
-                <p className="text-sm leading-relaxed">
-                  싸이키델릭 스타일이 폭발적으로 대중의 인기를 얻자, 이 새로운 음악 스타일에 대해서 레코드 회사들은 이러한 음악을 음반으로 발매해야 할지 하지 말아야 할지, 
-                  또는 어떤 음악을 음반화하고 어떤 것을 말아야할지 판단을 할 수가 없었다. 다른 음악 스타일에서는 대중이 특정 밴드의 음악을 좋아할지 안 할지 
-                  판단할 능력이 있는 것이 음반 회사였지만, 이경우는 달랐다. 이들은 무척 당황했으며, 따라서 일단 모두와 계약을 맺고 음반화한 후 시장의 반응을 볼 수밖에 없었다. 
-                  이렇게 해서 60년대 후반에서 70년대 초에 이르는 기간동안 엄청난 양의 음악이 음반화 되었고, 많은 수의 레코드 회사들이 설립되기도 했던 것이다.
-                </p>
+            <p>
+              예스, 제네시스와는 달리 VDGG, 젠틀 자이언트, 커브드 에어는 Epitaph의 심포닉/포크록적인 요소뿐만 아니라 Schizoid Man에서 퓨전의 
+              기본형을, Moon Child에서의 아방가르드적인 요소를 뽑아내어, 비록 그 영향력은 적었지만 보다 더 개성있는 변형을 만들어 내었다. 
+              젠틀 자이언트는 쿨재즈와 르네상스 음악의 요소를 심포닉/포크의 틀에 담아 발작적인 리듬과 짙은 텍스쳐, 그리고 극도로 다양한 악기 
+              연주를 특징으로 하는 위압적으로 복잡한 어프로치를 만들어 냈다. 이러한 방법론의 극치는 Octupus(73)와 Free Hand(75)에서 들을 수 있다.
+            </p>
 
-                <p className="text-sm leading-relaxed">
-                  당시 싸이키델릭을 다루었던 언더그라운드 신문과 라디오 방송 또한 프로그레시브 록의 탄생에 커다란 역할을 했다. 
-                  싸이키델릭 음악의 정교화와 보급에 이들이 기여했을 뿐만 아니라, 나아가 이 방송사들이 클래식, 재즈등의 음악을 통해 기른 
-                  비판적 감상, 감정 평가, 예술성등의 감각을 프로그레시브 록을 평가하고 보급하는데 사용하였던 것이다.
-                </p>
-              </div>
+            <p>
+              VDGG는 Crimson King의 어두운 저음을 발전시켜 피터 해밀의 냉혹하도록 황량한 가사를 고딕적인 오르간 연주와 예리하고 상쾌한 리드 (reed), 
+              그리고 비르투오소적인 드러밍의 틀안에 담아 내었다. 71년작인 Pawn Hearts가 그 대표적인 예이다. 커브드 에어는 수많은 멤버들이 거쳐가는 
+              바람에 자신들만의 개성있는 음악을 높은 수준으로 끌어올리지는 못했다. 70년 데뷔 앨범인 Air Conditioning이 가장 우수한 작품으로 꼽힌다. 
+              커브드 에어는 록 음악의 메인 스트림에 처음으로 전기 바이올린을 도입한 밴드이며, 프로그레시브 록 밴드 중에는 처음으로 여성 보컬을 내세웠다.
+            </p>
+          </div>
+        </div>
 
-              {/* Three Styles of Psychedelic */}
-              <div className="space-y-4">
-                <h3 className="text-xl font-bold text-[#0000AA] border-b-2 border-[#0000AA] pb-2">사이키델릭의 세 가지 스타일</h3>
-                
-                <p className="text-sm leading-relaxed">
-                  위에 서술한바와 같은 문화적, 경제적 배경이 없었다면 프로그레시브록은 결코 생성되지 않았을 것이다. 
-                  요약하면, 하위문화의 생성, 사이키델릭 스타일의 형성, 클럽 문화, 언더그라운드 라디오 방송국이 프로그레시브 록 형성의 토대를 이룬 것이다.
-                </p>
+        {/* ELP and Jethro Tull */}
+        <div className="bg-white p-6 rounded-lg border border-gray-300 mb-8">
+          <h3 className="text-lg font-semibold mb-4 text-[#0000AA]">ELP와 제쓰로 툴의 독자적 발전</h3>
+          
+          <div className="prose prose-blue max-w-none text-sm leading-relaxed space-y-4">
+            <p>
+              ELP와 제쓰로 툴은 킹 크림즌의 유산에서 비교적 멀리 떨어져 있으면서도 프로그레시브 록이 성숙한 스타일을 형성하는데 큰 역할을 한 밴드이다. 
+              그렉 레이크가 초기 킹 크림즌에서 스카웃 되어 오긴 했지만 70년의 데뷔 앨범에서 보여 준 영웅적 키보드, 분노로 일그러진 하몬드 오르간과 
+              사이보그적인 클래식 편곡은 나이스 출신의 에머슨의 덕분이다. 하지만 그렇다고 해서 ELP는 무늬만 바꾼 나이스의 지속이라고 보아서는 안 된다. 
+              그렉 레이크의 낭랑한 보컬과 어쿠스틱 기타는 나이스에서는 상상도 할 수 없었던 것이며, 에머슨이 사용한 모듈라 무그 신서 사이저는 대중음악의 
+              메인스트림에 전혀 새로운 음향을 선보인 것이다. 예스/제네시스의 심포닉 프로그레시브 록을 대신하는 무겁고 배타적인 전기 키보드는 
+              Tarkus(71)를 영향력있는 작품으로 만들었으며 73년의 Brain Salad Surgery에서 완성된다.
+            </p>
 
-                <p className="text-sm leading-relaxed">
-                  일반적으로, 사이키델릭의 생성 당시엔 이 장르에 한가지 스타일만 있는 것으로 간주되었었다. 
-                  (십분이 넘는 경우가 허다한) 장편 편성, 강화된 연주 섹션, 긴 솔로 연주, 피드백 효과 사용, 에코 머신등의 이펙트, 
-                  멀티 트랙킹이나 스플라이싱같은 테잎 이펙트등이 사용된 음악으로 규정되었던 것이다. 여기에 북인도의 악기가 간간이 사용되었다. 
-                  그러나, 이러한 여러 가지 비슷한 점이 있는 동시에 서로 다른 스타일이라고 불릴만한 요소도 많이 있었다. 
-                  이제 와서 보면, 프로그레시브 록의 모태가 된 싸이키델릭에는 크게 세가지 스타일이 존재하였다.
-                </p>
+            <p>
+              한편 제쓰로 툴의 고도의 절충주의적 사운드는 Stand up(69)과 Benefit(70)에서 완성되었다. 이언 앤더슨의 플륫이 밴드의 정체성을 확립하였고, 
+              영국 포크 뮤직과 리듬앤 블루스, 그네상스와 바로크 시기의 연주 음악의 혼합이 이후 그들의 음악을 규정짓게 된다. 특이한 것은 다른 밴드들이 
+              낭만주의 시절의 고전음악과 교회 음악에서 음악적 영감을 얻은 데 반하여 이들은 바로크와 르네상스 음악에서 얻었다는 점이다.
+            </p>
+          </div>
+        </div>
 
-                <div className="space-y-6">
-                  {/* Style 1 */}
-                  <div className="bg-orange-50 p-6 rounded-lg border-l-4 border-orange-500">
-                    <h4 className="font-bold text-lg mb-3">1. Cream, Yardbirds, Jimi Hendrix 스타일</h4>
-                    <p className="text-sm leading-relaxed">
-                      헤비하고 블루스를 전기 음향으로 재해석한 스타일. 이는 롤링 스톤즈가 60년대 중반에 이미 시도하기 시작한 것이다. 
-                      스톤즈와 마찬가지로 이들은 단순하고 블루스적인 화음진행을 사용하였으며, 반복적인 기타 리프 (두마디 혹은 길어야 네마디), 
-                      그리고 드라이빙 백비트를 사용하였다. 하지만 스톤즈나 어번 블루스의 마스터로 통하던 더 후와는 달리 이들은 연주 부분에 긴 시간을 할애하였으며 
-                      특히 불꽃튀는 기타 연주로 라이브에서 관객을 압도하였다. 이들 밴드는 대개 한 대나 두 대 정도의 기타와 베이스, 드럼 그리고 한명의 보컬로 이루어졌다. 
-                      프로그레시브 록의 대명사격인 풍부한 보컬 하모니나 웅장한 키보드 반주는 이들의 음악에선 찾아보기 힘들다. 
-                      이러한 면에서는 스톤즈나 더 후가 이들보다 프로그레시브 록에 가까왔다고 해야 할지도 모르겠다. 
-                      이 부류의 음악은 후에 레드 제플린, 블랙 사바스, (71년 머신헤드 앨범 발표 이후의) 딥 퍼플에 의해 헤비메탈로 발전된다.
-                    </p>
-                  </div>
+        {/* Progressive Rock Maturation */}
+        <div className="bg-white p-6 rounded-lg border border-gray-300 mb-8">
+          <h3 className="text-lg font-semibold mb-4 text-[#0000AA]">프로그레시브 록의 성숙과 1-2세대 비교</h3>
+          
+          <div className="prose prose-blue max-w-none text-sm leading-relaxed space-y-4">
+            <p>
+              72년에 이르면 대중음악의 다른 장르와 구별되는 장르로서의 프로그레시브 록의 스타일 형성이 완성 단계에 이른다. 그럼에도 불구하고, 
+              각 밴드의 음악은 모두 서로 다른 개성을 가지고 있었다. 첫 번째로 연주에 많은 차이가 있다. 예스/제네시스/ELP에는 심포닉 음악을 
+              방불케하는 키보드/기타 플레이가 있었고, 이는 킹 크림즌과 VDGG, 젠틀 자이언트의 스타일은 재즈적이고 목관 악기가 많이 들어간 
+              연주를 구사하였다. 둘째로, 비르투오시티의 차이가 있었다. ELP, 에스, 중기 킹크림즌의 음악에는 압도적인 비르투오시티가 있었고 
+              이는 핑크 플로이드의 음악과 큰 차이를 보인다. 제네시스와 VDGG는 이 두 스타일의 중간쯤에 위치한다고 하겠다.
+            </p>
 
-                  {/* Style 2 */}
-                  <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-                    <h4 className="font-bold text-lg mb-3">2. Traffic, Colosseum, IF와 Soft Machine, Caravan 스타일</h4>
-                    <p className="text-sm leading-relaxed">
-                      브리티쉬 블루스와 재즈를 기반으로 형성된 지파. 이들은 플륫이나 색소폰 같은 관악기를 도입하였다. 
-                      사이키델릭에서조차 시도되지 못했던 수준으로까지 실험적 연주파트를 강화하였다. 코드 변화와 리듬 패턴의 변화가 더 심하고 복잡해진다. 
-                      70년대 초 이들의 음악은 마하비쉬누 오케스트라 및 그 추종자들, 그리고 이들보다 더 실험적인 캔터베리/ 소프트머쉰 학파에 의해 
-                      재즈록 퓨전으로 발전해간다.
-                    </p>
-                  </div>
+            <p>
+              세 번째로는, 노래와 연주에 대한 강조를 어디에 두느냐하는 차이가 있었다. 무디 블루스와 프로콜 하럼은 보컬에 더 많은 비중을 두었고 
+              핑크 플로이드나 나이스의 경우에는 연주에 훨씬더 많은 비중과 실험을 행했다. 마지막으로 분위기가 헤비하냐 아니면 라이트하냐하는, 
+              느낌의 차이가 있었다. 이는 리듬, 모드, 연주, 가사 내용등의 차이에서 기인하는 것이다. 킹크림즌이나 VDGG가 70년대 중반에 보여준 
+              원시적인 에너지와 젠틀 자이언트, 르네상스의 분위기를 비교하면 쉽게 알 수 있다.
+            </p>
 
-                  {/* Style 3 */}
-                  <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-                    <h4 className="font-bold text-lg mb-3">3. Moody Blues, Procol Harum, Pink Floyd, Nice</h4>
-                    <p className="text-sm leading-relaxed">
-                      위의 두 부류에 비해 후기 비틀즈 영향을 더 많이 받은 부류이다. 후기 비틀즈는 실제로 거의 사이키델릭 밴드가 되어 있었으며 
-                      (바르토크나 스톡하우젠의 영향하에) 아방가르드 스타일도 채용하고 있었다. (She's leaving home을 들어보라. 
-                      실제로 비틀즈의 서전트 페퍼 앨범의 커버에는 쉬톡하우젠의 얼굴이 나온다.)
-                    </p>
-                    <p className="text-sm leading-relaxed mt-4">
-                      앨범의 마지막 부분에서 들려오는 앨범 첫곡서부터 끄트머리까지의 재현과, 환상적인 테이프 이펙트에 의한 곡과 곡간의 연결, 
-                      무엇보다도 한가지 컨셉에 의한 앨범 구성으로 인해 서전트 페퍼는 최초의 컨셉트 앨범으로 평가되고 있으며 
-                      이는 19세기 초의 클래식 음악가인 슈만이나 슈베르트까지 거슬러 올라가는 서양 고전 음악의 전통과 닿아 있다. 
-                      이것이 비평가들이 서전트 페퍼 앨범의 컨셉튜얼한 구조를 "클래식"하다고 말하는 이유이다.
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <p>
+              이쯤에서 프로그레시브 록이라는 용어에 대해 언급하는 게 좋겠다. 60년대 중반 혹은 후반까지 이 단어는 언더그라운드 라디오 방송국들에 
+              의하여 사이키델릭을 칭하는 말로 통했다. 그러나 70년대 들어 이 단어는 좀 더 구체적인 의미를 띠게 된다. 주로 클래식 음악과 연관된 
+              요소들을 차용을 통해 스타일(장편의, 구조적인 작품의 형식을 통해) 이나 개념적(서사적인 주제를 사용한다는 점에서) 인 측면에서 록의 
+              경계를 넓히려는 음악을 칭하는 단어가 되었다. 69년 캐러밴의 데뷔 앨범의 이너 노트에 이 단어가 이러한 좀더 명확한 의미로 사용된다. 
+              "...세련된 하모니와 별난 박자 기호의 사용을 통해 전통적 팝 음악의 제한으로부터 자유로워진 밴드이다..."
+            </p>
 
-              {/* Progressive Rock Formation */}
-              <div className="space-y-4">
-                <h3 className="text-xl font-bold text-[#0000AA] border-b-2 border-[#0000AA] pb-2">프로그레시브 록의 형성</h3>
-                
-                <div className="bg-purple-50 p-6 rounded-lg">
-                  <h4 className="font-bold text-lg mb-3">King Crimson의 충격</h4>
-                  <p className="text-sm leading-relaxed">
-                    특히 킹 크림즌의 데뷔 앨범 In the Court of the Crimson King은 발생기에 있는 프로그레시브 록의 움직임에 강한 충격을 주었다. 
-                    아마 프로그레시브 록 앨범 중 가장 영향력 있는 앨범이라 해도 과언이 아닐 것이다. 예스, VDGG, 제쓰로 툴의 데뷔 앨범이 
-                    완전히 성숙한 음악적 비전을 제시하지는 못한데 비해 킹 크림즌의 음악은 프로그레시브 록의 완숙기에 볼 수 있는 모든 주요 요소들을 보여준다.
-                  </p>
-                </div>
+            <p>
+              클래시컬 록이라는 단어와 아트록이라는 단어가 쓰이기도 하는데, 클래시컬 록은 이 장르의 음악에서 사용되는 비 클래식적인 요소를 배제하는 
+              효과를 가진다는 점에서 부적절하고, 아트록은 데이빗 보위나 록시 뮤직이 구사했던 매우 연극적이고 글램록의 아류로 분류되는 음악도 
+              아트록이라고 불린다는 점에서 혼동을 초래한다. (롤링 스톤즈 지(紙)의 Encyclopedia of Rock and Roll 447-448에 자세한 설명이 나와 있다-역자주)
+            </p>
 
-                <div className="bg-indigo-50 p-6 rounded-lg">
-                  <h4 className="font-bold text-lg mb-3">1세대와 2세대의 구분</h4>
-                  <p className="text-sm leading-relaxed">
-                    프로그레시브 록의 1세대와 2세대는 그 시기와 스타일에 있어 확연히 구분된다. 무디 블루스와 프로콜 하럼, 나이스는 
-                    그들의 대표작 대부분을 67년에서 71년사이에 발표하였다. 2세대 밴드들은 대부분의 대표작을 영국 프로그레시브 록의 황금기라 할 
-                    71년에서 76년사이에 발표한다. 오직 핑크 플로이드만이 1세대와 2세대를 가로질러 활동한 밴드이다.
-                  </p>
-                </div>
-              </div>
+            <p>
+              프로그레시브 록의 1세대와 2세대는 그 시기와 스타일에 있어 확연히 구분된다. 무디 블루스와 프로콜 하럼, 나이스는 그들의 대표작 대부분을 
+              67년에서 71년사이에 발표하였다. 2세대 밴드들은 대부분의 대표작을 영국 프로그레시브 록의 황금기라 할 71년에서 76년사이에 발표한다. 
+              오직 핑크 플로이드만이 1세대와 2세대를 가로질러 활동한 밴드이다. 이또한 2세대 스타일을 많이 흡수하였기 때문에 가능한 일이었다.
+            </p>
 
-              {/* Author Information */}
-              <div className="mt-8 p-6 bg-gray-100 rounded-lg">
-                <h4 className="font-bold text-lg mb-3">원저 정보</h4>
-                <div className="text-sm space-y-2">
-                  <p><strong>원저:</strong> Rocking the Classics : English Progressive Rock and the Counterculture</p>
-                  <p><strong>출판:</strong> Paperback (November 1996) Oxford Univ Pr (Trade)</p>
-                  <p><strong>ISBN:</strong> 0195098889</p>
-                  <p><strong>저자:</strong> Edward L. Macan</p>
-                </div>
-              </div>
-            </div>
+            <p>
+              순수히 음악적 측면만 살펴보더라도 1세대와 2세대는 많이 다르다. 모든 면에서 더 복잡하고 더 기념비적인 작품이 많이 생산되었다. 
+              곡의 길이가 길어졌고, 형식적인 계획이 더 많이 세워졌고, 전통적인 "노래"형식은 더 지양되었다. 연주에 있어서의 묘기가 더 강조되었고, 
+              화성적인 문법과 곡의 짜임새가 더 복잡해졌다. 다운비트를 쓰긴 했지만 주로 네박자 속에서 연주하던 1세대에 비해 2세대는 더 복잡한 
+              박자 구성을 가지며 싱코페이션이 많이 사용된다. 후퇴한 부분은 악기 제작 기술과 녹음 기술의 발전에도 불구하고 전자 음향 사용이 
+              축소되었다는 점이다. 이는 핑크 플로이드와 소프트 머쉰, 에그의 작품을 들어보면 알 수 있다.
+            </p>
 
-            {/* Navigation */}
-            <div className="mt-8 text-center">
-              <Link
-                href="/misc"
-                className="inline-flex items-center px-6 py-3 bg-[#0000AA] text-white font-medium rounded-md hover:bg-[#0000AA]/90 transition-colors"
-              >
-                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-                </svg>
-                기타 정보로 돌아가기
-              </Link>
-            </div>
+            <p>
+              1세대와 2세대를 구분 짓는 또 다른 중요한 포인트는 그들의 음악이 펼쳐진 공간의 차이이다. 1세대 밴드들은 주로 영국 남부의 소도시 
+              클럽에서 활동하였고, 연주 공간에서의 청중과의 관계는 무척 가까웠다. 2세대 밴드들 역시 시작은 이런 소규모 클럽에서 했지만 70년대를 
+              넘어서면서 클럽 활동이 밴드의 수입원으로서의 역할을 못하는 한계상황에 이르면서 앨범을 팔기 위한 대규모 콘서트 투어를 통해 관객과 
+              만나게 된다. 투어 코스는 관객이 많은 북미 지역으로 늘려졌으며, 유명 밴드의 공연은 스타디움이나 운동장 같은 대형 무대에서 이루어지게 된다. 
+              헨리카우나 VDGG 같이 미국 연주 여행을 할 수도 없고 하기도 원치 않았던 밴드들은 그 음악성에 관계없이 그 중요성이 약한 것으로 비쳤다.
+            </p>
+
+            <p>
+              이러한 대형 무대에서의 공연은 당연하게도 관객과의 긴밀한 관계를 약화시켰으며, 밴드들은 그들이 자라난 토양이 되었던 하위 문화의 접촉으로부터 
+              점차 차단되었다. 프로그레시브 록의 황금기의 시작인 71년 당시만 해도 이 음악의 연주자와 청중은 음악적 취향은 달라도 라이프 스타일과 
+              세계관을 공유하며 하나로 뭉칠 수 있었지만 76년에 즈음해서는 관객과 연주자가 서로 다른 라이프 스타일과 세계관을 갖고 있는 상황이 되었다. 
+              이러한 상황에서 밴드들은 레코드 회사와 흥행 에이전트들의 요청대로 음악을 만들 수밖에 없었으며, 필연적으로 프로그레시브 록의 쇠퇴를 
+              가져오게 된 것이다.
+            </p>
+          </div>
+        </div>
+
+        {/* Navigation */}
+        <div className="flex justify-between items-center mt-12">
+          <Link 
+            href="/misc/chapters" 
+            className="inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
+          >
+            <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+            Chapters 목록
+          </Link>
+          
+          <Link 
+            href="/misc" 
+            className="inline-flex items-center px-4 py-2 bg-gray-500 text-white rounded-md hover:bg-gray-600 transition-colors"
+          >
+            Misc 메인으로
+          </Link>
+        </div>
+
+        {/* Source Info */}
+        <div className="mt-8 pt-6 border-t border-gray-300 text-center">
+          <div className="text-sm text-gray-600">
+            <p>원저: Rocking the Classics: English Progressive Rock and the Counterculture</p>
+            <p>Paperback (November 1996) Oxford Univ Pr (Trade)</p>
+            <p>ISBN: 0195098889</p>
+            <p>저자: Edward L. Macan</p>
           </div>
         </div>
       </div>

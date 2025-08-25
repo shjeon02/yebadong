@@ -30,23 +30,10 @@ export default function MiscPage() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-3">
-                  <Link href="/misc/ch1" className="block p-3 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
-                    <span className="font-semibold text-primary">1장</span> 프로그레시브락의 탄생 (The Birth of Progressive Rock)
-                  </Link>
-                  <Link href="/misc/ch2" className="block p-3 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
-                    <span className="font-semibold text-primary">2장</span> 프로그레시브락의 스타일: 음악 (The Progressive Rock Style: The Music)
-                  </Link>
-                  <Link href="/misc/ch5" className="block p-3 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
-                    <span className="font-semibold text-primary">5장</span> 네 개의 다른 프로그레시브 락 작품들 (Four Different Progressive Rock Pieces)
-                  </Link>
-                  <Link href="/misc/ch6" className="block p-3 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
-                    <span className="font-semibold text-primary">6장</span> 관련 음악 양식들 (Related Styles)
-                  </Link>
-                  <Link href="/misc/ch7" className="block p-3 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
-                    <span className="font-semibold text-primary">7장</span> 프로그레시브 락의 사회학 (A Sociology of Progressive Rock)
-                  </Link>
-                  <Link href="/misc/ch8" className="block p-3 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
-                    <span className="font-semibold text-primary">8장</span> 프로그레시브 락의 비평적 수용 (The Critical Reception of Progressive Rock)
+                  <Link href="/misc/chapters" className="block p-4 bg-blue-50 border border-blue-200 rounded-md hover:border-blue-300 transition-colors hover:bg-blue-100">
+                    <div className="font-semibold text-blue-800 mb-1">📚 Rocking the Classics 번역 모음</div>
+                    <div className="text-sm text-blue-600">Edward Macan의 프로그레시브 록 학술서 번역</div>
+                    <div className="text-xs text-green-600 mt-2">✓ Chapter 1-2 복원됨</div>
                   </Link>
                 </div>
                 <div className="flex justify-center">
