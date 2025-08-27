@@ -8,20 +8,20 @@ export const metadata: Metadata = {
 
 export default function ChaptersPage() {
   return (
-    <main className="min-h-screen bg-surface text-primary">
+    <main className="min-h-screen bg-white text-gray-900">
       <div className="container mx-auto px-4 py-8">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold mb-4 text-primary">Rocking the Classics</h1>
-          <p className="text-lg text-muted mb-2">English Progressive Rock and the Counterculture</p>
-          <p className="text-base text-muted">by Edward L. Macan (Oxford University Press, 1997)</p>
+          <h1 className="text-4xl font-bold mb-4 text-gray-900">Rocking the Classics</h1>
+          <p className="text-lg text-gray-600 mb-2">English Progressive Rock and the Counterculture</p>
+          <p className="text-base text-gray-600">by Edward L. Macan (Oxford University Press, 1997)</p>
         </div>
         
         <div className="max-w-4xl mx-auto">
           
           {/* Book Info */}
-          <div className="bg-surface-subtle border border-muted rounded-lg p-6 mb-8">
-            <h2 className="text-2xl font-semibold text-primary mb-4">책 소개</h2>
-            <div className="prose prose-blue max-w-none text-muted">
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-8">
+            <h2 className="text-2xl font-semibold text-gray-900 mb-4">책 소개</h2>
+            <div className="prose prose-blue max-w-none text-gray-600">
               <p className="mb-4">
                 미국의 음악학자 에드워드 매컨(Edward L. Macan)이 저술한 프로그레시브 록에 대한 학술적 연구서입니다. 
                 1960년대 중반부터 1970년대 중반까지 영국을 중심으로 발전한 프로그레시브 록을 당시의 사회문화적 맥락에서 분석한 작품입니다.
@@ -34,21 +34,21 @@ export default function ChaptersPage() {
           </div>
 
           {/* Chapters List */}
-          <div className="bg-surface-subtle border border-muted rounded-lg p-6 mb-8">
-            <h2 className="text-2xl font-semibold text-primary mb-6">번역 목록</h2>
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-8">
+            <h2 className="text-2xl font-semibold text-gray-900 mb-6">번역 목록</h2>
             
             <div className="grid gap-4">
               
               {/* Chapter 1 */}
               <Link 
                 href="/misc/chapters/ch1" 
-                className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover"
+                className="block p-4 bg-white border border-gray-200 rounded-md hover:border-blue-300 transition-colors hover:bg-gray-50"
               >
                 <div className="flex items-start justify-between">
                   <div>
-                    <h3 className="font-semibold text-primary mb-1">1장 - 프로그레시브락의 탄생</h3>
-                    <p className="text-sm text-muted mb-2">The Birth of Progressive Rock</p>
-                    <p className="text-xs text-muted">
+                    <h3 className="font-semibold text-gray-900 mb-1">1장 - 프로그레시브락의 탄생</h3>
+                    <p className="text-sm text-gray-600 mb-2">The Birth of Progressive Rock</p>
+                    <p className="text-xs text-gray-500">
                       1960년대 하위문화의 등장과 사이키델릭에서 프로그레시브 록으로의 발전 과정
                     </p>
                   </div>
@@ -61,13 +61,13 @@ export default function ChaptersPage() {
               {/* Chapter 2 */}
               <Link 
                 href="/misc/chapters/ch2" 
-                className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover"
+                className="block p-4 bg-white border border-gray-200 rounded-md hover:border-blue-300 transition-colors hover:bg-gray-50"
               >
                 <div className="flex items-start justify-between">
                   <div>
-                    <h3 className="font-semibold text-primary mb-1">2장 - 프로그레시브락의 스타일: 음악</h3>
-                    <p className="text-sm text-muted mb-2">The Progressive Rock Style: The Music</p>
-                    <p className="text-xs text-muted">
+                    <h3 className="font-semibold text-gray-900 mb-1">2장 - 프로그레시브락의 스타일: 음악</h3>
+                    <p className="text-sm text-gray-600 mb-2">The Progressive Rock Style: The Music</p>
+                    <p className="text-xs text-gray-500">
                       프로그레시브 록의 음악적 특징과 구조적 분석
                     </p>
                   </div>
@@ -80,13 +80,13 @@ export default function ChaptersPage() {
               {/* Chapter 5 */}
               <Link 
                 href="/misc/chapters/ch5" 
-                className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover"
+                className="block p-4 bg-white border border-gray-200 rounded-md hover:border-blue-300 transition-colors hover:bg-gray-50"
               >
                 <div className="flex items-start justify-between">
                   <div>
-                    <h3 className="font-semibold text-primary mb-1">5장 - 네 개의 다른 프로그레시브 락 작품들</h3>
-                    <p className="text-sm text-muted mb-2">Four Different Progressive Rock Pieces</p>
-                    <p className="text-xs text-muted">
+                    <h3 className="font-semibold text-gray-900 mb-1">5장 - 네 개의 다른 프로그레시브 락 작품들</h3>
+                    <p className="text-sm text-gray-600 mb-2">Four Different Progressive Rock Pieces</p>
+                    <p className="text-xs text-gray-500">
                       ELP Tarkus, Yes Close to the Edge, Genesis Firth of Fifth, Pink Floyd Wish You Were Here 분석
                     </p>
                   </div>
@@ -96,28 +96,119 @@ export default function ChaptersPage() {
                 </div>
               </Link>
 
-              {/* Chapters 6-8 */}
-              <div className="border border-yellow-300 rounded-md p-4 bg-yellow-50">
-                <h3 className="font-semibold text-yellow-800 mb-2">6-8장 (리베로님 번역)</h3>
-                <div className="space-y-2 text-sm text-yellow-700">
-                  <p>• 6장 - 관련 음악 양식들 (Related Styles)</p>
-                  <p>• 7장 - 프로그레시브 락의 사회학 (A Sociology of Progressive Rock)</p>
-                  <p>• 8장 - 프로그레시브 락의 비평적 수용 (The Critical Reception of Progressive Rock)</p>
-                </div>
-                <p className="text-xs text-yellow-600 mt-3">
-                  ※ 해당 장들은 다른 번역자에 의해 번역되어 복원 예정입니다.
+                        {/* Chapter 6 */}
+          <Link
+            href="/misc/chapters/ch6"
+            className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover"
+          >
+            <div className="flex items-start justify-between">
+              <div>
+                <h3 className="font-semibold text-primary mb-1">6장 - 관련 음악 양식들</h3>
+                <p className="text-sm text-muted mb-2">Related Styles</p>
+                <p className="text-xs text-muted">
+                  블루스, 포크, 재즈, 클래식과의 관계. 심포닉 록, 아트 록, 크라우트 록, 캔터베리 사운드
                 </p>
               </div>
-
-              {/* Missing Chapters */}
-              <div className="border border-gray-300 rounded-md p-4 bg-gray-50">
-                <h3 className="font-semibold text-gray-600 mb-2">미번역 장</h3>
-                <div className="space-y-1 text-sm text-gray-500">
-                  <p>• 3장 - The Progressive Rock Style: The Visuals</p>
-                  <p>• 4장 - The Progressive Rock Style: The Lyrics</p>
-                  <p>• 9장 - The Progressive Rock after 1976</p>
-                </div>
+              <div className="ml-4">
+                <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">번역: 리베로</span>
               </div>
+            </div>
+          </Link>
+
+          {/* Chapter 7 */}
+          <Link
+            href="/misc/chapters/ch7"
+            className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover"
+          >
+            <div className="flex items-start justify-between">
+              <div>
+                <h3 className="font-semibold text-primary mb-1">7장 - 프로그레시브 락의 사회학</h3>
+                <p className="text-sm text-muted mb-2">A Sociology of Progressive Rock</p>
+                <p className="text-xs text-muted">
+                  중산층 지식인 배경, 영국 남동부 문화, 미국에서의 상업적 성공, 클래식/록 융합의 사회학
+                </p>
+              </div>
+              <div className="ml-4">
+                <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">번역: 리베로</span>
+              </div>
+            </div>
+          </Link>
+
+          {/* Chapter 8 */}
+          <Link 
+            href="/misc/chapters/ch8" 
+            className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover"
+          >
+            <div className="flex items-start justify-between">
+              <div>
+                <h3 className="font-semibold text-primary mb-1">8장 - 프로그레시브 락의 비평적 수용</h3>
+                <p className="text-sm text-muted mb-2">The Critical Reception of Progressive Rock</p>
+                <p className="text-xs text-muted">
+                  초기 찬사에서 펑크의 반발, 그리고 현대적 재평가까지. 프로그레시브 락 비평사의 변천
+                </p>
+              </div>
+              <div className="ml-4">
+                <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">번역: 리베로</span>
+              </div>
+            </div>
+          </Link>
+
+              {/* Chapter 3 - Untranslated */}
+              <Link 
+                href="/misc/chapters/ch3" 
+                className="block p-4 bg-gray-50 border border-gray-300 rounded-md hover:border-gray-400 transition-colors hover:bg-gray-100"
+              >
+                <div className="flex items-start justify-between">
+                  <div>
+                    <h3 className="font-semibold text-gray-700 mb-1">3장 - 프로그레시브 락 스타일: 시각적 요소들</h3>
+                    <p className="text-sm text-gray-600 mb-2">The Progressive Rock Style: The Visuals</p>
+                    <p className="text-xs text-gray-500">
+                      앨범 커버 아트, 무대 연출, 의상 등 프로그레시브 락의 시각적 측면 분석
+                    </p>
+                  </div>
+                  <div className="ml-4">
+                    <span className="text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded">미번역</span>
+                  </div>
+                </div>
+              </Link>
+
+              {/* Chapter 4 - Untranslated */}
+              <Link 
+                href="/misc/chapters/ch4" 
+                className="block p-4 bg-gray-50 border border-gray-300 rounded-md hover:border-gray-400 transition-colors hover:bg-gray-100"
+              >
+                <div className="flex items-start justify-between">
+                  <div>
+                    <h3 className="font-semibold text-gray-700 mb-1">4장 - 프로그레시브 락 스타일: 가사</h3>
+                    <p className="text-sm text-gray-600 mb-2">The Progressive Rock Style: The Lyrics</p>
+                    <p className="text-xs text-gray-500">
+                      문학적 영향, 철학적 주제, 서사적 구조 등 프로그레시브 락 가사의 특징
+                    </p>
+                  </div>
+                  <div className="ml-4">
+                    <span className="text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded">미번역</span>
+                  </div>
+                </div>
+              </Link>
+
+              {/* Chapter 9 - Untranslated */}
+              <Link 
+                href="/misc/chapters/ch9" 
+                className="block p-4 bg-gray-50 border border-gray-300 rounded-md hover:border-gray-400 transition-colors hover:bg-gray-100"
+              >
+                <div className="flex items-start justify-between">
+                  <div>
+                    <h3 className="font-semibold text-gray-700 mb-1">9장 - 1976년 이후의 프로그레시브 락</h3>
+                    <p className="text-sm text-gray-600 mb-2">Progressive Rock after 1976</p>
+                    <p className="text-xs text-gray-500">
+                      펑크의 충격, 네오 프로그레시브의 등장, 글로벌 확산과 현대적 발전
+                    </p>
+                  </div>
+                  <div className="ml-4">
+                    <span className="text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded">미번역</span>
+                  </div>
+                </div>
+              </Link>
 
             </div>
           </div>
@@ -157,7 +248,7 @@ export default function ChaptersPage() {
         <div className="text-center">
           <Link 
             href="/misc" 
-            className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:bg-primary/90 transition-colors"
+            className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition-colors"
           >
             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
