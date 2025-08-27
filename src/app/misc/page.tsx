@@ -19,9 +19,6 @@ export default function MiscPage() {
           
           {/* Misc Information Section */}
           <div className="bg-surface-subtle border border-muted rounded-lg p-8">
-            <h2 className="text-2xl font-semibold text-primary mb-6 text-center border-b border-muted pb-4">
-              Auxiliary Information
-            </h2>
             
             {/* Rocking the Classics Section */}
             <div className="mb-8">

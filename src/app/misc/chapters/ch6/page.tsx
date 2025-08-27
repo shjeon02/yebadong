@@ -217,10 +217,11 @@ export default function Chapter6Page() {
                       <div className="bg-white p-3 rounded border border-teal-100">
                         <h4 className="font-semibold text-teal-700 mb-1">🎹 Soft Machine</h4>
                         <ul className="text-xs text-teal-600 space-y-1">
-                          <li>• William S. Burroughs의 SF 여행담에서 이름 유래</li>
+                          <li>• William S. Burroughs의 포르노그래피적 SF 여행담에서 이름 유래</li>
                           <li>• 영국 재즈락 연주 방식 확립에 특히 영향</li>
                           <li>• <em>Third</em>와 <em>Fourth</em> 앨범 (1970-71)이 대표작</li>
                           <li>• 이상한 구조, 느긋한 템포, 밀도있고 복잡한 전개</li>
+                          <li>• 싸이키델릭 유산과 전위적 전자음악에의 관심</li>
                         </ul>
                       </div>
                       
@@ -231,13 +232,269 @@ export default function Chapter6Page() {
                           <li>• 1960년대 말 첫 앨범 발매</li>
                           <li>• 1980년대 초반까지 활동</li>
                           <li>• 팝송에의 강한 관심 유지</li>
+                          <li>• 데뷔 앨범은 Yes, Genesis와 유사한 포크/락/클래식 퓨전</li>
                         </ul>
+                      </div>
+                    </div>
+
+                    {/* Extended Canterbury Bands */}
+                    <div className="bg-white p-3 rounded border border-teal-100 mt-3">
+                      <h4 className="font-semibold text-teal-700 mb-2">🎵 확장된 캔터베리 패밀리</h4>
+                      <div className="grid md:grid-cols-3 gap-2">
+                        <div className="text-xs text-teal-600">
+                          <p className="font-medium">직계 후손들:</p>
+                          <ul className="space-y-1">
+                            <li>• <strong>Gong</strong> - Daevid Allen</li>
+                            <li>• <strong>Matching Mole</strong> - Robert Wyatt</li>
+                            <li>• <strong>Soft Heap</strong> - Soft Machine 부산물</li>
+                            <li>• <strong>Quiet Sun</strong></li>
+                          </ul>
+                        </div>
+                        <div className="text-xs text-teal-600">
+                          <p className="font-medium">키보드 중심:</p>
+                          <ul className="space-y-1">
+                            <li>• <strong>Egg</strong> - Dave Stewart</li>
+                            <li>• <strong>Hatfield and the North</strong></li>
+                            <li>• <strong>National Health</strong></li>
+                            <li>• <strong>Gilgamesh</strong> - Alan Gowen</li>
+                          </ul>
+                        </div>
+                        <div className="text-xs text-teal-600">
+                          <p className="font-medium">특이 케이스:</p>
+                          <ul className="space-y-1">
+                            <li>• <strong>Henry Cow</strong> - 극도로 복잡</li>
+                            <li>• <strong>Bruford</strong> - 후기 캔터베리</li>
+                            <li>• <strong>Ian Carr's Nucleus</strong></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Canterbury Style Evolution */}
+                    <div className="bg-amber-50 p-3 rounded border border-amber-200 mt-3">
+                      <h4 className="font-semibold text-amber-800 mb-2">📈 캔터베리 스타일의 진화</h4>
+                      <div className="text-xs text-amber-700 space-y-2">
+                        <p>
+                          <strong>1960년대 말:</strong> 초기 캔터베리 밴드들은 서로 매우 다른 사운드를 가졌다. 
+                          Soft Machine은 완전한 연주 밴드였지만, Caravan은 팝송 중심이었다.
+                        </p>
+                        <p>
+                          <strong>1970년대 중반:</strong> 더욱 쉽게 인식할 수 있는 "캔터베리 스타일"이 나타났다. 
+                          절충적이고 변덕스러운 하드퓨전, 프로그레시브 락, 그리고 캔터베리 유산의 융합.
+                        </p>
+                        <p>
+                          <strong>특징:</strong> 탁월한 퓨전 연주, 복잡한 편곡, 심오한 합주 상호작용, 
+                          전위적 전자음악 삽입부 강조.
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* Dave Stewart Quote */}
+                    <div className="bg-blue-50 p-3 rounded border border-blue-200 mt-3">
+                      <h4 className="font-semibold text-blue-800 mb-2">💬 Dave Stewart (Bruford 키보디스트)의 증언</h4>
+                      <blockquote className="text-xs text-blue-700 italic">
+                        "미국인에게, '락'이라는 말은 약간 다른 걸 의미하죠. 제가 락을 말할 때는, 비트 뮤직을 의미합니다. 
+                        드럼을 사용하는 것이죠. 사람들은 Bruford를 재즈라고 합니다. 우리들에게는 그건 락입니다. 
+                        우리들은 항상 재즈로 분류되는 것과 싸웁니다. 저는 재즈 뮤지션으로 분류되는 것을 싫어해요. 
+                        저는 락 뮤지션이길 좋아하죠. 그것이 제가 항상 그래왔던 겁니다. 
+                        제 의미는, 저는 별난 락 뮤지션이라는 겁니다."
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Jazz-Rock vs Progressive Rock Analysis */}
+                <div className="bg-indigo-50 p-4 rounded-lg border border-indigo-200 mt-6">
+                  <h3 className="text-lg font-semibold text-indigo-800 mb-3">🔍 재즈락 vs 프로그레시브 락 비교 분석</h3>
+                  <div className="text-sm text-indigo-700 space-y-3">
+                    <p>
+                      영국 프로그레시브 락은 그 시대 다른 어떤 장르보다도 더 재즈락과 밀접하다 
+                      (포크락의 가능한 예외를 가진다). 이것은 둘 다 그렇게 많은 공통된 양식상의 성향들을 가지기 때문이다.
+                    </p>
+
+                    <div className="grid md:grid-cols-2 gap-4">
+                      <div className="bg-white p-3 rounded border border-indigo-100">
+                        <h4 className="font-semibold text-indigo-700 mb-2">🤝 공통점</h4>
+                        <ul className="text-xs text-indigo-600 space-y-1">
+                          <li>• <strong>긴 곡들:</strong> 10분 이상의 연주곡 선호</li>
+                          <li>• <strong>박자상의 기교:</strong> 복잡한 리듬과 변박</li>
+                          <li>• <strong>긴 독주:</strong> 반복된 오스티나토 위의 솔로</li>
+                          <li>• <strong>기교적 연주:</strong> 높은 수준의 연주 실력 요구</li>
+                          <li>• <strong>재즈 영향:</strong> 유아기에 재즈로부터 영향</li>
+                        </ul>
+                      </div>
+                      
+                      <div className="bg-white p-3 rounded border border-indigo-100">
+                        <h4 className="font-semibold text-indigo-700 mb-2">🎯 차이점</h4>
+                        <ul className="text-xs text-indigo-600 space-y-1">
+                          <li>• <strong>기교 강조:</strong> 재즈락이 더 강한 기교 중심</li>
+                          <li>• <strong>클래식 영향:</strong> 프로그레시브 락이 더 강함</li>
+                          <li>• <strong>서정적 선율:</strong> 재즈락은 중시하지 않음</li>
+                          <li>• <strong>조밀함:</strong> 캔터베리 락의 특별한 조밀함</li>
+                          <li>• <strong>화성법:</strong> 재즈락은 더 반음계적, 프로그는 더 선법적</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    {/* Harmonic Differences */}
+                    <div className="bg-white p-3 rounded border border-indigo-100">
+                      <h4 className="font-semibold text-indigo-700 mb-2">🎼 화성적 차이점</h4>
+                      <div className="grid md:grid-cols-2 gap-3">
+                        <div className="text-xs text-indigo-600">
+                          <p className="font-medium">재즈락 화성법:</p>
+                          <ul className="space-y-1">
+                            <li>• 더욱 반음계적(chromatic)</li>
+                            <li>• 풍부하고 복잡한 화성</li>
+                            <li>• 9th, 11th, 13th 코드 활용</li>
+                            <li>• 변화된 음표들과 함께</li>
+                          </ul>
+                        </div>
+                        <div className="text-xs text-indigo-600">
+                          <p className="font-medium">프로그레시브 락 화성법:</p>
+                          <ul className="space-y-1">
+                            <li>• 더욱 선법적(modal)</li>
+                            <li>• 더욱 독점적으로 3화음적</li>
+                            <li>• 일반적으로 더욱 엄격</li>
+                            <li>• 교회 선법의 활용</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Musician Crossover */}
+                    <div className="bg-white p-3 rounded border border-indigo-100">
+                      <h4 className="font-semibold text-indigo-700 mb-2">🔄 뮤지션들의 교차 활동</h4>
+                      <div className="text-xs text-indigo-600 space-y-2">
+                        <p><strong>프로그레시브 → 재즈락:</strong></p>
+                        <ul className="space-y-1 ml-4">
+                          <li>• <strong>Bill Bruford</strong> (Yes, King Crimson → Bruford)</li>
+                          <li>• <strong>Patrick Moraz</strong> (Yes, Moody Blues → 솔로 퓨전 앨범)</li>
+                          <li>• <strong>Phil Collins</strong> (Genesis → Brand X 드러머)</li>
+                          <li>• <strong>Nick Mason</strong> (Pink Floyd → Gong 프로듀서)</li>
+                        </ul>
+                        <p><strong>재즈락 → 프로그레시브:</strong></p>
+                        <ul className="space-y-1 ml-4">
+                          <li>• <strong>Allan Holdsworth</strong> (캔터베리 → U.K.)</li>
+                          <li>• <strong>Richard Sinclair</strong> (Hatfield and the North → Camel)</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    {/* Audience and Commercial Differences */}
+                    <div className="bg-white p-3 rounded border border-indigo-100">
+                      <h4 className="font-semibold text-indigo-700 mb-2">👥 청중과 상업적 차이</h4>
+                      <div className="text-xs text-indigo-600 space-y-2">
+                        <p>
+                          <strong>프로그레시브 락:</strong> 거대한 청중, 연주회장과 스타디움 공연, 
+                          사치스런 스테이지 쇼, 대서양 횡단 공연
+                        </p>
+                        <p>
+                          <strong>재즈락/캔터베리:</strong> 상대적으로 작은 청중, 클럽과 작은 장소, 
+                          제한된 해외 공연 기회, 단순한 무대 연출
+                        </p>
+                        <p className="italic">
+                          예외: 초기 Soft Machine은 Mark Boyle의 혁신적인 라이트 쇼를 
+                          프랑스와 암스테르담에서 선보였다.
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
+
+                {/* Jazz Influence in Progressive Rock */}
+                <div className="bg-emerald-50 p-4 rounded-lg border border-emerald-200 mt-6">
+                  <h3 className="text-lg font-semibold text-emerald-800 mb-3">🎷 프로그레시브 락에서의 재즈 영향</h3>
+                  <div className="text-sm text-emerald-700 space-y-3">
+                    <p>
+                      어떤 재즈에서 파생된 성향들은 전 프로그레시브 락 운동에 스며들었다. 
+                      이러한 영향은 특정 악기나 연주법을 통해 구체적으로 나타났다.
+                    </p>
+
+                    <div className="grid md:grid-cols-2 gap-3">
+                      <div className="bg-white p-3 rounded border border-emerald-100">
+                        <h4 className="font-semibold text-emerald-700 mb-2">🥁 리듬적 영향</h4>
+                        <ul className="text-xs text-emerald-600 space-y-1">
+                          <li>• <strong>절분된 리듬:</strong> 긴박한 전진적 운동감 창조</li>
+                          <li>• <strong>아프리칸-아메리칸 리듬:</strong> 재즈 유산의 다른 표현</li>
+                          <li>• <strong>유럽 박자와의 융합:</strong> 복합적 리듬 구성법</li>
+                          <li>• <strong>복잡한 박자:</strong> 11, 13, 15화음의 활용</li>
+                        </ul>
+                      </div>
+                      
+                      <div className="bg-white p-3 rounded border border-emerald-100">
+                        <h4 className="font-semibold text-emerald-700 mb-2">🎵 선율적 영향</h4>
+                        <ul className="text-xs text-emerald-600 space-y-1">
+                          <li>• <strong>유니즌 연주:</strong> 들쑥날쑥한 선율적 악절</li>
+                          <li>• <strong>5음계적 외형:</strong> 펜타토닉 스케일 활용</li>
+                          <li>• <strong>평탄한 화음:</strong> 5화음과 7화음의 진행음 사용</li>
+                          <li>• <strong>모달 접근:</strong> 재즈 선법의 차용</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    {/* Specific Examples */}
+                    <div className="bg-white p-3 rounded border border-emerald-100">
+                      <h4 className="font-semibold text-emerald-700 mb-2">🎯 구체적 사례들</h4>
+                      <div className="text-xs text-emerald-600 space-y-2">
+                        <p>
+                          <strong>King Crimson - "21st-century Schizoid Man":</strong> 
+                          Mingus 같은 중간 연주 부분에서 재즈 영향을 명확히 보여준다.
+                        </p>
+                        <p>
+                          <strong>목관악기 그룹들:</strong> King Crimson, Gentle Giant, 
+                          Van Der Graaf Generator, Jethro Tull에서 재즈적 요소가 가장 분명하다.
+                        </p>
+                        <p>
+                          <strong>Ian Anderson (Jethro Tull):</strong> 
+                          플륫 스타일의 많은 수법들이 재즈 플륫티스트 Roland Kirk를 본받았다.
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* Free Jazz Influence */}
+                    <div className="bg-white p-3 rounded border border-emerald-100">
+                      <h4 className="font-semibold text-emerald-700 mb-2">🌪️ 프리 재즈의 영향</h4>
+                      <div className="text-xs text-emerald-600 space-y-2">
+                        <p>
+                          몇몇 프로그레시브 락 밴드들(King Crimson, Van der Graaf Generator, Henry Cow)의 
+                          색소폰 주자들은 1960년대 초반의 프리 재즈, 특히 Ornette Coleman의 영향을 받았다.
+                        </p>
+                        <div className="bg-gray-50 p-2 rounded">
+                          <p className="italic">
+                            <strong>Allan Moore의 분석:</strong> "프리 재즈의 생소함과 환상적인 요소들이 
+                            기묘한 느낌을 강화시키기 위해 결합했다... 이런 상상으로 의지하는 것은 
+                            오히려 임박한 운명의 '공포(gothic)'감에 얽매인다."
+                          </p>
+                        </div>
+                        <ul className="space-y-1">
+                          <li>• <strong>무조적 악절:</strong> 들쑥날쑥한 atonal한 분출</li>
+                          <li>• <strong>구조적 연결점:</strong> 예리한 느슨함에의 열정</li>
+                          <li>• <strong>환상적 요소:</strong> 기묘함과 gothic 감정 강화</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    {/* Technical Examples */}
+                    <div className="bg-white p-3 rounded border border-emerald-100">
+                      <h4 className="font-semibold text-emerald-700 mb-2">🔧 기술적 사례</h4>
+                      <div className="text-xs text-emerald-600">
+                        <p className="mb-2">
+                          <strong>Hugh Hopper (Soft Machine 베이시스트)의 증언:</strong>
+                        </p>
+                        <blockquote className="italic bg-gray-50 p-2 rounded">
+                          "Soft Machine의 Mike Ratledge는 'Slightly All the Time'과 
+                          'Out-Bloody-Rageous'와 같은 잘 편곡된 곡들에 대해, 11, 13, 그리고 15화음들을 제안했어요. 
+                          한 미국 뮤지션은 Ratledge의 악보에 대해 '당신들은 Einstein과 합쳤음에 틀림없다!'라고 덧붙였죠."
+                      </blockquote>
+                        <p className="mt-2">
+                          심지어 Third 앨범에서 Hopper 자신의 곡 "Facelift"는 거의 7화음이다.
+                        </p>
+                      </div>
+                    </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
             {/* Heavy Metal Section */}
             <div className="bg-white p-6 rounded-lg border border-gray-300 mb-8 mt-8">
@@ -463,18 +720,18 @@ export default function Chapter6Page() {
         {/* Navigation */}
         <div className="flex justify-between items-center mt-12">
           <div className="flex gap-2">
-            <Link 
-              href="/misc/chapters" 
+          <Link 
+            href="/misc/chapters" 
               className="px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600 transition-colors"
             >
               ← 목차
             </Link>
             <Link 
               href="/misc/chapters/ch5" 
-              className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
-            >
+            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+          >
               ← Chapter 5
-            </Link>
+          </Link>
           </div>
           
           <div className="text-sm text-gray-600">
