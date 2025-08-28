@@ -4,134 +4,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { useState, useMemo } from 'react';
 
-// 아트락 인덱스 데이터 (원본 1591줄 중 주요 항목들)
-const artrockIndex = [
-  // 한국
-  { artist: "NEXT", album: "The Being Live", type: "Review", issue: "09", page: "084", section: "한국" },
-  { artist: "김병덕", album: "새로운 삼부작", type: "Review", issue: "11", page: "046", section: "한국" },
-  { artist: "김병덕", album: "실험 2", type: "Review", issue: "03", page: "148", section: "한국" },
-  { artist: "多加美", album: "夢/崖", type: "Review", issue: "09", page: "075", section: "한국" },
-  { artist: "박상원", album: "초혼", type: "Review", issue: "04", page: "101", section: "한국" },
-  { artist: "정태춘", album: "무진 새노래", type: "Review", issue: "08", page: "070", section: "한국" },
-  { artist: "조윤", album: "뫼비우스의 띠", type: "Bio", issue: "12", page: "039", section: "한국" },
-  { artist: "조윤", album: "뫼비우스의 띠", type: "Review", issue: "11", page: "044", section: "한국" },
-  
-  // 숫자
-  { artist: "2066 & Then", album: "Reflections on the Future", type: "Review", issue: "06", page: "136", section: "숫자" },
-  { artist: "7 Days of a Life", album: "", type: "Review", issue: "04", page: "136", section: "숫자" },
-  { artist: "9:30 Fly", album: "", type: "Review", issue: "04", page: "124", section: "숫자" },
-  
-  // A
-  { artist: "A Pendi Pendi", album: "", type: "Review", issue: "08", page: "075", section: "A" },
-  { artist: "A to Auster", album: "", type: "Review", issue: "12", page: "063", section: "A" },
-  { artist: "A-Auster", album: "", type: "Bio", issue: "07", page: "013", section: "A" },
-  { artist: "Aardvark", album: "", type: "Bio", issue: "07", page: "014", section: "A" },
-  { artist: "Aardvark", album: "", type: "Review", issue: "10", page: "079", section: "A" },
-  { artist: "Abiogenesi", album: "", type: "Review", issue: "10", page: "082", section: "A" },
-  { artist: "Abissi Infiniti", album: "", type: "Bio", issue: "01", page: "091", section: "A" },
-  { artist: "Abissi Infiniti", album: "Tunnel", type: "Review", issue: "07", page: "167", section: "A" },
-  { artist: "Absolute Elsewhere", album: "In Search of Ancient Gods", type: "Review", issue: "04", page: "118", section: "A" },
-  { artist: "Abuelo, Miguel & Nada", album: "", type: "Review", issue: "10", page: "068", section: "A" },
-  { artist: "Academy", album: "", type: "Review", issue: "12", page: "081", section: "A" },
-  { artist: "Achim Reichel", album: "AR4", type: "Review", issue: "12", page: "079", section: "A" },
-  { artist: "Acqua Fragile", album: "", type: "Bio", issue: "01", page: "091", section: "A" },
-  { artist: "Aelian", album: "", type: "Bio", issue: "04", page: "024", section: "A" },
-  { artist: "Againcourt", album: "Fly Away", type: "Review", issue: "08", page: "061", section: "A" },
-  { artist: "Agamemnon", album: "Part 1+2", type: "Review", issue: "11", page: "078", section: "A" },
-  { artist: "Agnes Strange", album: "Strange Flavour", type: "Review", issue: "12", page: "064", section: "A" },
-  { artist: "Agora", album: "", type: "Bio", issue: "01", page: "092", section: "A" },
-  { artist: "Ahincourt", album: "Fly Away", type: "Review", issue: "12", page: "063", section: "A" },
-  { artist: "Aida", album: "", type: "Bio", issue: "01", page: "091", section: "A" },
-  { artist: "Akasha", album: "", type: "Review", issue: "09", page: "077", section: "A" },
-  { artist: "Akritas", album: "", type: "Review", issue: "09", page: "076", section: "A" },
-  { artist: "Aktuala", album: "", type: "Bio", issue: "01", page: "093", section: "A" },
-  { artist: "Albatros", album: "", type: "Bio", issue: "01", page: "093", section: "A" },
-  { artist: "Albatros", album: "Volo AZ 504", type: "Review", issue: "06", page: "151", section: "A" },
-  { artist: "Albatross", album: "", type: "Review", issue: "12", page: "081", section: "A" },
-  { artist: "Albergo Intergalattico Spaziale", album: "", type: "Review", issue: "08", page: "082", section: "A" },
-  { artist: "Albero Motore", album: "", type: "Bio", issue: "01", page: "094", section: "A" },
-  { artist: "Algaanas Tradgard", album: "Framitiden...", type: "Review", issue: "10", page: "076", section: "A" },
-  { artist: "Alice", album: "", type: "Bio", issue: "01", page: "094", section: "A" },
-  { artist: "Alice through Looking Glass", album: "", type: "Review", issue: "12", page: "064", section: "A" },
-  { artist: "All About Eve", album: "Scarlet and Other Stories", type: "Review", issue: "08", page: "066", section: "A" },
-  { artist: "Alleluia", album: "", type: "Bio", issue: "01", page: "095", section: "A" },
-  { artist: "Allier, Jean Christophe", album: "Ephhemeride", type: "Review", issue: "13", page: "089", section: "A" },
-  { artist: "Alluminio, Patrizio", album: "", type: "Bio", issue: "01", page: "095", section: "A" },
-  { artist: "Alluminogeni", album: "", type: "Bio", issue: "01", page: "095", section: "A" },
-  { artist: "Alpha-Omega", album: "A Life", type: "Review", issue: "11", page: "093", section: "A" },
-  { artist: "Alphataurus", album: "", type: "Bio", issue: "01", page: "097", section: "A" },
-  { artist: "Alphataurus", album: "", type: "Review", issue: "03", page: "147", section: "A" },
-  { artist: "Altered States", album: "Mosaic", type: "Review", issue: "11", page: "070", section: "A" },
-  { artist: "Alunni del Sole", album: "", type: "Bio", issue: "01", page: "096", section: "A" },
-  { artist: "Alusa Fallax", album: "", type: "Bio", issue: "01", page: "097", section: "A" },
-  { artist: "Alusa Fallax", album: "Intorno Alla Mia...", type: "Review", issue: "01", page: "173", section: "A" },
-  { artist: "Amaziah", album: "Straight Talker", type: "Review", issue: "12", page: "064", section: "A" },
-  { artist: "Amazing Blondel", album: "England", type: "Review", issue: "04", page: "117", section: "A" },
-  { artist: "Amber Route", album: "Ghost Tracks", type: "Review", issue: "10", page: "026", section: "A" },
-  { artist: "Amber Route", album: "Snail Headed Victoras", type: "Review", issue: "09", page: "079", section: "A" },
-  { artist: "Ambiziosi", album: "", type: "Bio", issue: "01", page: "098", section: "A" },
-  { artist: "Ame Son", album: "Catalyse", type: "Review", issue: "11", page: "076", section: "A" },
-  { artist: "Amenophis", album: "", type: "Review", issue: "02", page: "163", section: "A" },
-  { artist: "AMM", album: "", type: "Bio", issue: "07", page: "014", section: "A" },
-  { artist: "Amon Duul", album: "Paradies warts Duul", type: "Review", issue: "12", page: "076", section: "A" },
-  { artist: "Amos Key", album: "First Key", type: "Review", issue: "08", page: "080", section: "A" },
-  { artist: "Anacrusa", album: "Fuerza", type: "Review", issue: "09", page: "067", section: "A" },
-  { artist: "Analogy", album: "", type: "Bio", issue: "01", page: "098", section: "A" },
-  { artist: "Ancients", album: "", type: "Bio", issue: "01", page: "098", section: "A" },
-  { artist: "Andre, Fabrizio de", album: "", type: "Bio", issue: "02", page: "188", section: "A" },
-  { artist: "Andrews, Catherine", album: "Fruits", type: "Review", issue: "12", page: "065", section: "A" },
-  { artist: "Andromeda", album: "", type: "Review", issue: "08", page: "057", section: "A" },
-  { artist: "Andwella's Dream", album: "", type: "Bio", issue: "07", page: "015", section: "A" },
-  { artist: "Andwella's Dream", album: "Love and Poetry", type: "Review", issue: "08", page: "057", section: "A" },
-  { artist: "Anekdoten", album: "Nucleus", type: "Review", issue: "11", page: "072", section: "A" },
-  { artist: "Anekdoten", album: "Vemod", type: "Review", issue: "06", page: "091, 158", section: "A" },
-  { artist: "Ange", album: "Au-Dela du Delire", type: "Review", issue: "01", page: "168", section: "A" },
-  { artist: "Ange", album: "Au-Dela du Delire", type: "Review", issue: "06", page: "093", section: "A" },
-  { artist: "Ange", album: "Guet Apens", type: "Review", issue: "09", page: "083", section: "A" },
-  { artist: "Anglagad", album: "Epilog", type: "Review", issue: "09", page: "080", section: "A" },
-  { artist: "Anglagard", album: "", type: "Bio", issue: "04", page: "061", section: "A" },
-  { artist: "Anime", album: "", type: "Bio", issue: "01", page: "098", section: "A" },
-  { artist: "Anno Domini", album: "On this New Day", type: "Review", issue: "04", page: "122", section: "A" },
-  { artist: "Anonima Sound Ltd.", album: "", type: "Bio", issue: "01", page: "099", section: "A" },
-  { artist: "Antonius Rex", album: "", type: "Bio", issue: "01", page: "100", section: "A" },
-  { artist: "Antonius Rex", album: "Zora", type: "Review", issue: "07", page: "164", section: "A" },
-  
-  // B 섹션
-  { artist: "Babe Ruth", album: "First Base", type: "Review", issue: "08", page: "048", section: "B" },
-  { artist: "Bacamarte", album: "Depois do Film", type: "Review", issue: "07", page: "155", section: "B" },
-  { artist: "Banco", album: "1st + Darwin", type: "Review", issue: "01", page: "165", section: "B" },
-  { artist: "Banco", album: "Canto di Primavera", type: "Review", issue: "02", page: "143", section: "B" },
-  { artist: "Barclay James Harvest", album: "", type: "Bio", issue: "07", page: "043", section: "B" },
-  { artist: "Barclay James Harvest", album: "BJH and Other Stories", type: "Review", issue: "08", page: "048", section: "B" },
-  { artist: "Barclay James Harvest", album: "Once Again", type: "Review", issue: "08", page: "046", section: "B" },
-  { artist: "Barret, Syd", album: "Barret", type: "Review", issue: "08", page: "045", section: "B" },
-  { artist: "Barret, Syd", album: "The Madcap Laughs", type: "Review", issue: "07", page: "080", section: "B" },
-  { artist: "Beggars Opera", album: "", type: "Bio", issue: "12", page: "035", section: "B" },
-  { artist: "Beggars Opera", album: "Pathfinder", type: "Review", issue: "01", page: "170", section: "B" },
-  { artist: "Black Widow", album: "", type: "Bio", issue: "07", page: "016", section: "B" },
-  { artist: "Blocco Mentale", album: "", type: "Bio", issue: "02", page: "110", section: "B" },
-  { artist: "Blocco Mentale", album: "Poa", type: "Review", issue: "05", page: "120", section: "B" },
-  { artist: "Blocco Mentale", album: "Poa", type: "Review", issue: "06", page: "093", section: "B" },
-  
-  // C 섹션
-  { artist: "Camel", album: "", type: "Bio", issue: "08", page: "020", section: "C" },
-  { artist: "Camel", album: "Dust and Dreams", type: "Review", issue: "02", page: "141", section: "C" },
-  { artist: "Camel", album: "The Single Factor", type: "Review", issue: "04", page: "098", section: "C" },
-  { artist: "Can", album: "", type: "Bio", issue: "13", page: "102", section: "C" },
-  { artist: "Caravan", album: "", type: "Bio", issue: "13", page: "019", section: "C" },
-  { artist: "Carmen", album: "Dancing on Cold Wind", type: "Review", issue: "01", page: "165", section: "C" },
-  { artist: "Casa das Maquinas", album: "Casa de Rock", type: "Review", issue: "09", page: "081", section: "C" },
-  { artist: "Casa das Maquinas", album: "Lar de Maravihas", type: "Review", issue: "04", page: "124", section: "C" },
-  { artist: "Celeste", album: "", type: "Bio", issue: "03", page: "066", section: "C" },
-  { artist: "Celeste", album: "I Suoni in una Sfera", type: "Review", issue: "02", page: "181", section: "C" },
-  { artist: "Celeste", album: "Principe di un Giorno", type: "Review", issue: "03", page: "144", section: "C" },
-  { artist: "Circus", album: "Movin' on", type: "Review", issue: "06", page: "156", section: "C" },
-  { artist: "Clannad", album: "", type: "Review", issue: "06", page: "141", section: "C" },
-  { artist: "Comus", album: "First Utterance", type: "Review", issue: "08", page: "066", section: "C" },
-  { artist: "Comus", album: "First Utterance", type: "Review", issue: "09", page: "050", section: "C" },
-  { artist: "Cressida", album: "Asylum", type: "Review", issue: "03", page: "122", section: "C" },
-  { artist: "Curved Air", album: "", type: "Bio", issue: "11", page: "029", section: "C" },
-];
+// 아트락 인덱스 데이터 로딩 (완전판 1,399개 항목)
+import artrockIndex from './artrockData.js';
 
 export default function ArtrockPage() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -345,11 +219,11 @@ export default function ArtrockPage() {
             {/* Note */}
             <div className="mb-8 p-4 bg-amber-50 rounded-lg border-l-4 border-amber-400">
               <p className="text-amber-800">
-                <strong>참고:</strong> 이 인덱스는 정철님이 1997년에 작성한 아트락 매거진 1-13호의 완전한 인덱스입니다. 
-                원본 텍스트 파일에는 1,591줄에 달하는 상세한 아티스트별 인덱스가 포함되어 있었으며, 
-                이를 검색 가능한 형태로 복원했습니다. 각 항목은 아티스트명, 앨범/기사제목, 분류(Review/Bio), 
-                호수, 페이지 순으로 구성되어 있습니다. 현재 표시된 것은 대표적인 항목들이며, 
-                실제 원본에는 더 많은 데이터가 포함되어 있습니다.
+                <strong>완전 복원 완료:</strong> 이 인덱스는 정철님이 1997년에 작성한 아트락 매거진 1-13호의 
+                <strong>완전한 인덱스</strong>입니다. 원본 텍스트 파일 1,591줄에서 <strong>총 1,399개의 모든 항목</strong>을 
+                누락 없이 추출하여 검색 가능한 형태로 복원했습니다. 각 항목은 아티스트명, 앨범/기사제목, 
+                분류(Review/Bio), 호수, 페이지 순으로 구성되어 있으며, 한국부터 Z까지 모든 섹션의 
+                데이터가 완전히 포함되어 있습니다.
               </p>
             </div>
 
