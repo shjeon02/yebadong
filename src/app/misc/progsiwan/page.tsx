@@ -207,6 +207,240 @@ export default function ProgsiwanPage() {
               </div>
             </div>
 
+            {/* Album Jacket Art */}
+            <div className="mb-8">
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">프로그레시브의 재킷 예술</h3>
+              <div className="bg-amber-50 p-6 rounded-lg border-l-4 border-amber-400 space-y-4 text-amber-800">
+                <p>
+                  프로그레시브 음악에서 빼놓을 수 없는 것이 바로 <strong>재킷 디자인</strong>입니다. 
+                  단순한 디스크 보호가 아닌 음악을 보다 쉽게 이해시키는 또 하나의 레코드 예술로 부각되었습니다.
+                </p>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="bg-white p-4 rounded border border-amber-200">
+                    <h4 className="font-semibold text-amber-900 mb-2">🎨 재킷 디자인의 거장들</h4>
+                    <ul className="text-sm text-amber-700 space-y-1">
+                      <li>• <strong>Hipgnosis</strong> - 재킷 디자인의 최고봉</li>
+                      <li>• <strong>Roger Dean</strong> - Yes 전담 디자이너</li>
+                      <li>• 음악과 더불어 강한 개성 표현</li>
+                      <li>• 예술적 완성도와 상징성 추구</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white p-4 rounded border border-amber-200">
+                    <h4 className="font-semibold text-amber-900 mb-2">🎭 마스코트 문화</h4>
+                    <ul className="text-sm text-amber-700 space-y-1">
+                      <li>• <strong>Triumvirat</strong> - 생쥐(실험용 흰쥐)</li>
+                      <li>• <strong>Amon Duul</strong> - 들쥐(나그네쥐)</li>
+                      <li>• <strong>Henry Cow</strong> - 양말 한쪽(색상 변화)</li>
+                      <li>• <strong>Klaatu</strong> - 생쥐와 해, 우주</li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <div className="bg-white p-4 rounded border border-amber-200">
+                  <h4 className="font-semibold text-amber-900 mb-2">재킷이 재즈 문제였던 이유</h4>
+                  <p className="text-sm text-amber-700">
+                    재킷은 디스크 보호와 상업적인 목적으로 쓰이기 시작했지만, 
+                    프로그레시브 영역에서는 음악을 보다 쉽게 이해시키는 또 하나의 레코드 예술로 부각되었습니다. 
+                    Strawbs는 딸기를, Barclay James Harvest는 나비를 각각 마스코트로 사용하고 있습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Group Names */}
+            <div className="mb-8">
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">그룹명에 담긴 의미</h3>
+              <div className="bg-indigo-50 p-6 rounded-lg border-l-4 border-indigo-400 space-y-4 text-indigo-800">
+                <p>
+                  프로그레시브 그룹들의 이름에서는 <strong>민족적이며 국가적인 정체성</strong>을 느낄 수 있습니다.
+                </p>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="bg-white p-4 rounded border border-indigo-200">
+                    <h4 className="font-semibold text-indigo-900 mb-2">🇩🇪 독일 그룹들</h4>
+                    <ul className="text-sm text-indigo-700 space-y-1">
+                      <li>• <strong>Wallenstein</strong> - 30년 전쟁 당시 독일장군 이름</li>
+                      <li>• <strong>Hölderlin</strong> - 독일의 시인 이름</li>
+                      <li>• <strong>Faust</strong> - '주먹'이란 순수한 독일어</li>
+                      <li>• <strong>Popol Vuh</strong> - 남미 마야족의 종교에 관한 책 이름</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white p-4 rounded border border-indigo-200">
+                    <h4 className="font-semibold text-indigo-900 mb-2">🇮🇹 이탈리아 그룹들</h4>
+                    <ul className="text-sm text-indigo-700 space-y-1">
+                      <li>• <strong>Agora</strong> - 고대 그리스의 자유와 민주주의의 민중 광장</li>
+                      <li>• <strong>Banco Del Mutuo Soccorso</strong> - 공제를 위한 은행</li>
+                      <li>• <strong>Cervello</strong> - 두뇌</li>
+                      <li>• <strong>Latte E Miele</strong> - 젖과 꿀</li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <div className="bg-white p-4 rounded border border-indigo-200">
+                  <h4 className="font-semibold text-indigo-900 mb-2">🌍 기타 유럽 그룹들</h4>
+                  <div className="text-sm text-indigo-700 space-y-1">
+                    <p>• <strong>Twelfth Night</strong> (영국) - 셰익스피어의 동명 작품</p>
+                    <p>• <strong>Granada</strong> (스페인) - 스페인 남부의 수도</p>
+                    <p>• <strong>Machiavel</strong> (벨기에) - 이탈리아의 외교가이며 정치가</p>
+                    <p>• <strong>E.A. Poe</strong> (이탈리아) - 미국의 단편 소설 작가이며 시인 에드가 알란 포</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* National Classification */}
+            <div className="mb-8">
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">국가별 프로그레시브 분류</h3>
+              <div className="space-y-6">
+                
+                {/* Britain */}
+                <div className="bg-red-50 p-6 rounded-lg border-l-4 border-red-400">
+                  <h4 className="text-lg font-semibold text-red-800 mb-3">🇬🇧 영국 - 프로그레시브의 원산지</h4>
+                  <div className="text-red-700 space-y-3">
+                    <p>
+                      영국은 그야말로 <strong>프로그레시브 음악의 원산지</strong>라고 할 수 있습니다. 
+                      1960년대 초반부터 영국의 재즈 록은 서서히 프로그레시브 영역으로 뻗어나가기 시작했습니다.
+                    </p>
+                    
+                    <div className="bg-white p-4 rounded border border-red-200">
+                      <p className="text-sm">
+                        <strong>발달 과정:</strong> 1960년대 말에 와서 절정을 이루게 되고, 
+                        1970년대 중반부터는 서서히 침체되는 경향을 나타냅니다.
+                      </p>
+                    </div>
+                    
+                    <p className="text-sm">
+                      우리가 들을 수 있는 대개의 프로그레시브 그룹들이 영국 그룹들이며, 
+                      수많은 유럽국가들의 진보그룹들이 또한 영국의 진보그룹에게서 커다란 영향을 받았던 것이 사실입니다.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Germany */}
+                <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-400">
+                  <h4 className="text-lg font-semibold text-green-800 mb-3">🇩🇪 독일 - 신비주의와 전자음악</h4>
+                  <div className="text-green-700 space-y-3">
+                    <p>
+                      독일의 프로그레시브는 선조들의 민속음악과 클래식에 <strong>신비주의, 심층심리, 허무주의, 공상적인 요소</strong>를 
+                      가미시켰고, 여기에 1960년대 말의 미국과 영국의 록 그룹들의 영향, 마약문화의 영향을 받으면서 급성장했습니다.
+                    </p>
+                    
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                      <div className="bg-white p-3 rounded border border-green-200">
+                        <h5 className="font-semibold text-green-900 mb-1">Beat Group</h5>
+                        <p className="text-xs">영국과 미국의 사이키델릭 사운드에 영향을 받으며 베를린을 중심으로 1969~1972년까지 전성기</p>
+                      </div>
+                      <div className="bg-white p-3 rounded border border-green-200">
+                        <h5 className="font-semibold text-green-900 mb-1">Electronic Group</h5>
+                        <p className="text-xs">신시사이저를 중심으로 한 전자음악 그룹들의 발달</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Italy */}
+                <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-400">
+                  <h4 className="text-lg font-semibold text-blue-800 mb-3">🇮🇹 이탈리아 - 감성적 선율</h4>
+                  <div className="text-blue-700 space-y-3">
+                    <p>
+                      이탈리아는 독일과 함께 각각 <strong>백여개의 프로그레시브 그룹들</strong>을 갖고 있으며, 
+                      감성적이고 서정적인 선율로 독특한 개성을 보여주고 있습니다.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Other European Countries */}
+                <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-400">
+                  <h4 className="text-lg font-semibold text-purple-800 mb-3">🌍 기타 유럽 국가들</h4>
+                  <div className="text-purple-700">
+                    <p className="text-sm">
+                      프랑스와 스페인 등도 각각 백여개에 달하는 진보그룹들을 갖고 있으며, 
+                      캐나다, 벨기에, 스위스, 네덜란드, 그리스, 노르웨이, 덴마크, 스웨덴, 핀란드, 오스트리아 등등 
+                      여러 국가들도 진보그룹들을 많이 갖고 있습니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Commercial Success and Market Analysis */}
+            <div className="mb-8">
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">프로그레시브의 상업성과 시장 분석</h3>
+              <div className="bg-yellow-50 p-6 rounded-lg border-l-4 border-yellow-400 space-y-4 text-yellow-800">
+                <p>
+                  <strong>중요한 사실:</strong> 프로그레시브 음악이 결코 대중성이 전혀 없는 음악이 아니라는 것입니다.
+                </p>
+                
+                <div className="bg-white p-4 rounded border border-yellow-200">
+                  <h4 className="font-semibold text-yellow-900 mb-2">📈 1960년대 말 시장 성공</h4>
+                  <p className="text-sm text-yellow-700">
+                    1960년대 말 레코드 산업계에 불황기가 닥치기 시작했을 때, 
+                    <strong>영국의 대학가에서 프로그레시브 록 레코드가 큰 이익을 남겨주는 시장으로 등장</strong>함으로써 
+                    때아닌 지속적인 호황을 누렸습니다.
+                  </p>
+                  <p className="text-xs text-yellow-600 mt-2">
+                    (참고자료: Special Report "Gramophone Records" Retail Business P.159, [May.1971])
+                  </p>
+                </div>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="bg-white p-4 rounded border border-yellow-200">
+                    <h4 className="font-semibold text-yellow-900 mb-2">🏢 주요 레코드 레이블</h4>
+                    <ul className="text-sm text-yellow-700 space-y-1">
+                      <li>• <strong>Polydor</strong> - 1970년대 초반 최대의 Progressive label</li>
+                      <li>• <strong>Virgin</strong> - 1970년대 중반부터 새로운 이미지의 프로그레시브 영역 장악</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white p-4 rounded border border-yellow-200">
+                    <h4 className="font-semibold text-yellow-900 mb-2">🌏 미래 전망</h4>
+                    <p className="text-sm text-yellow-700">
+                      지금도 이 굴지의 회사들은 자신들의 나라를 더욱 부강하게 만들고 있습니다. 
+                      반도체만이 수출의 진로가 아니라 한국이 앞으로 낳을 프로그레시브 음악도 
+                      물질을 초월한 뜻깊은 예술의 수출이 될 수 있으리라 생각합니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Korean Music Future Vision */}
+            <div className="mb-8">
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">한국 음악의 미래 비전</h3>
+              <div className="bg-emerald-50 p-6 rounded-lg border-l-4 border-emerald-400 space-y-4 text-emerald-800">
+                <p>
+                  지금까지 다각적인 각도에서 프로그레시브라는 영역에 가까이 접근하려고 했지만 
+                  무엇보다 중요한 것은 <strong>프로그레시브라는 음악을 직접 듣고 느끼는 그 자체</strong>에 있다고 봅니다.
+                </p>
+                
+                <div className="bg-white p-4 rounded border border-emerald-200">
+                  <h4 className="font-semibold text-emerald-900 mb-2">현실과 한계</h4>
+                  <p className="text-sm text-emerald-700">
+                    불행한 것은 우리 레코드 시장에는 프로그레시브 계통의 음악이 거의 없다는 사실입니다. 
+                    우리 자체의 것도 거의 없을 뿐 아니라 남의 것도 잘 수입이 안되어 
+                    한마디로 우리에게는 <strong>미개척 예술로 머물러 있을 수 밖에 없습니다</strong>.
+                  </p>
+                </div>
+                
+                <div className="bg-white p-4 rounded border border-emerald-200">
+                  <h4 className="font-semibold text-emerald-900 mb-2">희망적 전망</h4>
+                  <p className="text-sm text-emerald-700">
+                    그때가 되면 여러분들이 지금 읽고 있는 이 책 전체를 우리들의 음악 이야기로 가득 채우게 될 것이며, 
+                    우리 음악을 자랑스럽게 소개하고 평론도 하게 되는 뜻깊은 장소도 수없이 세워질 수 있을 것으로 기대됩니다.
+                  </p>
+                </div>
+                
+                <p className="text-sm">
+                  앞으로는 그러한 편식적인 냉대가 차차 풀리리라 기대하며, 
+                  현재의 우리에게는 접할 수 있는 소수의 프로그레시브 음악만이라도 
+                  <strong>열심히 듣고, 느끼며, 평가하는 자세가 필요</strong>하다고 생각됩니다.
+                </p>
+              </div>
+            </div>
+
             {/* Conclusion */}
             <div className="mb-8">
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">결론</h3>
@@ -219,9 +453,10 @@ export default function ProgsiwanPage() {
                   </p>
                   
                   <p>
-                    비록 명확한 정의를 내리기는 어렵지만, 프로그레시브 음악이 가진 
-                    <strong>진보적이고 실험적인 정신</strong>은 지금도 많은 음악가들에게 영감을 주고 있으며, 
-                    음악의 경계를 넓혀가는 원동력이 되고 있습니다.
+                    2년동안 대중매체 속에서 프로그레시브 지향의 음악들을 소개하면서 뼈저리게 느낄 수 있었던 사실은 
+                    그동안 우리가 이러한 음악에 있어 너무 마음을 닫고 있었다는 점이었습니다. 
+                    그에 반해 일부 음악애호가들은 이러한 음악에 많은 관심을 갖고 대단한 열의를 쏟고 있다는 사실에 
+                    매우 반갑고 고맙기까지 했습니다.
                   </p>
                   
                   <div className="bg-white p-4 rounded border border-gray-300">
@@ -230,6 +465,22 @@ export default function ProgsiwanPage() {
                       - 성시완
                     </p>
                   </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Original Publication Info */}
+            <div className="mb-8">
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">원본 출처</h3>
+              <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-400 text-center">
+                <div className="space-y-2 text-blue-800">
+                  <p className="text-lg font-semibold">1984년 월간 팝송 6월호</p>
+                  <p className="text-base">"프로그레시브 그 신비를 벗긴다"</p>
+                  <p className="text-sm text-blue-600 mt-4">
+                    <strong>P.S.</strong> 성시완씨가 지금부터 10년전에 쓰신 글이긴 하지만,<br/>
+                    이 글을 보면서 그 당시에 비하면 지금의 프로그레시브에 대한 인식이<br/>
+                    많이... 아니, 많이는 아니더라도 조금은 변화했다는게 느껴지지 않으십니까...?
+                  </p>
                 </div>
               </div>
             </div>
