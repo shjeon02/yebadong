@@ -49,10 +49,35 @@ export default function FunPage() {
                 <div className="text-sm text-muted">1980년대 후반 영국 프로그 밴드들 소개</div>
               </Link>
               
-              <div className="block p-4 bg-gray-100 border border-gray-300 rounded-md opacity-60">
-                <div className="font-semibold text-gray-600 mb-1">More Content Coming...</div>
-                <div className="text-sm text-gray-500">추가 컨텐츠 복원 예정</div>
-              </div>
+              <Link href="/fun/essay2" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
+                <div className="font-semibold text-primary mb-1">Essay 2: Progressive Rock Style</div>
+                <div className="text-sm text-muted">프로그레시브 록 스타일 분류와 특징</div>
+              </Link>
+              
+              <Link href="/fun/essay3" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
+                <div className="font-semibold text-primary mb-1">Essay 3: 프로그레시브락이란 무엇인가?</div>
+                <div className="text-sm text-muted">음악학적 관점에서 본 프로그레시브 록</div>
+              </Link>
+              
+              <Link href="/fun/essay4" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
+                <div className="font-semibold text-primary mb-1">Essay 4: 한일 매니아들의 만남</div>
+                <div className="text-sm text-muted">월드컵 기념 한일 유러피안락 매니아 교류</div>
+              </Link>
+              
+              <Link href="/fun/essay5" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
+                <div className="font-semibold text-primary mb-1">Essay 5: Canterbury Family</div>
+                <div className="text-sm text-muted">캔터베리 패밀리의 역사와 계보</div>
+              </Link>
+              
+              <Link href="/fun/essay6" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
+                <div className="font-semibold text-primary mb-1">Essay 6: 영국 제2세대 Progressive Rock</div>
+                <div className="text-sm text-muted">Supernatural Fairytales - Art Rock의 시대</div>
+              </Link>
+              
+              <Link href="/fun/essay7" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
+                <div className="font-semibold text-primary mb-1">Essay 7: 피터 가브리엘의 Genesis 탈퇴</div>
+                <div className="text-sm text-muted">1975년 충격적인 발표와 Genesis의 미래</div>
+              </Link>
             </div>
           </div>
 
@@ -92,7 +117,7 @@ export default function FunPage() {
             <h3 className="text-lg font-semibold text-purple-800 mb-4 text-center">Fun Facts</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center text-sm">
               <div>
-                <div className="font-bold text-2xl text-purple-600">6+</div>
+                <div className="font-bold text-2xl text-purple-600">11</div>
                 <div className="text-purple-700">재미있는 포스트</div>
               </div>
               <div>
