@@ -1275,15 +1275,15 @@ export default function ProsConsPage() {
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <div className="text-center mb-4">
-                <div className="text-6xl mb-2">🐟</div>
-                <div className="text-sm text-gray-600 font-mono leading-relaxed">
-                  o<br/>
-                  o  It was a wedding ring,<br/>
-                  \  __\\___    o    Destined to be found in a cheap hotel,<br/>
-                  \/     o \ o      Lost in a kitchen sink,<br/>
-                  /\_&lt;_____/        Or thrown in a wishing well.<br/>
-                  /                  - Warm Wet Circles - Fish
+              <div className="mb-4">
+                <div className="text-6xl mb-2 text-center">🐟</div>
+                <div className="text-sm text-gray-600 font-mono leading-relaxed whitespace-pre overflow-x-auto">
+{`                    o               
+                  o  It was a wedding ring,
+  \\  __\\___    o    Destined to be found in a cheap hotel,     
+   \\/     o \\ o      Lost in a kitchen sink,
+   /\\_<_____/        Or thrown in a wishing well.
+  /                  - Warm Wet Circles - Fish  `}
                 </div>
               </div>
             </div>
