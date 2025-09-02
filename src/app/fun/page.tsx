@@ -19,9 +19,6 @@ export default function FunPage() {
           
           {/* Humorous Posts Section */}
           <div className="bg-surface-subtle border border-muted rounded-lg p-8">
-            <h2 className="text-2xl font-semibold text-primary mb-6 text-center border-b border-muted pb-4">
-              Humorous Posts
-            </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               <Link href="/fun/yebadong" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
@@ -78,6 +75,11 @@ export default function FunPage() {
                 <div className="font-semibold text-primary mb-1">Essay 7: 피터 가브리엘의 Genesis 탈퇴</div>
                 <div className="text-sm text-muted">1975년 충격적인 발표와 Genesis의 미래</div>
               </Link>
+              
+              <Link href="/fun/newtrolls" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
+                <div className="font-semibold text-primary mb-1">New Trolls - Concerto Grosso에 관한 수기</div>
+                <div className="text-sm text-muted">93년도 팬들의 추억담과 감동적인 만남 이야기</div>
+              </Link>
             </div>
           </div>
 
@@ -117,7 +119,7 @@ export default function FunPage() {
             <h3 className="text-lg font-semibold text-purple-800 mb-4 text-center">Fun Facts</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center text-sm">
               <div>
-                <div className="font-bold text-2xl text-purple-600">11</div>
+                <div className="font-bold text-2xl text-purple-600">12</div>
                 <div className="text-purple-700">재미있는 포스트</div>
               </div>
               <div>
