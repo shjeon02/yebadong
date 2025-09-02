@@ -80,6 +80,26 @@ export default function FunPage() {
                 <div className="font-semibold text-primary mb-1">New Trolls - Concerto Grosso에 관한 수기</div>
                 <div className="text-sm text-muted">93년도 팬들의 추억담과 감동적인 만남 이야기</div>
               </Link>
+
+              <Link href="/fun/50th-anniv" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
+                <div className="font-semibold text-primary mb-1">YBD 50주년 기념행사</div>
+                <div className="text-sm text-muted">2044년 미래 상상 소설 - Fish님의 창작</div>
+              </Link>
+
+              <Link href="/fun/jangjeong" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
+                <div className="font-semibold text-primary mb-1">장정일 가진 rock에 대한 관점, 그리고 반론</div>
+                <div className="text-sm text-muted">장정일의 독서일기 속 록 음악관에 대한 반박</div>
+              </Link>
+
+              <Link href="/fun/psyche" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
+                <div className="font-semibold text-primary mb-1">몽환의 음악 - 사이키델릭</div>
+                <div className="text-sm text-muted">60년대 사이키델릭 음악의 역사와 특징 분석</div>
+              </Link>
+
+              <Link href="/fun/t-shirt" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
+                <div className="font-semibold text-primary mb-1">YBD T-shirt 주문</div>
+                <div className="text-sm text-muted">90년대 예바동 공식 티셔츠 주문 공지</div>
+              </Link>
             </div>
           </div>
 
@@ -119,7 +139,7 @@ export default function FunPage() {
             <h3 className="text-lg font-semibold text-purple-800 mb-4 text-center">Fun Facts</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center text-sm">
               <div>
-                <div className="font-bold text-2xl text-purple-600">12</div>
+                <div className="font-bold text-2xl text-purple-600">16</div>
                 <div className="text-purple-700">재미있는 포스트</div>
               </div>
               <div>
