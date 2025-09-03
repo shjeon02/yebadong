@@ -90,8 +90,8 @@ export default function MiscPage() {
 
             {/* Lyrics Section */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold text-yellow-600 mb-4">Lyrics</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <h3 className="text-xl font-semibold text-yellow-600 mb-4">Lyrics & Albums</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <Link href="/misc/pros-cons" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
                   <div className="font-semibold text-primary mb-1">The Pros and Cons of Hitchhiking - Roger Waters</div>
                   <div className="text-sm text-muted">Lyrics Analysis</div>
@@ -100,6 +100,54 @@ export default function MiscPage() {
                 <Link href="/misc/abbey-road" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
                   <div className="font-semibold text-primary mb-1">The Beatles: Abbey Road</div>
                   <div className="text-sm text-muted">앨범 트랙 리스트와 정보</div>
+                  <div className="text-xs text-green-600 mt-1">✓ 페이지 생성됨</div>
+                </Link>
+
+                <Link href="/misc/beatles" className="block p-4 bg-blue-50 border border-blue-200 rounded-md hover:border-blue-300 transition-colors hover:bg-blue-100">
+                  <div className="font-semibold text-blue-800 mb-1">🎵 Beatles Discography</div>
+                  <div className="text-sm text-blue-600">비틀즈 앨범 모음</div>
+                  <div className="text-xs text-green-600 mt-1">✓ 페이지 생성됨</div>
+                </Link>
+
+                <Link href="/misc/please-please-me" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
+                  <div className="font-semibold text-primary mb-1">Please Please Me (1963)</div>
+                  <div className="text-sm text-muted">Beatles 데뷔 앨범</div>
+                  <div className="text-xs text-green-600 mt-1">✓ 페이지 생성됨</div>
+                </Link>
+
+                <Link href="/misc/revolver" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
+                  <div className="font-semibold text-primary mb-1">Revolver (1966)</div>
+                  <div className="text-sm text-muted">실험적 사운드의 걸작</div>
+                  <div className="text-xs text-green-600 mt-1">✓ 페이지 생성됨</div>
+                </Link>
+
+                <Link href="/misc/sgt-pepper" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
+                  <div className="font-semibold text-primary mb-1">Sgt. Pepper's (1967)</div>
+                  <div className="text-sm text-muted">개념 앨범의 정점</div>
+                  <div className="text-xs text-green-600 mt-1">✓ 페이지 생성됨</div>
+                </Link>
+
+                <Link href="/misc/magical-mystery-tour" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
+                  <div className="font-semibold text-primary mb-1">Magical Mystery Tour (1967)</div>
+                  <div className="text-sm text-muted">사이키델릭 사운드</div>
+                  <div className="text-xs text-green-600 mt-1">✓ 페이지 생성됨</div>
+                </Link>
+
+                <Link href="/misc/white-album" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
+                  <div className="font-semibold text-primary mb-1">White Album (1968)</div>
+                  <div className="text-sm text-muted">더블 앨범의 실험</div>
+                  <div className="text-xs text-green-600 mt-1">✓ 페이지 생성됨</div>
+                </Link>
+
+                <Link href="/misc/let-it-be" className="block p-4 bg-surface border border-muted rounded-md hover:border-primary/20 transition-colors hover:bg-surface-hover">
+                  <div className="font-semibold text-primary mb-1">Let It Be (1970)</div>
+                  <div className="text-sm text-muted">마지막 정규 앨범</div>
+                  <div className="text-xs text-green-600 mt-1">✓ 페이지 생성됨</div>
+                </Link>
+
+                <Link href="/misc/eng-beatles" className="block p-4 bg-red-50 border border-red-200 rounded-md hover:border-red-300 transition-colors hover:bg-red-100">
+                  <div className="font-semibold text-red-800 mb-1">🇬🇧 Beatles (English)</div>
+                  <div className="text-sm text-red-600">영문 디스코그래피</div>
                   <div className="text-xs text-green-600 mt-1">✓ 페이지 생성됨</div>
                 </Link>
               </div>
