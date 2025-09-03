@@ -89,10 +89,9 @@ export default function TShirtPage() {
                   
                   <div className="bg-yellow-50 p-4 rounded border border-yellow-300">
                     <h4 className="font-semibold text-yellow-800 mb-2">💳 계좌 정보</h4>
-                    <div className="space-y-1 text-sm">
-                      <p><strong>한일은행:</strong> 270-022086-12-001</p>
-                      <p><strong>외환은행:</strong> 274-18-04622-3</p>
-                      <p><strong>예금주:</strong> 전 승훈</p>
+                    <div className="space-y-1 text-sm text-gray-600">
+                      <p className="italic">※ 개인정보 보호를 위해 계좌 정보는 삭제되었습니다.</p>
+                      <p className="text-xs">역사적 기록물로서 원본에는 한일은행과 외환은행 계좌가 기재되어 있었습니다.</p>
                     </div>
                   </div>
                 </div>
