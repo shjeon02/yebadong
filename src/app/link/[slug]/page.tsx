@@ -8,7 +8,7 @@ import { JSDOM } from 'jsdom';
 export async function generateStaticParams() {
   // We need to list the files in the new directory.
   // For now, I will hardcode them.
-  const linkSlugs = ['index', 'all-bands', 'musicshop', 'other-label'];
+  const linkSlugs = ['links', 'all-bands', 'musicshop', 'other-label'];
   return linkSlugs.map((slug) => ({
     slug,
   }));

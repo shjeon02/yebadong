@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 
 const links = [
-  { slug: 'index', title: '주요 링크 모음', description: '국내외 프로그레시브 록 관련 주요 사이트 목록입니다.' },
+  { slug: 'links', title: '주요 링크 모음', description: '국내외 프로그레시브 록 관련 주요 사이트 목록입니다.' },
   { slug: 'all-bands', title: '전체 밴드 목록', description: '알파벳 순으로 정리된 아티스트 링크 목록입니다.' },
   { slug: 'musicshop', title: '관련 음반점', description: '프로그레시브 록 음반을 구매할 수 있는 온/오프라인 상점 정보입니다.' },
   { slug: 'other-label', title: '관련 레이블', description: '프로그레시브 록 전문 레이블 및 배급사 목록입니다.' },
