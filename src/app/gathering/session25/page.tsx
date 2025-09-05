@@ -384,7 +384,7 @@ export default function Session25Page() {
                   <p>• 김경 (fripp, fripp1@korea.com)</p>
                   <p>• 김기태 (m2urec, m2urec@chollian.net)</p>
                   <p>• 최정욱 (choi. jw, jw.choi@ncr.com)</p>
-                  <p>• 전승훈 (Longdal, webmaster@yebadong.net)</p>
+                  <p>• 전승훈 (Longdal, admin@yebadong.org)</p>
                 </div>
               </div>
             </div>
