@@ -23,9 +23,9 @@ export const Footer = () => {
           <div>
             <h3 className="text-lg font-bold text-gray-900">Connect</h3>
             <div className="flex mt-2 space-x-4 justify-center md:justify-start">
-              <a href="#" className="text-gray-400 hover:text-primary-600 transition-colors"><Twitter /></a>
-              <a href="#" className="text-gray-400 hover:text-primary-600 transition-colors"><Facebook /></a>
-              <a href="#" className="text-gray-400 hover:text-primary-600 transition-colors"><Rss /></a>
+              <a href="/intro" className="text-gray-400 hover:text-primary-600 transition-colors"><Twitter /></a>
+              <a href="/intro" className="text-gray-400 hover:text-primary-600 transition-colors"><Facebook /></a>
+              <a href="/intro" className="text-gray-400 hover:text-primary-600 transition-colors"><Rss /></a>
             </div>
           </div>
         </div>
